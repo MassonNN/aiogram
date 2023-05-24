@@ -1,4 +1,4 @@
-from aiogram.methods import Request, SetChatStickerSet
+from masogram.methods import Request, SetChatStickerSet
 from tests.mocked_bot import MockedBot
 
 

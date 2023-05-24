@@ -1,5 +1,5 @@
-from aiogram.methods import GetMyDefaultAdministratorRights, Request
-from aiogram.types import ChatAdministratorRights
+from masogram.methods import GetMyDefaultAdministratorRights, Request
+from masogram.types import ChatAdministratorRights
 from tests.mocked_bot import MockedBot
 
 

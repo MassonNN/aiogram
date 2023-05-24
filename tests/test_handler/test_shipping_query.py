@@ -1,7 +1,7 @@
 from typing import Any
 
-from aiogram.handlers import ShippingQueryHandler
-from aiogram.types import ShippingAddress, ShippingQuery, User
+from masogram.handlers import ShippingQueryHandler
+from masogram.types import ShippingAddress, ShippingQuery, User
 
 
 class TestShippingQueryHandler:

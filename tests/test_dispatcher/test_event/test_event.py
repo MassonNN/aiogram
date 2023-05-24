@@ -4,8 +4,8 @@ from unittest.mock import AsyncMock, patch
 
 import pytest
 
-from aiogram.dispatcher.event.event import EventObserver
-from aiogram.dispatcher.event.handler import HandlerObject
+from masogram.dispatcher.event.event import EventObserver
+from masogram.dispatcher.event.handler import HandlerObject
 
 
 async def my_handler(value: str, index: int = 0) -> Any:

@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from aiogram.client.telegram import (
+from masogram.client.telegram import (
     PRODUCTION,
     BareFilesPathWrapper,
     SimpleFilesPathWrapper,

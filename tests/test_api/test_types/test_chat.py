@@ -2,8 +2,8 @@ from typing import Optional
 
 from pytest import mark, param
 
-from aiogram.enums import ChatAction
-from aiogram.types import BufferedInputFile, Chat, ChatPermissions
+from masogram.enums import ChatAction
+from masogram.types import BufferedInputFile, Chat, ChatPermissions
 
 
 class TestChat:

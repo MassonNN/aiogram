@@ -1,6 +1,6 @@
 import pytest
 
-from aiogram.utils.auth_widget import check_integrity
+from masogram.utils.auth_widget import check_integrity
 
 TOKEN = "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11"
 

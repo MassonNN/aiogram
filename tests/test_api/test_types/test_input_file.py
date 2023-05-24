@@ -2,8 +2,8 @@ from typing import AsyncIterable
 
 from aresponses import ResponsesMockServer
 
-from aiogram import Bot
-from aiogram.types import BufferedInputFile, FSInputFile, InputFile, URLInputFile
+from masogram import Bot
+from masogram.types import BufferedInputFile, FSInputFile, InputFile, URLInputFile
 
 
 class TestInputFile:

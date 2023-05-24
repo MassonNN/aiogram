@@ -4,11 +4,11 @@ import sys
 from os import getenv
 from typing import Any, Dict
 
-from aiogram import Bot, Dispatcher, F, Router, html
-from aiogram.filters import Command
-from aiogram.fsm.context import FSMContext
-from aiogram.fsm.state import State, StatesGroup
-from aiogram.types import (
+from masogram import Bot, Dispatcher, F, Router, html
+from masogram.filters import Command
+from masogram.fsm.context import FSMContext
+from masogram.fsm.state import State, StatesGroup
+from masogram.types import (
     KeyboardButton,
     Message,
     ReplyKeyboardMarkup,

@@ -1,8 +1,8 @@
 from dataclasses import dataclass
 from re import Match
 
-from aiogram import F
-from aiogram.utils.magic_filter import MagicFilter
+from masogram import F
+from masogram.utils.magic_filter import MagicFilter
 
 
 @dataclass

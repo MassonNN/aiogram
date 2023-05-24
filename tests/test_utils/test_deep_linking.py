@@ -1,6 +1,6 @@
 import pytest
 
-from aiogram.utils.deep_linking import (
+from masogram.utils.deep_linking import (
     create_start_link,
     create_startgroup_link,
     decode_payload,

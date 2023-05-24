@@ -1,6 +1,6 @@
 from typing import Any
 
-from aiogram.handlers import ErrorHandler
+from masogram.handlers import ErrorHandler
 
 
 class TestErrorHandler:

@@ -1,8 +1,8 @@
 import datetime
 from typing import Any
 
-from aiogram.handlers import ChatMemberHandler
-from aiogram.types import Chat, ChatMemberMember, ChatMemberUpdated, User
+from masogram.handlers import ChatMemberHandler
+from masogram.types import Chat, ChatMemberMember, ChatMemberUpdated, User
 
 
 class TestChatMemberUpdated:

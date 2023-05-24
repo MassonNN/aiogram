@@ -1,5 +1,5 @@
-from aiogram.methods import GetMe, Request
-from aiogram.types import User
+from masogram.methods import GetMe, Request
+from masogram.types import User
 from tests.mocked_bot import MockedBot
 
 

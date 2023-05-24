@@ -1,6 +1,6 @@
 import pytest
 
-from aiogram.exceptions import DetailedAiogramError
+from masogram.exceptions import DetailedAiogramError
 
 
 class TestException:

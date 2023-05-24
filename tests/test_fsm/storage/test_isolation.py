@@ -1,6 +1,6 @@
 import pytest
 
-from aiogram.fsm.storage.base import BaseEventIsolation, StorageKey
+from masogram.fsm.storage.base import BaseEventIsolation, StorageKey
 from tests.mocked_bot import MockedBot
 
 

@@ -1,6 +1,6 @@
 import pytest
 
-from aiogram.fsm.strategy import FSMStrategy, apply_strategy
+from masogram.fsm.strategy import FSMStrategy, apply_strategy
 
 CHAT_ID = -42
 USER_ID = 42

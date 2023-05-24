@@ -1,5 +1,5 @@
-from aiogram.methods import Request, SetChatPhoto
-from aiogram.types import BufferedInputFile
+from masogram.methods import Request, SetChatPhoto
+from masogram.types import BufferedInputFile
 from tests.mocked_bot import MockedBot
 
 

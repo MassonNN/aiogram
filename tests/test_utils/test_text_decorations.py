@@ -2,8 +2,8 @@ from typing import List, Optional
 
 import pytest
 
-from aiogram.types import MessageEntity, User
-from aiogram.utils.text_decorations import (
+from masogram.types import MessageEntity, User
+from masogram.utils.text_decorations import (
     TextDecoration,
     html_decoration,
     markdown_decoration,

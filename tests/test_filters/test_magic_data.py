@@ -1,8 +1,8 @@
 from magic_filter import AttrDict
 
-from aiogram import F
-from aiogram.filters import MagicData
-from aiogram.types import Update
+from masogram import F
+from masogram.filters import MagicData
+from masogram.types import Update
 
 
 class TestMagicDataFilter:

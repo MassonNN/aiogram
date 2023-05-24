@@ -1,6 +1,6 @@
-from aiogram import Router
-from aiogram.filters import Filter
-from aiogram.types import Message
+from masogram import Router
+from masogram.filters import Filter
+from masogram.types import Message
 
 router = Router()
 

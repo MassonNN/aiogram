@@ -1,5 +1,5 @@
-from aiogram.methods import AddStickerToSet
-from aiogram.types import InputSticker
+from masogram.methods import AddStickerToSet
+from masogram.types import InputSticker
 from tests.mocked_bot import MockedBot
 
 

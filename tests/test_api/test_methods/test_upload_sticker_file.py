@@ -1,6 +1,6 @@
-from aiogram.enums import StickerFormat
-from aiogram.methods import Request, UploadStickerFile
-from aiogram.types import BufferedInputFile, File
+from masogram.enums import StickerFormat
+from masogram.methods import Request, UploadStickerFile
+from masogram.types import BufferedInputFile, File
 from tests.mocked_bot import MockedBot
 
 

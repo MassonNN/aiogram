@@ -1,4 +1,4 @@
-from aiogram.methods import PromoteChatMember, Request
+from masogram.methods import PromoteChatMember, Request
 from tests.mocked_bot import MockedBot
 
 

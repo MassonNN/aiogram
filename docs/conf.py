@@ -1,13 +1,13 @@
 import datetime
 from pathlib import Path
 
-import aiogram
+import masogram
 
 project = "aiogram"
 author = "aiogram Team"
 copyright = f"{datetime.date.today().year}, {author}"
-release = aiogram.__version__
-api_version = aiogram.__api_version__
+release = masogram.__version__
+api_version = masogram.__api_version__
 
 templates_path = ["_templates"]
 html_theme = "furo"
@@ -35,7 +35,7 @@ extensions = [
 ]
 
 rst_prolog = f"""
-.. |api_version| replace:: {aiogram.__api_version__}
+.. |api_version| replace:: {masogram.__api_version__}
 
 .. role:: pycode(code)
    :language: python3

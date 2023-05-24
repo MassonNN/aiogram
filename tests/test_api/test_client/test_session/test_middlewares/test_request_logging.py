@@ -1,9 +1,9 @@
 import datetime
 import logging
 
-from aiogram.client.session.middlewares.request_logging import RequestLogging
-from aiogram.methods import GetMe, SendMessage
-from aiogram.types import Chat, Message, User
+from masogram.client.session.middlewares.request_logging import RequestLogging
+from masogram.methods import GetMe, SendMessage
+from masogram.types import Chat, Message, User
 from tests.mocked_bot import MockedBot
 
 

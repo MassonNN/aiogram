@@ -1,7 +1,7 @@
 import datetime
 
-from aiogram.methods import ApproveChatJoinRequest, DeclineChatJoinRequest
-from aiogram.types import Chat, ChatJoinRequest, User
+from masogram.methods import ApproveChatJoinRequest, DeclineChatJoinRequest
+from masogram.types import Chat, ChatJoinRequest, User
 
 
 class TestChatJoinRequest:

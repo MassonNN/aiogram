@@ -1,7 +1,7 @@
 import pytest
 
-from aiogram.fsm.storage.base import DEFAULT_DESTINY, StorageKey
-from aiogram.fsm.storage.redis import (
+from masogram.fsm.storage.base import DEFAULT_DESTINY, StorageKey
+from masogram.fsm.storage.redis import (
     DefaultKeyBuilder,
     RedisEventIsolation,
     RedisStorage,

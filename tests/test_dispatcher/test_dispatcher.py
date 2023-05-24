@@ -10,12 +10,12 @@ from unittest.mock import AsyncMock, patch
 
 import pytest
 
-from aiogram import Bot
-from aiogram.dispatcher.dispatcher import Dispatcher
-from aiogram.dispatcher.event.bases import UNHANDLED, SkipHandler
-from aiogram.dispatcher.router import Router
-from aiogram.methods import GetMe, GetUpdates, SendMessage, TelegramMethod
-from aiogram.types import (
+from masogram import Bot
+from masogram.dispatcher.dispatcher import Dispatcher
+from masogram.dispatcher.event.bases import UNHANDLED, SkipHandler
+from masogram.dispatcher.router import Router
+from masogram.methods import GetMe, GetUpdates, SendMessage, TelegramMethod
+from masogram.types import (
     CallbackQuery,
     Chat,
     ChatJoinRequest,
@@ -33,7 +33,7 @@ from aiogram.types import (
     Update,
     User,
 )
-from aiogram.types.error_event import ErrorEvent
+from masogram.types.error_event import ErrorEvent
 from tests.mocked_bot import MockedBot
 
 

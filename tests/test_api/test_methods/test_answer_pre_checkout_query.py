@@ -1,4 +1,4 @@
-from aiogram.methods import AnswerPreCheckoutQuery, Request
+from masogram.methods import AnswerPreCheckoutQuery, Request
 from tests.mocked_bot import MockedBot
 
 

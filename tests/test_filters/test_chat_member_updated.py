@@ -2,7 +2,7 @@ from datetime import datetime
 
 import pytest
 
-from aiogram.filters.chat_member_updated import (
+from masogram.filters.chat_member_updated import (
     ADMINISTRATOR,
     IS_MEMBER,
     JOIN_TRANSITION,
@@ -12,7 +12,7 @@ from aiogram.filters.chat_member_updated import (
     _MemberStatusMarker,
     _MemberStatusTransition,
 )
-from aiogram.types import Chat, ChatMember, ChatMemberUpdated, User
+from masogram.types import Chat, ChatMember, ChatMemberUpdated, User
 
 
 class TestMemberStatusMarker:

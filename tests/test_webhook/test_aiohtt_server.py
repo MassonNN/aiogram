@@ -10,16 +10,16 @@ from aiohttp import MultipartReader, web
 from aiohttp.test_utils import TestClient
 from aiohttp.web_app import Application
 
-from aiogram import Dispatcher, F
-from aiogram.methods import GetMe, Request
-from aiogram.types import BufferedInputFile, Message, User
-from aiogram.webhook.aiohttp_server import (
+from masogram import Dispatcher, F
+from masogram.methods import GetMe, Request
+from masogram.types import BufferedInputFile, Message, User
+from masogram.webhook.aiohttp_server import (
     SimpleRequestHandler,
     TokenBasedRequestHandler,
     ip_filter_middleware,
     setup_application,
 )
-from aiogram.webhook.security import IPFilter
+from masogram.webhook.security import IPFilter
 from tests.mocked_bot import MockedBot
 
 

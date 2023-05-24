@@ -1,9 +1,9 @@
 import datetime
 from typing import Any
 
-from aiogram.filters import CommandObject
-from aiogram.handlers import MessageHandler, MessageHandlerCommandMixin
-from aiogram.types import Chat, Message, User
+from masogram.filters import CommandObject
+from masogram.handlers import MessageHandler, MessageHandlerCommandMixin
+from masogram.types import Chat, Message, User
 
 
 class MyHandler(MessageHandler):

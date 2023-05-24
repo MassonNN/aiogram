@@ -1,6 +1,6 @@
 from functools import partial
 
-from aiogram.dispatcher.middlewares.manager import MiddlewareManager
+from masogram.dispatcher.middlewares.manager import MiddlewareManager
 
 
 class TestMiddlewareManager:

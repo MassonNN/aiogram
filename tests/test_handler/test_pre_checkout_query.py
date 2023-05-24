@@ -1,7 +1,7 @@
 from typing import Any
 
-from aiogram.handlers import PreCheckoutQueryHandler
-from aiogram.types import PreCheckoutQuery, User
+from masogram.handlers import PreCheckoutQueryHandler
+from masogram.types import PreCheckoutQuery, User
 
 
 class TestPreCheckoutQueryHandler:

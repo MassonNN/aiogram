@@ -2,9 +2,9 @@ from unittest.mock import patch
 
 import pytest
 
-from aiogram import F
-from aiogram.dispatcher.event.handler import HandlerObject
-from aiogram.dispatcher.flags import (
+from masogram import F
+from masogram.dispatcher.event.handler import HandlerObject
+from masogram.dispatcher.flags import (
     check_flags,
     extract_flags,
     extract_flags_from_object,

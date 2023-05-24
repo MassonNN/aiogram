@@ -1,7 +1,7 @@
 from typing import Any
 
-from aiogram.handlers import PollHandler
-from aiogram.types import Poll, PollOption
+from masogram.handlers import PollHandler
+from masogram.types import Poll, PollOption
 
 
 class TestShippingQueryHandler:

@@ -4,7 +4,7 @@ from urllib.parse import parse_qs
 
 import pytest
 
-from aiogram.utils.link import (
+from masogram.utils.link import (
     BRANCH,
     create_telegram_link,
     create_tg_link,

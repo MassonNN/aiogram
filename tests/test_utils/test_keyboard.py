@@ -1,13 +1,13 @@
 import pytest
 
-from aiogram.filters.callback_data import CallbackData
-from aiogram.types import (
+from masogram.filters.callback_data import CallbackData
+from masogram.types import (
     InlineKeyboardButton,
     InlineKeyboardMarkup,
     KeyboardButton,
     ReplyKeyboardMarkup,
 )
-from aiogram.utils.keyboard import (
+from masogram.utils.keyboard import (
     InlineKeyboardBuilder,
     KeyboardBuilder,
     ReplyKeyboardBuilder,

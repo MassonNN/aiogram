@@ -1,4 +1,4 @@
-from aiogram.methods import DeleteWebhook, Request
+from masogram.methods import DeleteWebhook, Request
 from tests.mocked_bot import MockedBot
 
 

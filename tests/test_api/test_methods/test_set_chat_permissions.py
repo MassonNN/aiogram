@@ -1,5 +1,5 @@
-from aiogram.methods import Request, SetChatPermissions
-from aiogram.types import ChatPermissions
+from masogram.methods import Request, SetChatPermissions
+from masogram.types import ChatPermissions
 from tests.mocked_bot import MockedBot
 
 

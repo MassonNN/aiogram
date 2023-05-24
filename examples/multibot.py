@@ -4,14 +4,14 @@ from typing import Any, Dict, Union
 from aiohttp import web
 from finite_state_machine import form_router
 
-from aiogram import Bot, Dispatcher, F, Router
-from aiogram.client.session.aiohttp import AiohttpSession
-from aiogram.exceptions import TelegramUnauthorizedError
-from aiogram.filters import Command, CommandObject
-from aiogram.fsm.storage.redis import DefaultKeyBuilder, RedisStorage
-from aiogram.types import Message
-from aiogram.utils.token import TokenValidationError, validate_token
-from aiogram.webhook.aiohttp_server import (
+from masogram import Bot, Dispatcher, F, Router
+from masogram.client.session.aiohttp import AiohttpSession
+from masogram.exceptions import TelegramUnauthorizedError
+from masogram.filters import Command, CommandObject
+from masogram.fsm.storage.redis import DefaultKeyBuilder, RedisStorage
+from masogram.types import Message
+from masogram.utils.token import TokenValidationError, validate_token
+from masogram.webhook.aiohttp_server import (
     SimpleRequestHandler,
     TokenBasedRequestHandler,
     setup_application,

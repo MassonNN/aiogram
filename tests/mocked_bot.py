@@ -1,11 +1,11 @@
 from collections import deque
 from typing import TYPE_CHECKING, AsyncGenerator, Deque, Optional, Type
 
-from aiogram import Bot
-from aiogram.client.session.base import BaseSession
-from aiogram.methods import TelegramMethod
-from aiogram.methods.base import Response, TelegramType
-from aiogram.types import UNSET_PARSE_MODE, ResponseParameters, User
+from masogram import Bot
+from masogram.client.session.base import BaseSession
+from masogram.methods import TelegramMethod
+from masogram.methods.base import Response, TelegramType
+from masogram.types import UNSET_PARSE_MODE, ResponseParameters, User
 
 
 class MockedSession(BaseSession):

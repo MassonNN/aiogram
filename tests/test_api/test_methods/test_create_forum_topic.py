@@ -1,5 +1,5 @@
-from aiogram.methods import CreateForumTopic, Request
-from aiogram.types import ForumTopic
+from masogram.methods import CreateForumTopic, Request
+from masogram.types import ForumTopic
 from tests.mocked_bot import MockedBot
 
 

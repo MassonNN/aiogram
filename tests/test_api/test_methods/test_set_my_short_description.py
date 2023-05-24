@@ -1,4 +1,4 @@
-from aiogram.methods import Request, SetMyDescription, SetMyShortDescription
+from masogram.methods import Request, SetMyDescription, SetMyShortDescription
 from tests.mocked_bot import MockedBot
 
 

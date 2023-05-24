@@ -1,4 +1,4 @@
-from aiogram.methods import Request, SetCustomEmojiStickerSetThumbnail
+from masogram.methods import Request, SetCustomEmojiStickerSetThumbnail
 from tests.mocked_bot import MockedBot
 
 

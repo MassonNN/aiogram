@@ -3,10 +3,10 @@ import re
 
 import pytest
 
-from aiogram import F
-from aiogram.filters import Command, CommandObject
-from aiogram.filters.command import CommandStart
-from aiogram.types import BotCommand, Chat, Message, User
+from masogram import F
+from masogram.filters import Command, CommandObject
+from masogram.filters.command import CommandStart
+from masogram.types import BotCommand, Chat, Message, User
 from tests.mocked_bot import MockedBot
 
 

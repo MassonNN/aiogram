@@ -1,4 +1,4 @@
-from aiogram.methods import CloseGeneralForumTopic, Request
+from masogram.methods import CloseGeneralForumTopic, Request
 from tests.mocked_bot import MockedBot
 
 

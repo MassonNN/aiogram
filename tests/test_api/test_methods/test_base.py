@@ -2,8 +2,8 @@ from unittest.mock import sentinel
 
 import pytest
 
-from aiogram.methods import GetMe, TelegramMethod
-from aiogram.types import User
+from masogram.methods import GetMe, TelegramMethod
+from masogram.types import User
 from tests.mocked_bot import MockedBot
 
 

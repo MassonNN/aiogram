@@ -1,5 +1,5 @@
-from aiogram.methods import CopyMessage, Request
-from aiogram.types import MessageId
+from masogram.methods import CopyMessage, Request
+from masogram.types import MessageId
 from tests.mocked_bot import MockedBot
 
 

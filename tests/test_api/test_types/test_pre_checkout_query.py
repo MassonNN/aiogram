@@ -1,5 +1,5 @@
-from aiogram.methods import AnswerPreCheckoutQuery
-from aiogram.types import PreCheckoutQuery, User
+from masogram.methods import AnswerPreCheckoutQuery
+from masogram.types import PreCheckoutQuery, User
 
 
 class TestPreCheckoutQuery:

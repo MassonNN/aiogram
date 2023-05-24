@@ -1,6 +1,6 @@
 import pytest
 
-from aiogram.dispatcher.flags import Flag, FlagDecorator, FlagGenerator
+from masogram.dispatcher.flags import Flag, FlagDecorator, FlagGenerator
 
 
 @pytest.fixture(name="flag")

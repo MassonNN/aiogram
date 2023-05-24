@@ -2,7 +2,7 @@ from typing import Any, Callable, Optional, Tuple
 
 import pytest
 
-from aiogram.utils.markdown import (
+from masogram.utils.markdown import (
     bold,
     code,
     hbold,

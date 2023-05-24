@@ -1,7 +1,7 @@
 from typing import Union
 
-from aiogram.methods import Request, SetGameScore
-from aiogram.types import Message
+from masogram.methods import Request, SetGameScore
+from masogram.types import Message
 from tests.mocked_bot import MockedBot
 
 

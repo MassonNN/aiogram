@@ -1,4 +1,4 @@
-from aiogram.methods import Request, SetStickerSetThumbnail
+from masogram.methods import Request, SetStickerSetThumbnail
 from tests.mocked_bot import MockedBot
 
 

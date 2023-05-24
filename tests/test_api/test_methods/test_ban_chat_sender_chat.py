@@ -1,4 +1,4 @@
-from aiogram.methods import BanChatSenderChat, Request
+from masogram.methods import BanChatSenderChat, Request
 from tests.mocked_bot import MockedBot
 
 

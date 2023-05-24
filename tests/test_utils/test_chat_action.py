@@ -5,10 +5,10 @@ from unittest.mock import AsyncMock, patch
 
 import pytest
 
-from aiogram import Bot, flags
-from aiogram.dispatcher.event.handler import HandlerObject
-from aiogram.types import Chat, Message, User
-from aiogram.utils.chat_action import ChatActionMiddleware, ChatActionSender
+from masogram import Bot, flags
+from masogram.dispatcher.event.handler import HandlerObject
+from masogram.types import Chat, Message, User
+from masogram.utils.chat_action import ChatActionMiddleware, ChatActionSender
 from tests.mocked_bot import MockedBot
 
 

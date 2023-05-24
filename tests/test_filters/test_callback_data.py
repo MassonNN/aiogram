@@ -8,9 +8,9 @@ import pytest
 from magic_filter import MagicFilter
 from pydantic import ValidationError
 
-from aiogram import F
-from aiogram.filters.callback_data import CallbackData
-from aiogram.types import CallbackQuery, User
+from masogram import F
+from masogram.filters.callback_data import CallbackData
+from masogram.types import CallbackQuery, User
 
 
 class MyIntEnum(Enum):

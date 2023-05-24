@@ -1,5 +1,5 @@
-from aiogram.enums import ChatAction
-from aiogram.methods import Request, SendChatAction
+from masogram.enums import ChatAction
+from masogram.methods import Request, SendChatAction
 from tests.mocked_bot import MockedBot
 
 

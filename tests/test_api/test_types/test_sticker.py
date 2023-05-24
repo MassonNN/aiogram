@@ -1,5 +1,5 @@
-from aiogram.enums import StickerType
-from aiogram.types import Sticker
+from masogram.enums import StickerType
+from masogram.types import Sticker
 
 
 class TestSticker:

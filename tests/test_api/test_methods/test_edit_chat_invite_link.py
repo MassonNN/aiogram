@@ -1,5 +1,5 @@
-from aiogram.methods import EditChatInviteLink, Request
-from aiogram.types import ChatInviteLink, User
+from masogram.methods import EditChatInviteLink, Request
+from masogram.types import ChatInviteLink, User
 from tests.mocked_bot import MockedBot
 
 

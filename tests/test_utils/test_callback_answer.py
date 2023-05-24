@@ -2,10 +2,10 @@ from unittest.mock import AsyncMock, MagicMock, patch
 
 import pytest
 
-from aiogram.exceptions import CallbackAnswerException
-from aiogram.methods import AnswerCallbackQuery
-from aiogram.types import CallbackQuery, User
-from aiogram.utils.callback_answer import CallbackAnswer, CallbackAnswerMiddleware
+from masogram.exceptions import CallbackAnswerException
+from masogram.methods import AnswerCallbackQuery
+from masogram.types import CallbackQuery, User
+from masogram.utils.callback_answer import CallbackAnswer, CallbackAnswerMiddleware
 
 
 class TestCallbackAnswer:

@@ -2,8 +2,8 @@ from unittest.mock import patch
 
 import pytest
 
-from aiogram.dispatcher.middlewares.user_context import UserContextMiddleware
-from aiogram.types import Update
+from masogram.dispatcher.middlewares.user_context import UserContextMiddleware
+from masogram.types import Update
 
 
 async def next_handler(*args, **kwargs):

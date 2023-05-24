@@ -2,7 +2,7 @@ from ipaddress import IPv4Address, IPv4Network
 
 import pytest
 
-from aiogram.webhook.security import IPFilter
+from masogram.webhook.security import IPFilter
 
 
 class TestSecurity:

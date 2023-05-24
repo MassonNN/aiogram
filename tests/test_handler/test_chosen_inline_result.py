@@ -1,7 +1,7 @@
 from typing import Any
 
-from aiogram.handlers import ChosenInlineResultHandler
-from aiogram.types import ChosenInlineResult, User
+from masogram.handlers import ChosenInlineResultHandler
+from masogram.types import ChosenInlineResult, User
 
 
 class TestChosenInlineResultHandler:

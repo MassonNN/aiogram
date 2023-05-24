@@ -1,5 +1,5 @@
-from aiogram.methods import GetMyShortDescription, Request
-from aiogram.types import BotShortDescription
+from masogram.methods import GetMyShortDescription, Request
+from masogram.types import BotShortDescription
 from tests.mocked_bot import MockedBot
 
 

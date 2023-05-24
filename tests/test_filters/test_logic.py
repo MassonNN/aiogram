@@ -1,7 +1,7 @@
 import pytest
 
-from aiogram.filters import Command, and_f, invert_f, or_f
-from aiogram.filters.logic import _AndFilter, _InvertFilter, _OrFilter
+from masogram.filters import Command, and_f, invert_f, or_f
+from masogram.filters.logic import _AndFilter, _InvertFilter, _OrFilter
 
 
 class TestLogic:

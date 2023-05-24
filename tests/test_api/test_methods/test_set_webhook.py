@@ -1,4 +1,4 @@
-from aiogram.methods import Request, SetWebhook
+from masogram.methods import Request, SetWebhook
 from tests.mocked_bot import MockedBot
 
 

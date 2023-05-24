@@ -1,4 +1,4 @@
-from aiogram.methods import DeleteMessage, Request
+from masogram.methods import DeleteMessage, Request
 from tests.mocked_bot import MockedBot
 
 

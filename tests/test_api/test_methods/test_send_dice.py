@@ -1,5 +1,5 @@
-from aiogram.methods import Request, SendDice
-from aiogram.types import Message
+from masogram.methods import Request, SendDice
+from masogram.types import Message
 from tests.mocked_bot import MockedBot
 
 

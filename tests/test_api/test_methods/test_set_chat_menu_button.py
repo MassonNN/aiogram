@@ -1,4 +1,4 @@
-from aiogram.methods import Request, SetChatMenuButton
+from masogram.methods import Request, SetChatMenuButton
 from tests.mocked_bot import MockedBot
 
 

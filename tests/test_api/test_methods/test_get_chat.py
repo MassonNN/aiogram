@@ -1,5 +1,5 @@
-from aiogram.methods import GetChat, Request
-from aiogram.types import Chat
+from masogram.methods import GetChat, Request
+from masogram.types import Chat
 from tests.mocked_bot import MockedBot
 
 

@@ -1,7 +1,7 @@
 from typing import Union
 
-from aiogram.methods import EditMessageMedia, Request
-from aiogram.types import BufferedInputFile, InputMediaPhoto, Message
+from masogram.methods import EditMessageMedia, Request
+from masogram.types import BufferedInputFile, InputMediaPhoto, Message
 from tests.mocked_bot import MockedBot
 
 

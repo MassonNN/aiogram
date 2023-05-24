@@ -7,12 +7,12 @@ import pytest
 from aiohttp import ClientError
 from aresponses import ResponsesMockServer
 
-from aiogram import Bot
-from aiogram.client.session import aiohttp
-from aiogram.client.session.aiohttp import AiohttpSession
-from aiogram.exceptions import TelegramNetworkError
-from aiogram.methods import TelegramMethod
-from aiogram.types import UNSET_PARSE_MODE, InputFile
+from masogram import Bot
+from masogram.client.session import aiohttp
+from masogram.client.session.aiohttp import AiohttpSession
+from masogram.exceptions import TelegramNetworkError
+from masogram.methods import TelegramMethod
+from masogram.types import UNSET_PARSE_MODE, InputFile
 from tests.mocked_bot import MockedBot
 
 

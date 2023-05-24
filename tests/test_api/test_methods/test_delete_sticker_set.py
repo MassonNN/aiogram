@@ -1,4 +1,4 @@
-from aiogram.methods import DeleteStickerSet, Request
+from masogram.methods import DeleteStickerSet, Request
 from tests.mocked_bot import MockedBot
 
 

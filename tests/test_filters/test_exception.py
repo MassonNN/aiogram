@@ -2,10 +2,10 @@ import re
 
 import pytest
 
-from aiogram import Dispatcher
-from aiogram.filters import ExceptionMessageFilter, ExceptionTypeFilter
-from aiogram.types import Update
-from aiogram.types.error_event import ErrorEvent
+from masogram import Dispatcher
+from masogram.filters import ExceptionMessageFilter, ExceptionTypeFilter
+from masogram.types import Update
+from masogram.types.error_event import ErrorEvent
 
 
 class TestExceptionMessageFilter:

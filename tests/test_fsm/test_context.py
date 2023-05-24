@@ -1,8 +1,8 @@
 import pytest
 
-from aiogram.fsm.context import FSMContext
-from aiogram.fsm.storage.base import StorageKey
-from aiogram.fsm.storage.memory import MemoryStorage
+from masogram.fsm.context import FSMContext
+from masogram.fsm.storage.base import StorageKey
+from masogram.fsm.storage.memory import MemoryStorage
 from tests.mocked_bot import MockedBot
 
 

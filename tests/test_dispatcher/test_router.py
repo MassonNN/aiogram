@@ -1,8 +1,8 @@
 import pytest
 
-from aiogram.dispatcher.event.bases import UNHANDLED, SkipHandler, skip
-from aiogram.dispatcher.event.telegram import TelegramEventObserver
-from aiogram.dispatcher.router import Router
+from masogram.dispatcher.event.bases import UNHANDLED, SkipHandler, skip
+from masogram.dispatcher.event.telegram import TelegramEventObserver
+from masogram.dispatcher.router import Router
 
 
 class TestRouter:

@@ -1,5 +1,5 @@
-from aiogram.methods import AnswerWebAppQuery, Request
-from aiogram.types import InlineQueryResult, SentWebAppMessage
+from masogram.methods import AnswerWebAppQuery, Request
+from masogram.types import InlineQueryResult, SentWebAppMessage
 from tests.mocked_bot import MockedBot
 
 

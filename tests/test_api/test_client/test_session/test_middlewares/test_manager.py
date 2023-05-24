@@ -1,11 +1,11 @@
-from aiogram import Bot
-from aiogram.client.session.middlewares.base import (
+from masogram import Bot
+from masogram.client.session.middlewares.base import (
     BaseRequestMiddleware,
     NextRequestMiddlewareType,
 )
-from aiogram.client.session.middlewares.manager import RequestMiddlewareManager
-from aiogram.methods import Response, TelegramMethod
-from aiogram.types import TelegramObject
+from masogram.client.session.middlewares.manager import RequestMiddlewareManager
+from masogram.methods import Response, TelegramMethod
+from masogram.types import TelegramObject
 
 
 class TestMiddlewareManager:

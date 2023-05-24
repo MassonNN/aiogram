@@ -1,7 +1,7 @@
 import datetime
 
-from aiogram.methods import ForwardMessage, Request
-from aiogram.types import Chat, Message
+from masogram.methods import ForwardMessage, Request
+from masogram.types import Chat, Message
 from tests.mocked_bot import MockedBot
 
 

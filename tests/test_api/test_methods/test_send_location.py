@@ -1,7 +1,7 @@
 import datetime
 
-from aiogram.methods import Request, SendLocation
-from aiogram.types import Chat, Location, Message
+from masogram.methods import Request, SendLocation
+from masogram.types import Chat, Location, Message
 from tests.mocked_bot import MockedBot
 
 

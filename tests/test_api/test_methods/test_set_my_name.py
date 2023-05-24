@@ -1,4 +1,4 @@
-from aiogram.methods import SetMyName
+from masogram.methods import SetMyName
 from tests.mocked_bot import MockedBot
 
 

@@ -1,4 +1,4 @@
-from aiogram.methods import ExportChatInviteLink, Request
+from masogram.methods import ExportChatInviteLink, Request
 from tests.mocked_bot import MockedBot
 
 

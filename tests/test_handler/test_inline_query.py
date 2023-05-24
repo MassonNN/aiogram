@@ -1,7 +1,7 @@
 from typing import Any
 
-from aiogram.handlers import InlineQueryHandler
-from aiogram.types import InlineQuery, User
+from masogram.handlers import InlineQueryHandler
+from masogram.types import InlineQuery, User
 
 
 class TestCallbackQueryHandler:

@@ -1,7 +1,7 @@
 from typing import List
 
-from aiogram.methods import GetUpdates, Request
-from aiogram.types import Update
+from masogram.methods import GetUpdates, Request
+from masogram.types import Update
 from tests.mocked_bot import MockedBot
 
 

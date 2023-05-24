@@ -1,4 +1,4 @@
-from aiogram.methods import Request, UnpinAllForumTopicMessages
+from masogram.methods import Request, UnpinAllForumTopicMessages
 from tests.mocked_bot import MockedBot
 
 

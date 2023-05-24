@@ -5,10 +5,10 @@ from typing import Any
 
 import pytest
 
-from aiogram import Bot
-from aiogram.dispatcher.event.handler import HandlerObject
-from aiogram.handlers import BaseHandler
-from aiogram.types import Chat, Message, Update
+from masogram import Bot
+from masogram.dispatcher.event.handler import HandlerObject
+from masogram.handlers import BaseHandler
+from masogram.types import Chat, Message, Update
 
 
 class MyHandler(BaseHandler):

@@ -6,11 +6,11 @@ from unittest.mock import AsyncMock, patch
 import pytest
 from pytz import utc
 
-from aiogram import Bot
-from aiogram.client.session.base import BaseSession, TelegramType
-from aiogram.client.telegram import PRODUCTION, TelegramAPIServer
-from aiogram.enums import ChatType, ParseMode, TopicIconColor
-from aiogram.exceptions import (
+from masogram import Bot
+from masogram.client.session.base import BaseSession, TelegramType
+from masogram.client.telegram import PRODUCTION, TelegramAPIServer
+from masogram.enums import ChatType, ParseMode, TopicIconColor
+from masogram.exceptions import (
     ClientDecodeError,
     RestartingTelegram,
     TelegramAPIError,
@@ -24,9 +24,9 @@ from aiogram.exceptions import (
     TelegramServerError,
     TelegramUnauthorizedError,
 )
-from aiogram.methods import DeleteMessage, GetMe, TelegramMethod
-from aiogram.types import UNSET_PARSE_MODE, User
-from aiogram.types.base import UNSET_DISABLE_WEB_PAGE_PREVIEW, UNSET_PROTECT_CONTENT
+from masogram.methods import DeleteMessage, GetMe, TelegramMethod
+from masogram.types import UNSET_PARSE_MODE, User
+from masogram.types.base import UNSET_DISABLE_WEB_PAGE_PREVIEW, UNSET_PROTECT_CONTENT
 from tests.mocked_bot import MockedBot
 
 

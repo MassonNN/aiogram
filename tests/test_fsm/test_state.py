@@ -1,6 +1,6 @@
 import pytest
 
-from aiogram.fsm.state import State, StatesGroup, any_state
+from masogram.fsm.state import State, StatesGroup, any_state
 
 
 class TestState:

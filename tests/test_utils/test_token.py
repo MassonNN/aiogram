@@ -2,7 +2,7 @@ from unittest.mock import patch
 
 import pytest
 
-from aiogram.utils.token import TokenValidationError, extract_bot_id, validate_token
+from masogram.utils.token import TokenValidationError, extract_bot_id, validate_token
 
 BOT_ID = 123456789
 VALID_TOKEN = "123456789:AABBCCDDEEFFaabbccddeeff-1234567890"

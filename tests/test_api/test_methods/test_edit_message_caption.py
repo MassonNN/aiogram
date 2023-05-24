@@ -1,8 +1,8 @@
 import datetime
 from typing import Union
 
-from aiogram.methods import EditMessageCaption, Request
-from aiogram.types import Chat, Message
+from masogram.methods import EditMessageCaption, Request
+from masogram.types import Chat, Message
 from tests.mocked_bot import MockedBot
 
 

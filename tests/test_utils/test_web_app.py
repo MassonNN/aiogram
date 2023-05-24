@@ -1,6 +1,6 @@
 import pytest
 
-from aiogram.utils.web_app import (
+from masogram.utils.web_app import (
     WebAppInitData,
     check_webapp_signature,
     parse_webapp_init_data,

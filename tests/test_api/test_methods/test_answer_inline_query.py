@@ -1,6 +1,6 @@
-from aiogram import Bot
-from aiogram.methods import AnswerInlineQuery, Request
-from aiogram.types import (
+from masogram import Bot
+from masogram.methods import AnswerInlineQuery, Request
+from masogram.types import (
     InlineQueryResult,
     InlineQueryResultPhoto,
     InputTextMessageContent,

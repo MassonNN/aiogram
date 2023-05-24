@@ -4,12 +4,12 @@ from typing import Any, Dict, Union
 import pytest
 from magic_filter import F as A
 
-from aiogram import F
-from aiogram.dispatcher.event.handler import CallableMixin, FilterObject, HandlerObject
-from aiogram.filters import Filter
-from aiogram.handlers import BaseHandler
-from aiogram.types import Update
-from aiogram.utils.warnings import Recommendation
+from masogram import F
+from masogram.dispatcher.event.handler import CallableMixin, FilterObject, HandlerObject
+from masogram.filters import Filter
+from masogram.handlers import BaseHandler
+from masogram.types import Update
+from masogram.utils.warnings import Recommendation
 
 
 def callback1(foo: int, bar: int, baz: int):

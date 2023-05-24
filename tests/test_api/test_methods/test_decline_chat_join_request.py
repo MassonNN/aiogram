@@ -1,4 +1,4 @@
-from aiogram.methods import DeclineChatJoinRequest, Request
+from masogram.methods import DeclineChatJoinRequest, Request
 from tests.mocked_bot import MockedBot
 
 

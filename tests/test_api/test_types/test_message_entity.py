@@ -1,4 +1,4 @@
-from aiogram.types import MessageEntity
+from masogram.types import MessageEntity
 
 
 class TestMessageEntity:

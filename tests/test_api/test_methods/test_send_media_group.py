@@ -1,8 +1,8 @@
 import datetime
 from typing import List
 
-from aiogram.methods import Request, SendMediaGroup
-from aiogram.types import (
+from masogram.methods import Request, SendMediaGroup
+from masogram.types import (
     BufferedInputFile,
     Chat,
     InputMediaPhoto,

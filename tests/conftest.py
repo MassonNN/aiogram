@@ -4,13 +4,13 @@ import pytest
 from _pytest.config import UsageError
 from redis.asyncio.connection import parse_url as parse_redis_url
 
-from aiogram import Bot, Dispatcher
-from aiogram.fsm.storage.memory import (
+from masogram import Bot, Dispatcher
+from masogram.fsm.storage.memory import (
     DisabledEventIsolation,
     MemoryStorage,
     SimpleEventIsolation,
 )
-from aiogram.fsm.storage.redis import RedisEventIsolation, RedisStorage
+from masogram.fsm.storage.redis import RedisEventIsolation, RedisStorage
 from tests.mocked_bot import MockedBot
 
 DATA_DIR = Path(__file__).parent / "data"

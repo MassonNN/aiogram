@@ -1,5 +1,5 @@
-from aiogram.methods import Request, SetMyCommands
-from aiogram.types import BotCommand
+from masogram.methods import Request, SetMyCommands
+from masogram.types import BotCommand
 from tests.mocked_bot import MockedBot
 
 

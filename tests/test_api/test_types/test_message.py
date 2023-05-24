@@ -3,7 +3,7 @@ from typing import Any, Dict, Optional, Type, Union
 
 import pytest
 
-from aiogram.methods import (
+from masogram.methods import (
     CopyMessage,
     DeleteMessage,
     EditMessageCaption,
@@ -34,7 +34,7 @@ from aiogram.methods import (
     TelegramMethod,
     UnpinChatMessage,
 )
-from aiogram.types import (
+from masogram.types import (
     Animation,
     Audio,
     Chat,
@@ -72,7 +72,7 @@ from aiogram.types import (
     Voice,
     WebAppData,
 )
-from aiogram.types.message import ContentType, Message
+from masogram.types.message import ContentType, Message
 
 TEST_MESSAGE_TEXT = Message(
     message_id=42,

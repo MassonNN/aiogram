@@ -1,9 +1,9 @@
 import asyncio
 import logging
 
-from aiogram import Bot, Dispatcher, Router
-from aiogram.filters import Command
-from aiogram.types import (
+from masogram import Bot, Dispatcher, Router
+from masogram.filters import Command
+from masogram.types import (
     CallbackQuery,
     ChatMemberUpdated,
     InlineKeyboardButton,

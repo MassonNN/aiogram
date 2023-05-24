@@ -3,10 +3,10 @@ from inspect import isclass
 
 import pytest
 
-from aiogram.dispatcher.event.handler import FilterObject
-from aiogram.filters import StateFilter
-from aiogram.fsm.state import State, StatesGroup
-from aiogram.types import Update
+from masogram.dispatcher.event.handler import FilterObject
+from masogram.filters import StateFilter
+from masogram.fsm.state import State, StatesGroup
+from masogram.types import Update
 
 
 class MyGroup(StatesGroup):

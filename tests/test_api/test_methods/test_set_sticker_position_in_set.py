@@ -1,4 +1,4 @@
-from aiogram.methods import Request, SetStickerPositionInSet
+from masogram.methods import Request, SetStickerPositionInSet
 from tests.mocked_bot import MockedBot
 
 

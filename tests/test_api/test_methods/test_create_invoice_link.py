@@ -1,5 +1,5 @@
-from aiogram.methods import CreateInvoiceLink, Request
-from aiogram.types import LabeledPrice
+from masogram.methods import CreateInvoiceLink, Request
+from masogram.types import LabeledPrice
 from tests.mocked_bot import MockedBot
 
 

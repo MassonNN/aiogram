@@ -4,7 +4,7 @@ from typing import Type
 import pytest
 from packaging import version
 
-import aiogram
+import masogram
 
 
 @contextmanager
@@ -18,7 +18,7 @@ def check_deprecated(
     """
 
     parsed_max_version = version.parse(max_version)
-    current_version = version.parse(aiogram.__version__)
+    current_version = version.parse(masogram.__version__)
 
     if parsed_max_version <= current_version:
         with pytest.raises(exception):

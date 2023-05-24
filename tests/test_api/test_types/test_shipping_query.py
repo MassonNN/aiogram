@@ -1,5 +1,5 @@
-from aiogram.methods import AnswerShippingQuery
-from aiogram.types import (
+from masogram.methods import AnswerShippingQuery
+from masogram.types import (
     LabeledPrice,
     ShippingAddress,
     ShippingOption,

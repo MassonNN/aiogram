@@ -1,7 +1,7 @@
 from typing import Awaitable
 from unittest.mock import AsyncMock, patch
 
-from aiogram.filters import Filter
+from masogram.filters import Filter
 
 
 class MyFilter(Filter):

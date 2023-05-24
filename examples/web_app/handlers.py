@@ -1,6 +1,6 @@
-from aiogram import Bot, F, Router
-from aiogram.filters import Command
-from aiogram.types import (
+from masogram import Bot, F, Router
+from masogram.filters import Command
+from masogram.types import (
     InlineKeyboardButton,
     InlineKeyboardMarkup,
     MenuButtonWebApp,

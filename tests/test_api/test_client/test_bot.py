@@ -7,11 +7,11 @@ import aiofiles
 import pytest
 from aresponses import ResponsesMockServer
 
-from aiogram import Bot
-from aiogram.client.session.aiohttp import AiohttpSession
-from aiogram.client.telegram import TelegramAPIServer
-from aiogram.methods import GetFile, GetMe
-from aiogram.types import File, PhotoSize
+from masogram import Bot
+from masogram.client.session.aiohttp import AiohttpSession
+from masogram.client.telegram import TelegramAPIServer
+from masogram.methods import GetFile, GetMe
+from masogram.types import File, PhotoSize
 from tests.mocked_bot import MockedBot
 
 
