@@ -1,7 +1,7 @@
 Use Custom API server
 =====================
 
-.. autoclass:: aiogram.client.telegram.TelegramAPIServer
+.. autoclass:: masogram.client.telegram.TelegramAPIServer
     :members:
 
 For example, if you want to use self-hosted API server:

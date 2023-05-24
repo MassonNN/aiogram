@@ -4,7 +4,7 @@ setChatAdministratorCustomTitle
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.set_chat_administrator_custom_title
+.. automodule:: masogram.methods.set_chat_administrator_custom_title
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.set_chat_administrator_custom_title import SetChatAdministratorCustomTitle`
-- alias: :code:`from aiogram.methods import SetChatAdministratorCustomTitle`
+- :code:`from masogram.methods.set_chat_administrator_custom_title import SetChatAdministratorCustomTitle`
+- alias: :code:`from masogram.methods import SetChatAdministratorCustomTitle`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,4 +47,4 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.chat.Chat.set_administrator_custom_title`
+- :meth:`masogram.types.chat.Chat.set_administrator_custom_title`

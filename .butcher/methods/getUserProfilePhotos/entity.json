@@ -9,7 +9,7 @@
     "name": "getUserProfilePhotos",
     "description": "Use this method to get a list of profile pictures for a user. Returns a UserProfilePhotos object.",
     "html_description": "<p>Use this method to get a list of profile pictures for a user. Returns a <a href=\"#userprofilephotos\">UserProfilePhotos</a> object.</p>",
-    "rst_description": "Use this method to get a list of profile pictures for a user. Returns a :class:`aiogram.types.user_profile_photos.UserProfilePhotos` object.",
+    "rst_description": "Use this method to get a list of profile pictures for a user. Returns a :class:`masogram.types.user_profile_photos.UserProfilePhotos` object.",
     "annotations": [
       {
         "type": "Integer",

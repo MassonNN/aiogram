@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,17 +25,17 @@ msgstr ""
 msgid "Returns: :obj:`StickerSet`"
 msgstr ""
 
-#: aiogram.methods.get_sticker_set.GetStickerSet:1 of
+#: masogram.methods.get_sticker_set.GetStickerSet:1 of
 msgid ""
 "Use this method to get a sticker set. On success, a "
-":class:`aiogram.types.sticker_set.StickerSet` object is returned."
+":class:`masogram.types.sticker_set.StickerSet` object is returned."
 msgstr ""
 
-#: aiogram.methods.get_sticker_set.GetStickerSet:3 of
+#: masogram.methods.get_sticker_set.GetStickerSet:3 of
 msgid "Source: https://core.telegram.org/bots/api#getstickerset"
 msgstr ""
 
-#: ../../docstring aiogram.methods.get_sticker_set.GetStickerSet.name:1 of
+#: ../../docstring masogram.methods.get_sticker_set.GetStickerSet.name:1 of
 msgid "Name of the sticker set"
 msgstr ""
 
@@ -56,11 +56,11 @@ msgid "Imports:"
 msgstr ""
 
 #: ../../api/methods/get_sticker_set.rst:29
-msgid ":code:`from aiogram.methods.get_sticker_set import GetStickerSet`"
+msgid ":code:`from masogram.methods.get_sticker_set import GetStickerSet`"
 msgstr ""
 
 #: ../../api/methods/get_sticker_set.rst:30
-msgid "alias: :code:`from aiogram.methods import GetStickerSet`"
+msgid "alias: :code:`from masogram.methods import GetStickerSet`"
 msgstr ""
 
 #: ../../api/methods/get_sticker_set.rst:33

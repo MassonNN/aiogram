@@ -3,7 +3,7 @@ ProximityAlertTriggered
 #######################
 
 
-.. automodule:: aiogram.types.proximity_alert_triggered
+.. automodule:: masogram.types.proximity_alert_triggered
     :members:
     :member-order: bysource
     :undoc-members: True

@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,24 +21,24 @@ msgstr ""
 msgid "PassportElementErrorSelfie"
 msgstr ""
 
-#: aiogram.types.passport_element_error_selfie.PassportElementErrorSelfie:1 of
+#: masogram.types.passport_element_error_selfie.PassportElementErrorSelfie:1 of
 msgid ""
 "Represents an issue with the selfie with a document. The error is "
 "considered resolved when the file with the selfie changes."
 msgstr ""
 
-#: aiogram.types.passport_element_error_selfie.PassportElementErrorSelfie:3 of
+#: masogram.types.passport_element_error_selfie.PassportElementErrorSelfie:3 of
 msgid "Source: https://core.telegram.org/bots/api#passportelementerrorselfie"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.passport_element_error_selfie.PassportElementErrorSelfie.source:1
+#: masogram.types.passport_element_error_selfie.PassportElementErrorSelfie.source:1
 #: of
 msgid "Error source, must be *selfie*"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.passport_element_error_selfie.PassportElementErrorSelfie.type:1
+#: masogram.types.passport_element_error_selfie.PassportElementErrorSelfie.type:1
 #: of
 msgid ""
 "The section of the user's Telegram Passport which has the issue, one of "
@@ -46,13 +46,13 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.passport_element_error_selfie.PassportElementErrorSelfie.file_hash:1
+#: masogram.types.passport_element_error_selfie.PassportElementErrorSelfie.file_hash:1
 #: of
 msgid "Base64-encoded hash of the file with the selfie"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.passport_element_error_selfie.PassportElementErrorSelfie.message:1
+#: masogram.types.passport_element_error_selfie.PassportElementErrorSelfie.message:1
 #: of
 msgid "Error message"
 msgstr ""

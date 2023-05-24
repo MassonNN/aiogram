@@ -4,7 +4,7 @@ logOut
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.log_out
+.. automodule:: masogram.methods.log_out
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.log_out import LogOut`
-- alias: :code:`from aiogram.methods import LogOut`
+- :code:`from masogram.methods.log_out import LogOut`
+- alias: :code:`from masogram.methods import LogOut`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-23 00:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,18 +25,18 @@ msgstr ""
 msgid "Returns: :obj:`int`"
 msgstr ""
 
-#: aiogram.methods.get_chat_member_count.GetChatMemberCount:1 of
+#: masogram.methods.get_chat_member_count.GetChatMemberCount:1 of
 msgid ""
 "Use this method to get the number of members in a chat. Returns *Int* on "
 "success."
 msgstr ""
 
-#: aiogram.methods.get_chat_member_count.GetChatMemberCount:3 of
+#: masogram.methods.get_chat_member_count.GetChatMemberCount:3 of
 msgid "Source: https://core.telegram.org/bots/api#getchatmembercount"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.get_chat_member_count.GetChatMemberCount.chat_id:1 of
+#: masogram.methods.get_chat_member_count.GetChatMemberCount.chat_id:1 of
 msgid ""
 "Unique identifier for the target chat or username of the target "
 "supergroup or channel (in the format :code:`@channelusername`)"
@@ -60,12 +60,12 @@ msgstr ""
 
 #: ../../api/methods/get_chat_member_count.rst:29
 msgid ""
-":code:`from aiogram.methods.get_chat_member_count import "
+":code:`from masogram.methods.get_chat_member_count import "
 "GetChatMemberCount`"
 msgstr ""
 
 #: ../../api/methods/get_chat_member_count.rst:30
-msgid "alias: :code:`from aiogram.methods import GetChatMemberCount`"
+msgid "alias: :code:`from masogram.methods import GetChatMemberCount`"
 msgstr ""
 
 #: ../../api/methods/get_chat_member_count.rst:33
@@ -77,5 +77,5 @@ msgid "As shortcut from received object"
 msgstr ""
 
 #: ../../api/methods/get_chat_member_count.rst:45
-msgid ":meth:`aiogram.types.chat.Chat.get_member_count`"
+msgid ":meth:`masogram.types.chat.Chat.get_member_count`"
 msgstr ""

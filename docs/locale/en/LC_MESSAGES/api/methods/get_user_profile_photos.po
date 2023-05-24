@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-23 00:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,30 +25,30 @@ msgstr ""
 msgid "Returns: :obj:`UserProfilePhotos`"
 msgstr ""
 
-#: aiogram.methods.get_user_profile_photos.GetUserProfilePhotos:1 of
+#: masogram.methods.get_user_profile_photos.GetUserProfilePhotos:1 of
 msgid ""
 "Use this method to get a list of profile pictures for a user. Returns a "
-":class:`aiogram.types.user_profile_photos.UserProfilePhotos` object."
+":class:`masogram.types.user_profile_photos.UserProfilePhotos` object."
 msgstr ""
 
-#: aiogram.methods.get_user_profile_photos.GetUserProfilePhotos:3 of
+#: masogram.methods.get_user_profile_photos.GetUserProfilePhotos:3 of
 msgid "Source: https://core.telegram.org/bots/api#getuserprofilephotos"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.get_user_profile_photos.GetUserProfilePhotos.user_id:1 of
+#: masogram.methods.get_user_profile_photos.GetUserProfilePhotos.user_id:1 of
 msgid "Unique identifier of the target user"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.get_user_profile_photos.GetUserProfilePhotos.offset:1 of
+#: masogram.methods.get_user_profile_photos.GetUserProfilePhotos.offset:1 of
 msgid ""
 "Sequential number of the first photo to be returned. By default, all "
 "photos are returned."
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.get_user_profile_photos.GetUserProfilePhotos.limit:1 of
+#: masogram.methods.get_user_profile_photos.GetUserProfilePhotos.limit:1 of
 msgid ""
 "Limits the number of photos to be retrieved. Values between 1-100 are "
 "accepted. Defaults to 100."
@@ -72,12 +72,12 @@ msgstr ""
 
 #: ../../api/methods/get_user_profile_photos.rst:29
 msgid ""
-":code:`from aiogram.methods.get_user_profile_photos import "
+":code:`from masogram.methods.get_user_profile_photos import "
 "GetUserProfilePhotos`"
 msgstr ""
 
 #: ../../api/methods/get_user_profile_photos.rst:30
-msgid "alias: :code:`from aiogram.methods import GetUserProfilePhotos`"
+msgid "alias: :code:`from masogram.methods import GetUserProfilePhotos`"
 msgstr ""
 
 #: ../../api/methods/get_user_profile_photos.rst:33
@@ -89,5 +89,5 @@ msgid "As shortcut from received object"
 msgstr ""
 
 #: ../../api/methods/get_user_profile_photos.rst:45
-msgid ":meth:`aiogram.types.user.User.get_profile_photos`"
+msgid ":meth:`masogram.types.user.User.get_profile_photos`"
 msgstr ""

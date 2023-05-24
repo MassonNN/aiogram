@@ -106,7 +106,7 @@ class SimpleI18nMiddleware(I18nMiddleware):
             raise RuntimeError(
                 f"{type(self).__name__} can be used only when Babel installed\n"
                 "Just install Babel (`pip install Babel`) "
-                "or aiogram with i18n support (`pip install aiogram[i18n]`)"
+                "or masogram with i18n support (`pip install masogram[i18n]`)"
             )
 
     async def get_locale(self, event: TelegramObject, data: Dict[str, Any]) -> str:
@@ -114,7 +114,7 @@ class SimpleI18nMiddleware(I18nMiddleware):
             raise RuntimeError(
                 f"{type(self).__name__} can be used only when Babel installed\n"
                 "Just install Babel (`pip install Babel`) "
-                "or aiogram with i18n support (`pip install aiogram[i18n]`)"
+                "or masogram with i18n support (`pip install masogram[i18n]`)"
             )
 
         event_from_user: Optional[User] = data.get("event_from_user", None)

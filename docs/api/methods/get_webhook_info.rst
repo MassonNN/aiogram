@@ -4,7 +4,7 @@ getWebhookInfo
 
 Returns: :obj:`WebhookInfo`
 
-.. automodule:: aiogram.methods.get_webhook_info
+.. automodule:: masogram.methods.get_webhook_info
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.get_webhook_info import GetWebhookInfo`
-- alias: :code:`from aiogram.methods import GetWebhookInfo`
+- :code:`from masogram.methods.get_webhook_info import GetWebhookInfo`
+- alias: :code:`from masogram.methods import GetWebhookInfo`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

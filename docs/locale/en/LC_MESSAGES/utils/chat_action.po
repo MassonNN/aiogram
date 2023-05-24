@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,89 +25,89 @@ msgstr ""
 msgid "Sender"
 msgstr ""
 
-#: aiogram.utils.chat_action.ChatActionSender:1 of
+#: masogram.utils.chat_action.ChatActionSender:1 of
 msgid ""
 "This utility helps to automatically send chat action until long actions "
 "is done to take acknowledge bot users the bot is doing something and not "
 "crashed."
 msgstr ""
 
-#: aiogram.utils.chat_action.ChatActionSender:4 of
+#: masogram.utils.chat_action.ChatActionSender:4 of
 msgid "Provides simply to use context manager."
 msgstr ""
 
-#: aiogram.utils.chat_action.ChatActionSender:6 of
+#: masogram.utils.chat_action.ChatActionSender:6 of
 msgid ""
 "Technically sender start background task with infinity loop which works "
 "until action will be finished and sends the `chat action "
 "<https://core.telegram.org/bots/api#sendchataction>`_ every 5 seconds."
 msgstr ""
 
-#: aiogram.utils.chat_action.ChatActionSender.__init__ of
+#: masogram.utils.chat_action.ChatActionSender.__init__ of
 msgid "Parameters"
 msgstr ""
 
-#: aiogram.utils.chat_action.ChatActionSender.__init__:1 of
+#: masogram.utils.chat_action.ChatActionSender.__init__:1 of
 msgid "target chat id"
 msgstr ""
 
-#: aiogram.utils.chat_action.ChatActionSender.__init__:2 of
+#: masogram.utils.chat_action.ChatActionSender.__init__:2 of
 msgid "chat action type"
 msgstr ""
 
-#: aiogram.utils.chat_action.ChatActionSender.__init__:3 of
+#: masogram.utils.chat_action.ChatActionSender.__init__:3 of
 msgid "interval between iterations"
 msgstr ""
 
-#: aiogram.utils.chat_action.ChatActionSender.__init__:4 of
+#: masogram.utils.chat_action.ChatActionSender.__init__:4 of
 msgid "sleep before first iteration"
 msgstr ""
 
-#: aiogram.utils.chat_action.ChatActionSender.__init__:5 of
+#: masogram.utils.chat_action.ChatActionSender.__init__:5 of
 msgid "instance of the bot, can be omitted from the context"
 msgstr ""
 
-#: aiogram.utils.chat_action.ChatActionSender.choose_sticker:1 of
+#: masogram.utils.chat_action.ChatActionSender.choose_sticker:1 of
 msgid "Create instance of the sender with `choose_sticker` action"
 msgstr ""
 
-#: aiogram.utils.chat_action.ChatActionSender.find_location:1 of
+#: masogram.utils.chat_action.ChatActionSender.find_location:1 of
 msgid "Create instance of the sender with `find_location` action"
 msgstr ""
 
-#: aiogram.utils.chat_action.ChatActionSender.record_video:1 of
+#: masogram.utils.chat_action.ChatActionSender.record_video:1 of
 msgid "Create instance of the sender with `record_video` action"
 msgstr ""
 
-#: aiogram.utils.chat_action.ChatActionSender.record_video_note:1 of
+#: masogram.utils.chat_action.ChatActionSender.record_video_note:1 of
 msgid "Create instance of the sender with `record_video_note` action"
 msgstr ""
 
-#: aiogram.utils.chat_action.ChatActionSender.record_voice:1 of
+#: masogram.utils.chat_action.ChatActionSender.record_voice:1 of
 msgid "Create instance of the sender with `record_voice` action"
 msgstr ""
 
-#: aiogram.utils.chat_action.ChatActionSender.typing:1 of
+#: masogram.utils.chat_action.ChatActionSender.typing:1 of
 msgid "Create instance of the sender with `typing` action"
 msgstr ""
 
-#: aiogram.utils.chat_action.ChatActionSender.upload_document:1 of
+#: masogram.utils.chat_action.ChatActionSender.upload_document:1 of
 msgid "Create instance of the sender with `upload_document` action"
 msgstr ""
 
-#: aiogram.utils.chat_action.ChatActionSender.upload_photo:1 of
+#: masogram.utils.chat_action.ChatActionSender.upload_photo:1 of
 msgid "Create instance of the sender with `upload_photo` action"
 msgstr ""
 
-#: aiogram.utils.chat_action.ChatActionSender.upload_video:1 of
+#: masogram.utils.chat_action.ChatActionSender.upload_video:1 of
 msgid "Create instance of the sender with `upload_video` action"
 msgstr ""
 
-#: aiogram.utils.chat_action.ChatActionSender.upload_video_note:1 of
+#: masogram.utils.chat_action.ChatActionSender.upload_video_note:1 of
 msgid "Create instance of the sender with `upload_video_note` action"
 msgstr ""
 
-#: aiogram.utils.chat_action.ChatActionSender.upload_voice:1 of
+#: masogram.utils.chat_action.ChatActionSender.upload_voice:1 of
 msgid "Create instance of the sender with `upload_voice` action"
 msgstr ""
 
@@ -119,7 +119,7 @@ msgstr ""
 msgid "Middleware"
 msgstr ""
 
-#: aiogram.utils.chat_action.ChatActionMiddleware:1 of
+#: masogram.utils.chat_action.ChatActionMiddleware:1 of
 msgid "Helps to automatically use chat action sender for all message handlers"
 msgstr ""
 

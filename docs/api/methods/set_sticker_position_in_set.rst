@@ -4,7 +4,7 @@ setStickerPositionInSet
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.set_sticker_position_in_set
+.. automodule:: masogram.methods.set_sticker_position_in_set
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.set_sticker_position_in_set import SetStickerPositionInSet`
-- alias: :code:`from aiogram.methods import SetStickerPositionInSet`
+- :code:`from masogram.methods.set_sticker_position_in_set import SetStickerPositionInSet`
+- alias: :code:`from masogram.methods import SetStickerPositionInSet`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,4 +47,4 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.sticker.Sticker.set_position_in_set`
+- :meth:`masogram.types.sticker.Sticker.set_position_in_set`

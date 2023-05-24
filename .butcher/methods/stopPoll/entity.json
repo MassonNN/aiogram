@@ -9,7 +9,7 @@
     "name": "stopPoll",
     "description": "Use this method to stop a poll which was sent by the bot. On success, the stopped Poll is returned.",
     "html_description": "<p>Use this method to stop a poll which was sent by the bot. On success, the stopped <a href=\"#poll\">Poll</a> is returned.</p>",
-    "rst_description": "Use this method to stop a poll which was sent by the bot. On success, the stopped :class:`aiogram.types.poll.Poll` is returned.",
+    "rst_description": "Use this method to stop a poll which was sent by the bot. On success, the stopped :class:`masogram.types.poll.Poll` is returned.",
     "annotations": [
       {
         "type": "Integer or String",

@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-06 14:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "InlineQueryResultCachedAudio"
 msgstr ""
 
-#: aiogram.types.inline_query_result_cached_audio.InlineQueryResultCachedAudio:1
+#: masogram.types.inline_query_result_cached_audio.InlineQueryResultCachedAudio:1
 #: of
 msgid ""
 "Represents a link to an MP3 audio file stored on the Telegram servers. By"
@@ -31,37 +31,37 @@ msgid ""
 "versions released after 9 April, 2016. Older clients will ignore them."
 msgstr ""
 
-#: aiogram.types.inline_query_result_cached_audio.InlineQueryResultCachedAudio:4
+#: masogram.types.inline_query_result_cached_audio.InlineQueryResultCachedAudio:4
 #: of
 msgid "Source: https://core.telegram.org/bots/api#inlinequeryresultcachedaudio"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_cached_audio.InlineQueryResultCachedAudio.type:1
+#: masogram.types.inline_query_result_cached_audio.InlineQueryResultCachedAudio.type:1
 #: of
 msgid "Type of the result, must be *audio*"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_cached_audio.InlineQueryResultCachedAudio.id:1
+#: masogram.types.inline_query_result_cached_audio.InlineQueryResultCachedAudio.id:1
 #: of
 msgid "Unique identifier for this result, 1-64 bytes"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_cached_audio.InlineQueryResultCachedAudio.audio_file_id:1
+#: masogram.types.inline_query_result_cached_audio.InlineQueryResultCachedAudio.audio_file_id:1
 #: of
 msgid "A valid file identifier for the audio file"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_cached_audio.InlineQueryResultCachedAudio.caption:1
+#: masogram.types.inline_query_result_cached_audio.InlineQueryResultCachedAudio.caption:1
 #: of
 msgid "*Optional*. Caption, 0-1024 characters after entities parsing"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_cached_audio.InlineQueryResultCachedAudio.parse_mode:1
+#: masogram.types.inline_query_result_cached_audio.InlineQueryResultCachedAudio.parse_mode:1
 #: of
 msgid ""
 "*Optional*. Mode for parsing entities in the audio caption. See "
@@ -70,7 +70,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_cached_audio.InlineQueryResultCachedAudio.caption_entities:1
+#: masogram.types.inline_query_result_cached_audio.InlineQueryResultCachedAudio.caption_entities:1
 #: of
 msgid ""
 "*Optional*. List of special entities that appear in the caption, which "
@@ -78,7 +78,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_cached_audio.InlineQueryResultCachedAudio.reply_markup:1
+#: masogram.types.inline_query_result_cached_audio.InlineQueryResultCachedAudio.reply_markup:1
 #: of
 msgid ""
 "*Optional*. `Inline keyboard <https://core.telegram.org/bots/features"
@@ -86,7 +86,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_cached_audio.InlineQueryResultCachedAudio.input_message_content:1
+#: masogram.types.inline_query_result_cached_audio.InlineQueryResultCachedAudio.input_message_content:1
 #: of
 msgid "*Optional*. Content of the message to be sent instead of the audio"
 msgstr ""

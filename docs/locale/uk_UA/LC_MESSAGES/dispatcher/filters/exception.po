@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram\n"
+"Project-Id-Version: masogram\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: 2022-10-25 18:34+0300\n"
@@ -25,11 +25,11 @@ msgstr "Помилки"
 msgid "This filters can be helpful for handling errors from the text messages."
 msgstr "Ці фільтри можуть бути корисними для обробки помилок у текстових повідомленнях."
 
-#: aiogram.filters.exception.ExceptionTypeFilter:1 of
+#: masogram.filters.exception.ExceptionTypeFilter:1 of
 msgid "Allows to match exception by type"
 msgstr "Дозволяє зіставляти винятки за типом"
 
-#: aiogram.filters.exception.ExceptionMessageFilter:1 of
+#: masogram.filters.exception.ExceptionMessageFilter:1 of
 msgid "Allow to match exception by message"
 msgstr "Дозвол зіставляти винятки з повідомленням"
 

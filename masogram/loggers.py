@@ -1,6 +1,6 @@
 import logging
 
-dispatcher = logging.getLogger("aiogram.dispatcher")
-event = logging.getLogger("aiogram.event")
-middlewares = logging.getLogger("aiogram.middlewares")
-webhook = logging.getLogger("aiogram.webhook")
+dispatcher = logging.getLogger("masogram.dispatcher")
+event = logging.getLogger("masogram.event")
+middlewares = logging.getLogger("masogram.middlewares")
+webhook = logging.getLogger("masogram.webhook")

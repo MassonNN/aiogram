@@ -4,7 +4,7 @@ sendMediaGroup
 
 Returns: :obj:`List[Message]`
 
-.. automodule:: aiogram.methods.send_media_group
+.. automodule:: masogram.methods.send_media_group
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.send_media_group import SendMediaGroup`
-- alias: :code:`from aiogram.methods import SendMediaGroup`
+- :code:`from masogram.methods.send_media_group import SendMediaGroup`
+- alias: :code:`from masogram.methods import SendMediaGroup`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,5 +47,5 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.message.Message.answer_media_group`
-- :meth:`aiogram.types.message.Message.reply_media_group`
+- :meth:`masogram.types.message.Message.answer_media_group`
+- :meth:`masogram.types.message.Message.reply_media_group`

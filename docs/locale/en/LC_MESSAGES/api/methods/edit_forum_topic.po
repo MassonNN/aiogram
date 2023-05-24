@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-07 23:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Returns: :obj:`bool`"
 msgstr ""
 
-#: aiogram.methods.edit_forum_topic.EditForumTopic:1 of
+#: masogram.methods.edit_forum_topic.EditForumTopic:1 of
 msgid ""
 "Use this method to edit name and icon of a topic in a forum supergroup "
 "chat. The bot must be an administrator in the chat for this to work and "
@@ -33,32 +33,32 @@ msgid ""
 "creator of the topic. Returns :code:`True` on success."
 msgstr ""
 
-#: aiogram.methods.edit_forum_topic.EditForumTopic:3 of
+#: masogram.methods.edit_forum_topic.EditForumTopic:3 of
 msgid "Source: https://core.telegram.org/bots/api#editforumtopic"
 msgstr ""
 
-#: ../../docstring aiogram.methods.edit_forum_topic.EditForumTopic.chat_id:1 of
+#: ../../docstring masogram.methods.edit_forum_topic.EditForumTopic.chat_id:1 of
 msgid ""
 "Unique identifier for the target chat or username of the target "
 "supergroup (in the format :code:`@supergroupusername`)"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.edit_forum_topic.EditForumTopic.message_thread_id:1 of
+#: masogram.methods.edit_forum_topic.EditForumTopic.message_thread_id:1 of
 msgid "Unique identifier for the target message thread of the forum topic"
 msgstr ""
 
-#: ../../docstring aiogram.methods.edit_forum_topic.EditForumTopic.name:1 of
+#: ../../docstring masogram.methods.edit_forum_topic.EditForumTopic.name:1 of
 msgid ""
 "New topic name, 0-128 characters. If not specified or empty, the current "
 "name of the topic will be kept"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.edit_forum_topic.EditForumTopic.icon_custom_emoji_id:1 of
+#: masogram.methods.edit_forum_topic.EditForumTopic.icon_custom_emoji_id:1 of
 msgid ""
 "New unique identifier of the custom emoji shown as the topic icon. Use "
-":class:`aiogram.methods.get_forum_topic_icon_stickers.GetForumTopicIconStickers`"
+":class:`masogram.methods.get_forum_topic_icon_stickers.GetForumTopicIconStickers`"
 " to get all allowed custom emoji identifiers. Pass an empty string to "
 "remove the icon. If not specified, the current icon will be kept"
 msgstr ""
@@ -80,11 +80,11 @@ msgid "Imports:"
 msgstr ""
 
 #: ../../api/methods/edit_forum_topic.rst:29
-msgid ":code:`from aiogram.methods.edit_forum_topic import EditForumTopic`"
+msgid ":code:`from masogram.methods.edit_forum_topic import EditForumTopic`"
 msgstr ""
 
 #: ../../api/methods/edit_forum_topic.rst:30
-msgid "alias: :code:`from aiogram.methods import EditForumTopic`"
+msgid "alias: :code:`from masogram.methods import EditForumTopic`"
 msgstr ""
 
 #: ../../api/methods/edit_forum_topic.rst:33

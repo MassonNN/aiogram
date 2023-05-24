@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,16 +25,16 @@ msgstr ""
 msgid "Returns: :obj:`WebhookInfo`"
 msgstr ""
 
-#: aiogram.methods.get_webhook_info.GetWebhookInfo:1 of
+#: masogram.methods.get_webhook_info.GetWebhookInfo:1 of
 msgid ""
 "Use this method to get current webhook status. Requires no parameters. On"
-" success, returns a :class:`aiogram.types.webhook_info.WebhookInfo` "
+" success, returns a :class:`masogram.types.webhook_info.WebhookInfo` "
 "object. If the bot is using "
-":class:`aiogram.methods.get_updates.GetUpdates`, will return an object "
+":class:`masogram.methods.get_updates.GetUpdates`, will return an object "
 "with the *url* field empty."
 msgstr ""
 
-#: aiogram.methods.get_webhook_info.GetWebhookInfo:3 of
+#: masogram.methods.get_webhook_info.GetWebhookInfo:3 of
 msgid "Source: https://core.telegram.org/bots/api#getwebhookinfo"
 msgstr ""
 
@@ -55,11 +55,11 @@ msgid "Imports:"
 msgstr ""
 
 #: ../../api/methods/get_webhook_info.rst:29
-msgid ":code:`from aiogram.methods.get_webhook_info import GetWebhookInfo`"
+msgid ":code:`from masogram.methods.get_webhook_info import GetWebhookInfo`"
 msgstr ""
 
 #: ../../api/methods/get_webhook_info.rst:30
-msgid "alias: :code:`from aiogram.methods import GetWebhookInfo`"
+msgid "alias: :code:`from masogram.methods import GetWebhookInfo`"
 msgstr ""
 
 #: ../../api/methods/get_webhook_info.rst:33

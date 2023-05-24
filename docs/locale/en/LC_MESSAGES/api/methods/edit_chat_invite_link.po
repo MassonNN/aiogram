@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-23 00:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,49 +25,49 @@ msgstr ""
 msgid "Returns: :obj:`ChatInviteLink`"
 msgstr ""
 
-#: aiogram.methods.edit_chat_invite_link.EditChatInviteLink:1 of
+#: masogram.methods.edit_chat_invite_link.EditChatInviteLink:1 of
 msgid ""
 "Use this method to edit a non-primary invite link created by the bot. The"
 " bot must be an administrator in the chat for this to work and must have "
 "the appropriate administrator rights. Returns the edited invite link as a"
-" :class:`aiogram.types.chat_invite_link.ChatInviteLink` object."
+" :class:`masogram.types.chat_invite_link.ChatInviteLink` object."
 msgstr ""
 
-#: aiogram.methods.edit_chat_invite_link.EditChatInviteLink:3 of
+#: masogram.methods.edit_chat_invite_link.EditChatInviteLink:3 of
 msgid "Source: https://core.telegram.org/bots/api#editchatinvitelink"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.edit_chat_invite_link.EditChatInviteLink.chat_id:1 of
+#: masogram.methods.edit_chat_invite_link.EditChatInviteLink.chat_id:1 of
 msgid ""
 "Unique identifier for the target chat or username of the target channel "
 "(in the format :code:`@channelusername`)"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.edit_chat_invite_link.EditChatInviteLink.invite_link:1 of
+#: masogram.methods.edit_chat_invite_link.EditChatInviteLink.invite_link:1 of
 msgid "The invite link to edit"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.edit_chat_invite_link.EditChatInviteLink.name:1 of
+#: masogram.methods.edit_chat_invite_link.EditChatInviteLink.name:1 of
 msgid "Invite link name; 0-32 characters"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.edit_chat_invite_link.EditChatInviteLink.expire_date:1 of
+#: masogram.methods.edit_chat_invite_link.EditChatInviteLink.expire_date:1 of
 msgid "Point in time (Unix timestamp) when the link will expire"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.edit_chat_invite_link.EditChatInviteLink.member_limit:1 of
+#: masogram.methods.edit_chat_invite_link.EditChatInviteLink.member_limit:1 of
 msgid ""
 "The maximum number of users that can be members of the chat "
 "simultaneously after joining the chat via this invite link; 1-99999"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.edit_chat_invite_link.EditChatInviteLink.creates_join_request:1
+#: masogram.methods.edit_chat_invite_link.EditChatInviteLink.creates_join_request:1
 #: of
 msgid ""
 ":code:`True`, if users joining the chat via the link need to be approved "
@@ -93,12 +93,12 @@ msgstr ""
 
 #: ../../api/methods/edit_chat_invite_link.rst:29
 msgid ""
-":code:`from aiogram.methods.edit_chat_invite_link import "
+":code:`from masogram.methods.edit_chat_invite_link import "
 "EditChatInviteLink`"
 msgstr ""
 
 #: ../../api/methods/edit_chat_invite_link.rst:30
-msgid "alias: :code:`from aiogram.methods import EditChatInviteLink`"
+msgid "alias: :code:`from masogram.methods import EditChatInviteLink`"
 msgstr ""
 
 #: ../../api/methods/edit_chat_invite_link.rst:33
@@ -114,5 +114,5 @@ msgid "As shortcut from received object"
 msgstr ""
 
 #: ../../api/methods/edit_chat_invite_link.rst:50
-msgid ":meth:`aiogram.types.chat.Chat.edit_invite_link`"
+msgid ":meth:`masogram.types.chat.Chat.edit_invite_link`"
 msgstr ""

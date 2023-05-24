@@ -4,7 +4,7 @@ setChatPhoto
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.set_chat_photo
+.. automodule:: masogram.methods.set_chat_photo
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.set_chat_photo import SetChatPhoto`
-- alias: :code:`from aiogram.methods import SetChatPhoto`
+- :code:`from masogram.methods.set_chat_photo import SetChatPhoto`
+- alias: :code:`from masogram.methods import SetChatPhoto`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -42,4 +42,4 @@ With specific bot
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.chat.Chat.set_photo`
+- :meth:`masogram.types.chat.Chat.set_photo`

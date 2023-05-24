@@ -9,7 +9,7 @@
     "name": "PhotoSize",
     "description": "This object represents one size of a photo or a file / sticker thumbnail.",
     "html_description": "<p>This object represents one size of a photo or a <a href=\"#document\">file</a> / <a href=\"#sticker\">sticker</a> thumbnail.</p>",
-    "rst_description": "This object represents one size of a photo or a `file <https://core.telegram.org/bots/api#document>`_ / :class:`aiogram.methods.sticker.Sticker` thumbnail.",
+    "rst_description": "This object represents one size of a photo or a `file <https://core.telegram.org/bots/api#document>`_ / :class:`masogram.methods.sticker.Sticker` thumbnail.",
     "annotations": [
       {
         "type": "String",

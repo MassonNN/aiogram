@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,38 +21,38 @@ msgstr ""
 msgid "ShippingAddress"
 msgstr ""
 
-#: aiogram.types.shipping_address.ShippingAddress:1 of
+#: masogram.types.shipping_address.ShippingAddress:1 of
 msgid "This object represents a shipping address."
 msgstr ""
 
-#: aiogram.types.shipping_address.ShippingAddress:3 of
+#: masogram.types.shipping_address.ShippingAddress:3 of
 msgid "Source: https://core.telegram.org/bots/api#shippingaddress"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.shipping_address.ShippingAddress.country_code:1 of
+#: masogram.types.shipping_address.ShippingAddress.country_code:1 of
 msgid "Two-letter ISO 3166-1 alpha-2 country code"
 msgstr ""
 
-#: ../../docstring aiogram.types.shipping_address.ShippingAddress.state:1 of
+#: ../../docstring masogram.types.shipping_address.ShippingAddress.state:1 of
 msgid "State, if applicable"
 msgstr ""
 
-#: ../../docstring aiogram.types.shipping_address.ShippingAddress.city:1 of
+#: ../../docstring masogram.types.shipping_address.ShippingAddress.city:1 of
 msgid "City"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.shipping_address.ShippingAddress.street_line1:1 of
+#: masogram.types.shipping_address.ShippingAddress.street_line1:1 of
 msgid "First line for the address"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.shipping_address.ShippingAddress.street_line2:1 of
+#: masogram.types.shipping_address.ShippingAddress.street_line2:1 of
 msgid "Second line for the address"
 msgstr ""
 
-#: ../../docstring aiogram.types.shipping_address.ShippingAddress.post_code:1
+#: ../../docstring masogram.types.shipping_address.ShippingAddress.post_code:1
 #: of
 msgid "Address post code"
 msgstr ""

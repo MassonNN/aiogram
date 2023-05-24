@@ -47,7 +47,7 @@ class TestChatActionSender:
 
     async def test_worker(self, bot: Bot):
         with patch(
-            "aiogram.client.bot.Bot.send_chat_action",
+            "masogram.client.bot.Bot.send_chat_action",
             new_callable=AsyncMock,
         ) as mocked_send_chat_action:
             async with ChatActionSender.typing(
@@ -93,10 +93,10 @@ class TestChatActionMiddleware:
 
         middleware = ChatActionMiddleware()
         with patch(
-            "aiogram.utils.chat_action.ChatActionSender._run",
+            "masogram.utils.chat_action.ChatActionSender._run",
             new_callable=AsyncMock,
         ) as mocked_run, patch(
-            "aiogram.utils.chat_action.ChatActionSender._stop",
+            "masogram.utils.chat_action.ChatActionSender._stop",
             new_callable=AsyncMock,
         ) as mocked_stop:
             data = {"handler": HandlerObject(callback=handler1), "bot": bot}

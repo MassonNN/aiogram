@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,48 +21,48 @@ msgstr ""
 msgid "PassportElementError"
 msgstr ""
 
-#: aiogram.types.passport_element_error.PassportElementError:1 of
+#: masogram.types.passport_element_error.PassportElementError:1 of
 msgid ""
 "This object represents an error in the Telegram Passport element which "
 "was submitted that should be resolved by the user. It should be one of:"
 msgstr ""
 
-#: aiogram.types.passport_element_error.PassportElementError:3 of
-msgid ":class:`aiogram.types.passport_element_error_data_field.PassportElementErrorDataField`"
+#: masogram.types.passport_element_error.PassportElementError:3 of
+msgid ":class:`masogram.types.passport_element_error_data_field.PassportElementErrorDataField`"
 msgstr ""
 
-#: aiogram.types.passport_element_error.PassportElementError:4 of
-msgid ":class:`aiogram.types.passport_element_error_front_side.PassportElementErrorFrontSide`"
+#: masogram.types.passport_element_error.PassportElementError:4 of
+msgid ":class:`masogram.types.passport_element_error_front_side.PassportElementErrorFrontSide`"
 msgstr ""
 
-#: aiogram.types.passport_element_error.PassportElementError:5 of
-msgid ":class:`aiogram.types.passport_element_error_reverse_side.PassportElementErrorReverseSide`"
+#: masogram.types.passport_element_error.PassportElementError:5 of
+msgid ":class:`masogram.types.passport_element_error_reverse_side.PassportElementErrorReverseSide`"
 msgstr ""
 
-#: aiogram.types.passport_element_error.PassportElementError:6 of
-msgid ":class:`aiogram.types.passport_element_error_selfie.PassportElementErrorSelfie`"
+#: masogram.types.passport_element_error.PassportElementError:6 of
+msgid ":class:`masogram.types.passport_element_error_selfie.PassportElementErrorSelfie`"
 msgstr ""
 
-#: aiogram.types.passport_element_error.PassportElementError:7 of
-msgid ":class:`aiogram.types.passport_element_error_file.PassportElementErrorFile`"
+#: masogram.types.passport_element_error.PassportElementError:7 of
+msgid ":class:`masogram.types.passport_element_error_file.PassportElementErrorFile`"
 msgstr ""
 
-#: aiogram.types.passport_element_error.PassportElementError:8 of
-msgid ":class:`aiogram.types.passport_element_error_files.PassportElementErrorFiles`"
+#: masogram.types.passport_element_error.PassportElementError:8 of
+msgid ":class:`masogram.types.passport_element_error_files.PassportElementErrorFiles`"
 msgstr ""
 
-#: aiogram.types.passport_element_error.PassportElementError:9 of
-msgid ":class:`aiogram.types.passport_element_error_translation_file.PassportElementErrorTranslationFile`"
+#: masogram.types.passport_element_error.PassportElementError:9 of
+msgid ":class:`masogram.types.passport_element_error_translation_file.PassportElementErrorTranslationFile`"
 msgstr ""
 
-#: aiogram.types.passport_element_error.PassportElementError:10 of
-msgid ":class:`aiogram.types.passport_element_error_translation_files.PassportElementErrorTranslationFiles`"
+#: masogram.types.passport_element_error.PassportElementError:10 of
+msgid ":class:`masogram.types.passport_element_error_translation_files.PassportElementErrorTranslationFiles`"
 msgstr ""
 
-#: aiogram.types.passport_element_error.PassportElementError:11 of
-msgid ":class:`aiogram.types.passport_element_error_unspecified.PassportElementErrorUnspecified`"
+#: masogram.types.passport_element_error.PassportElementError:11 of
+msgid ":class:`masogram.types.passport_element_error_unspecified.PassportElementErrorUnspecified`"
 msgstr ""
 
-#: aiogram.types.passport_element_error.PassportElementError:13 of
+#: masogram.types.passport_element_error.PassportElementError:13 of
 msgid "Source: https://core.telegram.org/bots/api#passportelementerror"
 msgstr ""

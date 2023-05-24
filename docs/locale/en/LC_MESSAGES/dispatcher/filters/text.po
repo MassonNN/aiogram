@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-25 22:10+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,22 +21,22 @@ msgstr ""
 msgid "Text"
 msgstr ""
 
-#: aiogram.filters.text.Text:1 of
+#: masogram.filters.text.Text:1 of
 msgid ""
-"Is useful for filtering text :class:`aiogram.types.message.Message`, any "
-":class:`aiogram.types.callback_query.CallbackQuery` with `data`, "
-":class:`aiogram.types.inline_query.InlineQuery` or "
-":class:`aiogram.types.poll.Poll` question."
+"Is useful for filtering text :class:`masogram.types.message.Message`, any "
+":class:`masogram.types.callback_query.CallbackQuery` with `data`, "
+":class:`masogram.types.inline_query.InlineQuery` or "
+":class:`masogram.types.poll.Poll` question."
 msgstr ""
 
-#: aiogram.filters.text.Text:7 of
+#: masogram.filters.text.Text:7 of
 msgid ""
 "Only one of `text`, `contains`, `startswith` or `endswith` argument can "
 "be used at once. Any of that arguments can be string, list, set or tuple "
 "of strings."
 msgstr ""
 
-#: aiogram.filters.text.Text:12 of
+#: masogram.filters.text.Text:12 of
 msgid ""
 "use :ref:`magic-filter <magic-filters>`. For example do :pycode:`F.text "
 "== \"text\"` instead"
@@ -47,11 +47,11 @@ msgid "Can be imported:"
 msgstr ""
 
 #: ../../dispatcher/filters/text.rst:12
-msgid ":code:`from aiogram.filters.text import Text`"
+msgid ":code:`from masogram.filters.text import Text`"
 msgstr ""
 
 #: ../../dispatcher/filters/text.rst:13
-msgid ":code:`from aiogram.filters import Text`"
+msgid ":code:`from masogram.filters import Text`"
 msgstr ""
 
 #: ../../dispatcher/filters/text.rst:16

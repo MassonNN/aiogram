@@ -63,7 +63,7 @@
         "type": "String",
         "description": "For 'custom_emoji' only, unique identifier of the custom emoji. Use getCustomEmojiStickers to get full information about the sticker",
         "html_description": "<td><em>Optional</em>. For &#8220;custom_emoji&#8221; only, unique identifier of the custom emoji. Use <a href=\"#getcustomemojistickers\">getCustomEmojiStickers</a> to get full information about the sticker</td>",
-        "rst_description": "*Optional*. For 'custom_emoji' only, unique identifier of the custom emoji. Use :class:`aiogram.methods.get_custom_emoji_stickers.GetCustomEmojiStickers` to get full information about the sticker\n",
+        "rst_description": "*Optional*. For 'custom_emoji' only, unique identifier of the custom emoji. Use :class:`masogram.methods.get_custom_emoji_stickers.GetCustomEmojiStickers` to get full information about the sticker\n",
         "name": "custom_emoji_id",
         "required": false
       }

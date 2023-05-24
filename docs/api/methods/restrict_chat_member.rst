@@ -4,7 +4,7 @@ restrictChatMember
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.restrict_chat_member
+.. automodule:: masogram.methods.restrict_chat_member
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.restrict_chat_member import RestrictChatMember`
-- alias: :code:`from aiogram.methods import RestrictChatMember`
+- :code:`from masogram.methods.restrict_chat_member import RestrictChatMember`
+- alias: :code:`from masogram.methods import RestrictChatMember`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,4 +47,4 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.chat.Chat.restrict`
+- :meth:`masogram.types.chat.Chat.restrict`

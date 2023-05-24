@@ -1,7 +1,7 @@
 from typing import Any, Optional
 from urllib.parse import urlencode, urljoin
 
-BASE_DOCS_URL = "https://docs.aiogram.dev/"
+BASE_DOCS_URL = "https://docs.masogram.dev/"
 BRANCH = "dev-3.x"
 
 BASE_PAGE_URL = f"{BASE_DOCS_URL}/en/{BRANCH}/"

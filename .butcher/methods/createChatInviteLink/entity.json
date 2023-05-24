@@ -9,7 +9,7 @@
     "name": "createChatInviteLink",
     "description": "Use this method to create an additional invite link for a chat. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. The link can be revoked using the method revokeChatInviteLink. Returns the new invite link as ChatInviteLink object.",
     "html_description": "<p>Use this method to create an additional invite link for a chat. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. The link can be revoked using the method <a href=\"#revokechatinvitelink\">revokeChatInviteLink</a>. Returns the new invite link as <a href=\"#chatinvitelink\">ChatInviteLink</a> object.</p>",
-    "rst_description": "Use this method to create an additional invite link for a chat. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. The link can be revoked using the method :class:`aiogram.methods.revoke_chat_invite_link.RevokeChatInviteLink`. Returns the new invite link as :class:`aiogram.types.chat_invite_link.ChatInviteLink` object.",
+    "rst_description": "Use this method to create an additional invite link for a chat. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. The link can be revoked using the method :class:`masogram.methods.revoke_chat_invite_link.RevokeChatInviteLink`. Returns the new invite link as :class:`masogram.types.chat_invite_link.ChatInviteLink` object.",
     "annotations": [
       {
         "type": "Integer or String",

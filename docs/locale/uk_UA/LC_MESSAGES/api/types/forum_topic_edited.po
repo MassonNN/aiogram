@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-30 22:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,20 +21,20 @@ msgstr ""
 msgid "ForumTopicEdited"
 msgstr ""
 
-#: aiogram.types.forum_topic_edited.ForumTopicEdited:1 of
+#: masogram.types.forum_topic_edited.ForumTopicEdited:1 of
 msgid "This object represents a service message about an edited forum topic."
 msgstr ""
 
-#: aiogram.types.forum_topic_edited.ForumTopicEdited:3 of
+#: masogram.types.forum_topic_edited.ForumTopicEdited:3 of
 msgid "Source: https://core.telegram.org/bots/api#forumtopicedited"
 msgstr ""
 
-#: ../../docstring aiogram.types.forum_topic_edited.ForumTopicEdited.name:1 of
+#: ../../docstring masogram.types.forum_topic_edited.ForumTopicEdited.name:1 of
 msgid "*Optional*. New name of the topic, if it was edited"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.forum_topic_edited.ForumTopicEdited.icon_custom_emoji_id:1 of
+#: masogram.types.forum_topic_edited.ForumTopicEdited.icon_custom_emoji_id:1 of
 msgid ""
 "*Optional*. New identifier of the custom emoji shown as the topic icon, "
 "if it was edited; an empty string if the icon was removed"

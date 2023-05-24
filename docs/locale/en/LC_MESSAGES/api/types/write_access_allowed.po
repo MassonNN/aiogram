@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-30 22:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,13 +21,13 @@ msgstr ""
 msgid "WriteAccessAllowed"
 msgstr ""
 
-#: aiogram.types.write_access_allowed.WriteAccessAllowed:1 of
+#: masogram.types.write_access_allowed.WriteAccessAllowed:1 of
 msgid ""
 "This object represents a service message about a user allowing a bot "
 "added to the attachment menu to write messages. Currently holds no "
 "information."
 msgstr ""
 
-#: aiogram.types.write_access_allowed.WriteAccessAllowed:3 of
+#: masogram.types.write_access_allowed.WriteAccessAllowed:3 of
 msgid "Source: https://core.telegram.org/bots/api#writeaccessallowed"
 msgstr ""

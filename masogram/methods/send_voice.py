@@ -18,7 +18,7 @@ from .base import TelegramMethod
 
 class SendVoice(TelegramMethod[Message]):
     """
-    Use this method to send audio files, if you want Telegram clients to display the file as a playable voice message. For this to work, your audio must be in an .OGG file encoded with OPUS (other formats may be sent as :class:`aiogram.types.audio.Audio` or :class:`aiogram.types.document.Document`). On success, the sent :class:`aiogram.types.message.Message` is returned. Bots can currently send voice messages of up to 50 MB in size, this limit may be changed in the future.
+    Use this method to send audio files, if you want Telegram clients to display the file as a playable voice message. For this to work, your audio must be in an .OGG file encoded with OPUS (other formats may be sent as :class:`masogram.types.audio.Audio` or :class:`masogram.types.document.Document`). On success, the sent :class:`masogram.types.message.Message` is returned. Bots can currently send voice messages of up to 50 MB in size, this limit may be changed in the future.
 
     Source: https://core.telegram.org/bots/api#sendvoice
     """

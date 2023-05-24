@@ -31,7 +31,7 @@ Download file by `file_path` to destination.
 If you want to automatically create destination (:obj:`io.BytesIO`) use default
 value of destination and handle result of this method.
 
-.. autoclass:: aiogram.client.bot.Bot
+.. autoclass:: masogram.client.bot.Bot
     :members: download_file
     :exclude-members: __init__
 
@@ -81,7 +81,7 @@ Download file by `file_id` or `Downloadable` object to destination.
 If you want to automatically create destination (:obj:`io.BytesIO`) use default
 value of destination and handle result of this method.
 
-.. autoclass:: aiogram.client.bot.Bot
+.. autoclass:: masogram.client.bot.Bot
     :members: download
     :exclude-members: __init__
 

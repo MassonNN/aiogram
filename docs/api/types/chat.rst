@@ -3,7 +3,7 @@ Chat
 ####
 
 
-.. automodule:: aiogram.types.chat
+.. automodule:: masogram.types.chat
     :members:
     :member-order: bysource
     :undoc-members: True

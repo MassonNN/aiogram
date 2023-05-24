@@ -4,7 +4,7 @@ setStickerKeywords
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.set_sticker_keywords
+.. automodule:: masogram.methods.set_sticker_keywords
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.set_sticker_keywords import SetStickerKeywords`
-- alias: :code:`from aiogram.methods import SetStickerKeywords`
+- :code:`from masogram.methods.set_sticker_keywords import SetStickerKeywords`
+- alias: :code:`from masogram.methods import SetStickerKeywords`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

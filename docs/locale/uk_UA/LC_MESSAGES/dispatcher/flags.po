@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-07 23:33+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -65,55 +65,55 @@ msgstr "Через фільтри"
 msgid "Use in middlewares"
 msgstr "Використовувати в міддлварах"
 
-#: aiogram.dispatcher.flags.check_flags:1 of
+#: masogram.dispatcher.flags.check_flags:1 of
 msgid "Check flags via magic filter"
 msgstr ""
 
-#: aiogram.dispatcher.flags.check_flags aiogram.dispatcher.flags.extract_flags
-#: aiogram.dispatcher.flags.get_flag of
+#: masogram.dispatcher.flags.check_flags masogram.dispatcher.flags.extract_flags
+#: masogram.dispatcher.flags.get_flag of
 msgid "Parameters"
 msgstr ""
 
-#: aiogram.dispatcher.flags.check_flags:3
-#: aiogram.dispatcher.flags.extract_flags:3 aiogram.dispatcher.flags.get_flag:3
+#: masogram.dispatcher.flags.check_flags:3
+#: masogram.dispatcher.flags.extract_flags:3 masogram.dispatcher.flags.get_flag:3
 #: of
 msgid "handler object or data"
 msgstr ""
 
-#: aiogram.dispatcher.flags.check_flags:4 of
+#: masogram.dispatcher.flags.check_flags:4 of
 msgid "instance of the magic"
 msgstr ""
 
-#: aiogram.dispatcher.flags.check_flags aiogram.dispatcher.flags.extract_flags
-#: aiogram.dispatcher.flags.get_flag of
+#: masogram.dispatcher.flags.check_flags masogram.dispatcher.flags.extract_flags
+#: masogram.dispatcher.flags.get_flag of
 msgid "Returns"
 msgstr ""
 
-#: aiogram.dispatcher.flags.check_flags:5 of
+#: masogram.dispatcher.flags.check_flags:5 of
 msgid "the result of magic filter check"
 msgstr ""
 
-#: aiogram.dispatcher.flags.extract_flags:1 of
+#: masogram.dispatcher.flags.extract_flags:1 of
 msgid "Extract flags from handler or middleware context data"
 msgstr ""
 
-#: aiogram.dispatcher.flags.extract_flags:4 of
+#: masogram.dispatcher.flags.extract_flags:4 of
 msgid "dictionary with all handler flags"
 msgstr ""
 
-#: aiogram.dispatcher.flags.get_flag:1 of
+#: masogram.dispatcher.flags.get_flag:1 of
 msgid "Get flag by name"
 msgstr ""
 
-#: aiogram.dispatcher.flags.get_flag:4 of
+#: masogram.dispatcher.flags.get_flag:4 of
 msgid "name of the flag"
 msgstr ""
 
-#: aiogram.dispatcher.flags.get_flag:5 of
+#: masogram.dispatcher.flags.get_flag:5 of
 msgid "default value (None)"
 msgstr ""
 
-#: aiogram.dispatcher.flags.get_flag:6 of
+#: masogram.dispatcher.flags.get_flag:6 of
 msgid "value of the flag or default"
 msgstr ""
 

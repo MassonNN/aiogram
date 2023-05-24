@@ -3,7 +3,7 @@ Document
 ########
 
 
-.. automodule:: aiogram.types.document
+.. automodule:: masogram.types.document
     :members:
     :member-order: bysource
     :undoc-members: True

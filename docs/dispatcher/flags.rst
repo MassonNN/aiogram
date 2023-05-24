@@ -18,7 +18,7 @@ For example mark handler with `chat_action` flag
 
 .. code-block:: python
 
-    from aiogram import flags
+    from masogram import flags
 
     @flags.chat_action
     async def my_handler(message: Message)
@@ -27,7 +27,7 @@ Or just for rate-limit or something else
 
 .. code-block:: python
 
-    from aiogram import flags
+    from masogram import flags
 
     @flags.rate_limit(rate=2, key="something")
     async def my_handler(message: Message)
@@ -56,7 +56,7 @@ Via filters
 Use in middlewares
 ==================
 
-.. automodule:: aiogram.dispatcher.flags
+.. automodule:: masogram.dispatcher.flags
     :members: extract_flags, get_flag, check_flags
 
 

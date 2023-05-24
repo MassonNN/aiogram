@@ -36,7 +36,7 @@ class TestFlagDecorator:
 
         decorated = flag_decorator(func)
         assert decorated is func
-        assert hasattr(decorated, "aiogram_flag")
+        assert hasattr(decorated, "masogram_flag")
 
     def test_call_with_arg(self, flag_decorator: FlagDecorator):
         new_decorator = flag_decorator("hello")

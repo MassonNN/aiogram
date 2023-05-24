@@ -8,7 +8,7 @@ from .base import TelegramMethod
 
 class SetGameScore(TelegramMethod[Union[Message, bool]]):
     """
-    Use this method to set the score of the specified user in a game message. On success, if the message is not an inline message, the :class:`aiogram.types.message.Message` is returned, otherwise :code:`True` is returned. Returns an error, if the new score is not greater than the user's current score in the chat and *force* is :code:`False`.
+    Use this method to set the score of the specified user in a game message. On success, if the message is not an inline message, the :class:`masogram.types.message.Message` is returned, otherwise :code:`True` is returned. Returns an error, if the new score is not greater than the user's current score in the chat and *force* is :code:`False`.
 
     Source: https://core.telegram.org/bots/api#setgamescore
     """

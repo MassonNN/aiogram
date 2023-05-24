@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 00:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -28,25 +28,25 @@ msgid ""
 "ChatMemberBanned]`"
 msgstr ""
 
-#: aiogram.methods.get_chat_member.GetChatMember:1 of
+#: masogram.methods.get_chat_member.GetChatMember:1 of
 msgid ""
 "Use this method to get information about a member of a chat. The method "
 "is only guaranteed to work for other users if the bot is an administrator"
-" in the chat. Returns a :class:`aiogram.types.chat_member.ChatMember` "
+" in the chat. Returns a :class:`masogram.types.chat_member.ChatMember` "
 "object on success."
 msgstr ""
 
-#: aiogram.methods.get_chat_member.GetChatMember:3 of
+#: masogram.methods.get_chat_member.GetChatMember:3 of
 msgid "Source: https://core.telegram.org/bots/api#getchatmember"
 msgstr ""
 
-#: ../../docstring aiogram.methods.get_chat_member.GetChatMember.chat_id:1 of
+#: ../../docstring masogram.methods.get_chat_member.GetChatMember.chat_id:1 of
 msgid ""
 "Unique identifier for the target chat or username of the target "
 "supergroup or channel (in the format :code:`@channelusername`)"
 msgstr ""
 
-#: ../../docstring aiogram.methods.get_chat_member.GetChatMember.user_id:1 of
+#: ../../docstring masogram.methods.get_chat_member.GetChatMember.user_id:1 of
 msgid "Unique identifier of the target user"
 msgstr ""
 
@@ -67,11 +67,11 @@ msgid "Imports:"
 msgstr ""
 
 #: ../../api/methods/get_chat_member.rst:29
-msgid ":code:`from aiogram.methods.get_chat_member import GetChatMember`"
+msgid ":code:`from masogram.methods.get_chat_member import GetChatMember`"
 msgstr ""
 
 #: ../../api/methods/get_chat_member.rst:30
-msgid "alias: :code:`from aiogram.methods import GetChatMember`"
+msgid "alias: :code:`from masogram.methods import GetChatMember`"
 msgstr ""
 
 #: ../../api/methods/get_chat_member.rst:33
@@ -83,7 +83,7 @@ msgid "As shortcut from received object"
 msgstr ""
 
 #: ../../api/methods/get_chat_member.rst:45
-msgid ":meth:`aiogram.types.chat.Chat.get_member`"
+msgid ":meth:`masogram.types.chat.Chat.get_member`"
 msgstr ""
 
 #~ msgid ""
@@ -92,7 +92,7 @@ msgstr ""
 #~ "method is guaranteed to work for "
 #~ "other users, only if the bot is"
 #~ " an administrator in the chat. "
-#~ "Returns a :class:`aiogram.types.chat_member.ChatMember`"
+#~ "Returns a :class:`masogram.types.chat_member.ChatMember`"
 #~ " object on success."
 #~ msgstr ""
 

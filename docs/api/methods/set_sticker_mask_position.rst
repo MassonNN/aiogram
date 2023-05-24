@@ -4,7 +4,7 @@ setStickerMaskPosition
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.set_sticker_mask_position
+.. automodule:: masogram.methods.set_sticker_mask_position
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.set_sticker_mask_position import SetStickerMaskPosition`
-- alias: :code:`from aiogram.methods import SetStickerMaskPosition`
+- :code:`from masogram.methods.set_sticker_mask_position import SetStickerMaskPosition`
+- alias: :code:`from masogram.methods import SetStickerMaskPosition`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

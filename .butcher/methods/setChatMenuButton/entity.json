@@ -24,7 +24,7 @@
         "required": false,
         "description": "A JSON-serialized object for the bot's new menu button. Defaults to MenuButtonDefault",
         "html_description": "<td>A JSON-serialized object for the bot's new menu button. Defaults to <a href=\"#menubuttondefault\">MenuButtonDefault</a></td>",
-        "rst_description": "A JSON-serialized object for the bot's new menu button. Defaults to :class:`aiogram.types.menu_button_default.MenuButtonDefault`\n",
+        "rst_description": "A JSON-serialized object for the bot's new menu button. Defaults to :class:`masogram.types.menu_button_default.MenuButtonDefault`\n",
         "name": "menu_button"
       }
     ],

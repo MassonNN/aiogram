@@ -8,7 +8,7 @@ from .base import TelegramMethod
 
 class GetUserProfilePhotos(TelegramMethod[UserProfilePhotos]):
     """
-    Use this method to get a list of profile pictures for a user. Returns a :class:`aiogram.types.user_profile_photos.UserProfilePhotos` object.
+    Use this method to get a list of profile pictures for a user. Returns a :class:`masogram.types.user_profile_photos.UserProfilePhotos` object.
 
     Source: https://core.telegram.org/bots/api#getuserprofilephotos
     """

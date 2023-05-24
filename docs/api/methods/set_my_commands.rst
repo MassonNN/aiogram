@@ -4,7 +4,7 @@ setMyCommands
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.set_my_commands
+.. automodule:: masogram.methods.set_my_commands
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.set_my_commands import SetMyCommands`
-- alias: :code:`from aiogram.methods import SetMyCommands`
+- :code:`from masogram.methods.set_my_commands import SetMyCommands`
+- alias: :code:`from masogram.methods import SetMyCommands`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

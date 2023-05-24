@@ -4,7 +4,7 @@ setStickerSetTitle
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.set_sticker_set_title
+.. automodule:: masogram.methods.set_sticker_set_title
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.set_sticker_set_title import SetStickerSetTitle`
-- alias: :code:`from aiogram.methods import SetStickerSetTitle`
+- :code:`from masogram.methods.set_sticker_set_title import SetStickerSetTitle`
+- alias: :code:`from masogram.methods import SetStickerSetTitle`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

@@ -41,18 +41,18 @@ class TestMarkdown:
             [hunderline, ("test", "test"), " ", "<u>test test</u>"],
             [strikethrough, ("test", "test"), " ", "~test test~"],
             [hstrikethrough, ("test", "test"), " ", "<s>test test</s>"],
-            [link, ("test", "https://aiogram.dev"), None, "[test](https://aiogram.dev)"],
+            [link, ("test", "https://masogram.dev"), None, "[test](https://masogram.dev)"],
             [
                 hlink,
-                ("test", "https://aiogram.dev"),
+                ("test", "https://masogram.dev"),
                 None,
-                '<a href="https://aiogram.dev">test</a>',
+                '<a href="https://masogram.dev">test</a>',
             ],
             [
                 hide_link,
-                ("https://aiogram.dev",),
+                ("https://masogram.dev",),
                 None,
-                '<a href="https://aiogram.dev">&#8203;</a>',
+                '<a href="https://masogram.dev">&#8203;</a>',
             ],
         ],
     )

@@ -4,7 +4,7 @@ getUpdates
 
 Returns: :obj:`List[Update]`
 
-.. automodule:: aiogram.methods.get_updates
+.. automodule:: masogram.methods.get_updates
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.get_updates import GetUpdates`
-- alias: :code:`from aiogram.methods import GetUpdates`
+- :code:`from masogram.methods.get_updates import GetUpdates`
+- alias: :code:`from masogram.methods import GetUpdates`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

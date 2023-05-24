@@ -3,7 +3,7 @@ ChatMemberOwner
 ###############
 
 
-.. automodule:: aiogram.types.chat_member_owner
+.. automodule:: masogram.types.chat_member_owner
     :members:
     :member-order: bysource
     :undoc-members: True

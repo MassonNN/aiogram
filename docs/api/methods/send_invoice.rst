@@ -4,7 +4,7 @@ sendInvoice
 
 Returns: :obj:`Message`
 
-.. automodule:: aiogram.methods.send_invoice
+.. automodule:: masogram.methods.send_invoice
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.send_invoice import SendInvoice`
-- alias: :code:`from aiogram.methods import SendInvoice`
+- :code:`from masogram.methods.send_invoice import SendInvoice`
+- alias: :code:`from masogram.methods import SendInvoice`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,5 +47,5 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.message.Message.answer_invoice`
-- :meth:`aiogram.types.message.Message.reply_invoice`
+- :meth:`masogram.types.message.Message.answer_invoice`
+- :meth:`masogram.types.message.Message.reply_invoice`

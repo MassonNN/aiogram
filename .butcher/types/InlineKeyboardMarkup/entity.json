@@ -15,7 +15,7 @@
         "type": "Array of Array of InlineKeyboardButton",
         "description": "Array of button rows, each represented by an Array of InlineKeyboardButton objects",
         "html_description": "<td>Array of button rows, each represented by an Array of <a href=\"#inlinekeyboardbutton\">InlineKeyboardButton</a> objects</td>",
-        "rst_description": "Array of button rows, each represented by an Array of :class:`aiogram.types.inline_keyboard_button.InlineKeyboardButton` objects\n",
+        "rst_description": "Array of button rows, each represented by an Array of :class:`masogram.types.inline_keyboard_button.InlineKeyboardButton` objects\n",
         "name": "inline_keyboard",
         "required": true
       }

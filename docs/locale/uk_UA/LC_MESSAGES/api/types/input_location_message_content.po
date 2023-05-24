@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "InputLocationMessageContent"
 msgstr ""
 
-#: aiogram.types.input_location_message_content.InputLocationMessageContent:1
+#: masogram.types.input_location_message_content.InputLocationMessageContent:1
 #: of
 msgid ""
 "Represents the `content "
@@ -29,25 +29,25 @@ msgid ""
 "message to be sent as the result of an inline query."
 msgstr ""
 
-#: aiogram.types.input_location_message_content.InputLocationMessageContent:3
+#: masogram.types.input_location_message_content.InputLocationMessageContent:3
 #: of
 msgid "Source: https://core.telegram.org/bots/api#inputlocationmessagecontent"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.input_location_message_content.InputLocationMessageContent.latitude:1
+#: masogram.types.input_location_message_content.InputLocationMessageContent.latitude:1
 #: of
 msgid "Latitude of the location in degrees"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.input_location_message_content.InputLocationMessageContent.longitude:1
+#: masogram.types.input_location_message_content.InputLocationMessageContent.longitude:1
 #: of
 msgid "Longitude of the location in degrees"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.input_location_message_content.InputLocationMessageContent.horizontal_accuracy:1
+#: masogram.types.input_location_message_content.InputLocationMessageContent.horizontal_accuracy:1
 #: of
 msgid ""
 "*Optional*. The radius of uncertainty for the location, measured in "
@@ -55,7 +55,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.input_location_message_content.InputLocationMessageContent.live_period:1
+#: masogram.types.input_location_message_content.InputLocationMessageContent.live_period:1
 #: of
 msgid ""
 "*Optional*. Period in seconds for which the location can be updated, "
@@ -63,7 +63,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.input_location_message_content.InputLocationMessageContent.heading:1
+#: masogram.types.input_location_message_content.InputLocationMessageContent.heading:1
 #: of
 msgid ""
 "*Optional*. For live locations, a direction in which the user is moving, "
@@ -71,7 +71,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.input_location_message_content.InputLocationMessageContent.proximity_alert_radius:1
+#: masogram.types.input_location_message_content.InputLocationMessageContent.proximity_alert_radius:1
 #: of
 msgid ""
 "*Optional*. For live locations, a maximum distance for proximity alerts "

@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-06 14:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Returns: :obj:`bool`"
 msgstr ""
 
-#: aiogram.methods.unpin_all_forum_topic_messages.UnpinAllForumTopicMessages:1
+#: masogram.methods.unpin_all_forum_topic_messages.UnpinAllForumTopicMessages:1
 #: of
 msgid ""
 "Use this method to clear the list of pinned messages in a forum topic. "
@@ -34,13 +34,13 @@ msgid ""
 "Returns :code:`True` on success."
 msgstr ""
 
-#: aiogram.methods.unpin_all_forum_topic_messages.UnpinAllForumTopicMessages:3
+#: masogram.methods.unpin_all_forum_topic_messages.UnpinAllForumTopicMessages:3
 #: of
 msgid "Source: https://core.telegram.org/bots/api#unpinallforumtopicmessages"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.unpin_all_forum_topic_messages.UnpinAllForumTopicMessages.chat_id:1
+#: masogram.methods.unpin_all_forum_topic_messages.UnpinAllForumTopicMessages.chat_id:1
 #: of
 msgid ""
 "Unique identifier for the target chat or username of the target "
@@ -48,7 +48,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.unpin_all_forum_topic_messages.UnpinAllForumTopicMessages.message_thread_id:1
+#: masogram.methods.unpin_all_forum_topic_messages.UnpinAllForumTopicMessages.message_thread_id:1
 #: of
 msgid "Unique identifier for the target message thread of the forum topic"
 msgstr ""
@@ -71,12 +71,12 @@ msgstr ""
 
 #: ../../api/methods/unpin_all_forum_topic_messages.rst:29
 msgid ""
-":code:`from aiogram.methods.unpin_all_forum_topic_messages import "
+":code:`from masogram.methods.unpin_all_forum_topic_messages import "
 "UnpinAllForumTopicMessages`"
 msgstr ""
 
 #: ../../api/methods/unpin_all_forum_topic_messages.rst:30
-msgid "alias: :code:`from aiogram.methods import UnpinAllForumTopicMessages`"
+msgid "alias: :code:`from masogram.methods import UnpinAllForumTopicMessages`"
 msgstr ""
 
 #: ../../api/methods/unpin_all_forum_topic_messages.rst:33

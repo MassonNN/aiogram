@@ -15,7 +15,7 @@ from .base import TelegramMethod
 
 class SendContact(TelegramMethod[Message]):
     """
-    Use this method to send phone contacts. On success, the sent :class:`aiogram.types.message.Message` is returned.
+    Use this method to send phone contacts. On success, the sent :class:`masogram.types.message.Message` is returned.
 
     Source: https://core.telegram.org/bots/api#sendcontact
     """

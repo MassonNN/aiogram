@@ -9,7 +9,7 @@
     "name": "getMyDefaultAdministratorRights",
     "description": "Use this method to get the current default administrator rights of the bot. Returns ChatAdministratorRights on success.",
     "html_description": "<p>Use this method to get the current default administrator rights of the bot. Returns <a href=\"#chatadministratorrights\">ChatAdministratorRights</a> on success.</p>",
-    "rst_description": "Use this method to get the current default administrator rights of the bot. Returns :class:`aiogram.types.chat_administrator_rights.ChatAdministratorRights` on success.",
+    "rst_description": "Use this method to get the current default administrator rights of the bot. Returns :class:`masogram.types.chat_administrator_rights.ChatAdministratorRights` on success.",
     "annotations": [
       {
         "type": "Boolean",

@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-11 01:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,19 +25,19 @@ msgstr ""
 msgid "Returns: :obj:`bool`"
 msgstr ""
 
-#: aiogram.methods.set_my_short_description.SetMyShortDescription:1 of
+#: masogram.methods.set_my_short_description.SetMyShortDescription:1 of
 msgid ""
 "Use this method to change the bot's short description, which is shown on "
 "the bot's profile page and is sent together with the link when users "
 "share the bot. Returns :code:`True` on success."
 msgstr ""
 
-#: aiogram.methods.set_my_short_description.SetMyShortDescription:3 of
+#: masogram.methods.set_my_short_description.SetMyShortDescription:3 of
 msgid "Source: https://core.telegram.org/bots/api#setmyshortdescription"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.set_my_short_description.SetMyShortDescription.short_description:1
+#: masogram.methods.set_my_short_description.SetMyShortDescription.short_description:1
 #: of
 msgid ""
 "New short description for the bot; 0-120 characters. Pass an empty string"
@@ -45,7 +45,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.set_my_short_description.SetMyShortDescription.language_code:1
+#: masogram.methods.set_my_short_description.SetMyShortDescription.language_code:1
 #: of
 msgid ""
 "A two-letter ISO 639-1 language code. If empty, the short description "
@@ -71,12 +71,12 @@ msgstr ""
 
 #: ../../api/methods/set_my_short_description.rst:29
 msgid ""
-":code:`from aiogram.methods.set_my_short_description import "
+":code:`from masogram.methods.set_my_short_description import "
 "SetMyShortDescription`"
 msgstr ""
 
 #: ../../api/methods/set_my_short_description.rst:30
-msgid "alias: :code:`from aiogram.methods import SetMyShortDescription`"
+msgid "alias: :code:`from masogram.methods import SetMyShortDescription`"
 msgstr ""
 
 #: ../../api/methods/set_my_short_description.rst:33

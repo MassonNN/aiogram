@@ -4,7 +4,7 @@ editForumTopic
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.edit_forum_topic
+.. automodule:: masogram.methods.edit_forum_topic
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.edit_forum_topic import EditForumTopic`
-- alias: :code:`from aiogram.methods import EditForumTopic`
+- :code:`from masogram.methods.edit_forum_topic import EditForumTopic`
+- alias: :code:`from masogram.methods import EditForumTopic`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

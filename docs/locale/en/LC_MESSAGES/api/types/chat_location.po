@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,20 +21,20 @@ msgstr ""
 msgid "ChatLocation"
 msgstr ""
 
-#: aiogram.types.chat_location.ChatLocation:1 of
+#: masogram.types.chat_location.ChatLocation:1 of
 msgid "Represents a location to which a chat is connected."
 msgstr ""
 
-#: aiogram.types.chat_location.ChatLocation:3 of
+#: masogram.types.chat_location.ChatLocation:3 of
 msgid "Source: https://core.telegram.org/bots/api#chatlocation"
 msgstr ""
 
-#: ../../docstring aiogram.types.chat_location.ChatLocation.location:1 of
+#: ../../docstring masogram.types.chat_location.ChatLocation.location:1 of
 msgid ""
 "The location to which the supergroup is connected. Can't be a live "
 "location."
 msgstr ""
 
-#: ../../docstring aiogram.types.chat_location.ChatLocation.address:1 of
+#: ../../docstring masogram.types.chat_location.ChatLocation.address:1 of
 msgid "Location address; 1-64 characters, as defined by the chat owner"
 msgstr ""

@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-11 01:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "KeyboardButton"
 msgstr ""
 
-#: aiogram.types.keyboard_button.KeyboardButton:1 of
+#: masogram.types.keyboard_button.KeyboardButton:1 of
 msgid ""
 "This object represents one button of the reply keyboard. For simple text "
 "buttons, *String* can be used instead of this object to specify the "
@@ -32,37 +32,37 @@ msgid ""
 "after 9 April, 2016. Older clients will display *unsupported message*."
 msgstr ""
 
-#: aiogram.types.keyboard_button.KeyboardButton:4 of
+#: masogram.types.keyboard_button.KeyboardButton:4 of
 msgid ""
 "**Note:** *request_poll* option will only work in Telegram versions "
 "released after 23 January, 2020. Older clients will display *unsupported "
 "message*."
 msgstr ""
 
-#: aiogram.types.keyboard_button.KeyboardButton:6 of
+#: masogram.types.keyboard_button.KeyboardButton:6 of
 msgid ""
 "**Note:** *web_app* option will only work in Telegram versions released "
 "after 16 April, 2022. Older clients will display *unsupported message*."
 msgstr ""
 
-#: aiogram.types.keyboard_button.KeyboardButton:8 of
+#: masogram.types.keyboard_button.KeyboardButton:8 of
 msgid ""
 "**Note:** *request_user* and *request_chat* options will only work in "
 "Telegram versions released after 3 February, 2023. Older clients will "
 "display *unsupported message*."
 msgstr ""
 
-#: aiogram.types.keyboard_button.KeyboardButton:10 of
+#: masogram.types.keyboard_button.KeyboardButton:10 of
 msgid "Source: https://core.telegram.org/bots/api#keyboardbutton"
 msgstr ""
 
-#: ../../docstring aiogram.types.keyboard_button.KeyboardButton.text:1 of
+#: ../../docstring masogram.types.keyboard_button.KeyboardButton.text:1 of
 msgid ""
 "Text of the button. If none of the optional fields are used, it will be "
 "sent as a message when the button is pressed"
 msgstr ""
 
-#: ../../docstring aiogram.types.keyboard_button.KeyboardButton.request_user:1
+#: ../../docstring masogram.types.keyboard_button.KeyboardButton.request_user:1
 #: of
 msgid ""
 "*Optional.* If specified, pressing the button will open a list of "
@@ -70,7 +70,7 @@ msgid ""
 " in a 'user_shared' service message. Available in private chats only."
 msgstr ""
 
-#: ../../docstring aiogram.types.keyboard_button.KeyboardButton.request_chat:1
+#: ../../docstring masogram.types.keyboard_button.KeyboardButton.request_chat:1
 #: of
 msgid ""
 "*Optional.* If specified, pressing the button will open a list of "
@@ -79,20 +79,20 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.keyboard_button.KeyboardButton.request_contact:1 of
+#: masogram.types.keyboard_button.KeyboardButton.request_contact:1 of
 msgid ""
 "*Optional*. If :code:`True`, the user's phone number will be sent as a "
 "contact when the button is pressed. Available in private chats only."
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.keyboard_button.KeyboardButton.request_location:1 of
+#: masogram.types.keyboard_button.KeyboardButton.request_location:1 of
 msgid ""
 "*Optional*. If :code:`True`, the user's current location will be sent "
 "when the button is pressed. Available in private chats only."
 msgstr ""
 
-#: ../../docstring aiogram.types.keyboard_button.KeyboardButton.request_poll:1
+#: ../../docstring masogram.types.keyboard_button.KeyboardButton.request_poll:1
 #: of
 msgid ""
 "*Optional*. If specified, the user will be asked to create a poll and "
@@ -100,7 +100,7 @@ msgid ""
 " only."
 msgstr ""
 
-#: ../../docstring aiogram.types.keyboard_button.KeyboardButton.web_app:1 of
+#: ../../docstring masogram.types.keyboard_button.KeyboardButton.web_app:1 of
 msgid ""
 "*Optional*. If specified, the described `Web App "
 "<https://core.telegram.org/bots/webapps>`_ will be launched when the "

@@ -47,7 +47,7 @@ def check_ip(ip_filter: IPFilter, request: web.Request) -> Tuple[str, bool]:
     if forwarded_for := request.headers.get("X-Forwarded-For", ""):
         # Get the left-most ip when there is multiple ips
         # (request got through multiple proxy/load balancers)
-        # https://github.com/aiogram/aiogram/issues/672
+        # https://github.com/masogram/masogram/issues/672
         forwarded_for, *_ = forwarded_for.split(",", maxsplit=1)
         return forwarded_for, forwarded_for in ip_filter
 
@@ -93,7 +93,7 @@ class BaseRequestHandler(ABC):
         **data: Any,
     ) -> None:
         """
-        :param dispatcher: instance of :class:`aiogram.dispatcher.dispatcher.Dispatcher`
+        :param dispatcher: instance of :class:`masogram.dispatcher.dispatcher.Dispatcher`
         :param handle_in_background: immediately respond to the Telegram instead of
             waiting end of handler process
         """
@@ -201,10 +201,10 @@ class SimpleRequestHandler(BaseRequestHandler):
         self, dispatcher: Dispatcher, bot: Bot, handle_in_background: bool = True, **data: Any
     ) -> None:
         """
-        :param dispatcher: instance of :class:`aiogram.dispatcher.dispatcher.Dispatcher`
+        :param dispatcher: instance of :class:`masogram.dispatcher.dispatcher.Dispatcher`
         :param handle_in_background: immediately respond to the Telegram instead of
             waiting end of handler process
-        :param bot: instance of :class:`aiogram.client.bot.Bot`
+        :param bot: instance of :class:`masogram.client.bot.Bot`
         """
         super().__init__(dispatcher=dispatcher, handle_in_background=handle_in_background, **data)
         self.bot = bot
@@ -233,7 +233,7 @@ class TokenBasedRequestHandler(BaseRequestHandler):
         **data: Any,
     ) -> None:
         """
-        :param dispatcher: instance of :class:`aiogram.dispatcher.dispatcher.Dispatcher`
+        :param dispatcher: instance of :class:`masogram.dispatcher.dispatcher.Dispatcher`
         :param handle_in_background: immediately respond to the Telegram instead of
             waiting end of handler process
         :param bot_settings: kwargs that will be passed to new Bot instance

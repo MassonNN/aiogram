@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-07 23:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -40,34 +40,34 @@ msgstr ""
 msgid "Base builder"
 msgstr ""
 
-#: aiogram.utils.keyboard.ReplyKeyboardBuilder:1 of
+#: masogram.utils.keyboard.ReplyKeyboardBuilder:1 of
 msgid "Reply keyboard builder inherits all methods from generic builder"
 msgstr ""
 
-#: aiogram.utils.keyboard.KeyboardBuilder.add:1 of
+#: masogram.utils.keyboard.KeyboardBuilder.add:1 of
 msgid "Add one or many buttons to markup."
 msgstr ""
 
-#: aiogram.utils.keyboard.KeyboardBuilder.add
-#: aiogram.utils.keyboard.KeyboardBuilder.adjust
-#: aiogram.utils.keyboard.KeyboardBuilder.row of
+#: masogram.utils.keyboard.KeyboardBuilder.add
+#: masogram.utils.keyboard.KeyboardBuilder.adjust
+#: masogram.utils.keyboard.KeyboardBuilder.row of
 msgid "Parameters"
 msgstr ""
 
-#: aiogram.utils.keyboard.KeyboardBuilder.add
-#: aiogram.utils.keyboard.KeyboardBuilder.adjust
-#: aiogram.utils.keyboard.KeyboardBuilder.export
-#: aiogram.utils.keyboard.KeyboardBuilder.row
-#: aiogram.utils.keyboard.ReplyKeyboardBuilder.buttons
-#: aiogram.utils.keyboard.ReplyKeyboardBuilder.copy of
+#: masogram.utils.keyboard.KeyboardBuilder.add
+#: masogram.utils.keyboard.KeyboardBuilder.adjust
+#: masogram.utils.keyboard.KeyboardBuilder.export
+#: masogram.utils.keyboard.KeyboardBuilder.row
+#: masogram.utils.keyboard.ReplyKeyboardBuilder.buttons
+#: masogram.utils.keyboard.ReplyKeyboardBuilder.copy of
 msgid "Returns"
 msgstr ""
 
-#: aiogram.utils.keyboard.KeyboardBuilder.adjust:1 of
+#: masogram.utils.keyboard.KeyboardBuilder.adjust:1 of
 msgid "Adjust previously added buttons to specific row sizes."
 msgstr ""
 
-#: aiogram.utils.keyboard.KeyboardBuilder.adjust:3 of
+#: masogram.utils.keyboard.KeyboardBuilder.adjust:3 of
 msgid ""
 "By default, when the sum of passed sizes is lower than buttons count the "
 "last one size will be used for tail of the markup. If repeat=True is "
@@ -75,23 +75,23 @@ msgid ""
 "all sizes"
 msgstr ""
 
-#: aiogram.utils.keyboard.ReplyKeyboardBuilder.buttons:1 of
+#: masogram.utils.keyboard.ReplyKeyboardBuilder.buttons:1 of
 msgid "Get flatten set of all buttons"
 msgstr ""
 
-#: aiogram.utils.keyboard.ReplyKeyboardBuilder.copy:1 of
+#: masogram.utils.keyboard.ReplyKeyboardBuilder.copy:1 of
 msgid "Make full copy of current builder with markup"
 msgstr ""
 
-#: aiogram.utils.keyboard.KeyboardBuilder.export:1 of
+#: masogram.utils.keyboard.KeyboardBuilder.export:1 of
 msgid "Export configured markup as list of lists of buttons"
 msgstr ""
 
-#: aiogram.utils.keyboard.KeyboardBuilder.row:1 of
+#: masogram.utils.keyboard.KeyboardBuilder.row:1 of
 msgid "Add row to markup"
 msgstr ""
 
-#: aiogram.utils.keyboard.KeyboardBuilder.row:3 of
+#: masogram.utils.keyboard.KeyboardBuilder.row:3 of
 msgid "When too much buttons is passed it will be separated to many rows"
 msgstr ""
 
@@ -99,7 +99,7 @@ msgstr ""
 msgid "Inline Keyboard"
 msgstr ""
 
-#: aiogram.utils.keyboard.InlineKeyboardBuilder:1 of
+#: masogram.utils.keyboard.InlineKeyboardBuilder:1 of
 msgid "Inline keyboard builder inherits all methods from generic builder"
 msgstr ""
 

@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-11 01:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,22 +21,22 @@ msgstr ""
 msgid "ChatAdministratorRights"
 msgstr ""
 
-#: aiogram.types.chat_administrator_rights.ChatAdministratorRights:1 of
+#: masogram.types.chat_administrator_rights.ChatAdministratorRights:1 of
 msgid "Represents the rights of an administrator in a chat."
 msgstr ""
 
-#: aiogram.types.chat_administrator_rights.ChatAdministratorRights:3 of
+#: masogram.types.chat_administrator_rights.ChatAdministratorRights:3 of
 msgid "Source: https://core.telegram.org/bots/api#chatadministratorrights"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.chat_administrator_rights.ChatAdministratorRights.is_anonymous:1
+#: masogram.types.chat_administrator_rights.ChatAdministratorRights.is_anonymous:1
 #: of
 msgid ":code:`True`, if the user's presence in the chat is hidden"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.chat_administrator_rights.ChatAdministratorRights.can_manage_chat:1
+#: masogram.types.chat_administrator_rights.ChatAdministratorRights.can_manage_chat:1
 #: of
 msgid ""
 ":code:`True`, if the administrator can access the chat event log, chat "
@@ -46,25 +46,25 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.chat_administrator_rights.ChatAdministratorRights.can_delete_messages:1
+#: masogram.types.chat_administrator_rights.ChatAdministratorRights.can_delete_messages:1
 #: of
 msgid ":code:`True`, if the administrator can delete messages of other users"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.chat_administrator_rights.ChatAdministratorRights.can_manage_video_chats:1
+#: masogram.types.chat_administrator_rights.ChatAdministratorRights.can_manage_video_chats:1
 #: of
 msgid ":code:`True`, if the administrator can manage video chats"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.chat_administrator_rights.ChatAdministratorRights.can_restrict_members:1
+#: masogram.types.chat_administrator_rights.ChatAdministratorRights.can_restrict_members:1
 #: of
 msgid ":code:`True`, if the administrator can restrict, ban or unban chat members"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.chat_administrator_rights.ChatAdministratorRights.can_promote_members:1
+#: masogram.types.chat_administrator_rights.ChatAdministratorRights.can_promote_members:1
 #: of
 msgid ""
 ":code:`True`, if the administrator can add new administrators with a "
@@ -74,7 +74,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.chat_administrator_rights.ChatAdministratorRights.can_change_info:1
+#: masogram.types.chat_administrator_rights.ChatAdministratorRights.can_change_info:1
 #: of
 msgid ""
 ":code:`True`, if the user is allowed to change the chat title, photo and "
@@ -82,13 +82,13 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.chat_administrator_rights.ChatAdministratorRights.can_invite_users:1
+#: masogram.types.chat_administrator_rights.ChatAdministratorRights.can_invite_users:1
 #: of
 msgid ":code:`True`, if the user is allowed to invite new users to the chat"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.chat_administrator_rights.ChatAdministratorRights.can_post_messages:1
+#: masogram.types.chat_administrator_rights.ChatAdministratorRights.can_post_messages:1
 #: of
 msgid ""
 "*Optional*. :code:`True`, if the administrator can post in the channel; "
@@ -96,7 +96,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.chat_administrator_rights.ChatAdministratorRights.can_edit_messages:1
+#: masogram.types.chat_administrator_rights.ChatAdministratorRights.can_edit_messages:1
 #: of
 msgid ""
 "*Optional*. :code:`True`, if the administrator can edit messages of other"
@@ -104,7 +104,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.chat_administrator_rights.ChatAdministratorRights.can_pin_messages:1
+#: masogram.types.chat_administrator_rights.ChatAdministratorRights.can_pin_messages:1
 #: of
 msgid ""
 "*Optional*. :code:`True`, if the user is allowed to pin messages; groups "
@@ -112,7 +112,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.chat_administrator_rights.ChatAdministratorRights.can_manage_topics:1
+#: masogram.types.chat_administrator_rights.ChatAdministratorRights.can_manage_topics:1
 #: of
 msgid ""
 "*Optional*. :code:`True`, if the user is allowed to create, rename, "

@@ -4,7 +4,7 @@ createForumTopic
 
 Returns: :obj:`ForumTopic`
 
-.. automodule:: aiogram.methods.create_forum_topic
+.. automodule:: masogram.methods.create_forum_topic
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.create_forum_topic import CreateForumTopic`
-- alias: :code:`from aiogram.methods import CreateForumTopic`
+- :code:`from masogram.methods.create_forum_topic import CreateForumTopic`
+- alias: :code:`from masogram.methods import CreateForumTopic`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

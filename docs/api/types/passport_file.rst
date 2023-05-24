@@ -3,7 +3,7 @@ PassportFile
 ############
 
 
-.. automodule:: aiogram.types.passport_file
+.. automodule:: masogram.types.passport_file
     :members:
     :member-order: bysource
     :undoc-members: True

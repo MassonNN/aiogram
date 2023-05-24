@@ -23,6 +23,6 @@ class TestSendMessage:
         assert response == prepare_result.result
 
     async def test_force_reply(self):
-        # https://github.com/aiogram/aiogram/issues/901
+        # https://github.com/masogram/masogram/issues/901
         method = SendMessage(text="test", chat_id=42, reply_markup=ForceReply())
         assert isinstance(method.reply_markup, ForceReply)

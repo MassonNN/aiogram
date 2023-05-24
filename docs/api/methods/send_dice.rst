@@ -4,7 +4,7 @@ sendDice
 
 Returns: :obj:`Message`
 
-.. automodule:: aiogram.methods.send_dice
+.. automodule:: masogram.methods.send_dice
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.send_dice import SendDice`
-- alias: :code:`from aiogram.methods import SendDice`
+- :code:`from masogram.methods.send_dice import SendDice`
+- alias: :code:`from masogram.methods import SendDice`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,5 +47,5 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.message.Message.answer_dice`
-- :meth:`aiogram.types.message.Message.reply_dice`
+- :meth:`masogram.types.message.Message.answer_dice`
+- :meth:`masogram.types.message.Message.reply_dice`

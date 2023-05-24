@@ -9,7 +9,7 @@ Simple usage
 
 .. code-block:: python
 
-    from aiogram.handlers import PreCheckoutQueryHandler
+    from masogram.handlers import PreCheckoutQueryHandler
 
     ...
 

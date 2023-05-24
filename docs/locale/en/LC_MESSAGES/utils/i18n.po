@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-14 19:29+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -33,7 +33,7 @@ msgstr ""
 
 #: ../../utils/i18n.rst:9
 msgid ""
-"The aiogram translation utils is build on top of `GNU gettext Python "
+"The masogram translation utils is build on top of `GNU gettext Python "
 "module <https://docs.python.org/3/library/gettext.html>`_ and `Babel "
 "library <http://babel.pocoo.org/en/latest/>`_."
 msgstr ""
@@ -53,7 +53,7 @@ msgid "Can be installed from pip directly:"
 msgstr ""
 
 #: ../../utils/i18n.rst:24
-msgid "or as `aiogram` extra dependency:"
+msgid "or as `masogram` extra dependency:"
 msgstr ""
 
 #: ../../utils/i18n.rst:32
@@ -92,7 +92,7 @@ msgstr ""
 msgid ""
 "Lazy gettext can't be used as value for API methods or any Telegram "
 "Object (like "
-":class:`aiogram.types.inline_keyboard_button.InlineKeyboardButton` or "
+":class:`masogram.types.inline_keyboard_button.InlineKeyboardButton` or "
 "etc.)"
 msgstr ""
 
@@ -109,7 +109,7 @@ msgstr ""
 #: ../../utils/i18n.rst:84
 msgid ""
 "On top of your application the instance of "
-":class:`aiogram.utils.i18n.I18n` should be created"
+":class:`masogram.utils.i18n.I18n` should be created"
 msgstr ""
 
 #: ../../utils/i18n.rst:92
@@ -126,49 +126,49 @@ msgstr ""
 msgid "SimpleI18nMiddleware"
 msgstr ""
 
-#: aiogram.utils.i18n.middleware.SimpleI18nMiddleware:1 of
+#: masogram.utils.i18n.middleware.SimpleI18nMiddleware:1 of
 msgid "Simple I18n middleware."
 msgstr ""
 
-#: aiogram.utils.i18n.middleware.SimpleI18nMiddleware:3 of
+#: masogram.utils.i18n.middleware.SimpleI18nMiddleware:3 of
 msgid "Chooses language code from the User object received in event"
 msgstr ""
 
-#: aiogram.utils.i18n.middleware.ConstI18nMiddleware.__init__:1
-#: aiogram.utils.i18n.middleware.FSMI18nMiddleware.__init__:1
-#: aiogram.utils.i18n.middleware.I18nMiddleware.__init__:1
-#: aiogram.utils.i18n.middleware.SimpleI18nMiddleware.__init__:1 of
+#: masogram.utils.i18n.middleware.ConstI18nMiddleware.__init__:1
+#: masogram.utils.i18n.middleware.FSMI18nMiddleware.__init__:1
+#: masogram.utils.i18n.middleware.I18nMiddleware.__init__:1
+#: masogram.utils.i18n.middleware.SimpleI18nMiddleware.__init__:1 of
 msgid "Create an instance of middleware"
 msgstr ""
 
-#: aiogram.utils.i18n.middleware.ConstI18nMiddleware.__init__
-#: aiogram.utils.i18n.middleware.FSMI18nMiddleware.__init__
-#: aiogram.utils.i18n.middleware.FSMI18nMiddleware.set_locale
-#: aiogram.utils.i18n.middleware.I18nMiddleware.__init__
-#: aiogram.utils.i18n.middleware.I18nMiddleware.get_locale
-#: aiogram.utils.i18n.middleware.I18nMiddleware.setup
-#: aiogram.utils.i18n.middleware.SimpleI18nMiddleware.__init__ of
+#: masogram.utils.i18n.middleware.ConstI18nMiddleware.__init__
+#: masogram.utils.i18n.middleware.FSMI18nMiddleware.__init__
+#: masogram.utils.i18n.middleware.FSMI18nMiddleware.set_locale
+#: masogram.utils.i18n.middleware.I18nMiddleware.__init__
+#: masogram.utils.i18n.middleware.I18nMiddleware.get_locale
+#: masogram.utils.i18n.middleware.I18nMiddleware.setup
+#: masogram.utils.i18n.middleware.SimpleI18nMiddleware.__init__ of
 msgid "Parameters"
 msgstr ""
 
-#: aiogram.utils.i18n.middleware.ConstI18nMiddleware.__init__:3
-#: aiogram.utils.i18n.middleware.FSMI18nMiddleware.__init__:3
-#: aiogram.utils.i18n.middleware.I18nMiddleware.__init__:3
-#: aiogram.utils.i18n.middleware.SimpleI18nMiddleware.__init__:3 of
+#: masogram.utils.i18n.middleware.ConstI18nMiddleware.__init__:3
+#: masogram.utils.i18n.middleware.FSMI18nMiddleware.__init__:3
+#: masogram.utils.i18n.middleware.I18nMiddleware.__init__:3
+#: masogram.utils.i18n.middleware.SimpleI18nMiddleware.__init__:3 of
 msgid "instance of I18n"
 msgstr ""
 
-#: aiogram.utils.i18n.middleware.ConstI18nMiddleware.__init__:4
-#: aiogram.utils.i18n.middleware.FSMI18nMiddleware.__init__:4
-#: aiogram.utils.i18n.middleware.I18nMiddleware.__init__:4
-#: aiogram.utils.i18n.middleware.SimpleI18nMiddleware.__init__:4 of
+#: masogram.utils.i18n.middleware.ConstI18nMiddleware.__init__:4
+#: masogram.utils.i18n.middleware.FSMI18nMiddleware.__init__:4
+#: masogram.utils.i18n.middleware.I18nMiddleware.__init__:4
+#: masogram.utils.i18n.middleware.SimpleI18nMiddleware.__init__:4 of
 msgid "context key for I18n instance"
 msgstr ""
 
-#: aiogram.utils.i18n.middleware.ConstI18nMiddleware.__init__:5
-#: aiogram.utils.i18n.middleware.FSMI18nMiddleware.__init__:5
-#: aiogram.utils.i18n.middleware.I18nMiddleware.__init__:5
-#: aiogram.utils.i18n.middleware.SimpleI18nMiddleware.__init__:5 of
+#: masogram.utils.i18n.middleware.ConstI18nMiddleware.__init__:5
+#: masogram.utils.i18n.middleware.FSMI18nMiddleware.__init__:5
+#: masogram.utils.i18n.middleware.I18nMiddleware.__init__:5
+#: masogram.utils.i18n.middleware.SimpleI18nMiddleware.__init__:5 of
 msgid "context key for this middleware"
 msgstr ""
 
@@ -176,7 +176,7 @@ msgstr ""
 msgid "ConstI18nMiddleware"
 msgstr ""
 
-#: aiogram.utils.i18n.middleware.ConstI18nMiddleware:1 of
+#: masogram.utils.i18n.middleware.ConstI18nMiddleware:1 of
 msgid "Const middleware chooses statically defined locale"
 msgstr ""
 
@@ -184,19 +184,19 @@ msgstr ""
 msgid "FSMI18nMiddleware"
 msgstr ""
 
-#: aiogram.utils.i18n.middleware.FSMI18nMiddleware:1 of
+#: masogram.utils.i18n.middleware.FSMI18nMiddleware:1 of
 msgid "This middleware stores locale in the FSM storage"
 msgstr ""
 
-#: aiogram.utils.i18n.middleware.FSMI18nMiddleware.set_locale:1 of
+#: masogram.utils.i18n.middleware.FSMI18nMiddleware.set_locale:1 of
 msgid "Write new locale to the storage"
 msgstr ""
 
-#: aiogram.utils.i18n.middleware.FSMI18nMiddleware.set_locale:3 of
+#: masogram.utils.i18n.middleware.FSMI18nMiddleware.set_locale:3 of
 msgid "instance of FSMContext"
 msgstr ""
 
-#: aiogram.utils.i18n.middleware.FSMI18nMiddleware.set_locale:4 of
+#: masogram.utils.i18n.middleware.FSMI18nMiddleware.set_locale:4 of
 msgid "new locale"
 msgstr ""
 
@@ -208,24 +208,24 @@ msgstr ""
 msgid "or define you own based on abstract I18nMiddleware middleware:"
 msgstr ""
 
-#: aiogram.utils.i18n.middleware.I18nMiddleware:1 of
+#: masogram.utils.i18n.middleware.I18nMiddleware:1 of
 msgid "Abstract I18n middleware."
 msgstr ""
 
-#: aiogram.utils.i18n.middleware.I18nMiddleware.get_locale:1 of
+#: masogram.utils.i18n.middleware.I18nMiddleware.get_locale:1 of
 msgid "Detect current user locale based on event and context."
 msgstr ""
 
-#: aiogram.utils.i18n.middleware.I18nMiddleware.get_locale:3 of
+#: masogram.utils.i18n.middleware.I18nMiddleware.get_locale:3 of
 msgid "**This method must be defined in child classes**"
 msgstr ""
 
-#: aiogram.utils.i18n.middleware.I18nMiddleware.get_locale
-#: aiogram.utils.i18n.middleware.I18nMiddleware.setup of
+#: masogram.utils.i18n.middleware.I18nMiddleware.get_locale
+#: masogram.utils.i18n.middleware.I18nMiddleware.setup of
 msgid "Returns"
 msgstr ""
 
-#: aiogram.utils.i18n.middleware.I18nMiddleware.setup:1 of
+#: masogram.utils.i18n.middleware.I18nMiddleware.setup:1 of
 msgid "Register middleware for all events in the Router"
 msgstr ""
 

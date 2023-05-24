@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-23 00:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,20 +25,20 @@ msgstr ""
 msgid "Returns: :obj:`Union[Message, bool]`"
 msgstr ""
 
-#: aiogram.methods.edit_message_caption.EditMessageCaption:1 of
+#: masogram.methods.edit_message_caption.EditMessageCaption:1 of
 msgid ""
 "Use this method to edit captions of messages. On success, if the edited "
 "message is not an inline message, the edited "
-":class:`aiogram.types.message.Message` is returned, otherwise "
+":class:`masogram.types.message.Message` is returned, otherwise "
 ":code:`True` is returned."
 msgstr ""
 
-#: aiogram.methods.edit_message_caption.EditMessageCaption:3 of
+#: masogram.methods.edit_message_caption.EditMessageCaption:3 of
 msgid "Source: https://core.telegram.org/bots/api#editmessagecaption"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.edit_message_caption.EditMessageCaption.chat_id:1 of
+#: masogram.methods.edit_message_caption.EditMessageCaption.chat_id:1 of
 msgid ""
 "Required if *inline_message_id* is not specified. Unique identifier for "
 "the target chat or username of the target channel (in the format "
@@ -46,14 +46,14 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.edit_message_caption.EditMessageCaption.message_id:1 of
+#: masogram.methods.edit_message_caption.EditMessageCaption.message_id:1 of
 msgid ""
 "Required if *inline_message_id* is not specified. Identifier of the "
 "message to edit"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.edit_message_caption.EditMessageCaption.inline_message_id:1
+#: masogram.methods.edit_message_caption.EditMessageCaption.inline_message_id:1
 #: of
 msgid ""
 "Required if *chat_id* and *message_id* are not specified. Identifier of "
@@ -61,12 +61,12 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.edit_message_caption.EditMessageCaption.caption:1 of
+#: masogram.methods.edit_message_caption.EditMessageCaption.caption:1 of
 msgid "New caption of the message, 0-1024 characters after entities parsing"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.edit_message_caption.EditMessageCaption.parse_mode:1 of
+#: masogram.methods.edit_message_caption.EditMessageCaption.parse_mode:1 of
 msgid ""
 "Mode for parsing entities in the message caption. See `formatting options"
 " <https://core.telegram.org/bots/api#formatting-options>`_ for more "
@@ -74,7 +74,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.edit_message_caption.EditMessageCaption.caption_entities:1
+#: masogram.methods.edit_message_caption.EditMessageCaption.caption_entities:1
 #: of
 msgid ""
 "A JSON-serialized list of special entities that appear in the caption, "
@@ -82,7 +82,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.edit_message_caption.EditMessageCaption.reply_markup:1 of
+#: masogram.methods.edit_message_caption.EditMessageCaption.reply_markup:1 of
 msgid ""
 "A JSON-serialized object for an `inline keyboard "
 "<https://core.telegram.org/bots/features#inline-keyboards>`_."
@@ -106,12 +106,12 @@ msgstr ""
 
 #: ../../api/methods/edit_message_caption.rst:29
 msgid ""
-":code:`from aiogram.methods.edit_message_caption import "
+":code:`from masogram.methods.edit_message_caption import "
 "EditMessageCaption`"
 msgstr ""
 
 #: ../../api/methods/edit_message_caption.rst:30
-msgid "alias: :code:`from aiogram.methods import EditMessageCaption`"
+msgid "alias: :code:`from masogram.methods import EditMessageCaption`"
 msgstr ""
 
 #: ../../api/methods/edit_message_caption.rst:33
@@ -127,7 +127,7 @@ msgid "As shortcut from received object"
 msgstr ""
 
 #: ../../api/methods/edit_message_caption.rst:50
-msgid ":meth:`aiogram.types.message.Message.edit_caption`"
+msgid ":meth:`masogram.types.message.Message.edit_caption`"
 msgstr ""
 
 #~ msgid ""

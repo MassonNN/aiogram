@@ -14,7 +14,7 @@ def check_deprecated(
     warning: Type[Warning] = DeprecationWarning,
 ) -> None:
     """
-    Should be used for modules that are being deprecated or already removed from aiogram
+    Should be used for modules that are being deprecated or already removed from masogram
     """
 
     parsed_max_version = version.parse(max_version)

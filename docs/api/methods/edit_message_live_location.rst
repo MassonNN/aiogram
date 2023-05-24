@@ -4,7 +4,7 @@ editMessageLiveLocation
 
 Returns: :obj:`Union[Message, bool]`
 
-.. automodule:: aiogram.methods.edit_message_live_location
+.. automodule:: masogram.methods.edit_message_live_location
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.edit_message_live_location import EditMessageLiveLocation`
-- alias: :code:`from aiogram.methods import EditMessageLiveLocation`
+- :code:`from masogram.methods.edit_message_live_location import EditMessageLiveLocation`
+- alias: :code:`from masogram.methods import EditMessageLiveLocation`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,4 +47,4 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.message.Message.edit_live_location`
+- :meth:`masogram.types.message.Message.edit_live_location`

@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram\n"
+"Project-Id-Version: masogram\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: 2022-10-13 22:18+0300\n"
@@ -41,10 +41,10 @@ msgstr ""
 
 #: ../../utils/web_app.rst:10
 msgid ""
-"`aiogram` implements simple utils to remove headache with the data "
+"`masogram` implements simple utils to remove headache with the data "
 "validation from Telegram WebApp on the backend side."
 msgstr ""
-"`aiogram` реалізує прості утиліти для усунення головного болю, надаючи готові інструменти "
+"`masogram` реалізує прості утиліти для усунення головного болю, надаючи готові інструменти "
 "перевірки даних із Веб Застосунку Telegram на серверній стороні."
 
 #: ../../utils/web_app.rst:13
@@ -65,11 +65,11 @@ msgstr ""
 msgid "Functions"
 msgstr "Функції"
 
-#: aiogram.utils.web_app.check_webapp_signature:1 of
+#: masogram.utils.web_app.check_webapp_signature:1 of
 msgid "Check incoming WebApp init data signature"
 msgstr "Перевірка вхідного підпису даних ініціалізації Веб Застосунку"
 
-#: aiogram.utils.web_app.check_webapp_signature:3 of
+#: masogram.utils.web_app.check_webapp_signature:3 of
 msgid ""
 "Source: https://core.telegram.org/bots/webapps#validating-data-received-"
 "via-the-web-app"
@@ -77,33 +77,33 @@ msgstr ""
 "Джерело: https://core.telegram.org/bots/webapps#validating-data-received-"
 "via-the-web-app"
 
-#: aiogram.utils.web_app.check_webapp_signature
-#: aiogram.utils.web_app.parse_webapp_init_data
-#: aiogram.utils.web_app.safe_parse_webapp_init_data of
+#: masogram.utils.web_app.check_webapp_signature
+#: masogram.utils.web_app.parse_webapp_init_data
+#: masogram.utils.web_app.safe_parse_webapp_init_data of
 msgid "Parameters"
 msgstr "Параметри"
 
-#: aiogram.utils.web_app.check_webapp_signature:5 of
+#: masogram.utils.web_app.check_webapp_signature:5 of
 msgid "bot Token"
 msgstr "Токен бота"
 
-#: aiogram.utils.web_app.check_webapp_signature:6 of
+#: masogram.utils.web_app.check_webapp_signature:6 of
 msgid "data from frontend to be validated"
 msgstr "дані з фронтенду, що підлягають перевірці"
 
-#: aiogram.utils.web_app.check_webapp_signature
-#: aiogram.utils.web_app.parse_webapp_init_data
-#: aiogram.utils.web_app.safe_parse_webapp_init_data of
+#: masogram.utils.web_app.check_webapp_signature
+#: masogram.utils.web_app.parse_webapp_init_data
+#: masogram.utils.web_app.safe_parse_webapp_init_data of
 msgid "Returns"
 msgstr "Повертає"
 
-#: aiogram.utils.web_app.parse_webapp_init_data:1 of
+#: masogram.utils.web_app.parse_webapp_init_data:1 of
 msgid "Parse WebApp init data and return it as WebAppInitData object"
 msgstr ""
 "Аналіз данихі ініціалізації Веб Застосунку і повернення їх як об’єкту "
 "WebAppInitData"
 
-#: aiogram.utils.web_app.parse_webapp_init_data:3 of
+#: masogram.utils.web_app.parse_webapp_init_data:3 of
 msgid ""
 "This method doesn't make any security check, so you shall not trust to "
 "this data, use :code:`safe_parse_webapp_init_data` instead."
@@ -111,25 +111,25 @@ msgstr ""
 "Цей метод не забезпечує безпеку, тому вам не варто довіряти цим даним, "
 "замість цього використовуйте :code:`safe_parse_webapp_init_data`."
 
-#: aiogram.utils.web_app.parse_webapp_init_data:6 of
+#: masogram.utils.web_app.parse_webapp_init_data:6 of
 msgid "data from frontend to be parsed"
 msgstr "дані з frontend для аналізу"
 
-#: aiogram.utils.web_app.safe_parse_webapp_init_data:1 of
+#: masogram.utils.web_app.safe_parse_webapp_init_data:1 of
 msgid "Validate raw WebApp init data and return it as WebAppInitData object"
 msgstr ""
 "Перевірка необроблених даних ініціалізації Веб Застосунку і повернення їх "
 "як об’єкту WebAppInitData"
 
-#: aiogram.utils.web_app.safe_parse_webapp_init_data:3 of
+#: masogram.utils.web_app.safe_parse_webapp_init_data:3 of
 msgid "Raise :obj:`ValueError` when data is invalid"
 msgstr "Кивидає :obj:`ValueError`, коли дані недійсні"
 
-#: aiogram.utils.web_app.safe_parse_webapp_init_data:5 of
+#: masogram.utils.web_app.safe_parse_webapp_init_data:5 of
 msgid "bot token"
 msgstr "токен бота"
 
-#: aiogram.utils.web_app.safe_parse_webapp_init_data:6 of
+#: masogram.utils.web_app.safe_parse_webapp_init_data:6 of
 msgid "data from frontend to be parsed and validated"
 msgstr "дані з фронтенду для аналізу і перевірки"
 
@@ -137,7 +137,7 @@ msgstr "дані з фронтенду для аналізу і перевірк
 msgid "Types"
 msgstr "Типи"
 
-#: aiogram.utils.web_app.WebAppInitData:1 of
+#: masogram.utils.web_app.WebAppInitData:1 of
 msgid ""
 "This object contains data that is transferred to the Web App when it is "
 "opened. It is empty if the Web App was launched from a keyboard button."
@@ -146,11 +146,11 @@ msgstr ""
 "відкриття. Він порожній, якщо Веб Застосунок було запущено за допомогою "
 "кнопки клавіатури."
 
-#: aiogram.utils.web_app.WebAppInitData:3 of
+#: masogram.utils.web_app.WebAppInitData:3 of
 msgid "Source: https://core.telegram.org/bots/webapps#webappinitdata"
 msgstr "Джерело: https://core.telegram.org/bots/webapps#webappinitdata"
 
-#: ../../docstring aiogram.utils.web_app.WebAppInitData.query_id:1 of
+#: ../../docstring masogram.utils.web_app.WebAppInitData.query_id:1 of
 msgid ""
 "A unique identifier for the Web App session, required for sending messages "
 "via the answerWebAppQuery method."
@@ -158,11 +158,11 @@ msgstr ""
 "Унікальний ідентифікатор сеансу Веб Застосунку, необхідний для надсилання "
 "повідомлень через метод answerWebAppQuery."
 
-#: ../../docstring aiogram.utils.web_app.WebAppInitData.user:1 of
+#: ../../docstring masogram.utils.web_app.WebAppInitData.user:1 of
 msgid "An object containing data about the current user."
 msgstr "Об'єкт, що містить дані про поточного користувача."
 
-#: ../../docstring aiogram.utils.web_app.WebAppInitData.receiver:1 of
+#: ../../docstring masogram.utils.web_app.WebAppInitData.receiver:1 of
 msgid ""
 "An object containing data about the chat partner of the current user in "
 "the chat where the bot was launched via the attachment menu. Returned only "
@@ -172,7 +172,7 @@ msgstr ""
 "бот був запущений через меню вкладень. Повертається лише для Веб "
 "Застосунків, запущених через меню вкладень."
 
-#: ../../docstring aiogram.utils.web_app.WebAppInitData.start_param:1 of
+#: ../../docstring masogram.utils.web_app.WebAppInitData.start_param:1 of
 msgid ""
 "The value of the startattach parameter, passed via link. Only returned for "
 "Web Apps when launched from the attachment menu via link. The value of the "
@@ -186,11 +186,11 @@ msgstr ""
 "параметр tgWebAppStartParam, тому Веб Застосунок може відразу завантажити "
 "правильний інтерфейс."
 
-#: ../../docstring aiogram.utils.web_app.WebAppInitData.auth_date:1 of
+#: ../../docstring masogram.utils.web_app.WebAppInitData.auth_date:1 of
 msgid "Unix time when the form was opened."
 msgstr "Unix час відкриття форми."
 
-#: ../../docstring aiogram.utils.web_app.WebAppInitData.hash:1 of
+#: ../../docstring masogram.utils.web_app.WebAppInitData.hash:1 of
 msgid ""
 "A hash of all passed parameters, which the bot server can use to check "
 "their validity."
@@ -198,15 +198,15 @@ msgstr ""
 "Хеш усіх переданих параметрів, за допомогою якого бот-сервер може "
 "перевірити їх дійсність."
 
-#: aiogram.utils.web_app.WebAppUser:1 of
+#: masogram.utils.web_app.WebAppUser:1 of
 msgid "This object contains the data of the Web App user."
 msgstr "Цей об’єкт містить дані користувача Веб Застосунку."
 
-#: aiogram.utils.web_app.WebAppUser:3 of
+#: masogram.utils.web_app.WebAppUser:3 of
 msgid "Source: https://core.telegram.org/bots/webapps#webappuser"
 msgstr "Джерело: https://core.telegram.org/bots/webapps#webappuser"
 
-#: ../../docstring aiogram.utils.web_app.WebAppUser.id:1 of
+#: ../../docstring masogram.utils.web_app.WebAppUser.id:1 of
 msgid ""
 "A unique identifier for the user or bot. This number may have more than 32 "
 "significant bits and some programming languages may have difficulty/silent "
@@ -220,28 +220,28 @@ msgstr ""
 "біти, тому 64-бітне ціле число або тип з плаваючою точністю подвійної "
 "точності є безпечним для зберігання цього ідентифікатора."
 
-#: ../../docstring aiogram.utils.web_app.WebAppUser.is_bot:1 of
+#: ../../docstring masogram.utils.web_app.WebAppUser.is_bot:1 of
 msgid "True, if this user is a bot. Returns in the receiver field only."
 msgstr "Правда, якщо цей користувач бот. Повертаєтся лише в полі отримувача."
 
-#: ../../docstring aiogram.utils.web_app.WebAppUser.first_name:1 of
+#: ../../docstring masogram.utils.web_app.WebAppUser.first_name:1 of
 msgid "First name of the user or bot."
 msgstr "Ім'я користувача або бота."
 
-#: ../../docstring aiogram.utils.web_app.WebAppUser.last_name:1 of
+#: ../../docstring masogram.utils.web_app.WebAppUser.last_name:1 of
 msgid "Last name of the user or bot."
 msgstr "Прізвище користувача або бота."
 
-#: ../../docstring aiogram.utils.web_app.WebAppUser.username:1 of
+#: ../../docstring masogram.utils.web_app.WebAppUser.username:1 of
 msgid "Username of the user or bot."
 msgstr "Нік користувача або бота."
 
-#: ../../docstring aiogram.utils.web_app.WebAppUser.language_code:1 of
+#: ../../docstring masogram.utils.web_app.WebAppUser.language_code:1 of
 msgid "IETF language tag of the user's language. Returns in user field only."
 msgstr ""
 "Мовний тег IETF мови користувача. Повертаєтся лише в полі користувача."
 
-#: ../../docstring aiogram.utils.web_app.WebAppUser.photo_url:1 of
+#: ../../docstring masogram.utils.web_app.WebAppUser.photo_url:1 of
 msgid ""
 "URL of the user’s profile photo. The photo can be in .jpeg or .svg "
 "formats. Only returned for Web Apps launched from the attachment menu."

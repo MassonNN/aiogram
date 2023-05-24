@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-30 22:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Returns: :obj:`bool`"
 msgstr ""
 
-#: aiogram.methods.close_general_forum_topic.CloseGeneralForumTopic:1 of
+#: masogram.methods.close_general_forum_topic.CloseGeneralForumTopic:1 of
 msgid ""
 "Use this method to close an open 'General' topic in a forum supergroup "
 "chat. The bot must be an administrator in the chat for this to work and "
@@ -33,12 +33,12 @@ msgid ""
 ":code:`True` on success."
 msgstr ""
 
-#: aiogram.methods.close_general_forum_topic.CloseGeneralForumTopic:3 of
+#: masogram.methods.close_general_forum_topic.CloseGeneralForumTopic:3 of
 msgid "Source: https://core.telegram.org/bots/api#closegeneralforumtopic"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.close_general_forum_topic.CloseGeneralForumTopic.chat_id:1
+#: masogram.methods.close_general_forum_topic.CloseGeneralForumTopic.chat_id:1
 #: of
 msgid ""
 "Unique identifier for the target chat or username of the target "
@@ -63,12 +63,12 @@ msgstr ""
 
 #: ../../api/methods/close_general_forum_topic.rst:29
 msgid ""
-":code:`from aiogram.methods.close_general_forum_topic import "
+":code:`from masogram.methods.close_general_forum_topic import "
 "CloseGeneralForumTopic`"
 msgstr ""
 
 #: ../../api/methods/close_general_forum_topic.rst:30
-msgid "alias: :code:`from aiogram.methods import CloseGeneralForumTopic`"
+msgid "alias: :code:`from masogram.methods import CloseGeneralForumTopic`"
 msgstr ""
 
 #: ../../api/methods/close_general_forum_topic.rst:33

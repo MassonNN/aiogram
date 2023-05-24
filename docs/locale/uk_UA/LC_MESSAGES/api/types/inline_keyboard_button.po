@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,23 +21,23 @@ msgstr ""
 msgid "InlineKeyboardButton"
 msgstr ""
 
-#: aiogram.types.inline_keyboard_button.InlineKeyboardButton:1 of
+#: masogram.types.inline_keyboard_button.InlineKeyboardButton:1 of
 msgid ""
 "This object represents one button of an inline keyboard. You **must** use"
 " exactly one of the optional fields."
 msgstr ""
 
-#: aiogram.types.inline_keyboard_button.InlineKeyboardButton:3 of
+#: masogram.types.inline_keyboard_button.InlineKeyboardButton:3 of
 msgid "Source: https://core.telegram.org/bots/api#inlinekeyboardbutton"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_keyboard_button.InlineKeyboardButton.text:1 of
+#: masogram.types.inline_keyboard_button.InlineKeyboardButton.text:1 of
 msgid "Label text on the button"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_keyboard_button.InlineKeyboardButton.url:1 of
+#: masogram.types.inline_keyboard_button.InlineKeyboardButton.url:1 of
 msgid ""
 "*Optional*. HTTP or tg:// URL to be opened when the button is pressed. "
 "Links :code:`tg://user?id=<user_id>` can be used to mention a user by "
@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_keyboard_button.InlineKeyboardButton.callback_data:1 of
+#: masogram.types.inline_keyboard_button.InlineKeyboardButton.callback_data:1 of
 msgid ""
 "*Optional*. Data to be sent in a `callback query "
 "<https://core.telegram.org/bots/api#callbackquery>`_ to the bot when "
@@ -54,18 +54,18 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_keyboard_button.InlineKeyboardButton.web_app:1 of
+#: masogram.types.inline_keyboard_button.InlineKeyboardButton.web_app:1 of
 msgid ""
 "*Optional*. Description of the `Web App "
 "<https://core.telegram.org/bots/webapps>`_ that will be launched when the"
 " user presses the button. The Web App will be able to send an arbitrary "
 "message on behalf of the user using the method "
-":class:`aiogram.methods.answer_web_app_query.AnswerWebAppQuery`. "
+":class:`masogram.methods.answer_web_app_query.AnswerWebAppQuery`. "
 "Available only in private chats between a user and the bot."
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_keyboard_button.InlineKeyboardButton.login_url:1 of
+#: masogram.types.inline_keyboard_button.InlineKeyboardButton.login_url:1 of
 msgid ""
 "*Optional*. An HTTPS URL used to automatically authorize the user. Can be"
 " used as a replacement for the `Telegram Login Widget "
@@ -73,7 +73,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_keyboard_button.InlineKeyboardButton.switch_inline_query:1
+#: masogram.types.inline_keyboard_button.InlineKeyboardButton.switch_inline_query:1
 #: of
 msgid ""
 "*Optional*. If set, pressing the button will prompt the user to select "
@@ -83,7 +83,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_keyboard_button.InlineKeyboardButton.switch_inline_query_current_chat:1
+#: masogram.types.inline_keyboard_button.InlineKeyboardButton.switch_inline_query_current_chat:1
 #: of
 msgid ""
 "*Optional*. If set, pressing the button will insert the bot's username "
@@ -92,14 +92,14 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_keyboard_button.InlineKeyboardButton.callback_game:1 of
+#: masogram.types.inline_keyboard_button.InlineKeyboardButton.callback_game:1 of
 msgid ""
 "*Optional*. Description of the game that will be launched when the user "
 "presses the button."
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_keyboard_button.InlineKeyboardButton.pay:1 of
+#: masogram.types.inline_keyboard_button.InlineKeyboardButton.pay:1 of
 msgid ""
 "*Optional*. Specify :code:`True`, to send a `Pay button "
 "<https://core.telegram.org/bots/api#payments>`_."

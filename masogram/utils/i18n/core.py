@@ -20,7 +20,7 @@ class I18n(ContextInstanceMixin["I18n"]):
         self.path = path
         self.default_locale = default_locale
         self.domain = domain
-        self.ctx_locale = ContextVar("aiogram_ctx_locale", default=default_locale)
+        self.ctx_locale = ContextVar("masogram_ctx_locale", default=default_locale)
         self.locales = self.find_locales()
 
     @property

@@ -4,7 +4,7 @@ answerPreCheckoutQuery
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.answer_pre_checkout_query
+.. automodule:: masogram.methods.answer_pre_checkout_query
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.answer_pre_checkout_query import AnswerPreCheckoutQuery`
-- alias: :code:`from aiogram.methods import AnswerPreCheckoutQuery`
+- :code:`from masogram.methods.answer_pre_checkout_query import AnswerPreCheckoutQuery`
+- alias: :code:`from masogram.methods import AnswerPreCheckoutQuery`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

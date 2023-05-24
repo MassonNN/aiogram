@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../../dispatcher/class_based_handlers/index.rst:7
 msgid ""
-"In **aiogram** it can be more than just an async function, these allow "
+"In **masogram** it can be more than just an async function, these allow "
 "you to use classes which can be used as Telegram event handlers to "
 "structure your event handlers and reuse code by harnessing inheritance "
 "and mixins."

@@ -4,7 +4,7 @@ createNewStickerSet
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.create_new_sticker_set
+.. automodule:: masogram.methods.create_new_sticker_set
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.create_new_sticker_set import CreateNewStickerSet`
-- alias: :code:`from aiogram.methods import CreateNewStickerSet`
+- :code:`from masogram.methods.create_new_sticker_set import CreateNewStickerSet`
+- alias: :code:`from masogram.methods import CreateNewStickerSet`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

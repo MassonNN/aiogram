@@ -4,7 +4,7 @@ getCustomEmojiStickers
 
 Returns: :obj:`List[Sticker]`
 
-.. automodule:: aiogram.methods.get_custom_emoji_stickers
+.. automodule:: masogram.methods.get_custom_emoji_stickers
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.get_custom_emoji_stickers import GetCustomEmojiStickers`
-- alias: :code:`from aiogram.methods import GetCustomEmojiStickers`
+- :code:`from masogram.methods.get_custom_emoji_stickers import GetCustomEmojiStickers`
+- alias: :code:`from masogram.methods import GetCustomEmojiStickers`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

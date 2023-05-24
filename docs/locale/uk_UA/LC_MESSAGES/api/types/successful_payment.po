@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,23 +21,23 @@ msgstr ""
 msgid "SuccessfulPayment"
 msgstr ""
 
-#: aiogram.types.successful_payment.SuccessfulPayment:1 of
+#: masogram.types.successful_payment.SuccessfulPayment:1 of
 msgid "This object contains basic information about a successful payment."
 msgstr ""
 
-#: aiogram.types.successful_payment.SuccessfulPayment:3 of
+#: masogram.types.successful_payment.SuccessfulPayment:3 of
 msgid "Source: https://core.telegram.org/bots/api#successfulpayment"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.successful_payment.SuccessfulPayment.currency:1 of
+#: masogram.types.successful_payment.SuccessfulPayment.currency:1 of
 msgid ""
 "Three-letter ISO 4217 `currency <https://core.telegram.org/bots/payments"
 "#supported-currencies>`_ code"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.successful_payment.SuccessfulPayment.total_amount:1 of
+#: masogram.types.successful_payment.SuccessfulPayment.total_amount:1 of
 msgid ""
 "Total price in the *smallest units* of the currency (integer, **not** "
 "float/double). For example, for a price of :code:`US$ 1.45` pass "
@@ -48,28 +48,28 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.successful_payment.SuccessfulPayment.invoice_payload:1 of
+#: masogram.types.successful_payment.SuccessfulPayment.invoice_payload:1 of
 msgid "Bot specified invoice payload"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.successful_payment.SuccessfulPayment.telegram_payment_charge_id:1
+#: masogram.types.successful_payment.SuccessfulPayment.telegram_payment_charge_id:1
 #: of
 msgid "Telegram payment identifier"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.successful_payment.SuccessfulPayment.provider_payment_charge_id:1
+#: masogram.types.successful_payment.SuccessfulPayment.provider_payment_charge_id:1
 #: of
 msgid "Provider payment identifier"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.successful_payment.SuccessfulPayment.shipping_option_id:1 of
+#: masogram.types.successful_payment.SuccessfulPayment.shipping_option_id:1 of
 msgid "*Optional*. Identifier of the shipping option chosen by the user"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.successful_payment.SuccessfulPayment.order_info:1 of
+#: masogram.types.successful_payment.SuccessfulPayment.order_info:1 of
 msgid "*Optional*. Order information provided by the user"
 msgstr ""

@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-23 00:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Returns: :obj:`bool`"
 msgstr ""
 
-#: aiogram.methods.unpin_all_chat_messages.UnpinAllChatMessages:1 of
+#: masogram.methods.unpin_all_chat_messages.UnpinAllChatMessages:1 of
 msgid ""
 "Use this method to clear the list of pinned messages in a chat. If the "
 "chat is not a private chat, the bot must be an administrator in the chat "
@@ -34,12 +34,12 @@ msgid ""
 " Returns :code:`True` on success."
 msgstr ""
 
-#: aiogram.methods.unpin_all_chat_messages.UnpinAllChatMessages:3 of
+#: masogram.methods.unpin_all_chat_messages.UnpinAllChatMessages:3 of
 msgid "Source: https://core.telegram.org/bots/api#unpinallchatmessages"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.unpin_all_chat_messages.UnpinAllChatMessages.chat_id:1 of
+#: masogram.methods.unpin_all_chat_messages.UnpinAllChatMessages.chat_id:1 of
 msgid ""
 "Unique identifier for the target chat or username of the target channel "
 "(in the format :code:`@channelusername`)"
@@ -63,12 +63,12 @@ msgstr ""
 
 #: ../../api/methods/unpin_all_chat_messages.rst:29
 msgid ""
-":code:`from aiogram.methods.unpin_all_chat_messages import "
+":code:`from masogram.methods.unpin_all_chat_messages import "
 "UnpinAllChatMessages`"
 msgstr ""
 
 #: ../../api/methods/unpin_all_chat_messages.rst:30
-msgid "alias: :code:`from aiogram.methods import UnpinAllChatMessages`"
+msgid "alias: :code:`from masogram.methods import UnpinAllChatMessages`"
 msgstr ""
 
 #: ../../api/methods/unpin_all_chat_messages.rst:33
@@ -84,5 +84,5 @@ msgid "As shortcut from received object"
 msgstr ""
 
 #: ../../api/methods/unpin_all_chat_messages.rst:50
-msgid ":meth:`aiogram.types.chat.Chat.unpin_all_messages`"
+msgid ":meth:`masogram.types.chat.Chat.unpin_all_messages`"
 msgstr ""

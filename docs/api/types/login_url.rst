@@ -3,7 +3,7 @@ LoginUrl
 ########
 
 
-.. automodule:: aiogram.types.login_url
+.. automodule:: masogram.types.login_url
     :members:
     :member-order: bysource
     :undoc-members: True

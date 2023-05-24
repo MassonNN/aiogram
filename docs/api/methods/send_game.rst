@@ -4,7 +4,7 @@ sendGame
 
 Returns: :obj:`Message`
 
-.. automodule:: aiogram.methods.send_game
+.. automodule:: masogram.methods.send_game
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.send_game import SendGame`
-- alias: :code:`from aiogram.methods import SendGame`
+- :code:`from masogram.methods.send_game import SendGame`
+- alias: :code:`from masogram.methods import SendGame`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,5 +47,5 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.message.Message.answer_game`
-- :meth:`aiogram.types.message.Message.reply_game`
+- :meth:`masogram.types.message.Message.answer_game`
+- :meth:`masogram.types.message.Message.reply_game`

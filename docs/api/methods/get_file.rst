@@ -4,7 +4,7 @@ getFile
 
 Returns: :obj:`File`
 
-.. automodule:: aiogram.methods.get_file
+.. automodule:: masogram.methods.get_file
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.get_file import GetFile`
-- alias: :code:`from aiogram.methods import GetFile`
+- :code:`from masogram.methods.get_file import GetFile`
+- alias: :code:`from masogram.methods import GetFile`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

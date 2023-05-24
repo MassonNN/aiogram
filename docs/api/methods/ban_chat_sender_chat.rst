@@ -4,7 +4,7 @@ banChatSenderChat
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.ban_chat_sender_chat
+.. automodule:: masogram.methods.ban_chat_sender_chat
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.ban_chat_sender_chat import BanChatSenderChat`
-- alias: :code:`from aiogram.methods import BanChatSenderChat`
+- :code:`from masogram.methods.ban_chat_sender_chat import BanChatSenderChat`
+- alias: :code:`from masogram.methods import BanChatSenderChat`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,4 +47,4 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.chat.Chat.ban_sender_chat`
+- :meth:`masogram.types.chat.Chat.ban_sender_chat`

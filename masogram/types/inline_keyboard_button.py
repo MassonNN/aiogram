@@ -25,7 +25,7 @@ class InlineKeyboardButton(MutableTelegramObject):
     callback_data: Optional[str] = None
     """*Optional*. Data to be sent in a `callback query <https://core.telegram.org/bots/api#callbackquery>`_ to the bot when button is pressed, 1-64 bytes"""
     web_app: Optional[WebAppInfo] = None
-    """*Optional*. Description of the `Web App <https://core.telegram.org/bots/webapps>`_ that will be launched when the user presses the button. The Web App will be able to send an arbitrary message on behalf of the user using the method :class:`aiogram.methods.answer_web_app_query.AnswerWebAppQuery`. Available only in private chats between a user and the bot."""
+    """*Optional*. Description of the `Web App <https://core.telegram.org/bots/webapps>`_ that will be launched when the user presses the button. The Web App will be able to send an arbitrary message on behalf of the user using the method :class:`masogram.methods.answer_web_app_query.AnswerWebAppQuery`. Available only in private chats between a user and the bot."""
     login_url: Optional[LoginUrl] = None
     """*Optional*. An HTTPS URL used to automatically authorize the user. Can be used as a replacement for the `Telegram Login Widget <https://core.telegram.org/widgets/login>`_."""
     switch_inline_query: Optional[str] = None

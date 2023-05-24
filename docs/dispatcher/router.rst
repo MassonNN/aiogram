@@ -2,7 +2,7 @@
 Router
 ######
 
-.. autoclass:: aiogram.dispatcher.router.Router
+.. autoclass:: masogram.dispatcher.router.Router
     :members: __init__, include_router
     :show-inheritance:
 

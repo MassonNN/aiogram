@@ -3,7 +3,7 @@ PassportData
 ############
 
 
-.. automodule:: aiogram.types.passport_data
+.. automodule:: masogram.types.passport_data
     :members:
     :member-order: bysource
     :undoc-members: True

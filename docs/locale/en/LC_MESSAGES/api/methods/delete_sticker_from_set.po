@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-23 00:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,18 +25,18 @@ msgstr ""
 msgid "Returns: :obj:`bool`"
 msgstr ""
 
-#: aiogram.methods.delete_sticker_from_set.DeleteStickerFromSet:1 of
+#: masogram.methods.delete_sticker_from_set.DeleteStickerFromSet:1 of
 msgid ""
 "Use this method to delete a sticker from a set created by the bot. "
 "Returns :code:`True` on success."
 msgstr ""
 
-#: aiogram.methods.delete_sticker_from_set.DeleteStickerFromSet:3 of
+#: masogram.methods.delete_sticker_from_set.DeleteStickerFromSet:3 of
 msgid "Source: https://core.telegram.org/bots/api#deletestickerfromset"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.delete_sticker_from_set.DeleteStickerFromSet.sticker:1 of
+#: masogram.methods.delete_sticker_from_set.DeleteStickerFromSet.sticker:1 of
 msgid "File identifier of the sticker"
 msgstr ""
 
@@ -58,12 +58,12 @@ msgstr ""
 
 #: ../../api/methods/delete_sticker_from_set.rst:29
 msgid ""
-":code:`from aiogram.methods.delete_sticker_from_set import "
+":code:`from masogram.methods.delete_sticker_from_set import "
 "DeleteStickerFromSet`"
 msgstr ""
 
 #: ../../api/methods/delete_sticker_from_set.rst:30
-msgid "alias: :code:`from aiogram.methods import DeleteStickerFromSet`"
+msgid "alias: :code:`from masogram.methods import DeleteStickerFromSet`"
 msgstr ""
 
 #: ../../api/methods/delete_sticker_from_set.rst:33
@@ -79,5 +79,5 @@ msgid "As shortcut from received object"
 msgstr ""
 
 #: ../../api/methods/delete_sticker_from_set.rst:50
-msgid ":meth:`aiogram.types.sticker.Sticker.delete_from_set`"
+msgid ":meth:`masogram.types.sticker.Sticker.delete_from_set`"
 msgstr ""

@@ -4,7 +4,7 @@ getMyName
 
 Returns: :obj:`BotName`
 
-.. automodule:: aiogram.methods.get_my_name
+.. automodule:: masogram.methods.get_my_name
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.get_my_name import GetMyName`
-- alias: :code:`from aiogram.methods import GetMyName`
+- :code:`from masogram.methods.get_my_name import GetMyName`
+- alias: :code:`from masogram.methods import GetMyName`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

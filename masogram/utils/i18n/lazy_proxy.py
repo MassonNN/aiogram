@@ -9,5 +9,5 @@ except ImportError:  # pragma: no cover
             raise RuntimeError(
                 "LazyProxy can be used only when Babel installed\n"
                 "Just install Babel (`pip install Babel`) "
-                "or aiogram with i18n support (`pip install aiogram[i18n]`)"
+                "or masogram with i18n support (`pip install masogram[i18n]`)"
             )

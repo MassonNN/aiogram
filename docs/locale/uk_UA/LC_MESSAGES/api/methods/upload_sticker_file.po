@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-11 01:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,26 +25,26 @@ msgstr ""
 msgid "Returns: :obj:`File`"
 msgstr ""
 
-#: aiogram.methods.upload_sticker_file.UploadStickerFile:1 of
+#: masogram.methods.upload_sticker_file.UploadStickerFile:1 of
 msgid ""
 "Use this method to upload a file with a sticker for later use in the "
-":class:`aiogram.methods.create_new_sticker_set.CreateNewStickerSet` and "
-":class:`aiogram.methods.add_sticker_to_set.AddStickerToSet` methods (the "
+":class:`masogram.methods.create_new_sticker_set.CreateNewStickerSet` and "
+":class:`masogram.methods.add_sticker_to_set.AddStickerToSet` methods (the "
 "file can be used multiple times). Returns the uploaded "
-":class:`aiogram.types.file.File` on success."
+":class:`masogram.types.file.File` on success."
 msgstr ""
 
-#: aiogram.methods.upload_sticker_file.UploadStickerFile:3 of
+#: masogram.methods.upload_sticker_file.UploadStickerFile:3 of
 msgid "Source: https://core.telegram.org/bots/api#uploadstickerfile"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.upload_sticker_file.UploadStickerFile.user_id:1 of
+#: masogram.methods.upload_sticker_file.UploadStickerFile.user_id:1 of
 msgid "User identifier of sticker file owner"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.upload_sticker_file.UploadStickerFile.sticker:1 of
+#: masogram.methods.upload_sticker_file.UploadStickerFile.sticker:1 of
 msgid ""
 "A file with the sticker in .WEBP, .PNG, .TGS, or .WEBM format. See "
 "`https://core.telegram.org/stickers "
@@ -54,7 +54,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.upload_sticker_file.UploadStickerFile.sticker_format:1 of
+#: masogram.methods.upload_sticker_file.UploadStickerFile.sticker_format:1 of
 msgid "Format of the sticker, must be one of 'static', 'animated', 'video'"
 msgstr ""
 
@@ -75,11 +75,11 @@ msgid "Imports:"
 msgstr ""
 
 #: ../../api/methods/upload_sticker_file.rst:29
-msgid ":code:`from aiogram.methods.upload_sticker_file import UploadStickerFile`"
+msgid ":code:`from masogram.methods.upload_sticker_file import UploadStickerFile`"
 msgstr ""
 
 #: ../../api/methods/upload_sticker_file.rst:30
-msgid "alias: :code:`from aiogram.methods import UploadStickerFile`"
+msgid "alias: :code:`from masogram.methods import UploadStickerFile`"
 msgstr ""
 
 #: ../../api/methods/upload_sticker_file.rst:33
@@ -92,7 +92,7 @@ msgstr ""
 #~ "use in *createNewStickerSet* and "
 #~ "*addStickerToSet* methods (can be used "
 #~ "multiple times). Returns the uploaded "
-#~ ":class:`aiogram.types.file.File` on success."
+#~ ":class:`masogram.types.file.File` on success."
 #~ msgstr ""
 
 #~ msgid ""

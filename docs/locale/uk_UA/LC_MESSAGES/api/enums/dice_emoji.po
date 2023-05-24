@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-23 00:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,10 +21,10 @@ msgstr ""
 msgid "DiceEmoji"
 msgstr ""
 
-#: aiogram.enums.dice_emoji.DiceEmoji:1 of
+#: masogram.enums.dice_emoji.DiceEmoji:1 of
 msgid "Emoji on which the dice throw animation is based"
 msgstr "Емоджі, на яких базується анімація кидка кубика."
 
-#: aiogram.enums.dice_emoji.DiceEmoji:3 of
+#: masogram.enums.dice_emoji.DiceEmoji:3 of
 msgid "Source: https://core.telegram.org/bots/api#dice"
 msgstr "Джерело: https://core.telegram.org/bots/api#dice"

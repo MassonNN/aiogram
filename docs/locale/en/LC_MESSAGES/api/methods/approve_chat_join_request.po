@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-23 00:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,19 +25,19 @@ msgstr ""
 msgid "Returns: :obj:`bool`"
 msgstr ""
 
-#: aiogram.methods.approve_chat_join_request.ApproveChatJoinRequest:1 of
+#: masogram.methods.approve_chat_join_request.ApproveChatJoinRequest:1 of
 msgid ""
 "Use this method to approve a chat join request. The bot must be an "
 "administrator in the chat for this to work and must have the "
 "*can_invite_users* administrator right. Returns :code:`True` on success."
 msgstr ""
 
-#: aiogram.methods.approve_chat_join_request.ApproveChatJoinRequest:3 of
+#: masogram.methods.approve_chat_join_request.ApproveChatJoinRequest:3 of
 msgid "Source: https://core.telegram.org/bots/api#approvechatjoinrequest"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.approve_chat_join_request.ApproveChatJoinRequest.chat_id:1
+#: masogram.methods.approve_chat_join_request.ApproveChatJoinRequest.chat_id:1
 #: of
 msgid ""
 "Unique identifier for the target chat or username of the target channel "
@@ -45,7 +45,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.approve_chat_join_request.ApproveChatJoinRequest.user_id:1
+#: masogram.methods.approve_chat_join_request.ApproveChatJoinRequest.user_id:1
 #: of
 msgid "Unique identifier of the target user"
 msgstr ""
@@ -68,12 +68,12 @@ msgstr ""
 
 #: ../../api/methods/approve_chat_join_request.rst:29
 msgid ""
-":code:`from aiogram.methods.approve_chat_join_request import "
+":code:`from masogram.methods.approve_chat_join_request import "
 "ApproveChatJoinRequest`"
 msgstr ""
 
 #: ../../api/methods/approve_chat_join_request.rst:30
-msgid "alias: :code:`from aiogram.methods import ApproveChatJoinRequest`"
+msgid "alias: :code:`from masogram.methods import ApproveChatJoinRequest`"
 msgstr ""
 
 #: ../../api/methods/approve_chat_join_request.rst:33
@@ -89,5 +89,5 @@ msgid "As shortcut from received object"
 msgstr ""
 
 #: ../../api/methods/approve_chat_join_request.rst:50
-msgid ":meth:`aiogram.types.chat_join_request.ChatJoinRequest.approve`"
+msgid ":meth:`masogram.types.chat_join_request.ChatJoinRequest.approve`"
 msgstr ""

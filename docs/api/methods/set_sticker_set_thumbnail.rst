@@ -4,7 +4,7 @@ setStickerSetThumbnail
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.set_sticker_set_thumbnail
+.. automodule:: masogram.methods.set_sticker_set_thumbnail
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.set_sticker_set_thumbnail import SetStickerSetThumbnail`
-- alias: :code:`from aiogram.methods import SetStickerSetThumbnail`
+- :code:`from masogram.methods.set_sticker_set_thumbnail import SetStickerSetThumbnail`
+- alias: :code:`from masogram.methods import SetStickerSetThumbnail`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

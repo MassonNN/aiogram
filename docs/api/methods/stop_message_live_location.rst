@@ -4,7 +4,7 @@ stopMessageLiveLocation
 
 Returns: :obj:`Union[Message, bool]`
 
-.. automodule:: aiogram.methods.stop_message_live_location
+.. automodule:: masogram.methods.stop_message_live_location
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.stop_message_live_location import StopMessageLiveLocation`
-- alias: :code:`from aiogram.methods import StopMessageLiveLocation`
+- :code:`from masogram.methods.stop_message_live_location import StopMessageLiveLocation`
+- alias: :code:`from masogram.methods import StopMessageLiveLocation`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,4 +47,4 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.message.Message.stop_live_location`
+- :meth:`masogram.types.message.Message.stop_live_location`

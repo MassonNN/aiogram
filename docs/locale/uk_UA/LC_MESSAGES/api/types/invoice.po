@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,35 +21,35 @@ msgstr ""
 msgid "Invoice"
 msgstr ""
 
-#: aiogram.types.invoice.Invoice:1 of
+#: masogram.types.invoice.Invoice:1 of
 msgid "This object contains basic information about an invoice."
 msgstr ""
 
-#: aiogram.types.invoice.Invoice:3 of
+#: masogram.types.invoice.Invoice:3 of
 msgid "Source: https://core.telegram.org/bots/api#invoice"
 msgstr ""
 
-#: ../../docstring aiogram.types.invoice.Invoice.title:1 of
+#: ../../docstring masogram.types.invoice.Invoice.title:1 of
 msgid "Product name"
 msgstr ""
 
-#: ../../docstring aiogram.types.invoice.Invoice.description:1 of
+#: ../../docstring masogram.types.invoice.Invoice.description:1 of
 msgid "Product description"
 msgstr ""
 
-#: ../../docstring aiogram.types.invoice.Invoice.start_parameter:1 of
+#: ../../docstring masogram.types.invoice.Invoice.start_parameter:1 of
 msgid ""
 "Unique bot deep-linking parameter that can be used to generate this "
 "invoice"
 msgstr ""
 
-#: ../../docstring aiogram.types.invoice.Invoice.currency:1 of
+#: ../../docstring masogram.types.invoice.Invoice.currency:1 of
 msgid ""
 "Three-letter ISO 4217 `currency <https://core.telegram.org/bots/payments"
 "#supported-currencies>`_ code"
 msgstr ""
 
-#: ../../docstring aiogram.types.invoice.Invoice.total_amount:1 of
+#: ../../docstring masogram.types.invoice.Invoice.total_amount:1 of
 msgid ""
 "Total price in the *smallest units* of the currency (integer, **not** "
 "float/double). For example, for a price of :code:`US$ 1.45` pass "

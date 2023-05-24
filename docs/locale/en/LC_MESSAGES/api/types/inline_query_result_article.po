@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-06 14:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,38 +21,38 @@ msgstr ""
 msgid "InlineQueryResultArticle"
 msgstr ""
 
-#: aiogram.types.inline_query_result_article.InlineQueryResultArticle:1 of
+#: masogram.types.inline_query_result_article.InlineQueryResultArticle:1 of
 msgid "Represents a link to an article or web page."
 msgstr ""
 
-#: aiogram.types.inline_query_result_article.InlineQueryResultArticle:3 of
+#: masogram.types.inline_query_result_article.InlineQueryResultArticle:3 of
 msgid "Source: https://core.telegram.org/bots/api#inlinequeryresultarticle"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_article.InlineQueryResultArticle.type:1 of
+#: masogram.types.inline_query_result_article.InlineQueryResultArticle.type:1 of
 msgid "Type of the result, must be *article*"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_article.InlineQueryResultArticle.id:1 of
+#: masogram.types.inline_query_result_article.InlineQueryResultArticle.id:1 of
 msgid "Unique identifier for this result, 1-64 Bytes"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_article.InlineQueryResultArticle.title:1
+#: masogram.types.inline_query_result_article.InlineQueryResultArticle.title:1
 #: of
 msgid "Title of the result"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_article.InlineQueryResultArticle.input_message_content:1
+#: masogram.types.inline_query_result_article.InlineQueryResultArticle.input_message_content:1
 #: of
 msgid "Content of the message to be sent"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_article.InlineQueryResultArticle.reply_markup:1
+#: masogram.types.inline_query_result_article.InlineQueryResultArticle.reply_markup:1
 #: of
 msgid ""
 "*Optional*. `Inline keyboard <https://core.telegram.org/bots/features"
@@ -60,12 +60,12 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_article.InlineQueryResultArticle.url:1 of
+#: masogram.types.inline_query_result_article.InlineQueryResultArticle.url:1 of
 msgid "*Optional*. URL of the result"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_article.InlineQueryResultArticle.hide_url:1
+#: masogram.types.inline_query_result_article.InlineQueryResultArticle.hide_url:1
 #: of
 msgid ""
 "*Optional*. Pass :code:`True` if you don't want the URL to be shown in "
@@ -73,25 +73,25 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_article.InlineQueryResultArticle.description:1
+#: masogram.types.inline_query_result_article.InlineQueryResultArticle.description:1
 #: of
 msgid "*Optional*. Short description of the result"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_article.InlineQueryResultArticle.thumb_url:1
+#: masogram.types.inline_query_result_article.InlineQueryResultArticle.thumb_url:1
 #: of
 msgid "*Optional*. Url of the thumbnail for the result"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_article.InlineQueryResultArticle.thumb_width:1
+#: masogram.types.inline_query_result_article.InlineQueryResultArticle.thumb_width:1
 #: of
 msgid "*Optional*. Thumbnail width"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_article.InlineQueryResultArticle.thumb_height:1
+#: masogram.types.inline_query_result_article.InlineQueryResultArticle.thumb_height:1
 #: of
 msgid "*Optional*. Thumbnail height"
 msgstr ""

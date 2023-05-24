@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,27 +25,27 @@ msgstr ""
 msgid "Returns: :obj:`SentWebAppMessage`"
 msgstr ""
 
-#: aiogram.methods.answer_web_app_query.AnswerWebAppQuery:1 of
+#: masogram.methods.answer_web_app_query.AnswerWebAppQuery:1 of
 msgid ""
 "Use this method to set the result of an interaction with a `Web App "
 "<https://core.telegram.org/bots/webapps>`_ and send a corresponding "
 "message on behalf of the user to the chat from which the query "
 "originated. On success, a "
-":class:`aiogram.types.sent_web_app_message.SentWebAppMessage` object is "
+":class:`masogram.types.sent_web_app_message.SentWebAppMessage` object is "
 "returned."
 msgstr ""
 
-#: aiogram.methods.answer_web_app_query.AnswerWebAppQuery:3 of
+#: masogram.methods.answer_web_app_query.AnswerWebAppQuery:3 of
 msgid "Source: https://core.telegram.org/bots/api#answerwebappquery"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.answer_web_app_query.AnswerWebAppQuery.web_app_query_id:1 of
+#: masogram.methods.answer_web_app_query.AnswerWebAppQuery.web_app_query_id:1 of
 msgid "Unique identifier for the query to be answered"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.answer_web_app_query.AnswerWebAppQuery.result:1 of
+#: masogram.methods.answer_web_app_query.AnswerWebAppQuery.result:1 of
 msgid "A JSON-serialized object describing the message to be sent"
 msgstr ""
 
@@ -66,11 +66,11 @@ msgid "Imports:"
 msgstr ""
 
 #: ../../api/methods/answer_web_app_query.rst:29
-msgid ":code:`from aiogram.methods.answer_web_app_query import AnswerWebAppQuery`"
+msgid ":code:`from masogram.methods.answer_web_app_query import AnswerWebAppQuery`"
 msgstr ""
 
 #: ../../api/methods/answer_web_app_query.rst:30
-msgid "alias: :code:`from aiogram.methods import AnswerWebAppQuery`"
+msgid "alias: :code:`from masogram.methods import AnswerWebAppQuery`"
 msgstr ""
 
 #: ../../api/methods/answer_web_app_query.rst:33

@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,51 +21,51 @@ msgstr ""
 msgid "Animation"
 msgstr ""
 
-#: aiogram.types.animation.Animation:1 of
+#: masogram.types.animation.Animation:1 of
 msgid ""
 "This object represents an animation file (GIF or H.264/MPEG-4 AVC video "
 "without sound)."
 msgstr ""
 
-#: aiogram.types.animation.Animation:3 of
+#: masogram.types.animation.Animation:3 of
 msgid "Source: https://core.telegram.org/bots/api#animation"
 msgstr ""
 
-#: ../../docstring aiogram.types.animation.Animation.file_id:1 of
+#: ../../docstring masogram.types.animation.Animation.file_id:1 of
 msgid "Identifier for this file, which can be used to download or reuse the file"
 msgstr ""
 
-#: ../../docstring aiogram.types.animation.Animation.file_unique_id:1 of
+#: ../../docstring masogram.types.animation.Animation.file_unique_id:1 of
 msgid ""
 "Unique identifier for this file, which is supposed to be the same over "
 "time and for different bots. Can't be used to download or reuse the file."
 msgstr ""
 
-#: ../../docstring aiogram.types.animation.Animation.width:1 of
+#: ../../docstring masogram.types.animation.Animation.width:1 of
 msgid "Video width as defined by sender"
 msgstr ""
 
-#: ../../docstring aiogram.types.animation.Animation.height:1 of
+#: ../../docstring masogram.types.animation.Animation.height:1 of
 msgid "Video height as defined by sender"
 msgstr ""
 
-#: ../../docstring aiogram.types.animation.Animation.duration:1 of
+#: ../../docstring masogram.types.animation.Animation.duration:1 of
 msgid "Duration of the video in seconds as defined by sender"
 msgstr ""
 
-#: ../../docstring aiogram.types.animation.Animation.thumb:1 of
+#: ../../docstring masogram.types.animation.Animation.thumb:1 of
 msgid "*Optional*. Animation thumbnail as defined by sender"
 msgstr ""
 
-#: ../../docstring aiogram.types.animation.Animation.file_name:1 of
+#: ../../docstring masogram.types.animation.Animation.file_name:1 of
 msgid "*Optional*. Original animation filename as defined by sender"
 msgstr ""
 
-#: ../../docstring aiogram.types.animation.Animation.mime_type:1 of
+#: ../../docstring masogram.types.animation.Animation.mime_type:1 of
 msgid "*Optional*. MIME type of the file as defined by sender"
 msgstr ""
 
-#: ../../docstring aiogram.types.animation.Animation.file_size:1 of
+#: ../../docstring masogram.types.animation.Animation.file_size:1 of
 msgid ""
 "*Optional*. File size in bytes. It can be bigger than 2^31 and some "
 "programming languages may have difficulty/silent defects in interpreting "

@@ -9,7 +9,7 @@
     "name": "editMessageText",
     "description": "Use this method to edit text and game messages. On success, if the edited message is not an inline message, the edited Message is returned, otherwise True is returned.",
     "html_description": "<p>Use this method to edit text and <a href=\"#games\">game</a> messages. On success, if the edited message is not an inline message, the edited <a href=\"#message\">Message</a> is returned, otherwise <em>True</em> is returned.</p>",
-    "rst_description": "Use this method to edit text and `game <https://core.telegram.org/bots/api#games>`_ messages. On success, if the edited message is not an inline message, the edited :class:`aiogram.types.message.Message` is returned, otherwise :code:`True` is returned.",
+    "rst_description": "Use this method to edit text and `game <https://core.telegram.org/bots/api#games>`_ messages. On success, if the edited message is not an inline message, the edited :class:`masogram.types.message.Message` is returned, otherwise :code:`True` is returned.",
     "annotations": [
       {
         "type": "Integer or String",

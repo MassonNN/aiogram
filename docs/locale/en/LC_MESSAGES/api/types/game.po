@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,45 +21,45 @@ msgstr ""
 msgid "Game"
 msgstr ""
 
-#: aiogram.types.game.Game:1 of
+#: masogram.types.game.Game:1 of
 msgid ""
 "This object represents a game. Use BotFather to create and edit games, "
 "their short names will act as unique identifiers."
 msgstr ""
 
-#: aiogram.types.game.Game:3 of
+#: masogram.types.game.Game:3 of
 msgid "Source: https://core.telegram.org/bots/api#game"
 msgstr ""
 
-#: ../../docstring aiogram.types.game.Game.title:1 of
+#: ../../docstring masogram.types.game.Game.title:1 of
 msgid "Title of the game"
 msgstr ""
 
-#: ../../docstring aiogram.types.game.Game.description:1 of
+#: ../../docstring masogram.types.game.Game.description:1 of
 msgid "Description of the game"
 msgstr ""
 
-#: ../../docstring aiogram.types.game.Game.photo:1 of
+#: ../../docstring masogram.types.game.Game.photo:1 of
 msgid "Photo that will be displayed in the game message in chats."
 msgstr ""
 
-#: ../../docstring aiogram.types.game.Game.text:1 of
+#: ../../docstring masogram.types.game.Game.text:1 of
 msgid ""
 "*Optional*. Brief description of the game or high scores included in the "
 "game message. Can be automatically edited to include current high scores "
 "for the game when the bot calls "
-":class:`aiogram.methods.set_game_score.SetGameScore`, or manually edited "
-"using :class:`aiogram.methods.edit_message_text.EditMessageText`. 0-4096 "
+":class:`masogram.methods.set_game_score.SetGameScore`, or manually edited "
+"using :class:`masogram.methods.edit_message_text.EditMessageText`. 0-4096 "
 "characters."
 msgstr ""
 
-#: ../../docstring aiogram.types.game.Game.text_entities:1 of
+#: ../../docstring masogram.types.game.Game.text_entities:1 of
 msgid ""
 "*Optional*. Special entities that appear in *text*, such as usernames, "
 "URLs, bot commands, etc."
 msgstr ""
 
-#: ../../docstring aiogram.types.game.Game.animation:1 of
+#: ../../docstring masogram.types.game.Game.animation:1 of
 msgid ""
 "*Optional*. Animation that will be displayed in the game message in "
 "chats. Upload via `BotFather <https://t.me/botfather>`_"

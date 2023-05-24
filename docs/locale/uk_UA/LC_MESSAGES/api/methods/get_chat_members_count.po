@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-23 00:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -43,12 +43,12 @@ msgstr ""
 
 #: ../../api/methods/get_chat_members_count.rst:29
 msgid ""
-":code:`from aiogram.methods.get_chat_members_count import "
+":code:`from masogram.methods.get_chat_members_count import "
 "GetChatMembersCount`"
 msgstr ""
 
 #: ../../api/methods/get_chat_members_count.rst:30
-msgid "alias: :code:`from aiogram.methods import GetChatMembersCount`"
+msgid "alias: :code:`from masogram.methods import GetChatMembersCount`"
 msgstr ""
 
 #: ../../api/methods/get_chat_members_count.rst:33

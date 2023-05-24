@@ -4,7 +4,7 @@ pinChatMessage
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.pin_chat_message
+.. automodule:: masogram.methods.pin_chat_message
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.pin_chat_message import PinChatMessage`
-- alias: :code:`from aiogram.methods import PinChatMessage`
+- :code:`from masogram.methods.pin_chat_message import PinChatMessage`
+- alias: :code:`from masogram.methods import PinChatMessage`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,5 +47,5 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.message.Message.pin`
-- :meth:`aiogram.types.chat.Chat.pin_message`
+- :meth:`masogram.types.message.Message.pin`
+- :meth:`masogram.types.chat.Chat.pin_message`

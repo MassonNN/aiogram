@@ -4,7 +4,7 @@ sendVideoNote
 
 Returns: :obj:`Message`
 
-.. automodule:: aiogram.methods.send_video_note
+.. automodule:: masogram.methods.send_video_note
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.send_video_note import SendVideoNote`
-- alias: :code:`from aiogram.methods import SendVideoNote`
+- :code:`from masogram.methods.send_video_note import SendVideoNote`
+- alias: :code:`from masogram.methods import SendVideoNote`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,5 +47,5 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.message.Message.answer_video_note`
-- :meth:`aiogram.types.message.Message.reply_video_note`
+- :meth:`masogram.types.message.Message.answer_video_note`
+- :meth:`masogram.types.message.Message.reply_video_note`

@@ -16,7 +16,7 @@ class ForceReply(MutableTelegramObject):
       - Explain the user how to send a command with parameters (e.g. /newpoll question answer1 answer2). May be appealing for hardcore users but lacks modern day polish.
       - Guide the user through a step-by-step process. 'Please send me your question', 'Cool, now let's add the first answer option', 'Great. Keep adding answer options, then send /done when you're ready'.
 
-     The last option is definitely more attractive. And if you use :class:`aiogram.types.force_reply.ForceReply` in your bot's questions, it will receive the user's answers even if it only receives replies, commands and mentions - without any extra work for the user.
+     The last option is definitely more attractive. And if you use :class:`masogram.types.force_reply.ForceReply` in your bot's questions, it will receive the user's answers even if it only receives replies, commands and mentions - without any extra work for the user.
 
     Source: https://core.telegram.org/bots/api#forcereply
     """
@@ -26,4 +26,4 @@ class ForceReply(MutableTelegramObject):
     input_field_placeholder: Optional[str] = None
     """*Optional*. The placeholder to be shown in the input field when the reply is active; 1-64 characters"""
     selective: Optional[bool] = None
-    """*Optional*. Use this parameter if you want to force reply from specific users only. Targets: 1) users that are @mentioned in the *text* of the :class:`aiogram.types.message.Message` object; 2) if the bot's message is a reply (has *reply_to_message_id*), sender of the original message."""
+    """*Optional*. Use this parameter if you want to force reply from specific users only. Targets: 1) users that are @mentioned in the *text* of the :class:`masogram.types.message.Message` object; 2) if the bot's message is a reply (has *reply_to_message_id*), sender of the original message."""

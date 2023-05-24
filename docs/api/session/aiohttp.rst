@@ -4,17 +4,17 @@ aiohttp
 
 AiohttpSession represents a wrapper-class around `ClientSession` from `aiohttp <https://pypi.org/project/aiohttp/>`_
 
-Currently `AiohttpSession` is a default session used in `aiogram.Bot`
+Currently `AiohttpSession` is a default session used in `masogram.Bot`
 
-.. autoclass:: aiogram.client.session.aiohttp.AiohttpSession
+.. autoclass:: masogram.client.session.aiohttp.AiohttpSession
 
 Usage example
 =============
 
 .. code-block::
 
-    from aiogram import Bot
-    from aiogram.client.session.aiohttp import AiohttpSession
+    from masogram import Bot
+    from masogram.client.session.aiohttp import AiohttpSession
 
     session = AiohttpSession()
     bot = Bot('42:token', session=session)
@@ -29,8 +29,8 @@ Binding session to bot:
 
 .. code-block::
 
-    from aiogram import Bot
-    from aiogram.client.session.aiohttp import AiohttpSession
+    from masogram import Bot
+    from masogram.client.session.aiohttp import AiohttpSession
 
     session = AiohttpSession(proxy="protocol://host:port/")
     bot = Bot(token="bot token", session=session)
@@ -53,7 +53,7 @@ Consider examples:
 .. code-block::
 
     from aiohttp import BasicAuth
-    from aiogram.client.session.aiohttp import AiohttpSession
+    from masogram.client.session.aiohttp import AiohttpSession
 
     auth = BasicAuth(login="user", password="password")
     session = AiohttpSession(proxy=("protocol://host:port", auth))
@@ -68,22 +68,22 @@ or simply include your basic auth credential in URL
 
 .. note::
 
-    Aiogram prefers `BasicAuth` over username and password in URL, so
+    masogram prefers `BasicAuth` over username and password in URL, so
     if proxy URL contains login and password and `BasicAuth` object is passed at the same time
-    aiogram will use login and password from `BasicAuth` instance.
+    masogram will use login and password from `BasicAuth` instance.
 
 
 Proxy chains
 ------------
 
-Since `aiohttp-socks <https://pypi.org/project/aiohttp-socks/>`_ supports proxy chains, you're able to use them in aiogram
+Since `aiohttp-socks <https://pypi.org/project/aiohttp-socks/>`_ supports proxy chains, you're able to use them in masogram
 
 Example of chain proxies:
 
 .. code-block::
 
     from aiohttp import BasicAuth
-    from aiogram.client.session.aiohttp import AiohttpSession
+    from masogram.client.session.aiohttp import AiohttpSession
 
     auth = BasicAuth(login="user", password="password")
     session = AiohttpSession(

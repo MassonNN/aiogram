@@ -3,7 +3,7 @@ Update
 ######
 
 
-.. automodule:: aiogram.types.update
+.. automodule:: masogram.types.update
     :members:
     :member-order: bysource
     :undoc-members: True

@@ -64,47 +64,47 @@ class Chat(TelegramObject):
     is_forum: Optional[bool] = None
     """*Optional*. :code:`True`, if the supergroup chat is a forum (has `topics <https://telegram.org/blog/topics-in-groups-collectible-usernames#topics-in-groups>`_ enabled)"""
     photo: Optional[ChatPhoto] = None
-    """*Optional*. Chat photo. Returned only in :class:`aiogram.methods.get_chat.GetChat`."""
+    """*Optional*. Chat photo. Returned only in :class:`masogram.methods.get_chat.GetChat`."""
     active_usernames: Optional[List[str]] = None
-    """*Optional*. If non-empty, the list of all `active chat usernames <https://telegram.org/blog/topics-in-groups-collectible-usernames#collectible-usernames>`_; for private chats, supergroups and channels. Returned only in :class:`aiogram.methods.get_chat.GetChat`."""
+    """*Optional*. If non-empty, the list of all `active chat usernames <https://telegram.org/blog/topics-in-groups-collectible-usernames#collectible-usernames>`_; for private chats, supergroups and channels. Returned only in :class:`masogram.methods.get_chat.GetChat`."""
     emoji_status_custom_emoji_id: Optional[str] = None
-    """*Optional*. Custom emoji identifier of emoji status of the other party in a private chat. Returned only in :class:`aiogram.methods.get_chat.GetChat`."""
+    """*Optional*. Custom emoji identifier of emoji status of the other party in a private chat. Returned only in :class:`masogram.methods.get_chat.GetChat`."""
     bio: Optional[str] = None
-    """*Optional*. Bio of the other party in a private chat. Returned only in :class:`aiogram.methods.get_chat.GetChat`."""
+    """*Optional*. Bio of the other party in a private chat. Returned only in :class:`masogram.methods.get_chat.GetChat`."""
     has_private_forwards: Optional[bool] = None
-    """*Optional*. :code:`True`, if privacy settings of the other party in the private chat allows to use :code:`tg://user?id=<user_id>` links only in chats with the user. Returned only in :class:`aiogram.methods.get_chat.GetChat`."""
+    """*Optional*. :code:`True`, if privacy settings of the other party in the private chat allows to use :code:`tg://user?id=<user_id>` links only in chats with the user. Returned only in :class:`masogram.methods.get_chat.GetChat`."""
     has_restricted_voice_and_video_messages: Optional[bool] = None
-    """*Optional*. :code:`True`, if the privacy settings of the other party restrict sending voice and video note messages in the private chat. Returned only in :class:`aiogram.methods.get_chat.GetChat`."""
+    """*Optional*. :code:`True`, if the privacy settings of the other party restrict sending voice and video note messages in the private chat. Returned only in :class:`masogram.methods.get_chat.GetChat`."""
     join_to_send_messages: Optional[bool] = None
-    """*Optional*. :code:`True`, if users need to join the supergroup before they can send messages. Returned only in :class:`aiogram.methods.get_chat.GetChat`."""
+    """*Optional*. :code:`True`, if users need to join the supergroup before they can send messages. Returned only in :class:`masogram.methods.get_chat.GetChat`."""
     join_by_request: Optional[bool] = None
-    """*Optional*. :code:`True`, if all users directly joining the supergroup need to be approved by supergroup administrators. Returned only in :class:`aiogram.methods.get_chat.GetChat`."""
+    """*Optional*. :code:`True`, if all users directly joining the supergroup need to be approved by supergroup administrators. Returned only in :class:`masogram.methods.get_chat.GetChat`."""
     description: Optional[str] = None
-    """*Optional*. Description, for groups, supergroups and channel chats. Returned only in :class:`aiogram.methods.get_chat.GetChat`."""
+    """*Optional*. Description, for groups, supergroups and channel chats. Returned only in :class:`masogram.methods.get_chat.GetChat`."""
     invite_link: Optional[str] = None
-    """*Optional*. Primary invite link, for groups, supergroups and channel chats. Returned only in :class:`aiogram.methods.get_chat.GetChat`."""
+    """*Optional*. Primary invite link, for groups, supergroups and channel chats. Returned only in :class:`masogram.methods.get_chat.GetChat`."""
     pinned_message: Optional[Message] = None
-    """*Optional*. The most recent pinned message (by sending date). Returned only in :class:`aiogram.methods.get_chat.GetChat`."""
+    """*Optional*. The most recent pinned message (by sending date). Returned only in :class:`masogram.methods.get_chat.GetChat`."""
     permissions: Optional[ChatPermissions] = None
-    """*Optional*. Default chat member permissions, for groups and supergroups. Returned only in :class:`aiogram.methods.get_chat.GetChat`."""
+    """*Optional*. Default chat member permissions, for groups and supergroups. Returned only in :class:`masogram.methods.get_chat.GetChat`."""
     slow_mode_delay: Optional[int] = None
-    """*Optional*. For supergroups, the minimum allowed delay between consecutive messages sent by each unpriviledged user; in seconds. Returned only in :class:`aiogram.methods.get_chat.GetChat`."""
+    """*Optional*. For supergroups, the minimum allowed delay between consecutive messages sent by each unpriviledged user; in seconds. Returned only in :class:`masogram.methods.get_chat.GetChat`."""
     message_auto_delete_time: Optional[int] = None
-    """*Optional*. The time after which all messages sent to the chat will be automatically deleted; in seconds. Returned only in :class:`aiogram.methods.get_chat.GetChat`."""
+    """*Optional*. The time after which all messages sent to the chat will be automatically deleted; in seconds. Returned only in :class:`masogram.methods.get_chat.GetChat`."""
     has_aggressive_anti_spam_enabled: Optional[bool] = None
-    """*Optional*. :code:`True`, if aggressive anti-spam checks are enabled in the supergroup. The field is only available to chat administrators. Returned only in :class:`aiogram.methods.get_chat.GetChat`."""
+    """*Optional*. :code:`True`, if aggressive anti-spam checks are enabled in the supergroup. The field is only available to chat administrators. Returned only in :class:`masogram.methods.get_chat.GetChat`."""
     has_hidden_members: Optional[bool] = None
-    """*Optional*. :code:`True`, if non-administrators can only get the list of bots and administrators in the chat. Returned only in :class:`aiogram.methods.get_chat.GetChat`."""
+    """*Optional*. :code:`True`, if non-administrators can only get the list of bots and administrators in the chat. Returned only in :class:`masogram.methods.get_chat.GetChat`."""
     has_protected_content: Optional[bool] = None
-    """*Optional*. :code:`True`, if messages from the chat can't be forwarded to other chats. Returned only in :class:`aiogram.methods.get_chat.GetChat`."""
+    """*Optional*. :code:`True`, if messages from the chat can't be forwarded to other chats. Returned only in :class:`masogram.methods.get_chat.GetChat`."""
     sticker_set_name: Optional[str] = None
-    """*Optional*. For supergroups, name of group sticker set. Returned only in :class:`aiogram.methods.get_chat.GetChat`."""
+    """*Optional*. For supergroups, name of group sticker set. Returned only in :class:`masogram.methods.get_chat.GetChat`."""
     can_set_sticker_set: Optional[bool] = None
-    """*Optional*. :code:`True`, if the bot can change the group sticker set. Returned only in :class:`aiogram.methods.get_chat.GetChat`."""
+    """*Optional*. :code:`True`, if the bot can change the group sticker set. Returned only in :class:`masogram.methods.get_chat.GetChat`."""
     linked_chat_id: Optional[int] = None
-    """*Optional*. Unique identifier for the linked chat, i.e. the discussion group identifier for a channel and vice versa; for supergroups and channel chats. This identifier may be greater than 32 bits and some programming languages may have difficulty/silent defects in interpreting it. But it is smaller than 52 bits, so a signed 64 bit integer or double-precision float type are safe for storing this identifier. Returned only in :class:`aiogram.methods.get_chat.GetChat`."""
+    """*Optional*. Unique identifier for the linked chat, i.e. the discussion group identifier for a channel and vice versa; for supergroups and channel chats. This identifier may be greater than 32 bits and some programming languages may have difficulty/silent defects in interpreting it. But it is smaller than 52 bits, so a signed 64 bit integer or double-precision float type are safe for storing this identifier. Returned only in :class:`masogram.methods.get_chat.GetChat`."""
     location: Optional[ChatLocation] = None
-    """*Optional*. For supergroups, the location to which the supergroup is connected. Returned only in :class:`aiogram.methods.get_chat.GetChat`."""
+    """*Optional*. For supergroups, the location to which the supergroup is connected. Returned only in :class:`masogram.methods.get_chat.GetChat`."""
 
     @property
     def shifted_id(self) -> int:
@@ -143,7 +143,7 @@ class Chat(TelegramObject):
         **kwargs: Any,
     ) -> BanChatSenderChat:
         """
-        Shortcut for method :class:`aiogram.methods.ban_chat_sender_chat.BanChatSenderChat`
+        Shortcut for method :class:`masogram.methods.ban_chat_sender_chat.BanChatSenderChat`
         will automatically fill method attributes:
 
         - :code:`chat_id`
@@ -153,7 +153,7 @@ class Chat(TelegramObject):
         Source: https://core.telegram.org/bots/api#banchatsenderchat
 
         :param sender_chat_id: Unique identifier of the target sender chat
-        :return: instance of method :class:`aiogram.methods.ban_chat_sender_chat.BanChatSenderChat`
+        :return: instance of method :class:`masogram.methods.ban_chat_sender_chat.BanChatSenderChat`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -172,7 +172,7 @@ class Chat(TelegramObject):
         **kwargs: Any,
     ) -> UnbanChatSenderChat:
         """
-        Shortcut for method :class:`aiogram.methods.unban_chat_sender_chat.UnbanChatSenderChat`
+        Shortcut for method :class:`masogram.methods.unban_chat_sender_chat.UnbanChatSenderChat`
         will automatically fill method attributes:
 
         - :code:`chat_id`
@@ -182,7 +182,7 @@ class Chat(TelegramObject):
         Source: https://core.telegram.org/bots/api#unbanchatsenderchat
 
         :param sender_chat_id: Unique identifier of the target sender chat
-        :return: instance of method :class:`aiogram.methods.unban_chat_sender_chat.UnbanChatSenderChat`
+        :return: instance of method :class:`masogram.methods.unban_chat_sender_chat.UnbanChatSenderChat`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -200,16 +200,16 @@ class Chat(TelegramObject):
         **kwargs: Any,
     ) -> GetChatAdministrators:
         """
-        Shortcut for method :class:`aiogram.methods.get_chat_administrators.GetChatAdministrators`
+        Shortcut for method :class:`masogram.methods.get_chat_administrators.GetChatAdministrators`
         will automatically fill method attributes:
 
         - :code:`chat_id`
 
-        Use this method to get a list of administrators in a chat, which aren't bots. Returns an Array of :class:`aiogram.types.chat_member.ChatMember` objects.
+        Use this method to get a list of administrators in a chat, which aren't bots. Returns an Array of :class:`masogram.types.chat_member.ChatMember` objects.
 
         Source: https://core.telegram.org/bots/api#getchatadministrators
 
-        :return: instance of method :class:`aiogram.methods.get_chat_administrators.GetChatAdministrators`
+        :return: instance of method :class:`masogram.methods.get_chat_administrators.GetChatAdministrators`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -227,7 +227,7 @@ class Chat(TelegramObject):
         **kwargs: Any,
     ) -> DeleteMessage:
         """
-        Shortcut for method :class:`aiogram.methods.delete_message.DeleteMessage`
+        Shortcut for method :class:`masogram.methods.delete_message.DeleteMessage`
         will automatically fill method attributes:
 
         - :code:`chat_id`
@@ -255,7 +255,7 @@ class Chat(TelegramObject):
         Source: https://core.telegram.org/bots/api#deletemessage
 
         :param message_id: Identifier of the message to delete
-        :return: instance of method :class:`aiogram.methods.delete_message.DeleteMessage`
+        :return: instance of method :class:`masogram.methods.delete_message.DeleteMessage`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -274,17 +274,17 @@ class Chat(TelegramObject):
         **kwargs: Any,
     ) -> RevokeChatInviteLink:
         """
-        Shortcut for method :class:`aiogram.methods.revoke_chat_invite_link.RevokeChatInviteLink`
+        Shortcut for method :class:`masogram.methods.revoke_chat_invite_link.RevokeChatInviteLink`
         will automatically fill method attributes:
 
         - :code:`chat_id`
 
-        Use this method to revoke an invite link created by the bot. If the primary link is revoked, a new link is automatically generated. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. Returns the revoked invite link as :class:`aiogram.types.chat_invite_link.ChatInviteLink` object.
+        Use this method to revoke an invite link created by the bot. If the primary link is revoked, a new link is automatically generated. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. Returns the revoked invite link as :class:`masogram.types.chat_invite_link.ChatInviteLink` object.
 
         Source: https://core.telegram.org/bots/api#revokechatinvitelink
 
         :param invite_link: The invite link to revoke
-        :return: instance of method :class:`aiogram.methods.revoke_chat_invite_link.RevokeChatInviteLink`
+        :return: instance of method :class:`masogram.methods.revoke_chat_invite_link.RevokeChatInviteLink`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -307,12 +307,12 @@ class Chat(TelegramObject):
         **kwargs: Any,
     ) -> EditChatInviteLink:
         """
-        Shortcut for method :class:`aiogram.methods.edit_chat_invite_link.EditChatInviteLink`
+        Shortcut for method :class:`masogram.methods.edit_chat_invite_link.EditChatInviteLink`
         will automatically fill method attributes:
 
         - :code:`chat_id`
 
-        Use this method to edit a non-primary invite link created by the bot. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. Returns the edited invite link as a :class:`aiogram.types.chat_invite_link.ChatInviteLink` object.
+        Use this method to edit a non-primary invite link created by the bot. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. Returns the edited invite link as a :class:`masogram.types.chat_invite_link.ChatInviteLink` object.
 
         Source: https://core.telegram.org/bots/api#editchatinvitelink
 
@@ -321,7 +321,7 @@ class Chat(TelegramObject):
         :param expire_date: Point in time (Unix timestamp) when the link will expire
         :param member_limit: The maximum number of users that can be members of the chat simultaneously after joining the chat via this invite link; 1-99999
         :param creates_join_request: :code:`True`, if users joining the chat via the link need to be approved by chat administrators. If :code:`True`, *member_limit* can't be specified
-        :return: instance of method :class:`aiogram.methods.edit_chat_invite_link.EditChatInviteLink`
+        :return: instance of method :class:`masogram.methods.edit_chat_invite_link.EditChatInviteLink`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -347,12 +347,12 @@ class Chat(TelegramObject):
         **kwargs: Any,
     ) -> CreateChatInviteLink:
         """
-        Shortcut for method :class:`aiogram.methods.create_chat_invite_link.CreateChatInviteLink`
+        Shortcut for method :class:`masogram.methods.create_chat_invite_link.CreateChatInviteLink`
         will automatically fill method attributes:
 
         - :code:`chat_id`
 
-        Use this method to create an additional invite link for a chat. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. The link can be revoked using the method :class:`aiogram.methods.revoke_chat_invite_link.RevokeChatInviteLink`. Returns the new invite link as :class:`aiogram.types.chat_invite_link.ChatInviteLink` object.
+        Use this method to create an additional invite link for a chat. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. The link can be revoked using the method :class:`masogram.methods.revoke_chat_invite_link.RevokeChatInviteLink`. Returns the new invite link as :class:`masogram.types.chat_invite_link.ChatInviteLink` object.
 
         Source: https://core.telegram.org/bots/api#createchatinvitelink
 
@@ -360,7 +360,7 @@ class Chat(TelegramObject):
         :param expire_date: Point in time (Unix timestamp) when the link will expire
         :param member_limit: The maximum number of users that can be members of the chat simultaneously after joining the chat via this invite link; 1-99999
         :param creates_join_request: :code:`True`, if users joining the chat via the link need to be approved by chat administrators. If :code:`True`, *member_limit* can't be specified
-        :return: instance of method :class:`aiogram.methods.create_chat_invite_link.CreateChatInviteLink`
+        :return: instance of method :class:`masogram.methods.create_chat_invite_link.CreateChatInviteLink`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -381,18 +381,18 @@ class Chat(TelegramObject):
         **kwargs: Any,
     ) -> ExportChatInviteLink:
         """
-        Shortcut for method :class:`aiogram.methods.export_chat_invite_link.ExportChatInviteLink`
+        Shortcut for method :class:`masogram.methods.export_chat_invite_link.ExportChatInviteLink`
         will automatically fill method attributes:
 
         - :code:`chat_id`
 
         Use this method to generate a new primary invite link for a chat; any previously generated primary link is revoked. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. Returns the new invite link as *String* on success.
 
-         Note: Each administrator in a chat generates their own invite links. Bots can't use invite links generated by other administrators. If you want your bot to work with invite links, it will need to generate its own link using :class:`aiogram.methods.export_chat_invite_link.ExportChatInviteLink` or by calling the :class:`aiogram.methods.get_chat.GetChat` method. If your bot needs to generate a new primary invite link replacing its previous one, use :class:`aiogram.methods.export_chat_invite_link.ExportChatInviteLink` again.
+         Note: Each administrator in a chat generates their own invite links. Bots can't use invite links generated by other administrators. If you want your bot to work with invite links, it will need to generate its own link using :class:`masogram.methods.export_chat_invite_link.ExportChatInviteLink` or by calling the :class:`masogram.methods.get_chat.GetChat` method. If your bot needs to generate a new primary invite link replacing its previous one, use :class:`masogram.methods.export_chat_invite_link.ExportChatInviteLink` again.
 
         Source: https://core.telegram.org/bots/api#exportchatinvitelink
 
-        :return: instance of method :class:`aiogram.methods.export_chat_invite_link.ExportChatInviteLink`
+        :return: instance of method :class:`masogram.methods.export_chat_invite_link.ExportChatInviteLink`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -411,14 +411,14 @@ class Chat(TelegramObject):
         **kwargs: Any,
     ) -> SendChatAction:
         """
-        Shortcut for method :class:`aiogram.methods.send_chat_action.SendChatAction`
+        Shortcut for method :class:`masogram.methods.send_chat_action.SendChatAction`
         will automatically fill method attributes:
 
         - :code:`chat_id`
 
         Use this method when you need to tell the user that something is happening on the bot's side. The status is set for 5 seconds or less (when a message arrives from your bot, Telegram clients clear its typing status). Returns :code:`True` on success.
 
-         Example: The `ImageBot <https://t.me/imagebot>`_ needs some time to process a request and upload the image. Instead of sending a text message along the lines of 'Retrieving image, please wait…', the bot may use :class:`aiogram.methods.send_chat_action.SendChatAction` with *action* = *upload_photo*. The user will see a 'sending photo' status for the bot.
+         Example: The `ImageBot <https://t.me/imagebot>`_ needs some time to process a request and upload the image. Instead of sending a text message along the lines of 'Retrieving image, please wait…', the bot may use :class:`masogram.methods.send_chat_action.SendChatAction` with *action* = *upload_photo*. The user will see a 'sending photo' status for the bot.
 
         We only recommend using this method when a response from the bot will take a **noticeable** amount of time to arrive.
 
@@ -426,7 +426,7 @@ class Chat(TelegramObject):
 
         :param action: Type of action to broadcast. Choose one, depending on what the user is about to receive: *typing* for `text messages <https://core.telegram.org/bots/api#sendmessage>`_, *upload_photo* for `photos <https://core.telegram.org/bots/api#sendphoto>`_, *record_video* or *upload_video* for `videos <https://core.telegram.org/bots/api#sendvideo>`_, *record_voice* or *upload_voice* for `voice notes <https://core.telegram.org/bots/api#sendvoice>`_, *upload_document* for `general files <https://core.telegram.org/bots/api#senddocument>`_, *choose_sticker* for `stickers <https://core.telegram.org/bots/api#sendsticker>`_, *find_location* for `location data <https://core.telegram.org/bots/api#sendlocation>`_, *record_video_note* or *upload_video_note* for `video notes <https://core.telegram.org/bots/api#sendvideonote>`_.
         :param message_thread_id: Unique identifier for the target message thread; supergroups only
-        :return: instance of method :class:`aiogram.methods.send_chat_action.SendChatAction`
+        :return: instance of method :class:`masogram.methods.send_chat_action.SendChatAction`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -445,16 +445,16 @@ class Chat(TelegramObject):
         **kwargs: Any,
     ) -> DeleteChatStickerSet:
         """
-        Shortcut for method :class:`aiogram.methods.delete_chat_sticker_set.DeleteChatStickerSet`
+        Shortcut for method :class:`masogram.methods.delete_chat_sticker_set.DeleteChatStickerSet`
         will automatically fill method attributes:
 
         - :code:`chat_id`
 
-        Use this method to delete a group sticker set from a supergroup. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. Use the field *can_set_sticker_set* optionally returned in :class:`aiogram.methods.get_chat.GetChat` requests to check if the bot can use this method. Returns :code:`True` on success.
+        Use this method to delete a group sticker set from a supergroup. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. Use the field *can_set_sticker_set* optionally returned in :class:`masogram.methods.get_chat.GetChat` requests to check if the bot can use this method. Returns :code:`True` on success.
 
         Source: https://core.telegram.org/bots/api#deletechatstickerset
 
-        :return: instance of method :class:`aiogram.methods.delete_chat_sticker_set.DeleteChatStickerSet`
+        :return: instance of method :class:`masogram.methods.delete_chat_sticker_set.DeleteChatStickerSet`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -472,17 +472,17 @@ class Chat(TelegramObject):
         **kwargs: Any,
     ) -> SetChatStickerSet:
         """
-        Shortcut for method :class:`aiogram.methods.set_chat_sticker_set.SetChatStickerSet`
+        Shortcut for method :class:`masogram.methods.set_chat_sticker_set.SetChatStickerSet`
         will automatically fill method attributes:
 
         - :code:`chat_id`
 
-        Use this method to set a new group sticker set for a supergroup. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. Use the field *can_set_sticker_set* optionally returned in :class:`aiogram.methods.get_chat.GetChat` requests to check if the bot can use this method. Returns :code:`True` on success.
+        Use this method to set a new group sticker set for a supergroup. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. Use the field *can_set_sticker_set* optionally returned in :class:`masogram.methods.get_chat.GetChat` requests to check if the bot can use this method. Returns :code:`True` on success.
 
         Source: https://core.telegram.org/bots/api#setchatstickerset
 
         :param sticker_set_name: Name of the sticker set to be set as the group sticker set
-        :return: instance of method :class:`aiogram.methods.set_chat_sticker_set.SetChatStickerSet`
+        :return: instance of method :class:`masogram.methods.set_chat_sticker_set.SetChatStickerSet`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -501,17 +501,17 @@ class Chat(TelegramObject):
         **kwargs: Any,
     ) -> GetChatMember:
         """
-        Shortcut for method :class:`aiogram.methods.get_chat_member.GetChatMember`
+        Shortcut for method :class:`masogram.methods.get_chat_member.GetChatMember`
         will automatically fill method attributes:
 
         - :code:`chat_id`
 
-        Use this method to get information about a member of a chat. The method is only guaranteed to work for other users if the bot is an administrator in the chat. Returns a :class:`aiogram.types.chat_member.ChatMember` object on success.
+        Use this method to get information about a member of a chat. The method is only guaranteed to work for other users if the bot is an administrator in the chat. Returns a :class:`masogram.types.chat_member.ChatMember` object on success.
 
         Source: https://core.telegram.org/bots/api#getchatmember
 
         :param user_id: Unique identifier of the target user
-        :return: instance of method :class:`aiogram.methods.get_chat_member.GetChatMember`
+        :return: instance of method :class:`masogram.methods.get_chat_member.GetChatMember`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -529,7 +529,7 @@ class Chat(TelegramObject):
         **kwargs: Any,
     ) -> GetChatMemberCount:
         """
-        Shortcut for method :class:`aiogram.methods.get_chat_member_count.GetChatMemberCount`
+        Shortcut for method :class:`masogram.methods.get_chat_member_count.GetChatMemberCount`
         will automatically fill method attributes:
 
         - :code:`chat_id`
@@ -538,7 +538,7 @@ class Chat(TelegramObject):
 
         Source: https://core.telegram.org/bots/api#getchatmembercount
 
-        :return: instance of method :class:`aiogram.methods.get_chat_member_count.GetChatMemberCount`
+        :return: instance of method :class:`masogram.methods.get_chat_member_count.GetChatMemberCount`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -555,7 +555,7 @@ class Chat(TelegramObject):
         **kwargs: Any,
     ) -> LeaveChat:
         """
-        Shortcut for method :class:`aiogram.methods.leave_chat.LeaveChat`
+        Shortcut for method :class:`masogram.methods.leave_chat.LeaveChat`
         will automatically fill method attributes:
 
         - :code:`chat_id`
@@ -564,7 +564,7 @@ class Chat(TelegramObject):
 
         Source: https://core.telegram.org/bots/api#leavechat
 
-        :return: instance of method :class:`aiogram.methods.leave_chat.LeaveChat`
+        :return: instance of method :class:`masogram.methods.leave_chat.LeaveChat`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -581,7 +581,7 @@ class Chat(TelegramObject):
         **kwargs: Any,
     ) -> UnpinAllChatMessages:
         """
-        Shortcut for method :class:`aiogram.methods.unpin_all_chat_messages.UnpinAllChatMessages`
+        Shortcut for method :class:`masogram.methods.unpin_all_chat_messages.UnpinAllChatMessages`
         will automatically fill method attributes:
 
         - :code:`chat_id`
@@ -590,7 +590,7 @@ class Chat(TelegramObject):
 
         Source: https://core.telegram.org/bots/api#unpinallchatmessages
 
-        :return: instance of method :class:`aiogram.methods.unpin_all_chat_messages.UnpinAllChatMessages`
+        :return: instance of method :class:`masogram.methods.unpin_all_chat_messages.UnpinAllChatMessages`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -608,7 +608,7 @@ class Chat(TelegramObject):
         **kwargs: Any,
     ) -> UnpinChatMessage:
         """
-        Shortcut for method :class:`aiogram.methods.unpin_chat_message.UnpinChatMessage`
+        Shortcut for method :class:`masogram.methods.unpin_chat_message.UnpinChatMessage`
         will automatically fill method attributes:
 
         - :code:`chat_id`
@@ -618,7 +618,7 @@ class Chat(TelegramObject):
         Source: https://core.telegram.org/bots/api#unpinchatmessage
 
         :param message_id: Identifier of a message to unpin. If not specified, the most recent pinned message (by sending date) will be unpinned.
-        :return: instance of method :class:`aiogram.methods.unpin_chat_message.UnpinChatMessage`
+        :return: instance of method :class:`masogram.methods.unpin_chat_message.UnpinChatMessage`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -638,7 +638,7 @@ class Chat(TelegramObject):
         **kwargs: Any,
     ) -> PinChatMessage:
         """
-        Shortcut for method :class:`aiogram.methods.pin_chat_message.PinChatMessage`
+        Shortcut for method :class:`masogram.methods.pin_chat_message.PinChatMessage`
         will automatically fill method attributes:
 
         - :code:`chat_id`
@@ -649,7 +649,7 @@ class Chat(TelegramObject):
 
         :param message_id: Identifier of a message to pin
         :param disable_notification: Pass :code:`True` if it is not necessary to send a notification to all chat members about the new pinned message. Notifications are always disabled in channels and private chats.
-        :return: instance of method :class:`aiogram.methods.pin_chat_message.PinChatMessage`
+        :return: instance of method :class:`masogram.methods.pin_chat_message.PinChatMessage`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -670,7 +670,7 @@ class Chat(TelegramObject):
         **kwargs: Any,
     ) -> SetChatAdministratorCustomTitle:
         """
-        Shortcut for method :class:`aiogram.methods.set_chat_administrator_custom_title.SetChatAdministratorCustomTitle`
+        Shortcut for method :class:`masogram.methods.set_chat_administrator_custom_title.SetChatAdministratorCustomTitle`
         will automatically fill method attributes:
 
         - :code:`chat_id`
@@ -681,7 +681,7 @@ class Chat(TelegramObject):
 
         :param user_id: Unique identifier of the target user
         :param custom_title: New custom title for the administrator; 0-16 characters, emoji are not allowed
-        :return: instance of method :class:`aiogram.methods.set_chat_administrator_custom_title.SetChatAdministratorCustomTitle`
+        :return: instance of method :class:`masogram.methods.set_chat_administrator_custom_title.SetChatAdministratorCustomTitle`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -702,7 +702,7 @@ class Chat(TelegramObject):
         **kwargs: Any,
     ) -> SetChatPermissions:
         """
-        Shortcut for method :class:`aiogram.methods.set_chat_permissions.SetChatPermissions`
+        Shortcut for method :class:`masogram.methods.set_chat_permissions.SetChatPermissions`
         will automatically fill method attributes:
 
         - :code:`chat_id`
@@ -713,7 +713,7 @@ class Chat(TelegramObject):
 
         :param permissions: A JSON-serialized object for new default chat permissions
         :param use_independent_chat_permissions: Pass :code:`True` if chat permissions are set independently. Otherwise, the *can_send_other_messages* and *can_add_web_page_previews* permissions will imply the *can_send_messages*, *can_send_audios*, *can_send_documents*, *can_send_photos*, *can_send_videos*, *can_send_video_notes*, and *can_send_voice_notes* permissions; the *can_send_polls* permission will imply the *can_send_messages* permission.
-        :return: instance of method :class:`aiogram.methods.set_chat_permissions.SetChatPermissions`
+        :return: instance of method :class:`masogram.methods.set_chat_permissions.SetChatPermissions`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -745,7 +745,7 @@ class Chat(TelegramObject):
         **kwargs: Any,
     ) -> PromoteChatMember:
         """
-        Shortcut for method :class:`aiogram.methods.promote_chat_member.PromoteChatMember`
+        Shortcut for method :class:`masogram.methods.promote_chat_member.PromoteChatMember`
         will automatically fill method attributes:
 
         - :code:`chat_id`
@@ -767,7 +767,7 @@ class Chat(TelegramObject):
         :param can_invite_users: Pass :code:`True` if the administrator can invite new users to the chat
         :param can_pin_messages: Pass :code:`True` if the administrator can pin messages, supergroups only
         :param can_manage_topics: Pass :code:`True` if the user is allowed to create, rename, close, and reopen forum topics, supergroups only
-        :return: instance of method :class:`aiogram.methods.promote_chat_member.PromoteChatMember`
+        :return: instance of method :class:`masogram.methods.promote_chat_member.PromoteChatMember`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -801,7 +801,7 @@ class Chat(TelegramObject):
         **kwargs: Any,
     ) -> RestrictChatMember:
         """
-        Shortcut for method :class:`aiogram.methods.restrict_chat_member.RestrictChatMember`
+        Shortcut for method :class:`masogram.methods.restrict_chat_member.RestrictChatMember`
         will automatically fill method attributes:
 
         - :code:`chat_id`
@@ -814,7 +814,7 @@ class Chat(TelegramObject):
         :param permissions: A JSON-serialized object for new user permissions
         :param use_independent_chat_permissions: Pass :code:`True` if chat permissions are set independently. Otherwise, the *can_send_other_messages* and *can_add_web_page_previews* permissions will imply the *can_send_messages*, *can_send_audios*, *can_send_documents*, *can_send_photos*, *can_send_videos*, *can_send_video_notes*, and *can_send_voice_notes* permissions; the *can_send_polls* permission will imply the *can_send_messages* permission.
         :param until_date: Date when restrictions will be lifted for the user, unix time. If user is restricted for more than 366 days or less than 30 seconds from the current time, they are considered to be restricted forever
-        :return: instance of method :class:`aiogram.methods.restrict_chat_member.RestrictChatMember`
+        :return: instance of method :class:`masogram.methods.restrict_chat_member.RestrictChatMember`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -837,7 +837,7 @@ class Chat(TelegramObject):
         **kwargs: Any,
     ) -> UnbanChatMember:
         """
-        Shortcut for method :class:`aiogram.methods.unban_chat_member.UnbanChatMember`
+        Shortcut for method :class:`masogram.methods.unban_chat_member.UnbanChatMember`
         will automatically fill method attributes:
 
         - :code:`chat_id`
@@ -848,7 +848,7 @@ class Chat(TelegramObject):
 
         :param user_id: Unique identifier of the target user
         :param only_if_banned: Do nothing if the user is not banned
-        :return: instance of method :class:`aiogram.methods.unban_chat_member.UnbanChatMember`
+        :return: instance of method :class:`masogram.methods.unban_chat_member.UnbanChatMember`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -870,7 +870,7 @@ class Chat(TelegramObject):
         **kwargs: Any,
     ) -> BanChatMember:
         """
-        Shortcut for method :class:`aiogram.methods.ban_chat_member.BanChatMember`
+        Shortcut for method :class:`masogram.methods.ban_chat_member.BanChatMember`
         will automatically fill method attributes:
 
         - :code:`chat_id`
@@ -882,7 +882,7 @@ class Chat(TelegramObject):
         :param user_id: Unique identifier of the target user
         :param until_date: Date when the user will be unbanned, unix time. If user is banned for more than 366 days or less than 30 seconds from the current time they are considered to be banned forever. Applied for supergroups and channels only.
         :param revoke_messages: Pass :code:`True` to delete all messages from the chat for the user that is being removed. If :code:`False`, the user will be able to see messages in the group that were sent before the user was removed. Always :code:`True` for supergroups and channels.
-        :return: instance of method :class:`aiogram.methods.ban_chat_member.BanChatMember`
+        :return: instance of method :class:`masogram.methods.ban_chat_member.BanChatMember`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -903,7 +903,7 @@ class Chat(TelegramObject):
         **kwargs: Any,
     ) -> SetChatDescription:
         """
-        Shortcut for method :class:`aiogram.methods.set_chat_description.SetChatDescription`
+        Shortcut for method :class:`masogram.methods.set_chat_description.SetChatDescription`
         will automatically fill method attributes:
 
         - :code:`chat_id`
@@ -913,7 +913,7 @@ class Chat(TelegramObject):
         Source: https://core.telegram.org/bots/api#setchatdescription
 
         :param description: New chat description, 0-255 characters
-        :return: instance of method :class:`aiogram.methods.set_chat_description.SetChatDescription`
+        :return: instance of method :class:`masogram.methods.set_chat_description.SetChatDescription`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -932,7 +932,7 @@ class Chat(TelegramObject):
         **kwargs: Any,
     ) -> SetChatTitle:
         """
-        Shortcut for method :class:`aiogram.methods.set_chat_title.SetChatTitle`
+        Shortcut for method :class:`masogram.methods.set_chat_title.SetChatTitle`
         will automatically fill method attributes:
 
         - :code:`chat_id`
@@ -942,7 +942,7 @@ class Chat(TelegramObject):
         Source: https://core.telegram.org/bots/api#setchattitle
 
         :param title: New chat title, 1-128 characters
-        :return: instance of method :class:`aiogram.methods.set_chat_title.SetChatTitle`
+        :return: instance of method :class:`masogram.methods.set_chat_title.SetChatTitle`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -960,7 +960,7 @@ class Chat(TelegramObject):
         **kwargs: Any,
     ) -> DeleteChatPhoto:
         """
-        Shortcut for method :class:`aiogram.methods.delete_chat_photo.DeleteChatPhoto`
+        Shortcut for method :class:`masogram.methods.delete_chat_photo.DeleteChatPhoto`
         will automatically fill method attributes:
 
         - :code:`chat_id`
@@ -969,7 +969,7 @@ class Chat(TelegramObject):
 
         Source: https://core.telegram.org/bots/api#deletechatphoto
 
-        :return: instance of method :class:`aiogram.methods.delete_chat_photo.DeleteChatPhoto`
+        :return: instance of method :class:`masogram.methods.delete_chat_photo.DeleteChatPhoto`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -987,7 +987,7 @@ class Chat(TelegramObject):
         **kwargs: Any,
     ) -> SetChatPhoto:
         """
-        Shortcut for method :class:`aiogram.methods.set_chat_photo.SetChatPhoto`
+        Shortcut for method :class:`masogram.methods.set_chat_photo.SetChatPhoto`
         will automatically fill method attributes:
 
         - :code:`chat_id`
@@ -997,7 +997,7 @@ class Chat(TelegramObject):
         Source: https://core.telegram.org/bots/api#setchatphoto
 
         :param photo: New chat photo, uploaded using multipart/form-data
-        :return: instance of method :class:`aiogram.methods.set_chat_photo.SetChatPhoto`
+        :return: instance of method :class:`masogram.methods.set_chat_photo.SetChatPhoto`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`

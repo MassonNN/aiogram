@@ -3,7 +3,7 @@ ResponseParameters
 ##################
 
 
-.. automodule:: aiogram.types.response_parameters
+.. automodule:: masogram.types.response_parameters
     :members:
     :member-order: bysource
     :undoc-members: True

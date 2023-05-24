@@ -4,7 +4,7 @@ setStickerSetThumb
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.set_sticker_set_thumb
+.. automodule:: masogram.methods.set_sticker_set_thumb
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.set_sticker_set_thumb import SetStickerSetThumb`
-- alias: :code:`from aiogram.methods import SetStickerSetThumb`
+- :code:`from masogram.methods.set_sticker_set_thumb import SetStickerSetThumb`
+- alias: :code:`from masogram.methods import SetStickerSetThumb`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

@@ -29,7 +29,7 @@ class MessageEntity(MutableTelegramObject):
     language: Optional[str] = None
     """*Optional*. For 'pre' only, the programming language of the entity text"""
     custom_emoji_id: Optional[str] = None
-    """*Optional*. For 'custom_emoji' only, unique identifier of the custom emoji. Use :class:`aiogram.methods.get_custom_emoji_stickers.GetCustomEmojiStickers` to get full information about the sticker"""
+    """*Optional*. For 'custom_emoji' only, unique identifier of the custom emoji. Use :class:`masogram.methods.get_custom_emoji_stickers.GetCustomEmojiStickers` to get full information about the sticker"""
 
     def extract_from(self, text: str) -> str:
         return remove_surrogates(

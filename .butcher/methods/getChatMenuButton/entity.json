@@ -9,7 +9,7 @@
     "name": "getChatMenuButton",
     "description": "Use this method to get the current value of the bot's menu button in a private chat, or the default menu button. Returns MenuButton on success.",
     "html_description": "<p>Use this method to get the current value of the bot's menu button in a private chat, or the default menu button. Returns <a href=\"#menubutton\">MenuButton</a> on success.</p>",
-    "rst_description": "Use this method to get the current value of the bot's menu button in a private chat, or the default menu button. Returns :class:`aiogram.types.menu_button.MenuButton` on success.",
+    "rst_description": "Use this method to get the current value of the bot's menu button in a private chat, or the default menu button. Returns :class:`masogram.types.menu_button.MenuButton` on success.",
     "annotations": [
       {
         "type": "Integer",

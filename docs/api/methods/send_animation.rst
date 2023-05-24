@@ -4,7 +4,7 @@ sendAnimation
 
 Returns: :obj:`Message`
 
-.. automodule:: aiogram.methods.send_animation
+.. automodule:: masogram.methods.send_animation
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.send_animation import SendAnimation`
-- alias: :code:`from aiogram.methods import SendAnimation`
+- :code:`from masogram.methods.send_animation import SendAnimation`
+- alias: :code:`from masogram.methods import SendAnimation`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,5 +47,5 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.message.Message.answer_animation`
-- :meth:`aiogram.types.message.Message.reply_animation`
+- :meth:`masogram.types.message.Message.answer_animation`
+- :meth:`masogram.types.message.Message.reply_animation`

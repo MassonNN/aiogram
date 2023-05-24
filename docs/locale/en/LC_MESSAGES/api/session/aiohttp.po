@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 
 #: ../../api/session/aiohttp.rst:7
-msgid "Currently `AiohttpSession` is a default session used in `aiogram.Bot`"
+msgid "Currently `AiohttpSession` is a default session used in `masogram.Bot`"
 msgstr ""
 
 #: ../../api/session/aiohttp.rst:12
@@ -76,9 +76,9 @@ msgstr ""
 
 #: ../../api/session/aiohttp.rst:71
 msgid ""
-"Aiogram prefers `BasicAuth` over username and password in URL, so if "
+"masogram prefers `BasicAuth` over username and password in URL, so if "
 "proxy URL contains login and password and `BasicAuth` object is passed at"
-" the same time aiogram will use login and password from `BasicAuth` "
+" the same time masogram will use login and password from `BasicAuth` "
 "instance."
 msgstr ""
 
@@ -89,7 +89,7 @@ msgstr ""
 #: ../../api/session/aiohttp.rst:79
 msgid ""
 "Since `aiohttp-socks <https://pypi.org/project/aiohttp-socks/>`_ supports"
-" proxy chains, you're able to use them in aiogram"
+" proxy chains, you're able to use them in masogram"
 msgstr ""
 
 #: ../../api/session/aiohttp.rst:81

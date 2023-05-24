@@ -55,7 +55,7 @@ class Sticker(TelegramObject):
         **kwargs: Any,
     ) -> SetStickerPositionInSet:
         """
-        Shortcut for method :class:`aiogram.methods.set_sticker_position_in_set.SetStickerPositionInSet`
+        Shortcut for method :class:`masogram.methods.set_sticker_position_in_set.SetStickerPositionInSet`
         will automatically fill method attributes:
 
         - :code:`sticker`
@@ -65,7 +65,7 @@ class Sticker(TelegramObject):
         Source: https://core.telegram.org/bots/api#setstickerpositioninset
 
         :param position: New sticker position in the set, zero-based
-        :return: instance of method :class:`aiogram.methods.set_sticker_position_in_set.SetStickerPositionInSet`
+        :return: instance of method :class:`masogram.methods.set_sticker_position_in_set.SetStickerPositionInSet`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -83,7 +83,7 @@ class Sticker(TelegramObject):
         **kwargs: Any,
     ) -> DeleteStickerFromSet:
         """
-        Shortcut for method :class:`aiogram.methods.delete_sticker_from_set.DeleteStickerFromSet`
+        Shortcut for method :class:`masogram.methods.delete_sticker_from_set.DeleteStickerFromSet`
         will automatically fill method attributes:
 
         - :code:`sticker`
@@ -92,7 +92,7 @@ class Sticker(TelegramObject):
 
         Source: https://core.telegram.org/bots/api#deletestickerfromset
 
-        :return: instance of method :class:`aiogram.methods.delete_sticker_from_set.DeleteStickerFromSet`
+        :return: instance of method :class:`masogram.methods.delete_sticker_from_set.DeleteStickerFromSet`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`

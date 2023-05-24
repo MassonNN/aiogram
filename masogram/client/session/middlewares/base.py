@@ -38,8 +38,8 @@ class BaseRequestMiddleware(ABC):
 
         :param make_request: Wrapped make_request in middlewares chain
         :param bot: bot for request making
-        :param method: Request method (Subclass of :class:`aiogram.methods.base.TelegramMethod`)
+        :param method: Request method (Subclass of :class:`masogram.methods.base.TelegramMethod`)
 
-        :return: :class:`aiogram.methods.Response`
+        :return: :class:`masogram.methods.Response`
         """
         pass

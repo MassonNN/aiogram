@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-11 01:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,19 +25,19 @@ msgstr ""
 msgid "Returns: :obj:`BotDescription`"
 msgstr ""
 
-#: aiogram.methods.get_my_description.GetMyDescription:1 of
+#: masogram.methods.get_my_description.GetMyDescription:1 of
 msgid ""
 "Use this method to get the current bot description for the given user "
-"language. Returns :class:`aiogram.types.bot_description.BotDescription` "
+"language. Returns :class:`masogram.types.bot_description.BotDescription` "
 "on success."
 msgstr ""
 
-#: aiogram.methods.get_my_description.GetMyDescription:3 of
+#: masogram.methods.get_my_description.GetMyDescription:3 of
 msgid "Source: https://core.telegram.org/bots/api#getmydescription"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.get_my_description.GetMyDescription.language_code:1 of
+#: masogram.methods.get_my_description.GetMyDescription.language_code:1 of
 msgid "A two-letter ISO 639-1 language code or an empty string"
 msgstr ""
 
@@ -58,11 +58,11 @@ msgid "Imports:"
 msgstr ""
 
 #: ../../api/methods/get_my_description.rst:29
-msgid ":code:`from aiogram.methods.get_my_description import GetMyDescription`"
+msgid ":code:`from masogram.methods.get_my_description import GetMyDescription`"
 msgstr ""
 
 #: ../../api/methods/get_my_description.rst:30
-msgid "alias: :code:`from aiogram.methods import GetMyDescription`"
+msgid "alias: :code:`from masogram.methods import GetMyDescription`"
 msgstr ""
 
 #: ../../api/methods/get_my_description.rst:33

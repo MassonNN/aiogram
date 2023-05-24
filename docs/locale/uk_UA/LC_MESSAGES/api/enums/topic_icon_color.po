@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-23 00:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,11 +21,11 @@ msgstr ""
 msgid "TopicIconColor"
 msgstr ""
 
-#: aiogram.enums.topic_icon_color.TopicIconColor:1 of
+#: masogram.enums.topic_icon_color.TopicIconColor:1 of
 msgid "Color of the topic icon in RGB format."
 msgstr "Колір значка теми у форматі RGB."
 
-#: aiogram.enums.topic_icon_color.TopicIconColor:3 of
+#: masogram.enums.topic_icon_color.TopicIconColor:3 of
 msgid ""
 "Source: "
 "https://github.com/telegramdesktop/tdesktop/blob/991fe491c5ae62705d77aa8fdd44a79caf639c45/Telegram/SourceFiles/data/data_forum_topic.cpp#L51-L56"

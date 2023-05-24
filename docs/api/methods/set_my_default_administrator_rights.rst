@@ -4,7 +4,7 @@ setMyDefaultAdministratorRights
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.set_my_default_administrator_rights
+.. automodule:: masogram.methods.set_my_default_administrator_rights
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.set_my_default_administrator_rights import SetMyDefaultAdministratorRights`
-- alias: :code:`from aiogram.methods import SetMyDefaultAdministratorRights`
+- :code:`from masogram.methods.set_my_default_administrator_rights import SetMyDefaultAdministratorRights`
+- alias: :code:`from masogram.methods import SetMyDefaultAdministratorRights`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

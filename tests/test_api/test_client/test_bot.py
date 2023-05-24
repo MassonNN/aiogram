@@ -36,7 +36,7 @@ class TestBot:
         method = GetMe()
 
         with patch(
-            "aiogram.client.session.aiohttp.AiohttpSession.make_request",
+            "masogram.client.session.aiohttp.AiohttpSession.make_request",
             new_callable=AsyncMock,
         ) as mocked_make_request:
             await bot(method)
@@ -48,7 +48,7 @@ class TestBot:
         await session.create_session()
 
         with patch(
-            "aiogram.client.session.aiohttp.AiohttpSession.close", new_callable=AsyncMock
+            "masogram.client.session.aiohttp.AiohttpSession.close", new_callable=AsyncMock
         ) as mocked_close:
             await bot.session.close()
             mocked_close.assert_awaited()
@@ -56,7 +56,7 @@ class TestBot:
     @pytest.mark.parametrize("close", [True, False])
     async def test_context_manager(self, close: bool):
         with patch(
-            "aiogram.client.session.aiohttp.AiohttpSession.close", new_callable=AsyncMock
+            "masogram.client.session.aiohttp.AiohttpSession.close", new_callable=AsyncMock
         ) as mocked_close:
             async with Bot("42:TEST", session=AiohttpSession()).context(auto_close=close) as bot:
                 assert isinstance(bot, Bot)

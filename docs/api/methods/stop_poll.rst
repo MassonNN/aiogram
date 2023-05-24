@@ -4,7 +4,7 @@ stopPoll
 
 Returns: :obj:`Poll`
 
-.. automodule:: aiogram.methods.stop_poll
+.. automodule:: masogram.methods.stop_poll
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.stop_poll import StopPoll`
-- alias: :code:`from aiogram.methods import StopPoll`
+- :code:`from masogram.methods.stop_poll import StopPoll`
+- alias: :code:`from masogram.methods import StopPoll`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

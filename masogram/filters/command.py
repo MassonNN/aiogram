@@ -35,7 +35,7 @@ class Command(Filter):
     """
     This filter can be helpful for handling commands from the text messages.
 
-    Works only with :class:`aiogram.types.message.Message` events which have the :code:`text`.
+    Works only with :class:`masogram.types.message.Message` events which have the :code:`text`.
     """
 
     __slots__ = (

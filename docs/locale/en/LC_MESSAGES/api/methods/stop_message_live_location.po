@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-23 00:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,20 +25,20 @@ msgstr ""
 msgid "Returns: :obj:`Union[Message, bool]`"
 msgstr ""
 
-#: aiogram.methods.stop_message_live_location.StopMessageLiveLocation:1 of
+#: masogram.methods.stop_message_live_location.StopMessageLiveLocation:1 of
 msgid ""
 "Use this method to stop updating a live location message before "
 "*live_period* expires. On success, if the message is not an inline "
-"message, the edited :class:`aiogram.types.message.Message` is returned, "
+"message, the edited :class:`masogram.types.message.Message` is returned, "
 "otherwise :code:`True` is returned."
 msgstr ""
 
-#: aiogram.methods.stop_message_live_location.StopMessageLiveLocation:3 of
+#: masogram.methods.stop_message_live_location.StopMessageLiveLocation:3 of
 msgid "Source: https://core.telegram.org/bots/api#stopmessagelivelocation"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.stop_message_live_location.StopMessageLiveLocation.chat_id:1
+#: masogram.methods.stop_message_live_location.StopMessageLiveLocation.chat_id:1
 #: of
 msgid ""
 "Required if *inline_message_id* is not specified. Unique identifier for "
@@ -47,7 +47,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.stop_message_live_location.StopMessageLiveLocation.message_id:1
+#: masogram.methods.stop_message_live_location.StopMessageLiveLocation.message_id:1
 #: of
 msgid ""
 "Required if *inline_message_id* is not specified. Identifier of the "
@@ -55,7 +55,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.stop_message_live_location.StopMessageLiveLocation.inline_message_id:1
+#: masogram.methods.stop_message_live_location.StopMessageLiveLocation.inline_message_id:1
 #: of
 msgid ""
 "Required if *chat_id* and *message_id* are not specified. Identifier of "
@@ -63,7 +63,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.stop_message_live_location.StopMessageLiveLocation.reply_markup:1
+#: masogram.methods.stop_message_live_location.StopMessageLiveLocation.reply_markup:1
 #: of
 msgid ""
 "A JSON-serialized object for a new `inline keyboard "
@@ -88,12 +88,12 @@ msgstr ""
 
 #: ../../api/methods/stop_message_live_location.rst:29
 msgid ""
-":code:`from aiogram.methods.stop_message_live_location import "
+":code:`from masogram.methods.stop_message_live_location import "
 "StopMessageLiveLocation`"
 msgstr ""
 
 #: ../../api/methods/stop_message_live_location.rst:30
-msgid "alias: :code:`from aiogram.methods import StopMessageLiveLocation`"
+msgid "alias: :code:`from masogram.methods import StopMessageLiveLocation`"
 msgstr ""
 
 #: ../../api/methods/stop_message_live_location.rst:33
@@ -109,7 +109,7 @@ msgid "As shortcut from received object"
 msgstr ""
 
 #: ../../api/methods/stop_message_live_location.rst:50
-msgid ":meth:`aiogram.types.message.Message.stop_live_location`"
+msgid ":meth:`masogram.types.message.Message.stop_live_location`"
 msgstr ""
 
 #~ msgid ""

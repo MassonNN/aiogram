@@ -19,8 +19,8 @@ class TestGetters:
 
         assert extract_flags_from_object(func) == {}
 
-        func.aiogram_flag = {"test": True}
-        assert extract_flags_from_object(func) == func.aiogram_flag
+        func.masogram_flag = {"test": True}
+        assert extract_flags_from_object(func) == func.masogram_flag
 
     @pytest.mark.parametrize(
         "obj,result",
@@ -60,5 +60,5 @@ class TestGetters:
         ],
     )
     def test_check_flag(self, flags, magic, result):
-        with patch("aiogram.dispatcher.flags.extract_flags", return_value=flags):
+        with patch("masogram.dispatcher.flags.extract_flags", return_value=flags):
             assert check_flags(object(), magic) == result

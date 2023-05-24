@@ -3,7 +3,7 @@ User
 ####
 
 
-.. automodule:: aiogram.types.user
+.. automodule:: masogram.types.user
     :members:
     :member-order: bysource
     :undoc-members: True

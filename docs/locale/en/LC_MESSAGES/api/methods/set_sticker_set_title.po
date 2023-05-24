@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-11 01:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,23 +25,23 @@ msgstr ""
 msgid "Returns: :obj:`bool`"
 msgstr ""
 
-#: aiogram.methods.set_sticker_set_title.SetStickerSetTitle:1 of
+#: masogram.methods.set_sticker_set_title.SetStickerSetTitle:1 of
 msgid ""
 "Use this method to set the title of a created sticker set. Returns "
 ":code:`True` on success."
 msgstr ""
 
-#: aiogram.methods.set_sticker_set_title.SetStickerSetTitle:3 of
+#: masogram.methods.set_sticker_set_title.SetStickerSetTitle:3 of
 msgid "Source: https://core.telegram.org/bots/api#setstickersettitle"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.set_sticker_set_title.SetStickerSetTitle.name:1 of
+#: masogram.methods.set_sticker_set_title.SetStickerSetTitle.name:1 of
 msgid "Sticker set name"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.set_sticker_set_title.SetStickerSetTitle.title:1 of
+#: masogram.methods.set_sticker_set_title.SetStickerSetTitle.title:1 of
 msgid "Sticker set title, 1-64 characters"
 msgstr ""
 
@@ -63,12 +63,12 @@ msgstr ""
 
 #: ../../api/methods/set_sticker_set_title.rst:29
 msgid ""
-":code:`from aiogram.methods.set_sticker_set_title import "
+":code:`from masogram.methods.set_sticker_set_title import "
 "SetStickerSetTitle`"
 msgstr ""
 
 #: ../../api/methods/set_sticker_set_title.rst:30
-msgid "alias: :code:`from aiogram.methods import SetStickerSetTitle`"
+msgid "alias: :code:`from masogram.methods import SetStickerSetTitle`"
 msgstr ""
 
 #: ../../api/methods/set_sticker_set_title.rst:33

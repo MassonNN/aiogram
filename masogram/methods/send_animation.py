@@ -18,7 +18,7 @@ from .base import TelegramMethod
 
 class SendAnimation(TelegramMethod[Message]):
     """
-    Use this method to send animation files (GIF or H.264/MPEG-4 AVC video without sound). On success, the sent :class:`aiogram.types.message.Message` is returned. Bots can currently send animation files of up to 50 MB in size, this limit may be changed in the future.
+    Use this method to send animation files (GIF or H.264/MPEG-4 AVC video without sound). On success, the sent :class:`masogram.types.message.Message` is returned. Bots can currently send animation files of up to 50 MB in size, this limit may be changed in the future.
 
     Source: https://core.telegram.org/bots/api#sendanimation
     """

@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-11 01:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Returns: :obj:`bool`"
 msgstr ""
 
-#: aiogram.methods.add_sticker_to_set.AddStickerToSet:1 of
+#: masogram.methods.add_sticker_to_set.AddStickerToSet:1 of
 msgid ""
 "Use this method to add a new sticker to a set created by the bot. The "
 "format of the added sticker must match the format of the other stickers "
@@ -34,20 +34,20 @@ msgid ""
 "have up to 120 stickers. Returns :code:`True` on success."
 msgstr ""
 
-#: aiogram.methods.add_sticker_to_set.AddStickerToSet:3 of
+#: masogram.methods.add_sticker_to_set.AddStickerToSet:3 of
 msgid "Source: https://core.telegram.org/bots/api#addstickertoset"
 msgstr ""
 
-#: ../../docstring aiogram.methods.add_sticker_to_set.AddStickerToSet.user_id:1
+#: ../../docstring masogram.methods.add_sticker_to_set.AddStickerToSet.user_id:1
 #: of
 msgid "User identifier of sticker set owner"
 msgstr ""
 
-#: ../../docstring aiogram.methods.add_sticker_to_set.AddStickerToSet.name:1 of
+#: ../../docstring masogram.methods.add_sticker_to_set.AddStickerToSet.name:1 of
 msgid "Sticker set name"
 msgstr ""
 
-#: ../../docstring aiogram.methods.add_sticker_to_set.AddStickerToSet.sticker:1
+#: ../../docstring masogram.methods.add_sticker_to_set.AddStickerToSet.sticker:1
 #: of
 msgid ""
 "A JSON-serialized object with information about the added sticker. If "
@@ -72,11 +72,11 @@ msgid "Imports:"
 msgstr ""
 
 #: ../../api/methods/add_sticker_to_set.rst:29
-msgid ":code:`from aiogram.methods.add_sticker_to_set import AddStickerToSet`"
+msgid ":code:`from masogram.methods.add_sticker_to_set import AddStickerToSet`"
 msgstr ""
 
 #: ../../api/methods/add_sticker_to_set.rst:30
-msgid "alias: :code:`from aiogram.methods import AddStickerToSet`"
+msgid "alias: :code:`from masogram.methods import AddStickerToSet`"
 msgstr ""
 
 #: ../../api/methods/add_sticker_to_set.rst:33

@@ -16,7 +16,7 @@ Please provide any relevant information about your setup. This is important in c
 
 * Operating System:
 * Python Version:
-* aiogram version:
+* masogram version:
 * aiohttp version:
 * uvloop version (if installed):
 

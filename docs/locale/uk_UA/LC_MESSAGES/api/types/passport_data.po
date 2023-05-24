@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,20 +21,20 @@ msgstr ""
 msgid "PassportData"
 msgstr ""
 
-#: aiogram.types.passport_data.PassportData:1 of
+#: masogram.types.passport_data.PassportData:1 of
 msgid "Describes Telegram Passport data shared with the bot by the user."
 msgstr ""
 
-#: aiogram.types.passport_data.PassportData:3 of
+#: masogram.types.passport_data.PassportData:3 of
 msgid "Source: https://core.telegram.org/bots/api#passportdata"
 msgstr ""
 
-#: ../../docstring aiogram.types.passport_data.PassportData.data:1 of
+#: ../../docstring masogram.types.passport_data.PassportData.data:1 of
 msgid ""
 "Array with information about documents and other Telegram Passport "
 "elements that was shared with the bot"
 msgstr ""
 
-#: ../../docstring aiogram.types.passport_data.PassportData.credentials:1 of
+#: ../../docstring masogram.types.passport_data.PassportData.credentials:1 of
 msgid "Encrypted credentials required to decrypt the data"
 msgstr ""

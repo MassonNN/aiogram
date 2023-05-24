@@ -8,7 +8,7 @@ from .base import TelegramMethod
 
 class GetMyDescription(TelegramMethod[BotDescription]):
     """
-    Use this method to get the current bot description for the given user language. Returns :class:`aiogram.types.bot_description.BotDescription` on success.
+    Use this method to get the current bot description for the given user language. Returns :class:`masogram.types.bot_description.BotDescription` on success.
 
     Source: https://core.telegram.org/bots/api#getmydescription
     """

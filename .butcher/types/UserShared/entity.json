@@ -9,7 +9,7 @@
     "name": "UserShared",
     "description": "This object contains information about the user whose identifier was shared with the bot using a KeyboardButtonRequestUser button.",
     "html_description": "<p>This object contains information about the user whose identifier was shared with the bot using a <a href=\"#keyboardbuttonrequestuser\">KeyboardButtonRequestUser</a> button.</p>",
-    "rst_description": "This object contains information about the user whose identifier was shared with the bot using a :class:`aiogram.types.keyboard_button_request_user.KeyboardButtonRequestUser` button.",
+    "rst_description": "This object contains information about the user whose identifier was shared with the bot using a :class:`masogram.types.keyboard_button_request_user.KeyboardButtonRequestUser` button.",
     "annotations": [
       {
         "type": "Integer",

@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram\n"
+"Project-Id-Version: masogram\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: 2022-10-25 16:32+0300\n"
@@ -27,21 +27,21 @@ msgstr ""
 "Ця сторінка все ще в розробці. Має багато неправильно сформульованих речень."
 
 #: ../../dispatcher/filters/magic_filters.rst:11
-msgid "Is external package maintained by *aiogram* core team."
+msgid "Is external package maintained by *masogram* core team."
 msgstr ""
-"Це зовнішній пакет, який підтримується основною командою розробки *aiogram*."
+"Це зовнішній пакет, який підтримується основною командою розробки *masogram*."
 
 #: ../../dispatcher/filters/magic_filters.rst:13
 msgid ""
-"By default installs with *aiogram* and also is available on `PyPi - magic-"
+"By default installs with *masogram* and also is available on `PyPi - magic-"
 "filter <https://pypi.org/project/magic-filter/>`_. That's mean you can "
 "install it and use with any other libraries and in own projects without "
-"depending *aiogram* installed."
+"depending *masogram* installed."
 msgstr ""
-"За замовчуванням встановлюється разом з *aiogram* і, також, доступний в "
+"За замовчуванням встановлюється разом з *masogram* і, також, доступний в "
 "`PyPi - magic-filter <https://pypi.org/project/magic-filter/>`_. Це означає, "
 "що Ви можете встановити його та використовувати з будь-якими іншими "
-"бібліотеками та у власних проектах, незалежно від того встановлено *aiogram* "
+"бібліотеками та у власних проектах, незалежно від того встановлено *masogram* "
 "чи ні."
 
 #: ../../dispatcher/filters/magic_filters.rst:17
@@ -51,21 +51,21 @@ msgstr "Використання"
 #: ../../dispatcher/filters/magic_filters.rst:19
 msgid ""
 "The **magic_filter** package implements class shortly named :class:"
-"`magic_filter.F` that's mean :code:`F` can be imported from :code:`aiogram` "
+"`magic_filter.F` that's mean :code:`F` can be imported from :code:`masogram` "
 "or :code:`magic_filter`. :class:`F` is alias for :class:`MagicFilter`."
 msgstr ""
 "Пакет **magic_filter** реалізує клас із короткою назвою :class:`magic_filter."
-"F`, тобто :code:`F` можна імпортувати з :code:`aiogram` або :code:"
+"F`, тобто :code:`F` можна імпортувати з :code:`masogram` або :code:"
 "`magic_filter`. :class:`F` є псевдонімом для :class:`MagicFilter`."
 
 #: ../../dispatcher/filters/magic_filters.rst:23
 msgid ""
-"Note that *aiogram* has an small extension over magic-filter and if you want "
-"to use this extension you should import magic from *aiogram* instead of "
+"Note that *masogram* has an small extension over magic-filter and if you want "
+"to use this extension you should import magic from *masogram* instead of "
 "*magic_filter* package"
 msgstr ""
-"Зауважте, що *aiogram* має невелике розширення для magic-filter, і якщо Ви "
-"хочете використовувати це розширення, вам слід імпортувати магію з *aiogram* "
+"Зауважте, що *masogram* має невелике розширення для magic-filter, і якщо Ви "
+"хочете використовувати це розширення, вам слід імпортувати магію з *masogram* "
 "замість пакета *magic_filter*"
 
 #: ../../dispatcher/filters/magic_filters.rst:25
@@ -194,11 +194,11 @@ msgstr "Отримати результат фільтра як аргумент
 #: ../../dispatcher/filters/magic_filters.rst:139
 msgid ""
 "This part is not available in *magic-filter* directly but can be used with "
-"*aiogram*"
+"*masogram*"
 msgstr ""
 "Ця частина недоступна безпосередньо в *magic-filter*, але її можна "
-"використовувати з *aiogram*"
+"використовувати з *masogram*"
 
 #: ../../dispatcher/filters/magic_filters.rst:152
-msgid "Usage in *aiogram*"
-msgstr "Використання в *aiogram*"
+msgid "Usage in *masogram*"
+msgstr "Використання в *masogram*"

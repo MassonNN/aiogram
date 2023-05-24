@@ -3,7 +3,7 @@ Venue
 #####
 
 
-.. automodule:: aiogram.types.venue
+.. automodule:: masogram.types.venue
     :members:
     :member-order: bysource
     :undoc-members: True

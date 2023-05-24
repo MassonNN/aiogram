@@ -4,7 +4,7 @@ getMyShortDescription
 
 Returns: :obj:`BotShortDescription`
 
-.. automodule:: aiogram.methods.get_my_short_description
+.. automodule:: masogram.methods.get_my_short_description
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.get_my_short_description import GetMyShortDescription`
-- alias: :code:`from aiogram.methods import GetMyShortDescription`
+- :code:`from masogram.methods.get_my_short_description import GetMyShortDescription`
+- alias: :code:`from masogram.methods import GetMyShortDescription`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

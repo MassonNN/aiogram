@@ -2,7 +2,7 @@
 Middlewares
 ===========
 
-**aiogram** provides powerful mechanism for customizing event handlers via middlewares.
+**masogram** provides powerful mechanism for customizing event handlers via middlewares.
 
 Middlewares in bot framework seems like Middlewares mechanism in web-frameworks
 like `aiohttp <https://docs.aiohttp.org/en/stable/web_advanced.html#aiohttp-web-middlewares>`_,
@@ -39,12 +39,12 @@ Middleware instance can be applied for every type of Telegram Event (Update, Mes
 
 .. attention::
 
-    Middleware should be subclass of :code:`BaseMiddleware` (:code:`from aiogram import BaseMiddleware`) or any async callable
+    Middleware should be subclass of :code:`BaseMiddleware` (:code:`from masogram import BaseMiddleware`) or any async callable
 
 Arguments specification
 =======================
 
-.. autoclass:: aiogram.dispatcher.middlewares.base.BaseMiddleware
+.. autoclass:: masogram.dispatcher.middlewares.base.BaseMiddleware
     :members:
     :show-inheritance:
     :member-order: bysource
@@ -64,8 +64,8 @@ Class-based
 -----------
 .. code-block:: python
 
-    from aiogram import BaseMiddleware
-    from aiogram.types import Message
+    from masogram import BaseMiddleware
+    from masogram.types import Message
 
 
     class CounterMiddleware(BaseMiddleware):
@@ -110,4 +110,4 @@ Facts
 
 1. Middlewares from outer scope will be called on every incoming event
 2. Middlewares from inner scope will be called only when filters pass
-3. Inner middlewares is always calls for :class:`aiogram.types.update.Update` event type in due to all incoming updates going to specific event type handler through built in update handler
+3. Inner middlewares is always calls for :class:`masogram.types.update.Update` event type in due to all incoming updates going to specific event type handler through built in update handler

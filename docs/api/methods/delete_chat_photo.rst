@@ -4,7 +4,7 @@ deleteChatPhoto
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.delete_chat_photo
+.. automodule:: masogram.methods.delete_chat_photo
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.delete_chat_photo import DeleteChatPhoto`
-- alias: :code:`from aiogram.methods import DeleteChatPhoto`
+- :code:`from masogram.methods.delete_chat_photo import DeleteChatPhoto`
+- alias: :code:`from masogram.methods import DeleteChatPhoto`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,4 +47,4 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.chat.Chat.delete_photo`
+- :meth:`masogram.types.chat.Chat.delete_photo`

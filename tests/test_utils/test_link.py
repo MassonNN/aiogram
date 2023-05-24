@@ -34,11 +34,11 @@ class TestLink:
     def test_fragment(self):
         assert (
             docs_url("test.html", fragment_="test")
-            == f"https://docs.aiogram.dev/en/{BRANCH}/test.html#test"
+            == f"https://docs.masogram.dev/en/{BRANCH}/test.html#test"
         )
 
     def test_docs(self):
-        assert docs_url("test.html") == f"https://docs.aiogram.dev/en/{BRANCH}/test.html"
+        assert docs_url("test.html") == f"https://docs.masogram.dev/en/{BRANCH}/test.html"
 
 
 class TestCreateChannelBotLink:

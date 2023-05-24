@@ -4,7 +4,7 @@ approveChatJoinRequest
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.approve_chat_join_request
+.. automodule:: masogram.methods.approve_chat_join_request
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.approve_chat_join_request import ApproveChatJoinRequest`
-- alias: :code:`from aiogram.methods import ApproveChatJoinRequest`
+- :code:`from masogram.methods.approve_chat_join_request import ApproveChatJoinRequest`
+- alias: :code:`from masogram.methods import ApproveChatJoinRequest`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,4 +47,4 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.chat_join_request.ChatJoinRequest.approve`
+- :meth:`masogram.types.chat_join_request.ChatJoinRequest.approve`

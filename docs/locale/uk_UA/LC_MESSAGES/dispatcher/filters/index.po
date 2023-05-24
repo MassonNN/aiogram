@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram\n"
+"Project-Id-Version: masogram\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-18 01:50+0300\n"
 "PO-Revision-Date: 2022-10-25 15:53+0300\n"
@@ -31,8 +31,8 @@ msgstr ""
 "набору фільтрів."
 
 #: ../../dispatcher/filters/index.rst:8
-msgid "*aiogram* has some builtin useful filters."
-msgstr "*aiogram* має декілька вбудованих корисних фільтрів."
+msgid "*masogram* has some builtin useful filters."
+msgstr "*masogram* має декілька вбудованих корисних фільтрів."
 
 #: ../../dispatcher/filters/index.rst:11
 msgid "Builtin filters"
@@ -69,8 +69,8 @@ msgstr ""
 "використаний в :code:`await` виразі)"
 
 #: ../../dispatcher/filters/index.rst:35
-msgid "Subclass of :class:`aiogram.filters.base.Filter`"
-msgstr "Підкласом :class:`aiogram.filters.base.Filter`"
+msgid "Subclass of :class:`masogram.filters.base.Filter`"
+msgstr "Підкласом :class:`masogram.filters.base.Filter`"
 
 #: ../../dispatcher/filters/index.rst:36
 msgid "Instances of :ref:`MagicFilter <magic-filters>`"
@@ -90,7 +90,7 @@ msgstr ""
 msgid "Base class for own filters"
 msgstr "Базовий клас для власних фільтрів"
 
-#: aiogram.filters.base.Filter:1 of
+#: masogram.filters.base.Filter:1 of
 msgid ""
 "If you want to register own filters like builtin filters you will need to write "
 "subclass of this class with overriding the :code:`__call__` method and adding "
@@ -100,23 +100,23 @@ msgstr ""
 "буде написати підклас цього класу з заміною методу :code:`__call__` і "
 "додаванням атрибутів фільтра."
 
-#: aiogram.filters.base.Filter.__call__:1 of
+#: masogram.filters.base.Filter.__call__:1 of
 msgid "This method should be overridden."
 msgstr "Цей метод слід перевизначити."
 
-#: aiogram.filters.base.Filter.__call__:3 of
+#: masogram.filters.base.Filter.__call__:3 of
 msgid "Accepts incoming event and should return boolean or dict."
 msgstr "Приймає вхідну подію та має повертати логічне (bool) значення або dict."
 
-#: aiogram.filters.base.Filter.__call__ of
+#: masogram.filters.base.Filter.__call__ of
 msgid "Returns"
 msgstr "Повертає"
 
-#: aiogram.filters.base.Filter.__call__:5 of
+#: masogram.filters.base.Filter.__call__:5 of
 msgid ":class:`bool` or :class:`Dict[str, Any]`"
 msgstr ":class:`bool` or :class:`Dict[str, Any]`"
 
-#: aiogram.filters.base.Filter.update_handler_flags:1 of
+#: masogram.filters.base.Filter.update_handler_flags:1 of
 msgid ""
 "Also if you want to extend handler flags with using this filter you should "
 "implement this method"
@@ -124,11 +124,11 @@ msgstr ""
 "Крім того, якщо ви хочете розширити маркери обробника (handler) за допомогою "
 "цього фільтра, вам слід реалізувати цей метод"
 
-#: aiogram.filters.base.Filter.update_handler_flags of
+#: masogram.filters.base.Filter.update_handler_flags of
 msgid "Parameters"
 msgstr "Параметри"
 
-#: aiogram.filters.base.Filter.update_handler_flags:3 of
+#: masogram.filters.base.Filter.update_handler_flags:3 of
 msgid "existing flags, can be updated directly"
 msgstr "існуючі маркери, можна оновити безпосередньо"
 
@@ -183,7 +183,7 @@ msgstr "Інший можливий спосіб"
 #: ../../dispatcher/filters/index.rst:95
 msgid ""
 "An alternative way is to combine using special functions (:func:`and_f`, :func:"
-"`or_f`, :func:`invert_f` from :code:`aiogram.filters` module):"
+"`or_f`, :func:`invert_f` from :code:`masogram.filters` module):"
 msgstr ""
 "Альтернативним способом є об’єднання за допомогою спеціальних функцій (:func:"
-"`and_f`, :func:`or_f`, :func:`invert_f` з модуля :code:`aiogram.filters`):"
+"`and_f`, :func:`or_f`, :func:`invert_f` з модуля :code:`masogram.filters`):"

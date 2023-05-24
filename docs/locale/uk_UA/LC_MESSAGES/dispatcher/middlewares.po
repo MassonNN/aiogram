@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram\n"
+"Project-Id-Version: masogram\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: 2022-10-20 20:56+0300\n"
@@ -23,10 +23,10 @@ msgstr "Проміжні програми"
 
 #: ../../dispatcher/middlewares.rst:5
 msgid ""
-"**aiogram** provides powerful mechanism for customizing event handlers via "
+"**masogram** provides powerful mechanism for customizing event handlers via "
 "middlewares."
 msgstr ""
-"**aiogram** надає потужний механізм для налаштування обробників(handler) "
+"**masogram** надає потужний механізм для налаштування обробників(handler) "
 "подій через проміжні програми."
 
 #: ../../dispatcher/middlewares.rst:7
@@ -115,49 +115,49 @@ msgstr "Основи проміжних програм"
 
 #: ../../dispatcher/middlewares.rst:42
 msgid ""
-"Middleware should be subclass of :code:`BaseMiddleware` (:code:`from aiogram "
+"Middleware should be subclass of :code:`BaseMiddleware` (:code:`from masogram "
 "import BaseMiddleware`) or any async callable"
 msgstr ""
 "Проміжна програма має бути підкласом :code:`BaseMiddleware` (:code:`from "
-"aiogram import BaseMiddleware`) або будь-якою асинхронною функцією"
+"masogram import BaseMiddleware`) або будь-якою асинхронною функцією"
 
 #: ../../dispatcher/middlewares.rst:45
 msgid "Arguments specification"
 msgstr "Специфікація аргументів"
 
-#: aiogram.dispatcher.middlewares.base.BaseMiddleware:1 of
+#: masogram.dispatcher.middlewares.base.BaseMiddleware:1 of
 msgid "Bases: :py:class:`~abc.ABC`"
 msgstr "Основа: :py:class:`~abc.ABC`"
 
-#: aiogram.dispatcher.middlewares.base.BaseMiddleware:1 of
+#: masogram.dispatcher.middlewares.base.BaseMiddleware:1 of
 msgid "Generic middleware class"
 msgstr "Узагальнений клас проміжних програм"
 
-#: aiogram.dispatcher.middlewares.base.BaseMiddleware.__call__:1 of
+#: masogram.dispatcher.middlewares.base.BaseMiddleware.__call__:1 of
 msgid "Execute middleware"
 msgstr "Виконання проміжної програми"
 
-#: aiogram.dispatcher.middlewares.base.BaseMiddleware.__call__ of
+#: masogram.dispatcher.middlewares.base.BaseMiddleware.__call__ of
 msgid "Parameters"
 msgstr "Параметри"
 
-#: aiogram.dispatcher.middlewares.base.BaseMiddleware.__call__:3 of
+#: masogram.dispatcher.middlewares.base.BaseMiddleware.__call__:3 of
 msgid "Wrapped handler in middlewares chain"
 msgstr "Обробник (handler), обгорнутий у ланцюжок проміжних програм"
 
-#: aiogram.dispatcher.middlewares.base.BaseMiddleware.__call__:4 of
-msgid "Incoming event (Subclass of :class:`aiogram.types.base.TelegramObject`)"
-msgstr "Вхідна подія (підклас :class:`aiogram.types.base.TelegramObject`)"
+#: masogram.dispatcher.middlewares.base.BaseMiddleware.__call__:4 of
+msgid "Incoming event (Subclass of :class:`masogram.types.base.TelegramObject`)"
+msgstr "Вхідна подія (підклас :class:`masogram.types.base.TelegramObject`)"
 
-#: aiogram.dispatcher.middlewares.base.BaseMiddleware.__call__:5 of
+#: masogram.dispatcher.middlewares.base.BaseMiddleware.__call__:5 of
 msgid "Contextual data. Will be mapped to handler arguments"
 msgstr "Контекстні дані. Будуть зіставлені з аргументами обробника"
 
-#: aiogram.dispatcher.middlewares.base.BaseMiddleware.__call__ of
+#: masogram.dispatcher.middlewares.base.BaseMiddleware.__call__ of
 msgid "Returns"
 msgstr "Повертає"
 
-#: aiogram.dispatcher.middlewares.base.BaseMiddleware.__call__:6 of
+#: masogram.dispatcher.middlewares.base.BaseMiddleware.__call__:6 of
 msgid ":class:`Any`"
 msgstr ":class:`Any`"
 
@@ -204,10 +204,10 @@ msgstr ""
 
 #: ../../dispatcher/middlewares.rst:113
 msgid ""
-"Inner middlewares is always calls for :class:`aiogram.types.update.Update` "
+"Inner middlewares is always calls for :class:`masogram.types.update.Update` "
 "event type in due to all incoming updates going to specific event type "
 "handler through built in update handler"
 msgstr ""
-"Внутрішні проміжні програми викликають тип події :class:`aiogram.types."
+"Внутрішні проміжні програми викликають тип події :class:`masogram.types."
 "update.Update` , через те, що всі вхідні оновлення надходять до обробника "
 "(handler) певного типу подій через вбудований обробник (handler) оновлень"

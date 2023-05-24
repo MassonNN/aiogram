@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,15 +21,15 @@ msgstr ""
 msgid "WebAppInfo"
 msgstr ""
 
-#: aiogram.types.web_app_info.WebAppInfo:1 of
+#: masogram.types.web_app_info.WebAppInfo:1 of
 msgid "Describes a `Web App <https://core.telegram.org/bots/webapps>`_."
 msgstr ""
 
-#: aiogram.types.web_app_info.WebAppInfo:3 of
+#: masogram.types.web_app_info.WebAppInfo:3 of
 msgid "Source: https://core.telegram.org/bots/api#webappinfo"
 msgstr ""
 
-#: ../../docstring aiogram.types.web_app_info.WebAppInfo.url:1 of
+#: ../../docstring masogram.types.web_app_info.WebAppInfo.url:1 of
 msgid ""
 "An HTTPS URL of a Web App to be opened with additional data as specified "
 "in `Initializing Web Apps <https://core.telegram.org/bots/webapps"

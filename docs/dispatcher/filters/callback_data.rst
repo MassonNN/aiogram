@@ -2,7 +2,7 @@
 Callback Data Factory & Filter
 ==============================
 
-.. autoclass:: aiogram.filters.callback_data.CallbackData
+.. autoclass:: masogram.filters.callback_data.CallbackData
     :members:
     :member-order: bysource
     :undoc-members: False

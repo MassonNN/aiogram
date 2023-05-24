@@ -4,7 +4,7 @@ setChatDescription
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.set_chat_description
+.. automodule:: masogram.methods.set_chat_description
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.set_chat_description import SetChatDescription`
-- alias: :code:`from aiogram.methods import SetChatDescription`
+- :code:`from masogram.methods.set_chat_description import SetChatDescription`
+- alias: :code:`from masogram.methods import SetChatDescription`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,4 +47,4 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.chat.Chat.set_description`
+- :meth:`masogram.types.chat.Chat.set_description`

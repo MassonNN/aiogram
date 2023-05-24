@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-06 14:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,32 +25,32 @@ msgstr ""
 msgid "Returns: :obj:`bool`"
 msgstr ""
 
-#: aiogram.methods.set_my_commands.SetMyCommands:1 of
+#: masogram.methods.set_my_commands.SetMyCommands:1 of
 msgid ""
 "Use this method to change the list of the bot's commands. See `this "
 "manual <https://core.telegram.org/bots/features#commands>`_ for more "
 "details about bot commands. Returns :code:`True` on success."
 msgstr ""
 
-#: aiogram.methods.set_my_commands.SetMyCommands:3 of
+#: masogram.methods.set_my_commands.SetMyCommands:3 of
 msgid "Source: https://core.telegram.org/bots/api#setmycommands"
 msgstr ""
 
-#: ../../docstring aiogram.methods.set_my_commands.SetMyCommands.commands:1 of
+#: ../../docstring masogram.methods.set_my_commands.SetMyCommands.commands:1 of
 msgid ""
 "A JSON-serialized list of bot commands to be set as the list of the bot's"
 " commands. At most 100 commands can be specified."
 msgstr ""
 
-#: ../../docstring aiogram.methods.set_my_commands.SetMyCommands.scope:1 of
+#: ../../docstring masogram.methods.set_my_commands.SetMyCommands.scope:1 of
 msgid ""
 "A JSON-serialized object, describing scope of users for which the "
 "commands are relevant. Defaults to "
-":class:`aiogram.types.bot_command_scope_default.BotCommandScopeDefault`."
+":class:`masogram.types.bot_command_scope_default.BotCommandScopeDefault`."
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.set_my_commands.SetMyCommands.language_code:1 of
+#: masogram.methods.set_my_commands.SetMyCommands.language_code:1 of
 msgid ""
 "A two-letter ISO 639-1 language code. If empty, commands will be applied "
 "to all users from the given scope, for whose language there are no "
@@ -74,11 +74,11 @@ msgid "Imports:"
 msgstr ""
 
 #: ../../api/methods/set_my_commands.rst:29
-msgid ":code:`from aiogram.methods.set_my_commands import SetMyCommands`"
+msgid ":code:`from masogram.methods.set_my_commands import SetMyCommands`"
 msgstr ""
 
 #: ../../api/methods/set_my_commands.rst:30
-msgid "alias: :code:`from aiogram.methods import SetMyCommands`"
+msgid "alias: :code:`from masogram.methods import SetMyCommands`"
 msgstr ""
 
 #: ../../api/methods/set_my_commands.rst:33

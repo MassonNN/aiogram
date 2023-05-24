@@ -14,9 +14,9 @@ But if you need to upload a new file just use subclasses of `InputFile <types/in
 
 Here are the three different available builtin types of input file:
 
-- :class:`aiogram.types.input_file.FSInputFile` - `uploading from file system <#upload-from-file-system>`__
-- :class:`aiogram.types.input_file.BufferedInputFile` - `uploading from buffer <#upload-from-buffer>`__
-- :class:`aiogram.types.input_file.URLInputFile` - `uploading from URL <#upload-from-url>`__
+- :class:`masogram.types.input_file.FSInputFile` - `uploading from file system <#upload-from-file-system>`__
+- :class:`masogram.types.input_file.BufferedInputFile` - `uploading from buffer <#upload-from-buffer>`__
+- :class:`masogram.types.input_file.URLInputFile` - `uploading from URL <#upload-from-url>`__
 
 .. warning::
 
@@ -34,7 +34,7 @@ By first step you will need to import InputFile wrapper:
 
 .. code-block::
 
-    from aiogram.types import FSInputFile
+    from masogram.types import FSInputFile
 
 Then you can use it:
 
@@ -44,7 +44,7 @@ Then you can use it:
     agenda = FSInputFile("my-document.pdf", filename="agenda-2019-11-19.pdf")
 
 
-.. autoclass:: aiogram.types.input_file.FSInputFile
+.. autoclass:: masogram.types.input_file.FSInputFile
     :members: __init__
 
 
@@ -59,7 +59,7 @@ Import wrapper:
 
 .. code-block::
 
-    from aiogram.types import BufferedInputFile
+    from masogram.types import BufferedInputFile
 
 And then you can use it:
 
@@ -67,7 +67,7 @@ And then you can use it:
 
     text_file = BufferedInputFile(b"Hello, world!", filename="file.txt")
 
-.. autoclass:: aiogram.types.input_file.BufferedInputFile
+.. autoclass:: masogram.types.input_file.BufferedInputFile
     :members: __init__
 
 Upload from url
@@ -75,13 +75,13 @@ Upload from url
 
 If you need to upload a file from another server, but the direct link is bound to your server's IP,
 or you want to bypass native `upload limits <https://core.telegram.org/bots/api#sending-files>`_
-by URL, you can use :obj:`aiogram.types.input_file.URLInputFile`.
+by URL, you can use :obj:`masogram.types.input_file.URLInputFile`.
 
 Import wrapper:
 
 .. code-block::
 
-    from aiogram.types import URLInputFile
+    from masogram.types import URLInputFile
 
 And then you can use it:
 
@@ -92,5 +92,5 @@ And then you can use it:
         filename="python-logo.png"
     )
 
-.. autoclass:: aiogram.types.input_file.URLInputFile
+.. autoclass:: masogram.types.input_file.URLInputFile
     :members:

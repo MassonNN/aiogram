@@ -4,7 +4,7 @@ setMyDescription
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.set_my_description
+.. automodule:: masogram.methods.set_my_description
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.set_my_description import SetMyDescription`
-- alias: :code:`from aiogram.methods import SetMyDescription`
+- :code:`from masogram.methods.set_my_description import SetMyDescription`
+- alias: :code:`from masogram.methods import SetMyDescription`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

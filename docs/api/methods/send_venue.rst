@@ -4,7 +4,7 @@ sendVenue
 
 Returns: :obj:`Message`
 
-.. automodule:: aiogram.methods.send_venue
+.. automodule:: masogram.methods.send_venue
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.send_venue import SendVenue`
-- alias: :code:`from aiogram.methods import SendVenue`
+- :code:`from masogram.methods.send_venue import SendVenue`
+- alias: :code:`from masogram.methods import SendVenue`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,5 +47,5 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.message.Message.answer_venue`
-- :meth:`aiogram.types.message.Message.reply_venue`
+- :meth:`masogram.types.message.Message.answer_venue`
+- :meth:`masogram.types.message.Message.reply_venue`

@@ -3,7 +3,7 @@ Animation
 #########
 
 
-.. automodule:: aiogram.types.animation
+.. automodule:: masogram.types.animation
     :members:
     :member-order: bysource
     :undoc-members: True

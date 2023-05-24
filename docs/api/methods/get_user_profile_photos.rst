@@ -4,7 +4,7 @@ getUserProfilePhotos
 
 Returns: :obj:`UserProfilePhotos`
 
-.. automodule:: aiogram.methods.get_user_profile_photos
+.. automodule:: masogram.methods.get_user_profile_photos
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.get_user_profile_photos import GetUserProfilePhotos`
-- alias: :code:`from aiogram.methods import GetUserProfilePhotos`
+- :code:`from masogram.methods.get_user_profile_photos import GetUserProfilePhotos`
+- alias: :code:`from masogram.methods import GetUserProfilePhotos`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -42,4 +42,4 @@ With specific bot
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.user.User.get_profile_photos`
+- :meth:`masogram.types.user.User.get_profile_photos`

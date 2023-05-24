@@ -4,7 +4,7 @@ createChatInviteLink
 
 Returns: :obj:`ChatInviteLink`
 
-.. automodule:: aiogram.methods.create_chat_invite_link
+.. automodule:: masogram.methods.create_chat_invite_link
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.create_chat_invite_link import CreateChatInviteLink`
-- alias: :code:`from aiogram.methods import CreateChatInviteLink`
+- :code:`from masogram.methods.create_chat_invite_link import CreateChatInviteLink`
+- alias: :code:`from masogram.methods import CreateChatInviteLink`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,4 +47,4 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.chat.Chat.create_invite_link`
+- :meth:`masogram.types.chat.Chat.create_invite_link`

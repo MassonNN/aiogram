@@ -31,7 +31,7 @@
         "type": "WebAppInfo",
         "description": "Description of the Web App that will be launched when the user presses the button. The Web App will be able to send an arbitrary message on behalf of the user using the method answerWebAppQuery.",
         "html_description": "<td>Description of the Web App that will be launched when the user presses the button. The Web App will be able to send an arbitrary message on behalf of the user using the method <a href=\"#answerwebappquery\">answerWebAppQuery</a>.</td>",
-        "rst_description": "Description of the Web App that will be launched when the user presses the button. The Web App will be able to send an arbitrary message on behalf of the user using the method :class:`aiogram.methods.answer_web_app_query.AnswerWebAppQuery`.\n",
+        "rst_description": "Description of the Web App that will be launched when the user presses the button. The Web App will be able to send an arbitrary message on behalf of the user using the method :class:`masogram.methods.answer_web_app_query.AnswerWebAppQuery`.\n",
         "name": "web_app",
         "required": true
       }

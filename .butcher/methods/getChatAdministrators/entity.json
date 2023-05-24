@@ -9,7 +9,7 @@
     "name": "getChatAdministrators",
     "description": "Use this method to get a list of administrators in a chat, which aren't bots. Returns an Array of ChatMember objects.",
     "html_description": "<p>Use this method to get a list of administrators in a chat, which aren't bots. Returns an Array of <a href=\"#chatmember\">ChatMember</a> objects.</p>",
-    "rst_description": "Use this method to get a list of administrators in a chat, which aren't bots. Returns an Array of :class:`aiogram.types.chat_member.ChatMember` objects.",
+    "rst_description": "Use this method to get a list of administrators in a chat, which aren't bots. Returns an Array of :class:`masogram.types.chat_member.ChatMember` objects.",
     "annotations": [
       {
         "type": "Integer or String",

@@ -4,7 +4,7 @@ getForumTopicIconStickers
 
 Returns: :obj:`List[Sticker]`
 
-.. automodule:: aiogram.methods.get_forum_topic_icon_stickers
+.. automodule:: masogram.methods.get_forum_topic_icon_stickers
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.get_forum_topic_icon_stickers import GetForumTopicIconStickers`
-- alias: :code:`from aiogram.methods import GetForumTopicIconStickers`
+- :code:`from masogram.methods.get_forum_topic_icon_stickers import GetForumTopicIconStickers`
+- alias: :code:`from masogram.methods import GetForumTopicIconStickers`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

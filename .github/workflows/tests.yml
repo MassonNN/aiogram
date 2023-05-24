@@ -6,7 +6,7 @@ on:
       - dev-3.x
     paths:
       - ".github/workflows/tests.yml"
-      - "aiogram/**"
+      - "masogram/**"
       - "tests/**"
       - "codecov.yaml"
       - "pyproject.toml"
@@ -15,7 +15,7 @@ on:
       - dev-3.x
     paths:
       - ".github/workflows/tests.yml"
-      - "aiogram/**"
+      - "masogram/**"
       - "tests/**"
       - "pyproject.toml"
 
@@ -74,9 +74,9 @@ jobs:
       - name: Lint code
         if: "env.IS_PYPY == 'false'"
         run: |
-          ruff --format=github aiogram examples
-          mypy aiogram
-          black --check --diff aiogram tests
+          ruff --format=github masogram examples
+          mypy masogram
+          black --check --diff masogram tests
 
       - name: Setup redis
         if: ${{ env.IS_WINDOWS == 'false' }}
@@ -87,7 +87,7 @@ jobs:
       - name: Run tests
         run: |
           flags=""
-          [[ "$IS_PYPY" == "false" ]] && flags="$flags --cov=aiogram --cov-config .coveragerc --cov-report=xml"
+          [[ "$IS_PYPY" == "false" ]] && flags="$flags --cov=masogram --cov-config .coveragerc --cov-report=xml"
           [[ "$IS_WINDOWS" == "false" ]] && flags="$flags --redis redis://localhost:6379/0"
           pytest $flags
 

@@ -12,7 +12,7 @@ class CallbackQueryHandler(BaseHandler[CallbackQuery], ABC):
     Example:
         .. code-block:: python
 
-            from aiogram.handlers import CallbackQueryHandler
+            from masogram.handlers import CallbackQueryHandler
 
             ...
 

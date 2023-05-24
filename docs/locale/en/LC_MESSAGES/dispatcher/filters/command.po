@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,84 +21,84 @@ msgstr ""
 msgid "Command"
 msgstr ""
 
-#: aiogram.filters.command.Command:1 of
+#: masogram.filters.command.Command:1 of
 msgid "This filter can be helpful for handling commands from the text messages."
 msgstr ""
 
-#: aiogram.filters.command.Command:3 of
+#: masogram.filters.command.Command:3 of
 msgid ""
-"Works only with :class:`aiogram.types.message.Message` events which have "
+"Works only with :class:`masogram.types.message.Message` events which have "
 "the :code:`text`."
 msgstr ""
 
-#: aiogram.filters.command.Command.__init__:1 of
+#: masogram.filters.command.Command.__init__:1 of
 msgid "List of commands (string or compiled regexp patterns)"
 msgstr ""
 
-#: aiogram.filters.command.Command.__init__ of
+#: masogram.filters.command.Command.__init__ of
 msgid "Parameters"
 msgstr ""
 
-#: aiogram.filters.command.Command.__init__:3 of
+#: masogram.filters.command.Command.__init__:3 of
 msgid ""
 "Prefix for command. Prefix is always a single char but here you can pass "
 "all of allowed prefixes, for example: :code:`\"/!\"` will work with "
 "commands prefixed by :code:`\"/\"` or :code:`\"!\"`."
 msgstr ""
 
-#: aiogram.filters.command.Command.__init__:7 of
+#: masogram.filters.command.Command.__init__:7 of
 msgid "Ignore case (Does not work with regexp, use flags instead)"
 msgstr ""
 
-#: aiogram.filters.command.Command.__init__:8 of
+#: masogram.filters.command.Command.__init__:8 of
 msgid ""
 "Ignore bot mention. By default, bot can not handle commands intended for "
 "other bots"
 msgstr ""
 
-#: aiogram.filters.command.Command.__init__:10 of
+#: masogram.filters.command.Command.__init__:10 of
 msgid "Validate command object via Magic filter after all checks done"
 msgstr ""
 
 #: ../../dispatcher/filters/command.rst:10
 msgid ""
-"When filter is passed the :class:`aiogram.filters.command.CommandObject` "
+"When filter is passed the :class:`masogram.filters.command.CommandObject` "
 "will be passed to the handler argument :code:`command`"
 msgstr ""
 
-#: aiogram.filters.command.CommandObject:1 of
+#: masogram.filters.command.CommandObject:1 of
 msgid ""
 "Instance of this object is always has command and it prefix. Can be "
 "passed as keyword argument **command** to the handler"
 msgstr ""
 
-#: ../../docstring aiogram.filters.command.CommandObject.prefix:1 of
+#: ../../docstring masogram.filters.command.CommandObject.prefix:1 of
 msgid "Command prefix"
 msgstr ""
 
-#: ../../docstring aiogram.filters.command.CommandObject.command:1 of
+#: ../../docstring masogram.filters.command.CommandObject.command:1 of
 msgid "Command without prefix and mention"
 msgstr ""
 
-#: ../../docstring aiogram.filters.command.CommandObject.mention:1 of
+#: ../../docstring masogram.filters.command.CommandObject.mention:1 of
 msgid "Mention (if available)"
 msgstr ""
 
-#: ../../docstring aiogram.filters.command.CommandObject.args:1 of
+#: ../../docstring masogram.filters.command.CommandObject.args:1 of
 msgid "Command argument"
 msgstr ""
 
-#: ../../docstring aiogram.filters.command.CommandObject.regexp_match:1 of
+#: ../../docstring masogram.filters.command.CommandObject.regexp_match:1 of
 msgid ""
 "Will be presented match result if the command is presented as regexp in "
 "filter"
 msgstr ""
 
-#: aiogram.filters.command.CommandObject.mentioned:1 of
+#: masogram.filters.command.CommandObject.mentioned:1 of
 msgid "This command has mention?"
 msgstr ""
 
-#: aiogram.filters.command.CommandObject.text:1 of
+#: masogram.filters.command.CommandObject.text:1 of
 msgid "Generate original text from object"
 msgstr ""
 
@@ -130,7 +130,7 @@ msgstr ""
 
 #: ../../dispatcher/filters/command.rst:25
 msgid ""
-"Use :class:`aiogram.types.bot_command.BotCommand` object as command "
+"Use :class:`masogram.types.bot_command.BotCommand` object as command "
 "reference :code:`Command(BotCommand(command=\"command\", description=\"My"
 " awesome command\")`"
 msgstr ""

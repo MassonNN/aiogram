@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-23 00:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,39 +25,39 @@ msgstr ""
 msgid "Returns: :obj:`bool`"
 msgstr ""
 
-#: aiogram.methods.answer_inline_query.AnswerInlineQuery:1 of
+#: masogram.methods.answer_inline_query.AnswerInlineQuery:1 of
 msgid ""
 "Use this method to send answers to an inline query. On success, "
 ":code:`True` is returned."
 msgstr ""
 
-#: aiogram.methods.answer_inline_query.AnswerInlineQuery:3 of
+#: masogram.methods.answer_inline_query.AnswerInlineQuery:3 of
 msgid "No more than **50** results per query are allowed."
 msgstr ""
 
-#: aiogram.methods.answer_inline_query.AnswerInlineQuery:5 of
+#: masogram.methods.answer_inline_query.AnswerInlineQuery:5 of
 msgid "Source: https://core.telegram.org/bots/api#answerinlinequery"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.answer_inline_query.AnswerInlineQuery.inline_query_id:1 of
+#: masogram.methods.answer_inline_query.AnswerInlineQuery.inline_query_id:1 of
 msgid "Unique identifier for the answered query"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.answer_inline_query.AnswerInlineQuery.results:1 of
+#: masogram.methods.answer_inline_query.AnswerInlineQuery.results:1 of
 msgid "A JSON-serialized array of results for the inline query"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.answer_inline_query.AnswerInlineQuery.cache_time:1 of
+#: masogram.methods.answer_inline_query.AnswerInlineQuery.cache_time:1 of
 msgid ""
 "The maximum amount of time in seconds that the result of the inline query"
 " may be cached on the server. Defaults to 300."
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.answer_inline_query.AnswerInlineQuery.is_personal:1 of
+#: masogram.methods.answer_inline_query.AnswerInlineQuery.is_personal:1 of
 msgid ""
 "Pass :code:`True` if results may be cached on the server side only for "
 "the user that sent the query. By default, results may be returned to any "
@@ -65,7 +65,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.answer_inline_query.AnswerInlineQuery.next_offset:1 of
+#: masogram.methods.answer_inline_query.AnswerInlineQuery.next_offset:1 of
 msgid ""
 "Pass the offset that a client should send in the next query with the same"
 " text to receive more results. Pass an empty string if there are no more "
@@ -74,7 +74,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.answer_inline_query.AnswerInlineQuery.switch_pm_text:1 of
+#: masogram.methods.answer_inline_query.AnswerInlineQuery.switch_pm_text:1 of
 msgid ""
 "If passed, clients will display a button with specified text that "
 "switches the user to a private chat with the bot and sends the bot a "
@@ -82,7 +82,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.answer_inline_query.AnswerInlineQuery.switch_pm_parameter:1
+#: masogram.methods.answer_inline_query.AnswerInlineQuery.switch_pm_parameter:1
 #: of
 msgid ""
 "`Deep-linking <https://core.telegram.org/bots/features#deep-linking>`_ "
@@ -108,11 +108,11 @@ msgid "Imports:"
 msgstr ""
 
 #: ../../api/methods/answer_inline_query.rst:29
-msgid ":code:`from aiogram.methods.answer_inline_query import AnswerInlineQuery`"
+msgid ":code:`from masogram.methods.answer_inline_query import AnswerInlineQuery`"
 msgstr ""
 
 #: ../../api/methods/answer_inline_query.rst:30
-msgid "alias: :code:`from aiogram.methods import AnswerInlineQuery`"
+msgid "alias: :code:`from masogram.methods import AnswerInlineQuery`"
 msgstr ""
 
 #: ../../api/methods/answer_inline_query.rst:33
@@ -128,7 +128,7 @@ msgid "As shortcut from received object"
 msgstr ""
 
 #: ../../api/methods/answer_inline_query.rst:50
-msgid ":meth:`aiogram.types.inline_query.InlineQuery.answer`"
+msgid ":meth:`masogram.types.inline_query.InlineQuery.answer`"
 msgstr ""
 
 #~ msgid ""

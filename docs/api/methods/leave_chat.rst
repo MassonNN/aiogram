@@ -4,7 +4,7 @@ leaveChat
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.leave_chat
+.. automodule:: masogram.methods.leave_chat
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.leave_chat import LeaveChat`
-- alias: :code:`from aiogram.methods import LeaveChat`
+- :code:`from masogram.methods.leave_chat import LeaveChat`
+- alias: :code:`from masogram.methods import LeaveChat`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,4 +47,4 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.chat.Chat.leave`
+- :meth:`masogram.types.chat.Chat.leave`

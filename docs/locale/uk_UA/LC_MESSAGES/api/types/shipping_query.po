@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,36 +21,36 @@ msgstr ""
 msgid "ShippingQuery"
 msgstr ""
 
-#: aiogram.types.shipping_query.ShippingQuery:1 of
+#: masogram.types.shipping_query.ShippingQuery:1 of
 msgid "This object contains information about an incoming shipping query."
 msgstr ""
 
-#: aiogram.types.shipping_query.ShippingQuery:3 of
+#: masogram.types.shipping_query.ShippingQuery:3 of
 msgid "Source: https://core.telegram.org/bots/api#shippingquery"
 msgstr ""
 
-#: ../../docstring aiogram.types.shipping_query.ShippingQuery.id:1 of
+#: ../../docstring masogram.types.shipping_query.ShippingQuery.id:1 of
 msgid "Unique query identifier"
 msgstr ""
 
-#: ../../docstring aiogram.types.shipping_query.ShippingQuery.from_user:1 of
+#: ../../docstring masogram.types.shipping_query.ShippingQuery.from_user:1 of
 msgid "User who sent the query"
 msgstr ""
 
-#: ../../docstring aiogram.types.shipping_query.ShippingQuery.invoice_payload:1
+#: ../../docstring masogram.types.shipping_query.ShippingQuery.invoice_payload:1
 #: of
 msgid "Bot specified invoice payload"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.shipping_query.ShippingQuery.shipping_address:1 of
+#: masogram.types.shipping_query.ShippingQuery.shipping_address:1 of
 msgid "User specified shipping address"
 msgstr ""
 
-#: aiogram.types.shipping_query.ShippingQuery.answer of
+#: masogram.types.shipping_query.ShippingQuery.answer of
 msgid "Parameters"
 msgstr ""
 
-#: aiogram.types.shipping_query.ShippingQuery.answer of
+#: masogram.types.shipping_query.ShippingQuery.answer of
 msgid "Returns"
 msgstr ""

@@ -4,7 +4,7 @@ sendChatAction
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.send_chat_action
+.. automodule:: masogram.methods.send_chat_action
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.send_chat_action import SendChatAction`
-- alias: :code:`from aiogram.methods import SendChatAction`
+- :code:`from masogram.methods.send_chat_action import SendChatAction`
+- alias: :code:`from masogram.methods import SendChatAction`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,4 +47,4 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.chat.Chat.do`
+- :meth:`masogram.types.chat.Chat.do`

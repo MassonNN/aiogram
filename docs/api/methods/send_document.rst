@@ -4,7 +4,7 @@ sendDocument
 
 Returns: :obj:`Message`
 
-.. automodule:: aiogram.methods.send_document
+.. automodule:: masogram.methods.send_document
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.send_document import SendDocument`
-- alias: :code:`from aiogram.methods import SendDocument`
+- :code:`from masogram.methods.send_document import SendDocument`
+- alias: :code:`from masogram.methods import SendDocument`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,5 +47,5 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.message.Message.answer_document`
-- :meth:`aiogram.types.message.Message.reply_document`
+- :meth:`masogram.types.message.Message.answer_document`
+- :meth:`masogram.types.message.Message.reply_document`

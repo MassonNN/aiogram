@@ -2,14 +2,14 @@
 MagicData
 =========
 
-.. autoclass:: aiogram.filters.magic_data.MagicData
+.. autoclass:: masogram.filters.magic_data.MagicData
     :members:
     :member-order: bysource
     :undoc-members: False
 
 Can be imported:
 
-- :code:`from aiogram.filters import MagicData`
+- :code:`from masogram.filters import MagicData`
 
 Usage
 =====

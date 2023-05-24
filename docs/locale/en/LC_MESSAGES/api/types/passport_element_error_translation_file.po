@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,14 +21,14 @@ msgstr ""
 msgid "PassportElementErrorTranslationFile"
 msgstr ""
 
-#: aiogram.types.passport_element_error_translation_file.PassportElementErrorTranslationFile:1
+#: masogram.types.passport_element_error_translation_file.PassportElementErrorTranslationFile:1
 #: of
 msgid ""
 "Represents an issue with one of the files that constitute the translation"
 " of a document. The error is considered resolved when the file changes."
 msgstr ""
 
-#: aiogram.types.passport_element_error_translation_file.PassportElementErrorTranslationFile:3
+#: masogram.types.passport_element_error_translation_file.PassportElementErrorTranslationFile:3
 #: of
 msgid ""
 "Source: "
@@ -36,13 +36,13 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.passport_element_error_translation_file.PassportElementErrorTranslationFile.source:1
+#: masogram.types.passport_element_error_translation_file.PassportElementErrorTranslationFile.source:1
 #: of
 msgid "Error source, must be *translation_file*"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.passport_element_error_translation_file.PassportElementErrorTranslationFile.type:1
+#: masogram.types.passport_element_error_translation_file.PassportElementErrorTranslationFile.type:1
 #: of
 msgid ""
 "Type of element of the user's Telegram Passport which has the issue, one "
@@ -52,13 +52,13 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.passport_element_error_translation_file.PassportElementErrorTranslationFile.file_hash:1
+#: masogram.types.passport_element_error_translation_file.PassportElementErrorTranslationFile.file_hash:1
 #: of
 msgid "Base64-encoded file hash"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.passport_element_error_translation_file.PassportElementErrorTranslationFile.message:1
+#: masogram.types.passport_element_error_translation_file.PassportElementErrorTranslationFile.message:1
 #: of
 msgid "Error message"
 msgstr ""

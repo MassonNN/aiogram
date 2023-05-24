@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 00:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,23 +21,23 @@ msgstr ""
 msgid "UserShared"
 msgstr ""
 
-#: aiogram.types.user_shared.UserShared:1 of
+#: masogram.types.user_shared.UserShared:1 of
 msgid ""
 "This object contains information about the user whose identifier was "
 "shared with the bot using a "
-":class:`aiogram.types.keyboard_button_request_user.KeyboardButtonRequestUser`"
+":class:`masogram.types.keyboard_button_request_user.KeyboardButtonRequestUser`"
 " button."
 msgstr ""
 
-#: aiogram.types.user_shared.UserShared:3 of
+#: masogram.types.user_shared.UserShared:3 of
 msgid "Source: https://core.telegram.org/bots/api#usershared"
 msgstr ""
 
-#: ../../docstring aiogram.types.user_shared.UserShared.request_id:1 of
+#: ../../docstring masogram.types.user_shared.UserShared.request_id:1 of
 msgid "Identifier of the request"
 msgstr ""
 
-#: ../../docstring aiogram.types.user_shared.UserShared.user_id:1 of
+#: ../../docstring masogram.types.user_shared.UserShared.user_id:1 of
 msgid ""
 "Identifier of the shared user. This number may have more than 32 "
 "significant bits and some programming languages may have "

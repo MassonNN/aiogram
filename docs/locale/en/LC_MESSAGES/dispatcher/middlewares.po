@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../dispatcher/middlewares.rst:5
 msgid ""
-"**aiogram** provides powerful mechanism for customizing event handlers "
+"**masogram** provides powerful mechanism for customizing event handlers "
 "via middlewares."
 msgstr ""
 
@@ -95,46 +95,46 @@ msgstr ""
 #: ../../dispatcher/middlewares.rst:42
 msgid ""
 "Middleware should be subclass of :code:`BaseMiddleware` (:code:`from "
-"aiogram import BaseMiddleware`) or any async callable"
+"masogram import BaseMiddleware`) or any async callable"
 msgstr ""
 
 #: ../../dispatcher/middlewares.rst:45
 msgid "Arguments specification"
 msgstr ""
 
-#: aiogram.dispatcher.middlewares.base.BaseMiddleware:1 of
+#: masogram.dispatcher.middlewares.base.BaseMiddleware:1 of
 msgid "Bases: :py:class:`~abc.ABC`"
 msgstr ""
 
-#: aiogram.dispatcher.middlewares.base.BaseMiddleware:1 of
+#: masogram.dispatcher.middlewares.base.BaseMiddleware:1 of
 msgid "Generic middleware class"
 msgstr ""
 
-#: aiogram.dispatcher.middlewares.base.BaseMiddleware.__call__:1 of
+#: masogram.dispatcher.middlewares.base.BaseMiddleware.__call__:1 of
 msgid "Execute middleware"
 msgstr ""
 
-#: aiogram.dispatcher.middlewares.base.BaseMiddleware.__call__ of
+#: masogram.dispatcher.middlewares.base.BaseMiddleware.__call__ of
 msgid "Parameters"
 msgstr ""
 
-#: aiogram.dispatcher.middlewares.base.BaseMiddleware.__call__:3 of
+#: masogram.dispatcher.middlewares.base.BaseMiddleware.__call__:3 of
 msgid "Wrapped handler in middlewares chain"
 msgstr ""
 
-#: aiogram.dispatcher.middlewares.base.BaseMiddleware.__call__:4 of
-msgid "Incoming event (Subclass of :class:`aiogram.types.base.TelegramObject`)"
+#: masogram.dispatcher.middlewares.base.BaseMiddleware.__call__:4 of
+msgid "Incoming event (Subclass of :class:`masogram.types.base.TelegramObject`)"
 msgstr ""
 
-#: aiogram.dispatcher.middlewares.base.BaseMiddleware.__call__:5 of
+#: masogram.dispatcher.middlewares.base.BaseMiddleware.__call__:5 of
 msgid "Contextual data. Will be mapped to handler arguments"
 msgstr ""
 
-#: aiogram.dispatcher.middlewares.base.BaseMiddleware.__call__ of
+#: masogram.dispatcher.middlewares.base.BaseMiddleware.__call__ of
 msgid "Returns"
 msgstr ""
 
-#: aiogram.dispatcher.middlewares.base.BaseMiddleware.__call__:6 of
+#: masogram.dispatcher.middlewares.base.BaseMiddleware.__call__:6 of
 msgid ":class:`Any`"
 msgstr ""
 
@@ -175,7 +175,7 @@ msgstr ""
 #: ../../dispatcher/middlewares.rst:113
 msgid ""
 "Inner middlewares is always calls for "
-":class:`aiogram.types.update.Update` event type in due to all incoming "
+":class:`masogram.types.update.Update` event type in due to all incoming "
 "updates going to specific event type handler through built in update "
 "handler"
 msgstr ""

@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-11 01:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Returns: :obj:`bool`"
 msgstr ""
 
-#: aiogram.methods.set_sticker_mask_position.SetStickerMaskPosition:1 of
+#: masogram.methods.set_sticker_mask_position.SetStickerMaskPosition:1 of
 msgid ""
 "Use this method to change the `mask position "
 "<https://core.telegram.org/bots/api#maskposition>`_ of a mask sticker. "
@@ -33,18 +33,18 @@ msgid ""
 "Returns :code:`True` on success."
 msgstr ""
 
-#: aiogram.methods.set_sticker_mask_position.SetStickerMaskPosition:3 of
+#: masogram.methods.set_sticker_mask_position.SetStickerMaskPosition:3 of
 msgid "Source: https://core.telegram.org/bots/api#setstickermaskposition"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.set_sticker_mask_position.SetStickerMaskPosition.sticker:1
+#: masogram.methods.set_sticker_mask_position.SetStickerMaskPosition.sticker:1
 #: of
 msgid "File identifier of the sticker"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.set_sticker_mask_position.SetStickerMaskPosition.mask_position:1
+#: masogram.methods.set_sticker_mask_position.SetStickerMaskPosition.mask_position:1
 #: of
 msgid ""
 "A JSON-serialized object with the position where the mask should be "
@@ -69,12 +69,12 @@ msgstr ""
 
 #: ../../api/methods/set_sticker_mask_position.rst:29
 msgid ""
-":code:`from aiogram.methods.set_sticker_mask_position import "
+":code:`from masogram.methods.set_sticker_mask_position import "
 "SetStickerMaskPosition`"
 msgstr ""
 
 #: ../../api/methods/set_sticker_mask_position.rst:30
-msgid "alias: :code:`from aiogram.methods import SetStickerMaskPosition`"
+msgid "alias: :code:`from masogram.methods import SetStickerMaskPosition`"
 msgstr ""
 
 #: ../../api/methods/set_sticker_mask_position.rst:33

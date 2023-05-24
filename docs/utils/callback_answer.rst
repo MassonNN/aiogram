@@ -9,7 +9,7 @@ handlers to automatically take answer to all requests.
 Simple usage
 ============
 
-For use, it is enough to register the inner middleware :class:`aiogram.utils.callback_answer.CallbackAnswerMiddleware` in dispatcher or specific router:
+For use, it is enough to register the inner middleware :class:`masogram.utils.callback_answer.CallbackAnswerMiddleware` in dispatcher or specific router:
 
 .. code-block:: python
 
@@ -32,7 +32,7 @@ Change default parameters while initializing middleware, for example change answ
     dispatcher.callback_query.middleware(CallbackAnswerMiddleware(pre=True, text="OK"))
 
 
-Look at :class:`aiogram.utils.callback_answer.CallbackAnswerMiddleware` to get all available parameters
+Look at :class:`masogram.utils.callback_answer.CallbackAnswerMiddleware` to get all available parameters
 
 
 Handler specific
@@ -47,14 +47,14 @@ By using :ref:`flags <flags>` you can change the behavior for specific handler
     async def my_handler(query: CallbackQuery):
         ...
 
-Flag arguments is the same as in :class:`aiogram.utils.callback_answer.CallbackAnswerMiddleware`
+Flag arguments is the same as in :class:`masogram.utils.callback_answer.CallbackAnswerMiddleware`
 with additional one :code:`disabled` to disable answer.
 
 A special case
 --------------
 
 It is not always correct to answer the same in every case,
-so there is an option to change the answer inside the handler. You can get an instance of :class:`aiogram.utils.callback_answer.CallbackAnswer` object inside handler and change whatever you want.
+so there is an option to change the answer inside the handler. You can get an instance of :class:`masogram.utils.callback_answer.CallbackAnswer` object inside handler and change whatever you want.
 
 .. danger::
 
@@ -93,13 +93,13 @@ so you can do it:
 Description of objects
 ======================
 
-.. autoclass:: aiogram.utils.callback_answer.CallbackAnswerMiddleware
+.. autoclass:: masogram.utils.callback_answer.CallbackAnswerMiddleware
     :show-inheritance:
     :member-order: bysource
     :special-members: __init__
     :members:
 
-.. autoclass:: aiogram.utils.callback_answer.CallbackAnswer
+.. autoclass:: masogram.utils.callback_answer.CallbackAnswer
     :show-inheritance:
     :member-order: bysource
     :special-members: __init__

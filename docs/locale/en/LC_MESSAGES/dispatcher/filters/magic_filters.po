@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -26,15 +26,15 @@ msgid "This page still in progress. Has many incorrectly worded sentences."
 msgstr ""
 
 #: ../../dispatcher/filters/magic_filters.rst:11
-msgid "Is external package maintained by *aiogram* core team."
+msgid "Is external package maintained by *masogram* core team."
 msgstr ""
 
 #: ../../dispatcher/filters/magic_filters.rst:13
 msgid ""
-"By default installs with *aiogram* and also is available on `PyPi - "
+"By default installs with *masogram* and also is available on `PyPi - "
 "magic-filter <https://pypi.org/project/magic-filter/>`_. That's mean you "
 "can install it and use with any other libraries and in own projects "
-"without depending *aiogram* installed."
+"without depending *masogram* installed."
 msgstr ""
 
 #: ../../dispatcher/filters/magic_filters.rst:17
@@ -45,14 +45,14 @@ msgstr ""
 msgid ""
 "The **magic_filter** package implements class shortly named "
 ":class:`magic_filter.F` that's mean :code:`F` can be imported from "
-":code:`aiogram` or :code:`magic_filter`. :class:`F` is alias for "
+":code:`masogram` or :code:`magic_filter`. :class:`F` is alias for "
 ":class:`MagicFilter`."
 msgstr ""
 
 #: ../../dispatcher/filters/magic_filters.rst:23
 msgid ""
-"Note that *aiogram* has an small extension over magic-filter and if you "
-"want to use this extension you should import magic from *aiogram* instead"
+"Note that *masogram* has an small extension over magic-filter and if you "
+"want to use this extension you should import magic from *masogram* instead"
 " of *magic_filter* package"
 msgstr ""
 
@@ -167,9 +167,9 @@ msgstr ""
 #: ../../dispatcher/filters/magic_filters.rst:139
 msgid ""
 "This part is not available in *magic-filter* directly but can be used "
-"with *aiogram*"
+"with *masogram*"
 msgstr ""
 
 #: ../../dispatcher/filters/magic_filters.rst:152
-msgid "Usage in *aiogram*"
+msgid "Usage in *masogram*"
 msgstr ""

@@ -3,8 +3,8 @@ from pathlib import Path
 
 import masogram
 
-project = "aiogram"
-author = "aiogram Team"
+project = "masogram"
+author = "masogram Team"
 copyright = f"{datetime.date.today().year}, {author}"
 release = masogram.__version__
 api_version = masogram.__api_version__

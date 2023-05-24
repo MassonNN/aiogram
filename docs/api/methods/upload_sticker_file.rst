@@ -4,7 +4,7 @@ uploadStickerFile
 
 Returns: :obj:`File`
 
-.. automodule:: aiogram.methods.upload_sticker_file
+.. automodule:: masogram.methods.upload_sticker_file
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.upload_sticker_file import UploadStickerFile`
-- alias: :code:`from aiogram.methods import UploadStickerFile`
+- :code:`from masogram.methods.upload_sticker_file import UploadStickerFile`
+- alias: :code:`from masogram.methods import UploadStickerFile`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

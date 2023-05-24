@@ -2,9 +2,9 @@
 Contributing
 ============
 
-You're welcome to contribute to aiogram!
+You're welcome to contribute to masogram!
 
-*aiogram* is an open-source project, and anyone can contribute to it in any possible way
+*masogram* is an open-source project, and anyone can contribute to it in any possible way
 
 
 Developing
@@ -73,13 +73,13 @@ errors on next steps:
 Setup project
 -------------
 
-After activating the environment install `aiogram` from sources and their dependencies:
+After activating the environment install `masogram` from sources and their dependencies:
 
 .. code-block:: bash
 
     pip install -e .[dev,test,docs,fast,redis,proxy,i18n]
 
-It will install :code:`aiogram` in editable mode into your virtual environment and all dependencies.
+It will install :code:`masogram` in editable mode into your virtual environment and all dependencies.
 
 Making changes in code
 ----------------------
@@ -96,8 +96,8 @@ too be sure You're correctly doing this let's reformat the code automatically:
 
 .. code-block:: bash
 
-    black aiogram tests examples
-    isort aiogram tests examples
+    black masogram tests examples
+    isort masogram tests examples
 
 
 Run tests
@@ -123,7 +123,7 @@ you can change the sources and to test it you can start live-preview server and 
 
 .. code-block:: bash
 
-    sphinx-autobuild --watch aiogram/ docs/ docs/_build/
+    sphinx-autobuild --watch masogram/ docs/ docs/_build/
 
 
 Docs translations
@@ -150,7 +150,7 @@ To view results:
 
 .. code-block:: bash
 
-    sphinx-autobuild --watch aiogram/ docs/ docs/_build/ -D language=<language_code>
+    sphinx-autobuild --watch masogram/ docs/ docs/_build/ -D language=<language_code>
 
 
 Describe changes
@@ -182,14 +182,14 @@ as mentioned at the beginning of the article and wait for a review of these chan
 Star on GitHub
 ==============
 
-You can "star" repository on GitHub - https://github.com/aiogram/aiogram (click the star button at the top right)
+You can "star" repository on GitHub - https://github.com/masogram/masogram (click the star button at the top right)
 
 Adding stars makes it easier for other people to find this project and understand how useful it is.
 
 Guides
 ======
 
-You can write guides how to develop Bots on top of aiogram and publish it into YouTube, Medium,
+You can write guides how to develop Bots on top of masogram and publish it into YouTube, Medium,
 GitHub Books, any Courses platform or any other platform that you know.
 
 This will help more people learn about the framework and learn how to use it
@@ -209,5 +209,5 @@ it is my personal initiative (`@JRootJunior <https://t.me/JRootJunior>`_) and
 I am engaged in the development of the project in my free time.
 
 So, if you want to financially support the project, or, for example, give me a pizza or a beer,
-you can do it on `OpenCollective <https://opencollective.com/aiogram>`_
-or `Patreon <https://www.patreon.com/aiogram>`_.
+you can do it on `OpenCollective <https://opencollective.com/masogram>`_
+or `Patreon <https://www.patreon.com/masogram>`_.

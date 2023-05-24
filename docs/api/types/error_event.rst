@@ -3,7 +3,7 @@ ErrorEvent
 ##########
 
 
-.. automodule:: aiogram.types.error_event
+.. automodule:: masogram.types.error_event
     :members:
     :member-order: bysource
     :undoc-members: True

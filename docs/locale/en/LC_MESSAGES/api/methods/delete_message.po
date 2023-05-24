@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-23 00:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,71 +25,71 @@ msgstr ""
 msgid "Returns: :obj:`bool`"
 msgstr ""
 
-#: aiogram.methods.delete_message.DeleteMessage:1 of
+#: masogram.methods.delete_message.DeleteMessage:1 of
 msgid ""
 "Use this method to delete a message, including service messages, with the"
 " following limitations:"
 msgstr ""
 
-#: aiogram.methods.delete_message.DeleteMessage:3 of
+#: masogram.methods.delete_message.DeleteMessage:3 of
 msgid "A message can only be deleted if it was sent less than 48 hours ago."
 msgstr ""
 
-#: aiogram.methods.delete_message.DeleteMessage:5 of
+#: masogram.methods.delete_message.DeleteMessage:5 of
 msgid ""
 "Service messages about a supergroup, channel, or forum topic creation "
 "can't be deleted."
 msgstr ""
 
-#: aiogram.methods.delete_message.DeleteMessage:7 of
+#: masogram.methods.delete_message.DeleteMessage:7 of
 msgid ""
 "A dice message in a private chat can only be deleted if it was sent more "
 "than 24 hours ago."
 msgstr ""
 
-#: aiogram.methods.delete_message.DeleteMessage:9 of
+#: masogram.methods.delete_message.DeleteMessage:9 of
 msgid ""
 "Bots can delete outgoing messages in private chats, groups, and "
 "supergroups."
 msgstr ""
 
-#: aiogram.methods.delete_message.DeleteMessage:11 of
+#: masogram.methods.delete_message.DeleteMessage:11 of
 msgid "Bots can delete incoming messages in private chats."
 msgstr ""
 
-#: aiogram.methods.delete_message.DeleteMessage:13 of
+#: masogram.methods.delete_message.DeleteMessage:13 of
 msgid ""
 "Bots granted *can_post_messages* permissions can delete outgoing messages"
 " in channels."
 msgstr ""
 
-#: aiogram.methods.delete_message.DeleteMessage:15 of
+#: masogram.methods.delete_message.DeleteMessage:15 of
 msgid ""
 "If the bot is an administrator of a group, it can delete any message "
 "there."
 msgstr ""
 
-#: aiogram.methods.delete_message.DeleteMessage:17 of
+#: masogram.methods.delete_message.DeleteMessage:17 of
 msgid ""
 "If the bot has *can_delete_messages* permission in a supergroup or a "
 "channel, it can delete any message there."
 msgstr ""
 
-#: aiogram.methods.delete_message.DeleteMessage:19 of
+#: masogram.methods.delete_message.DeleteMessage:19 of
 msgid "Returns :code:`True` on success."
 msgstr ""
 
-#: aiogram.methods.delete_message.DeleteMessage:21 of
+#: masogram.methods.delete_message.DeleteMessage:21 of
 msgid "Source: https://core.telegram.org/bots/api#deletemessage"
 msgstr ""
 
-#: ../../docstring aiogram.methods.delete_message.DeleteMessage.chat_id:1 of
+#: ../../docstring masogram.methods.delete_message.DeleteMessage.chat_id:1 of
 msgid ""
 "Unique identifier for the target chat or username of the target channel "
 "(in the format :code:`@channelusername`)"
 msgstr ""
 
-#: ../../docstring aiogram.methods.delete_message.DeleteMessage.message_id:1 of
+#: ../../docstring masogram.methods.delete_message.DeleteMessage.message_id:1 of
 msgid "Identifier of the message to delete"
 msgstr ""
 
@@ -110,11 +110,11 @@ msgid "Imports:"
 msgstr ""
 
 #: ../../api/methods/delete_message.rst:29
-msgid ":code:`from aiogram.methods.delete_message import DeleteMessage`"
+msgid ":code:`from masogram.methods.delete_message import DeleteMessage`"
 msgstr ""
 
 #: ../../api/methods/delete_message.rst:30
-msgid "alias: :code:`from aiogram.methods import DeleteMessage`"
+msgid "alias: :code:`from masogram.methods import DeleteMessage`"
 msgstr ""
 
 #: ../../api/methods/delete_message.rst:33
@@ -130,9 +130,9 @@ msgid "As shortcut from received object"
 msgstr ""
 
 #: ../../api/methods/delete_message.rst:50
-msgid ":meth:`aiogram.types.message.Message.delete`"
+msgid ":meth:`masogram.types.message.Message.delete`"
 msgstr ""
 
 #: ../../api/methods/delete_message.rst:51
-msgid ":meth:`aiogram.types.chat.Chat.delete_message`"
+msgid ":meth:`masogram.types.chat.Chat.delete_message`"
 msgstr ""

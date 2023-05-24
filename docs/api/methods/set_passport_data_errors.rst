@@ -4,7 +4,7 @@ setPassportDataErrors
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.set_passport_data_errors
+.. automodule:: masogram.methods.set_passport_data_errors
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.set_passport_data_errors import SetPassportDataErrors`
-- alias: :code:`from aiogram.methods import SetPassportDataErrors`
+- :code:`from masogram.methods.set_passport_data_errors import SetPassportDataErrors`
+- alias: :code:`from masogram.methods import SetPassportDataErrors`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

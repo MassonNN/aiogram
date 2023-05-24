@@ -17,8 +17,8 @@ class TestTextDecoration:
             [html_decoration, MessageEntity(type="url", offset=0, length=5), "test"],
             [
                 html_decoration,
-                MessageEntity(type="text_link", offset=0, length=5, url="https://aiogram.dev"),
-                '<a href="https://aiogram.dev">test</a>',
+                MessageEntity(type="text_link", offset=0, length=5, url="https://masogram.dev"),
+                '<a href="https://masogram.dev">test</a>',
             ],
             [html_decoration, MessageEntity(type="bold", offset=0, length=5), "<b>test</b>"],
             [html_decoration, MessageEntity(type="italic", offset=0, length=5), "<i>test</i>"],
@@ -63,8 +63,8 @@ class TestTextDecoration:
             ],
             [
                 html_decoration,
-                MessageEntity(type="text_link", offset=0, length=5, url="https://aiogram.dev"),
-                '<a href="https://aiogram.dev">test</a>',
+                MessageEntity(type="text_link", offset=0, length=5, url="https://masogram.dev"),
+                '<a href="https://masogram.dev">test</a>',
             ],
             [markdown_decoration, MessageEntity(type="bold", offset=0, length=5), "*test*"],
             [markdown_decoration, MessageEntity(type="italic", offset=0, length=5), "_\rtest_\r"],

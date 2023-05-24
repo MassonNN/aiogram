@@ -4,7 +4,7 @@ sendPhoto
 
 Returns: :obj:`Message`
 
-.. automodule:: aiogram.methods.send_photo
+.. automodule:: masogram.methods.send_photo
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.send_photo import SendPhoto`
-- alias: :code:`from aiogram.methods import SendPhoto`
+- :code:`from masogram.methods.send_photo import SendPhoto`
+- alias: :code:`from masogram.methods import SendPhoto`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,5 +47,5 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.message.Message.answer_photo`
-- :meth:`aiogram.types.message.Message.reply_photo`
+- :meth:`masogram.types.message.Message.answer_photo`
+- :meth:`masogram.types.message.Message.reply_photo`

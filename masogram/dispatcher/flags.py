@@ -46,7 +46,7 @@ class FlagDecorator:
             raise ValueError("The arguments `value` and **kwargs can not be used together")
 
         if value is not None and callable(value):
-            value.aiogram_flag = {
+            value.masogram_flag = {
                 **extract_flags_from_object(value),
                 self.flag.name: self.flag.value,
             }
@@ -78,9 +78,9 @@ class FlagGenerator:
 
 
 def extract_flags_from_object(obj: Any) -> Dict[str, Any]:
-    if not hasattr(obj, "aiogram_flag"):
+    if not hasattr(obj, "masogram_flag"):
         return {}
-    return cast(Dict[str, Any], obj.aiogram_flag)
+    return cast(Dict[str, Any], obj.masogram_flag)
 
 
 def extract_flags(handler: Union["HandlerObject", Dict[str, Any]]) -> Dict[str, Any]:

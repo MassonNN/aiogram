@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram\n"
+"Project-Id-Version: masogram\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: 2022-10-25 18:00+0300\n"
@@ -23,10 +23,10 @@ msgstr "Зміна статусу користувача в чаті"
 
 #: ../../dispatcher/filters/chat_member_updated.rst:10
 msgid ""
-"You can import from :code:`aiogram.filters` all available variants of "
+"You can import from :code:`masogram.filters` all available variants of "
 "`statuses`_, `status groups`_ or `transitions`_:"
 msgstr ""
-"Ви можете імпортувати з :code:`aiogram.filters` усі доступні варіанти "
+"Ви можете імпортувати з :code:`masogram.filters` усі доступні варіанти "
 "`statuses`_, `status group`_ або `transitions`_:"
 
 #: ../../dispatcher/filters/chat_member_updated.rst:14

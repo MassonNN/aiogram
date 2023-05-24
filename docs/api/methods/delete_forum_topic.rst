@@ -4,7 +4,7 @@ deleteForumTopic
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.delete_forum_topic
+.. automodule:: masogram.methods.delete_forum_topic
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.delete_forum_topic import DeleteForumTopic`
-- alias: :code:`from aiogram.methods import DeleteForumTopic`
+- :code:`from masogram.methods.delete_forum_topic import DeleteForumTopic`
+- alias: :code:`from masogram.methods import DeleteForumTopic`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

@@ -313,7 +313,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         If you want to automatically create destination (:class:`io.BytesIO`) use default
         value of destination and handle result of this method.
 
-        :param file_path: File path on Telegram server (You can get it from :obj:`aiogram.types.File`)
+        :param file_path: File path on Telegram server (You can get it from :obj:`masogram.types.File`)
         :param destination: Filename, file path or instance of :class:`io.IOBase`. For e.g. :class:`io.BytesIO`, defaults to None
         :param timeout: Total timeout in seconds, defaults to 30
         :param chunk_size: File chunks size, defaults to 64 kb
@@ -381,7 +381,7 @@ class Bot(ContextInstanceMixin["Bot"]):
 
         # `file_path` can be None for large files but this files can't be downloaded
         # So we need to do type-cast
-        # https://github.com/aiogram/aiogram/pull/282/files#r394110017
+        # https://github.com/masogram/masogram/pull/282/files#r394110017
         file_path = cast(str, file_.file_path)
 
         return await self.download_file(
@@ -463,7 +463,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         :param callback_query_id: Unique identifier for the query to be answered
         :param text: Text of the notification. If not specified, nothing will be shown to the user, 0-200 characters
         :param show_alert: If :code:`True`, an alert will be shown by the client instead of a notification at the top of the chat screen. Defaults to *false*.
-        :param url: URL that will be opened by the user's client. If you have created a :class:`aiogram.types.game.Game` and accepted the conditions via `@BotFather <https://t.me/botfather>`_, specify the URL that opens your game - note that this will only work if the query comes from a `https://core.telegram.org/bots/api#inlinekeyboardbutton <https://core.telegram.org/bots/api#inlinekeyboardbutton>`_ *callback_game* button.
+        :param url: URL that will be opened by the user's client. If you have created a :class:`masogram.types.game.Game` and accepted the conditions via `@BotFather <https://t.me/botfather>`_, specify the URL that opens your game - note that this will only work if the query comes from a `https://core.telegram.org/bots/api#inlinekeyboardbutton <https://core.telegram.org/bots/api#inlinekeyboardbutton>`_ *callback_game* button.
         :param cache_time: The maximum amount of time in seconds that the result of the callback query may be cached client-side. Telegram apps will support caching starting in version 3.14. Defaults to 0.
         :param request_timeout: Request timeout
         :return: Otherwise, you may use links like :code:`t.me/your_bot?start=XXXX` that open your bot with a parameter.
@@ -529,7 +529,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> bool:
         """
-        Once the user has confirmed their payment and shipping details, the Bot API sends the final confirmation in the form of an :class:`aiogram.types.update.Update` with the field *pre_checkout_query*. Use this method to respond to such pre-checkout queries. On success, :code:`True` is returned. **Note:** The Bot API must receive an answer within 10 seconds after the pre-checkout query was sent.
+        Once the user has confirmed their payment and shipping details, the Bot API sends the final confirmation in the form of an :class:`masogram.types.update.Update` with the field *pre_checkout_query*. Use this method to respond to such pre-checkout queries. On success, :code:`True` is returned. **Note:** The Bot API must receive an answer within 10 seconds after the pre-checkout query was sent.
 
         Source: https://core.telegram.org/bots/api#answerprecheckoutquery
 
@@ -556,7 +556,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> bool:
         """
-        If you sent an invoice requesting a shipping address and the parameter *is_flexible* was specified, the Bot API will send an :class:`aiogram.types.update.Update` with a *shipping_query* field to the bot. Use this method to reply to shipping queries. On success, :code:`True` is returned.
+        If you sent an invoice requesting a shipping address and the parameter *is_flexible* was specified, the Bot API will send an :class:`masogram.types.update.Update` with a *shipping_query* field to the bot. Use this method to reply to shipping queries. On success, :code:`True` is returned.
 
         Source: https://core.telegram.org/bots/api#answershippingquery
 
@@ -583,14 +583,14 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> SentWebAppMessage:
         """
-        Use this method to set the result of an interaction with a `Web App <https://core.telegram.org/bots/webapps>`_ and send a corresponding message on behalf of the user to the chat from which the query originated. On success, a :class:`aiogram.types.sent_web_app_message.SentWebAppMessage` object is returned.
+        Use this method to set the result of an interaction with a `Web App <https://core.telegram.org/bots/webapps>`_ and send a corresponding message on behalf of the user to the chat from which the query originated. On success, a :class:`masogram.types.sent_web_app_message.SentWebAppMessage` object is returned.
 
         Source: https://core.telegram.org/bots/api#answerwebappquery
 
         :param web_app_query_id: Unique identifier for the query to be answered
         :param result: A JSON-serialized object describing the message to be sent
         :param request_timeout: Request timeout
-        :return: On success, a :class:`aiogram.types.sent_web_app_message.SentWebAppMessage` object is returned.
+        :return: On success, a :class:`masogram.types.sent_web_app_message.SentWebAppMessage` object is returned.
         """
 
         call = AnswerWebAppQuery(
@@ -732,7 +732,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> MessageId:
         """
-        Use this method to copy messages of any kind. Service messages and invoice messages can't be copied. A quiz :class:`aiogram.methods.poll.Poll` can be copied only if the value of the field *correct_option_id* is known to the bot. The method is analogous to the method :class:`aiogram.methods.forward_message.ForwardMessage`, but the copied message doesn't have a link to the original message. Returns the :class:`aiogram.types.message_id.MessageId` of the sent message on success.
+        Use this method to copy messages of any kind. Service messages and invoice messages can't be copied. A quiz :class:`masogram.methods.poll.Poll` can be copied only if the value of the field *correct_option_id* is known to the bot. The method is analogous to the method :class:`masogram.methods.forward_message.ForwardMessage`, but the copied message doesn't have a link to the original message. Returns the :class:`masogram.types.message_id.MessageId` of the sent message on success.
 
         Source: https://core.telegram.org/bots/api#copymessage
 
@@ -749,7 +749,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
         :param request_timeout: Request timeout
-        :return: Returns the :class:`aiogram.types.message_id.MessageId` of the sent message on success.
+        :return: Returns the :class:`masogram.types.message_id.MessageId` of the sent message on success.
         """
 
         call = CopyMessage(
@@ -778,7 +778,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> ChatInviteLink:
         """
-        Use this method to create an additional invite link for a chat. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. The link can be revoked using the method :class:`aiogram.methods.revoke_chat_invite_link.RevokeChatInviteLink`. Returns the new invite link as :class:`aiogram.types.chat_invite_link.ChatInviteLink` object.
+        Use this method to create an additional invite link for a chat. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. The link can be revoked using the method :class:`masogram.methods.revoke_chat_invite_link.RevokeChatInviteLink`. Returns the new invite link as :class:`masogram.types.chat_invite_link.ChatInviteLink` object.
 
         Source: https://core.telegram.org/bots/api#createchatinvitelink
 
@@ -788,7 +788,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         :param member_limit: The maximum number of users that can be members of the chat simultaneously after joining the chat via this invite link; 1-99999
         :param creates_join_request: :code:`True`, if users joining the chat via the link need to be approved by chat administrators. If :code:`True`, *member_limit* can't be specified
         :param request_timeout: Request timeout
-        :return: Returns the new invite link as :class:`aiogram.types.chat_invite_link.ChatInviteLink` object.
+        :return: Returns the new invite link as :class:`masogram.types.chat_invite_link.ChatInviteLink` object.
         """
 
         call = CreateChatInviteLink(
@@ -809,16 +809,16 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> ForumTopic:
         """
-        Use this method to create a topic in a forum supergroup chat. The bot must be an administrator in the chat for this to work and must have the *can_manage_topics* administrator rights. Returns information about the created topic as a :class:`aiogram.types.forum_topic.ForumTopic` object.
+        Use this method to create a topic in a forum supergroup chat. The bot must be an administrator in the chat for this to work and must have the *can_manage_topics* administrator rights. Returns information about the created topic as a :class:`masogram.types.forum_topic.ForumTopic` object.
 
         Source: https://core.telegram.org/bots/api#createforumtopic
 
         :param chat_id: Unique identifier for the target chat or username of the target supergroup (in the format :code:`@supergroupusername`)
         :param name: Topic name, 1-128 characters
         :param icon_color: Color of the topic icon in RGB format. Currently, must be one of 7322096 (0x6FB9F0), 16766590 (0xFFD67E), 13338331 (0xCB86DB), 9367192 (0x8EEE98), 16749490 (0xFF93B2), or 16478047 (0xFB6F5F)
-        :param icon_custom_emoji_id: Unique identifier of the custom emoji shown as the topic icon. Use :class:`aiogram.methods.get_forum_topic_icon_stickers.GetForumTopicIconStickers` to get all allowed custom emoji identifiers.
+        :param icon_custom_emoji_id: Unique identifier of the custom emoji shown as the topic icon. Use :class:`masogram.methods.get_forum_topic_icon_stickers.GetForumTopicIconStickers` to get all allowed custom emoji identifiers.
         :param request_timeout: Request timeout
-        :return: Returns information about the created topic as a :class:`aiogram.types.forum_topic.ForumTopic` object.
+        :return: Returns information about the created topic as a :class:`masogram.types.forum_topic.ForumTopic` object.
         """
 
         call = CreateForumTopic(
@@ -993,7 +993,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> bool:
         """
-        Use this method to delete a group sticker set from a supergroup. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. Use the field *can_set_sticker_set* optionally returned in :class:`aiogram.methods.get_chat.GetChat` requests to check if the bot can use this method. Returns :code:`True` on success.
+        Use this method to delete a group sticker set from a supergroup. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. Use the field *can_set_sticker_set* optionally returned in :class:`masogram.methods.get_chat.GetChat` requests to check if the bot can use this method. Returns :code:`True` on success.
 
         Source: https://core.telegram.org/bots/api#deletechatstickerset
 
@@ -1082,7 +1082,7 @@ class Bot(ContextInstanceMixin["Bot"]):
 
         Source: https://core.telegram.org/bots/api#deletemycommands
 
-        :param scope: A JSON-serialized object, describing scope of users for which the commands are relevant. Defaults to :class:`aiogram.types.bot_command_scope_default.BotCommandScopeDefault`.
+        :param scope: A JSON-serialized object, describing scope of users for which the commands are relevant. Defaults to :class:`masogram.types.bot_command_scope_default.BotCommandScopeDefault`.
         :param language_code: A two-letter ISO 639-1 language code. If empty, commands will be applied to all users from the given scope, for whose language there are no dedicated commands
         :param request_timeout: Request timeout
         :return: Returns :code:`True` on success.
@@ -1120,7 +1120,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> bool:
         """
-        Use this method to remove webhook integration if you decide to switch back to :class:`aiogram.methods.get_updates.GetUpdates`. Returns :code:`True` on success.
+        Use this method to remove webhook integration if you decide to switch back to :class:`masogram.methods.get_updates.GetUpdates`. Returns :code:`True` on success.
 
         Source: https://core.telegram.org/bots/api#deletewebhook
 
@@ -1145,7 +1145,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> ChatInviteLink:
         """
-        Use this method to edit a non-primary invite link created by the bot. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. Returns the edited invite link as a :class:`aiogram.types.chat_invite_link.ChatInviteLink` object.
+        Use this method to edit a non-primary invite link created by the bot. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. Returns the edited invite link as a :class:`masogram.types.chat_invite_link.ChatInviteLink` object.
 
         Source: https://core.telegram.org/bots/api#editchatinvitelink
 
@@ -1156,7 +1156,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         :param member_limit: The maximum number of users that can be members of the chat simultaneously after joining the chat via this invite link; 1-99999
         :param creates_join_request: :code:`True`, if users joining the chat via the link need to be approved by chat administrators. If :code:`True`, *member_limit* can't be specified
         :param request_timeout: Request timeout
-        :return: Returns the edited invite link as a :class:`aiogram.types.chat_invite_link.ChatInviteLink` object.
+        :return: Returns the edited invite link as a :class:`masogram.types.chat_invite_link.ChatInviteLink` object.
         """
 
         call = EditChatInviteLink(
@@ -1185,7 +1185,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         :param chat_id: Unique identifier for the target chat or username of the target supergroup (in the format :code:`@supergroupusername`)
         :param message_thread_id: Unique identifier for the target message thread of the forum topic
         :param name: New topic name, 0-128 characters. If not specified or empty, the current name of the topic will be kept
-        :param icon_custom_emoji_id: New unique identifier of the custom emoji shown as the topic icon. Use :class:`aiogram.methods.get_forum_topic_icon_stickers.GetForumTopicIconStickers` to get all allowed custom emoji identifiers. Pass an empty string to remove the icon. If not specified, the current icon will be kept
+        :param icon_custom_emoji_id: New unique identifier of the custom emoji shown as the topic icon. Use :class:`masogram.methods.get_forum_topic_icon_stickers.GetForumTopicIconStickers` to get all allowed custom emoji identifiers. Pass an empty string to remove the icon. If not specified, the current icon will be kept
         :param request_timeout: Request timeout
         :return: Returns :code:`True` on success.
         """
@@ -1210,7 +1210,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> Union[Message, bool]:
         """
-        Use this method to edit captions of messages. On success, if the edited message is not an inline message, the edited :class:`aiogram.types.message.Message` is returned, otherwise :code:`True` is returned.
+        Use this method to edit captions of messages. On success, if the edited message is not an inline message, the edited :class:`masogram.types.message.Message` is returned, otherwise :code:`True` is returned.
 
         Source: https://core.telegram.org/bots/api#editmessagecaption
 
@@ -1222,7 +1222,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         :param caption_entities: A JSON-serialized list of special entities that appear in the caption, which can be specified instead of *parse_mode*
         :param reply_markup: A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_.
         :param request_timeout: Request timeout
-        :return: On success, if the edited message is not an inline message, the edited :class:`aiogram.types.message.Message` is returned, otherwise :code:`True` is returned.
+        :return: On success, if the edited message is not an inline message, the edited :class:`masogram.types.message.Message` is returned, otherwise :code:`True` is returned.
         """
 
         call = EditMessageCaption(
@@ -1250,7 +1250,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> Union[Message, bool]:
         """
-        Use this method to edit live location messages. A location can be edited until its *live_period* expires or editing is explicitly disabled by a call to :class:`aiogram.methods.stop_message_live_location.StopMessageLiveLocation`. On success, if the edited message is not an inline message, the edited :class:`aiogram.types.message.Message` is returned, otherwise :code:`True` is returned.
+        Use this method to edit live location messages. A location can be edited until its *live_period* expires or editing is explicitly disabled by a call to :class:`masogram.methods.stop_message_live_location.StopMessageLiveLocation`. On success, if the edited message is not an inline message, the edited :class:`masogram.types.message.Message` is returned, otherwise :code:`True` is returned.
 
         Source: https://core.telegram.org/bots/api#editmessagelivelocation
 
@@ -1264,7 +1264,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         :param proximity_alert_radius: The maximum distance for proximity alerts about approaching another chat member, in meters. Must be between 1 and 100000 if specified.
         :param reply_markup: A JSON-serialized object for a new `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_.
         :param request_timeout: Request timeout
-        :return: On success, if the edited message is not an inline message, the edited :class:`aiogram.types.message.Message` is returned, otherwise :code:`True` is returned.
+        :return: On success, if the edited message is not an inline message, the edited :class:`masogram.types.message.Message` is returned, otherwise :code:`True` is returned.
         """
 
         call = EditMessageLiveLocation(
@@ -1290,7 +1290,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> Union[Message, bool]:
         """
-        Use this method to edit animation, audio, document, photo, or video messages. If a message is part of a message album, then it can be edited only to an audio for audio albums, only to a document for document albums and to a photo or a video otherwise. When an inline message is edited, a new file can't be uploaded; use a previously uploaded file via its file_id or specify a URL. On success, if the edited message is not an inline message, the edited :class:`aiogram.types.message.Message` is returned, otherwise :code:`True` is returned.
+        Use this method to edit animation, audio, document, photo, or video messages. If a message is part of a message album, then it can be edited only to an audio for audio albums, only to a document for document albums and to a photo or a video otherwise. When an inline message is edited, a new file can't be uploaded; use a previously uploaded file via its file_id or specify a URL. On success, if the edited message is not an inline message, the edited :class:`masogram.types.message.Message` is returned, otherwise :code:`True` is returned.
 
         Source: https://core.telegram.org/bots/api#editmessagemedia
 
@@ -1300,7 +1300,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         :param inline_message_id: Required if *chat_id* and *message_id* are not specified. Identifier of the inline message
         :param reply_markup: A JSON-serialized object for a new `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_.
         :param request_timeout: Request timeout
-        :return: On success, if the edited message is not an inline message, the edited :class:`aiogram.types.message.Message` is returned, otherwise :code:`True` is returned.
+        :return: On success, if the edited message is not an inline message, the edited :class:`masogram.types.message.Message` is returned, otherwise :code:`True` is returned.
         """
 
         call = EditMessageMedia(
@@ -1321,7 +1321,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> Union[Message, bool]:
         """
-        Use this method to edit only the reply markup of messages. On success, if the edited message is not an inline message, the edited :class:`aiogram.types.message.Message` is returned, otherwise :code:`True` is returned.
+        Use this method to edit only the reply markup of messages. On success, if the edited message is not an inline message, the edited :class:`masogram.types.message.Message` is returned, otherwise :code:`True` is returned.
 
         Source: https://core.telegram.org/bots/api#editmessagereplymarkup
 
@@ -1330,7 +1330,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         :param inline_message_id: Required if *chat_id* and *message_id* are not specified. Identifier of the inline message
         :param reply_markup: A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_.
         :param request_timeout: Request timeout
-        :return: On success, if the edited message is not an inline message, the edited :class:`aiogram.types.message.Message` is returned, otherwise :code:`True` is returned.
+        :return: On success, if the edited message is not an inline message, the edited :class:`masogram.types.message.Message` is returned, otherwise :code:`True` is returned.
         """
 
         call = EditMessageReplyMarkup(
@@ -1354,7 +1354,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> Union[Message, bool]:
         """
-        Use this method to edit text and `game <https://core.telegram.org/bots/api#games>`_ messages. On success, if the edited message is not an inline message, the edited :class:`aiogram.types.message.Message` is returned, otherwise :code:`True` is returned.
+        Use this method to edit text and `game <https://core.telegram.org/bots/api#games>`_ messages. On success, if the edited message is not an inline message, the edited :class:`masogram.types.message.Message` is returned, otherwise :code:`True` is returned.
 
         Source: https://core.telegram.org/bots/api#editmessagetext
 
@@ -1367,7 +1367,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         :param disable_web_page_preview: Disables link previews for links in this message
         :param reply_markup: A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_.
         :param request_timeout: Request timeout
-        :return: On success, if the edited message is not an inline message, the edited :class:`aiogram.types.message.Message` is returned, otherwise :code:`True` is returned.
+        :return: On success, if the edited message is not an inline message, the edited :class:`masogram.types.message.Message` is returned, otherwise :code:`True` is returned.
         """
 
         call = EditMessageText(
@@ -1390,13 +1390,13 @@ class Bot(ContextInstanceMixin["Bot"]):
         """
         Use this method to generate a new primary invite link for a chat; any previously generated primary link is revoked. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. Returns the new invite link as *String* on success.
 
-         Note: Each administrator in a chat generates their own invite links. Bots can't use invite links generated by other administrators. If you want your bot to work with invite links, it will need to generate its own link using :class:`aiogram.methods.export_chat_invite_link.ExportChatInviteLink` or by calling the :class:`aiogram.methods.get_chat.GetChat` method. If your bot needs to generate a new primary invite link replacing its previous one, use :class:`aiogram.methods.export_chat_invite_link.ExportChatInviteLink` again.
+         Note: Each administrator in a chat generates their own invite links. Bots can't use invite links generated by other administrators. If you want your bot to work with invite links, it will need to generate its own link using :class:`masogram.methods.export_chat_invite_link.ExportChatInviteLink` or by calling the :class:`masogram.methods.get_chat.GetChat` method. If your bot needs to generate a new primary invite link replacing its previous one, use :class:`masogram.methods.export_chat_invite_link.ExportChatInviteLink` again.
 
         Source: https://core.telegram.org/bots/api#exportchatinvitelink
 
         :param chat_id: Unique identifier for the target chat or username of the target channel (in the format :code:`@channelusername`)
         :param request_timeout: Request timeout
-        :return: If your bot needs to generate a new primary invite link replacing its previous one, use :class:`aiogram.methods.export_chat_invite_link.ExportChatInviteLink` again.
+        :return: If your bot needs to generate a new primary invite link replacing its previous one, use :class:`masogram.methods.export_chat_invite_link.ExportChatInviteLink` again.
         """
 
         call = ExportChatInviteLink(
@@ -1415,7 +1415,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> Message:
         """
-        Use this method to forward messages of any kind. Service messages can't be forwarded. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to forward messages of any kind. Service messages can't be forwarded. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#forwardmessage
 
@@ -1426,7 +1426,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         :param disable_notification: Sends the message `silently <https://telegram.org/blog/channels-2-0#silent-messages>`_. Users will receive a notification with no sound.
         :param protect_content: Protects the contents of the forwarded message from forwarding and saving
         :param request_timeout: Request timeout
-        :return: On success, the sent :class:`aiogram.types.message.Message` is returned.
+        :return: On success, the sent :class:`masogram.types.message.Message` is returned.
         """
 
         call = ForwardMessage(
@@ -1445,13 +1445,13 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> Chat:
         """
-        Use this method to get up to date information about the chat (current name of the user for one-on-one conversations, current username of a user, group or channel, etc.). Returns a :class:`aiogram.types.chat.Chat` object on success.
+        Use this method to get up to date information about the chat (current name of the user for one-on-one conversations, current username of a user, group or channel, etc.). Returns a :class:`masogram.types.chat.Chat` object on success.
 
         Source: https://core.telegram.org/bots/api#getchat
 
         :param chat_id: Unique identifier for the target chat or username of the target supergroup or channel (in the format :code:`@channelusername`)
         :param request_timeout: Request timeout
-        :return: Returns a :class:`aiogram.types.chat.Chat` object on success.
+        :return: Returns a :class:`masogram.types.chat.Chat` object on success.
         """
 
         call = GetChat(
@@ -1474,13 +1474,13 @@ class Bot(ContextInstanceMixin["Bot"]):
         ]
     ]:
         """
-        Use this method to get a list of administrators in a chat, which aren't bots. Returns an Array of :class:`aiogram.types.chat_member.ChatMember` objects.
+        Use this method to get a list of administrators in a chat, which aren't bots. Returns an Array of :class:`masogram.types.chat_member.ChatMember` objects.
 
         Source: https://core.telegram.org/bots/api#getchatadministrators
 
         :param chat_id: Unique identifier for the target chat or username of the target supergroup or channel (in the format :code:`@channelusername`)
         :param request_timeout: Request timeout
-        :return: Returns an Array of :class:`aiogram.types.chat_member.ChatMember` objects.
+        :return: Returns an Array of :class:`masogram.types.chat_member.ChatMember` objects.
         """
 
         call = GetChatAdministrators(
@@ -1502,14 +1502,14 @@ class Bot(ContextInstanceMixin["Bot"]):
         ChatMemberBanned,
     ]:
         """
-        Use this method to get information about a member of a chat. The method is only guaranteed to work for other users if the bot is an administrator in the chat. Returns a :class:`aiogram.types.chat_member.ChatMember` object on success.
+        Use this method to get information about a member of a chat. The method is only guaranteed to work for other users if the bot is an administrator in the chat. Returns a :class:`masogram.types.chat_member.ChatMember` object on success.
 
         Source: https://core.telegram.org/bots/api#getchatmember
 
         :param chat_id: Unique identifier for the target chat or username of the target supergroup or channel (in the format :code:`@channelusername`)
         :param user_id: Unique identifier of the target user
         :param request_timeout: Request timeout
-        :return: Returns a :class:`aiogram.types.chat_member.ChatMember` object on success.
+        :return: Returns a :class:`masogram.types.chat_member.ChatMember` object on success.
         """
 
         call = GetChatMember(
@@ -1544,13 +1544,13 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> Union[MenuButtonDefault, MenuButtonWebApp, MenuButtonCommands]:
         """
-        Use this method to get the current value of the bot's menu button in a private chat, or the default menu button. Returns :class:`aiogram.types.menu_button.MenuButton` on success.
+        Use this method to get the current value of the bot's menu button in a private chat, or the default menu button. Returns :class:`masogram.types.menu_button.MenuButton` on success.
 
         Source: https://core.telegram.org/bots/api#getchatmenubutton
 
         :param chat_id: Unique identifier for the target private chat. If not specified, default bot's menu button will be returned
         :param request_timeout: Request timeout
-        :return: Returns :class:`aiogram.types.menu_button.MenuButton` on success.
+        :return: Returns :class:`masogram.types.menu_button.MenuButton` on success.
         """
 
         call = GetChatMenuButton(
@@ -1564,13 +1564,13 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> List[Sticker]:
         """
-        Use this method to get information about custom emoji stickers by their identifiers. Returns an Array of :class:`aiogram.types.sticker.Sticker` objects.
+        Use this method to get information about custom emoji stickers by their identifiers. Returns an Array of :class:`masogram.types.sticker.Sticker` objects.
 
         Source: https://core.telegram.org/bots/api#getcustomemojistickers
 
         :param custom_emoji_ids: List of custom emoji identifiers. At most 200 custom emoji identifiers can be specified.
         :param request_timeout: Request timeout
-        :return: Returns an Array of :class:`aiogram.types.sticker.Sticker` objects.
+        :return: Returns an Array of :class:`masogram.types.sticker.Sticker` objects.
         """
 
         call = GetCustomEmojiStickers(
@@ -1584,7 +1584,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> File:
         """
-        Use this method to get basic information about a file and prepare it for downloading. For the moment, bots can download files of up to 20MB in size. On success, a :class:`aiogram.types.file.File` object is returned. The file can then be downloaded via the link :code:`https://api.telegram.org/file/bot<token>/<file_path>`, where :code:`<file_path>` is taken from the response. It is guaranteed that the link will be valid for at least 1 hour. When the link expires, a new one can be requested by calling :class:`aiogram.methods.get_file.GetFile` again.
+        Use this method to get basic information about a file and prepare it for downloading. For the moment, bots can download files of up to 20MB in size. On success, a :class:`masogram.types.file.File` object is returned. The file can then be downloaded via the link :code:`https://api.telegram.org/file/bot<token>/<file_path>`, where :code:`<file_path>` is taken from the response. It is guaranteed that the link will be valid for at least 1 hour. When the link expires, a new one can be requested by calling :class:`masogram.methods.get_file.GetFile` again.
         **Note:** This function may not preserve the original file name and MIME type. You should save the file's MIME type and name (if available) when the File object is received.
 
         Source: https://core.telegram.org/bots/api#getfile
@@ -1604,12 +1604,12 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> List[Sticker]:
         """
-        Use this method to get custom emoji stickers, which can be used as a forum topic icon by any user. Requires no parameters. Returns an Array of :class:`aiogram.types.sticker.Sticker` objects.
+        Use this method to get custom emoji stickers, which can be used as a forum topic icon by any user. Requires no parameters. Returns an Array of :class:`masogram.types.sticker.Sticker` objects.
 
         Source: https://core.telegram.org/bots/api#getforumtopiciconstickers
 
         :param request_timeout: Request timeout
-        :return: Returns an Array of :class:`aiogram.types.sticker.Sticker` objects.
+        :return: Returns an Array of :class:`masogram.types.sticker.Sticker` objects.
         """
 
         call = GetForumTopicIconStickers()
@@ -1624,7 +1624,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> List[GameHighScore]:
         """
-        Use this method to get data for high score tables. Will return the score of the specified user and several of their neighbors in a game. Returns an Array of :class:`aiogram.types.game_high_score.GameHighScore` objects.
+        Use this method to get data for high score tables. Will return the score of the specified user and several of their neighbors in a game. Returns an Array of :class:`masogram.types.game_high_score.GameHighScore` objects.
 
          This method will currently return scores for the target user, plus two of their closest neighbors on each side. Will also return the top three users if the user and their neighbors are not among them. Please note that this behavior is subject to change.
 
@@ -1651,12 +1651,12 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> User:
         """
-        A simple method for testing your bot's authentication token. Requires no parameters. Returns basic information about the bot in form of a :class:`aiogram.types.user.User` object.
+        A simple method for testing your bot's authentication token. Requires no parameters. Returns basic information about the bot in form of a :class:`masogram.types.user.User` object.
 
         Source: https://core.telegram.org/bots/api#getme
 
         :param request_timeout: Request timeout
-        :return: Returns basic information about the bot in form of a :class:`aiogram.types.user.User` object.
+        :return: Returns basic information about the bot in form of a :class:`masogram.types.user.User` object.
         """
 
         call = GetMe()
@@ -1669,11 +1669,11 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> List[BotCommand]:
         """
-        Use this method to get the current list of the bot's commands for the given scope and user language. Returns an Array of :class:`aiogram.types.bot_command.BotCommand` objects. If commands aren't set, an empty list is returned.
+        Use this method to get the current list of the bot's commands for the given scope and user language. Returns an Array of :class:`masogram.types.bot_command.BotCommand` objects. If commands aren't set, an empty list is returned.
 
         Source: https://core.telegram.org/bots/api#getmycommands
 
-        :param scope: A JSON-serialized object, describing scope of users. Defaults to :class:`aiogram.types.bot_command_scope_default.BotCommandScopeDefault`.
+        :param scope: A JSON-serialized object, describing scope of users. Defaults to :class:`masogram.types.bot_command_scope_default.BotCommandScopeDefault`.
         :param language_code: A two-letter ISO 639-1 language code or an empty string
         :param request_timeout: Request timeout
         :return: If commands aren't set, an empty list is returned.
@@ -1691,13 +1691,13 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> ChatAdministratorRights:
         """
-        Use this method to get the current default administrator rights of the bot. Returns :class:`aiogram.types.chat_administrator_rights.ChatAdministratorRights` on success.
+        Use this method to get the current default administrator rights of the bot. Returns :class:`masogram.types.chat_administrator_rights.ChatAdministratorRights` on success.
 
         Source: https://core.telegram.org/bots/api#getmydefaultadministratorrights
 
         :param for_channels: Pass :code:`True` to get default administrator rights of the bot in channels. Otherwise, default administrator rights of the bot for groups and supergroups will be returned.
         :param request_timeout: Request timeout
-        :return: Returns :class:`aiogram.types.chat_administrator_rights.ChatAdministratorRights` on success.
+        :return: Returns :class:`masogram.types.chat_administrator_rights.ChatAdministratorRights` on success.
         """
 
         call = GetMyDefaultAdministratorRights(
@@ -1711,13 +1711,13 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> StickerSet:
         """
-        Use this method to get a sticker set. On success, a :class:`aiogram.types.sticker_set.StickerSet` object is returned.
+        Use this method to get a sticker set. On success, a :class:`masogram.types.sticker_set.StickerSet` object is returned.
 
         Source: https://core.telegram.org/bots/api#getstickerset
 
         :param name: Name of the sticker set
         :param request_timeout: Request timeout
-        :return: On success, a :class:`aiogram.types.sticker_set.StickerSet` object is returned.
+        :return: On success, a :class:`masogram.types.sticker_set.StickerSet` object is returned.
         """
 
         call = GetStickerSet(
@@ -1734,7 +1734,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> List[Update]:
         """
-        Use this method to receive incoming updates using long polling (`wiki <https://en.wikipedia.org/wiki/Push_technology#Long_polling>`_). Returns an Array of :class:`aiogram.types.update.Update` objects.
+        Use this method to receive incoming updates using long polling (`wiki <https://en.wikipedia.org/wiki/Push_technology#Long_polling>`_). Returns an Array of :class:`masogram.types.update.Update` objects.
 
          **Notes**
 
@@ -1744,12 +1744,12 @@ class Bot(ContextInstanceMixin["Bot"]):
 
         Source: https://core.telegram.org/bots/api#getupdates
 
-        :param offset: Identifier of the first update to be returned. Must be greater by one than the highest among the identifiers of previously received updates. By default, updates starting with the earliest unconfirmed update are returned. An update is considered confirmed as soon as :class:`aiogram.methods.get_updates.GetUpdates` is called with an *offset* higher than its *update_id*. The negative offset can be specified to retrieve updates starting from *-offset* update from the end of the updates queue. All previous updates will be forgotten.
+        :param offset: Identifier of the first update to be returned. Must be greater by one than the highest among the identifiers of previously received updates. By default, updates starting with the earliest unconfirmed update are returned. An update is considered confirmed as soon as :class:`masogram.methods.get_updates.GetUpdates` is called with an *offset* higher than its *update_id*. The negative offset can be specified to retrieve updates starting from *-offset* update from the end of the updates queue. All previous updates will be forgotten.
         :param limit: Limits the number of updates to be retrieved. Values between 1-100 are accepted. Defaults to 100.
         :param timeout: Timeout in seconds for long polling. Defaults to 0, i.e. usual short polling. Should be positive, short polling should be used for testing purposes only.
-        :param allowed_updates: A JSON-serialized list of the update types you want your bot to receive. For example, specify ['message', 'edited_channel_post', 'callback_query'] to only receive updates of these types. See :class:`aiogram.types.update.Update` for a complete list of available update types. Specify an empty list to receive all update types except *chat_member* (default). If not specified, the previous setting will be used.
+        :param allowed_updates: A JSON-serialized list of the update types you want your bot to receive. For example, specify ['message', 'edited_channel_post', 'callback_query'] to only receive updates of these types. See :class:`masogram.types.update.Update` for a complete list of available update types. Specify an empty list to receive all update types except *chat_member* (default). If not specified, the previous setting will be used.
         :param request_timeout: Request timeout
-        :return: Returns an Array of :class:`aiogram.types.update.Update` objects.
+        :return: Returns an Array of :class:`masogram.types.update.Update` objects.
         """
 
         call = GetUpdates(
@@ -1768,7 +1768,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> UserProfilePhotos:
         """
-        Use this method to get a list of profile pictures for a user. Returns a :class:`aiogram.types.user_profile_photos.UserProfilePhotos` object.
+        Use this method to get a list of profile pictures for a user. Returns a :class:`masogram.types.user_profile_photos.UserProfilePhotos` object.
 
         Source: https://core.telegram.org/bots/api#getuserprofilephotos
 
@@ -1776,7 +1776,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         :param offset: Sequential number of the first photo to be returned. By default, all photos are returned.
         :param limit: Limits the number of photos to be retrieved. Values between 1-100 are accepted. Defaults to 100.
         :param request_timeout: Request timeout
-        :return: Returns a :class:`aiogram.types.user_profile_photos.UserProfilePhotos` object.
+        :return: Returns a :class:`masogram.types.user_profile_photos.UserProfilePhotos` object.
         """
 
         call = GetUserProfilePhotos(
@@ -1791,12 +1791,12 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> WebhookInfo:
         """
-        Use this method to get current webhook status. Requires no parameters. On success, returns a :class:`aiogram.types.webhook_info.WebhookInfo` object. If the bot is using :class:`aiogram.methods.get_updates.GetUpdates`, will return an object with the *url* field empty.
+        Use this method to get current webhook status. Requires no parameters. On success, returns a :class:`masogram.types.webhook_info.WebhookInfo` object. If the bot is using :class:`masogram.methods.get_updates.GetUpdates`, will return an object with the *url* field empty.
 
         Source: https://core.telegram.org/bots/api#getwebhookinfo
 
         :param request_timeout: Request timeout
-        :return: If the bot is using :class:`aiogram.methods.get_updates.GetUpdates`, will return an object with the *url* field empty.
+        :return: If the bot is using :class:`masogram.methods.get_updates.GetUpdates`, will return an object with the *url* field empty.
         """
 
         call = GetWebhookInfo()
@@ -1985,14 +1985,14 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> ChatInviteLink:
         """
-        Use this method to revoke an invite link created by the bot. If the primary link is revoked, a new link is automatically generated. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. Returns the revoked invite link as :class:`aiogram.types.chat_invite_link.ChatInviteLink` object.
+        Use this method to revoke an invite link created by the bot. If the primary link is revoked, a new link is automatically generated. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. Returns the revoked invite link as :class:`masogram.types.chat_invite_link.ChatInviteLink` object.
 
         Source: https://core.telegram.org/bots/api#revokechatinvitelink
 
         :param chat_id: Unique identifier of the target chat or username of the target channel (in the format :code:`@channelusername`)
         :param invite_link: The invite link to revoke
         :param request_timeout: Request timeout
-        :return: Returns the revoked invite link as :class:`aiogram.types.chat_invite_link.ChatInviteLink` object.
+        :return: Returns the revoked invite link as :class:`masogram.types.chat_invite_link.ChatInviteLink` object.
         """
 
         call = RevokeChatInviteLink(
@@ -2024,7 +2024,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> Message:
         """
-        Use this method to send animation files (GIF or H.264/MPEG-4 AVC video without sound). On success, the sent :class:`aiogram.types.message.Message` is returned. Bots can currently send animation files of up to 50 MB in size, this limit may be changed in the future.
+        Use this method to send animation files (GIF or H.264/MPEG-4 AVC video without sound). On success, the sent :class:`masogram.types.message.Message` is returned. Bots can currently send animation files of up to 50 MB in size, this limit may be changed in the future.
 
         Source: https://core.telegram.org/bots/api#sendanimation
 
@@ -2090,8 +2090,8 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> Message:
         """
-        Use this method to send audio files, if you want Telegram clients to display them in the music player. Your audio must be in the .MP3 or .M4A format. On success, the sent :class:`aiogram.types.message.Message` is returned. Bots can currently send audio files of up to 50 MB in size, this limit may be changed in the future.
-        For sending voice messages, use the :class:`aiogram.methods.send_voice.SendVoice` method instead.
+        Use this method to send audio files, if you want Telegram clients to display them in the music player. Your audio must be in the .MP3 or .M4A format. On success, the sent :class:`masogram.types.message.Message` is returned. Bots can currently send audio files of up to 50 MB in size, this limit may be changed in the future.
+        For sending voice messages, use the :class:`masogram.methods.send_voice.SendVoice` method instead.
 
         Source: https://core.telegram.org/bots/api#sendaudio
 
@@ -2143,7 +2143,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         """
         Use this method when you need to tell the user that something is happening on the bot's side. The status is set for 5 seconds or less (when a message arrives from your bot, Telegram clients clear its typing status). Returns :code:`True` on success.
 
-         Example: The `ImageBot <https://t.me/imagebot>`_ needs some time to process a request and upload the image. Instead of sending a text message along the lines of 'Retrieving image, please wait…', the bot may use :class:`aiogram.methods.send_chat_action.SendChatAction` with *action* = *upload_photo*. The user will see a 'sending photo' status for the bot.
+         Example: The `ImageBot <https://t.me/imagebot>`_ needs some time to process a request and upload the image. Instead of sending a text message along the lines of 'Retrieving image, please wait…', the bot may use :class:`masogram.methods.send_chat_action.SendChatAction` with *action* = *upload_photo*. The user will see a 'sending photo' status for the bot.
 
         We only recommend using this method when a response from the bot will take a **noticeable** amount of time to arrive.
 
@@ -2181,7 +2181,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> Message:
         """
-        Use this method to send phone contacts. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to send phone contacts. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#sendcontact
 
@@ -2197,7 +2197,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
         :param request_timeout: Request timeout
-        :return: On success, the sent :class:`aiogram.types.message.Message` is returned.
+        :return: On success, the sent :class:`masogram.types.message.Message` is returned.
         """
 
         call = SendContact(
@@ -2230,7 +2230,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> Message:
         """
-        Use this method to send an animated emoji that will display a random value. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to send an animated emoji that will display a random value. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#senddice
 
@@ -2243,7 +2243,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
         :param request_timeout: Request timeout
-        :return: On success, the sent :class:`aiogram.types.message.Message` is returned.
+        :return: On success, the sent :class:`masogram.types.message.Message` is returned.
         """
 
         call = SendDice(
@@ -2278,7 +2278,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> Message:
         """
-        Use this method to send general files. On success, the sent :class:`aiogram.types.message.Message` is returned. Bots can currently send files of any type of up to 50 MB in size, this limit may be changed in the future.
+        Use this method to send general files. On success, the sent :class:`masogram.types.message.Message` is returned. Bots can currently send files of any type of up to 50 MB in size, this limit may be changed in the future.
 
         Source: https://core.telegram.org/bots/api#senddocument
 
@@ -2329,7 +2329,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> Message:
         """
-        Use this method to send a game. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to send a game. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#sendgame
 
@@ -2342,7 +2342,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_. If empty, one 'Play game_title' button will be shown. If not empty, the first button must launch the game.
         :param request_timeout: Request timeout
-        :return: On success, the sent :class:`aiogram.types.message.Message` is returned.
+        :return: On success, the sent :class:`masogram.types.message.Message` is returned.
         """
 
         call = SendGame(
@@ -2390,7 +2390,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> Message:
         """
-        Use this method to send invoices. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to send invoices. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#sendinvoice
 
@@ -2423,7 +2423,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_. If empty, one 'Pay :code:`total price`' button will be shown. If not empty, the first button must be a Pay button.
         :param request_timeout: Request timeout
-        :return: On success, the sent :class:`aiogram.types.message.Message` is returned.
+        :return: On success, the sent :class:`masogram.types.message.Message` is returned.
         """
 
         call = SendInvoice(
@@ -2478,7 +2478,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> Message:
         """
-        Use this method to send point on the map. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to send point on the map. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#sendlocation
 
@@ -2496,7 +2496,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
         :param request_timeout: Request timeout
-        :return: On success, the sent :class:`aiogram.types.message.Message` is returned.
+        :return: On success, the sent :class:`masogram.types.message.Message` is returned.
         """
 
         call = SendLocation(
@@ -2572,7 +2572,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> Message:
         """
-        Use this method to send text messages. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to send text messages. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#sendmessage
 
@@ -2588,7 +2588,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
         :param request_timeout: Request timeout
-        :return: On success, the sent :class:`aiogram.types.message.Message` is returned.
+        :return: On success, the sent :class:`masogram.types.message.Message` is returned.
         """
 
         call = SendMessage(
@@ -2625,7 +2625,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> Message:
         """
-        Use this method to send photos. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to send photos. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#sendphoto
 
@@ -2642,7 +2642,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
         :param request_timeout: Request timeout
-        :return: On success, the sent :class:`aiogram.types.message.Message` is returned.
+        :return: On success, the sent :class:`masogram.types.message.Message` is returned.
         """
 
         call = SendPhoto(
@@ -2687,7 +2687,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> Message:
         """
-        Use this method to send a native poll. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to send a native poll. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#sendpoll
 
@@ -2711,7 +2711,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
         :param request_timeout: Request timeout
-        :return: On success, the sent :class:`aiogram.types.message.Message` is returned.
+        :return: On success, the sent :class:`masogram.types.message.Message` is returned.
         """
 
         call = SendPoll(
@@ -2753,7 +2753,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> Message:
         """
-        Use this method to send static .WEBP, `animated <https://telegram.org/blog/animated-stickers>`_ .TGS, or `video <https://telegram.org/blog/video-stickers-better-reactions>`_ .WEBM stickers. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to send static .WEBP, `animated <https://telegram.org/blog/animated-stickers>`_ .TGS, or `video <https://telegram.org/blog/video-stickers-better-reactions>`_ .WEBM stickers. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#sendsticker
 
@@ -2767,7 +2767,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
         :param request_timeout: Request timeout
-        :return: On success, the sent :class:`aiogram.types.message.Message` is returned.
+        :return: On success, the sent :class:`masogram.types.message.Message` is returned.
         """
 
         call = SendSticker(
@@ -2805,7 +2805,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> Message:
         """
-        Use this method to send information about a venue. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to send information about a venue. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#sendvenue
 
@@ -2825,7 +2825,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
         :param request_timeout: Request timeout
-        :return: On success, the sent :class:`aiogram.types.message.Message` is returned.
+        :return: On success, the sent :class:`masogram.types.message.Message` is returned.
         """
 
         call = SendVenue(
@@ -2871,7 +2871,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> Message:
         """
-        Use this method to send video files, Telegram clients support MPEG4 videos (other formats may be sent as :class:`aiogram.types.document.Document`). On success, the sent :class:`aiogram.types.message.Message` is returned. Bots can currently send video files of up to 50 MB in size, this limit may be changed in the future.
+        Use this method to send video files, Telegram clients support MPEG4 videos (other formats may be sent as :class:`masogram.types.document.Document`). On success, the sent :class:`masogram.types.message.Message` is returned. Bots can currently send video files of up to 50 MB in size, this limit may be changed in the future.
 
         Source: https://core.telegram.org/bots/api#sendvideo
 
@@ -2935,7 +2935,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> Message:
         """
-        As of `v.4.0 <https://telegram.org/blog/video-messages-and-telescope>`_, Telegram clients support rounded square MPEG4 videos of up to 1 minute long. Use this method to send video messages. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        As of `v.4.0 <https://telegram.org/blog/video-messages-and-telescope>`_, Telegram clients support rounded square MPEG4 videos of up to 1 minute long. Use this method to send video messages. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#sendvideonote
 
@@ -2951,7 +2951,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
         :param request_timeout: Request timeout
-        :return: On success, the sent :class:`aiogram.types.message.Message` is returned.
+        :return: On success, the sent :class:`masogram.types.message.Message` is returned.
         """
 
         call = SendVideoNote(
@@ -2988,7 +2988,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> Message:
         """
-        Use this method to send audio files, if you want Telegram clients to display the file as a playable voice message. For this to work, your audio must be in an .OGG file encoded with OPUS (other formats may be sent as :class:`aiogram.types.audio.Audio` or :class:`aiogram.types.document.Document`). On success, the sent :class:`aiogram.types.message.Message` is returned. Bots can currently send voice messages of up to 50 MB in size, this limit may be changed in the future.
+        Use this method to send audio files, if you want Telegram clients to display the file as a playable voice message. For this to work, your audio must be in an .OGG file encoded with OPUS (other formats may be sent as :class:`masogram.types.audio.Audio` or :class:`masogram.types.document.Document`). On success, the sent :class:`masogram.types.message.Message` is returned. Bots can currently send voice messages of up to 50 MB in size, this limit may be changed in the future.
 
         Source: https://core.telegram.org/bots/api#sendvoice
 
@@ -3087,7 +3087,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         Source: https://core.telegram.org/bots/api#setchatmenubutton
 
         :param chat_id: Unique identifier for the target private chat. If not specified, default bot's menu button will be changed
-        :param menu_button: A JSON-serialized object for the bot's new menu button. Defaults to :class:`aiogram.types.menu_button_default.MenuButtonDefault`
+        :param menu_button: A JSON-serialized object for the bot's new menu button. Defaults to :class:`masogram.types.menu_button_default.MenuButtonDefault`
         :param request_timeout: Request timeout
         :return: Returns :code:`True` on success.
         """
@@ -3154,7 +3154,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> bool:
         """
-        Use this method to set a new group sticker set for a supergroup. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. Use the field *can_set_sticker_set* optionally returned in :class:`aiogram.methods.get_chat.GetChat` requests to check if the bot can use this method. Returns :code:`True` on success.
+        Use this method to set a new group sticker set for a supergroup. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. Use the field *can_set_sticker_set* optionally returned in :class:`masogram.methods.get_chat.GetChat` requests to check if the bot can use this method. Returns :code:`True` on success.
 
         Source: https://core.telegram.org/bots/api#setchatstickerset
 
@@ -3205,7 +3205,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> Union[Message, bool]:
         """
-        Use this method to set the score of the specified user in a game message. On success, if the message is not an inline message, the :class:`aiogram.types.message.Message` is returned, otherwise :code:`True` is returned. Returns an error, if the new score is not greater than the user's current score in the chat and *force* is :code:`False`.
+        Use this method to set the score of the specified user in a game message. On success, if the message is not an inline message, the :class:`masogram.types.message.Message` is returned, otherwise :code:`True` is returned. Returns an error, if the new score is not greater than the user's current score in the chat and *force* is :code:`False`.
 
         Source: https://core.telegram.org/bots/api#setgamescore
 
@@ -3244,7 +3244,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         Source: https://core.telegram.org/bots/api#setmycommands
 
         :param commands: A JSON-serialized list of bot commands to be set as the list of the bot's commands. At most 100 commands can be specified.
-        :param scope: A JSON-serialized object, describing scope of users for which the commands are relevant. Defaults to :class:`aiogram.types.bot_command_scope_default.BotCommandScopeDefault`.
+        :param scope: A JSON-serialized object, describing scope of users for which the commands are relevant. Defaults to :class:`masogram.types.bot_command_scope_default.BotCommandScopeDefault`.
         :param language_code: A two-letter ISO 639-1 language code. If empty, commands will be applied to all users from the given scope, for whose language there are no dedicated commands
         :param request_timeout: Request timeout
         :return: Returns :code:`True` on success.
@@ -3339,12 +3339,12 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> bool:
         """
-        Use this method to specify a URL and receive incoming updates via an outgoing webhook. Whenever there is an update for the bot, we will send an HTTPS POST request to the specified URL, containing a JSON-serialized :class:`aiogram.types.update.Update`. In case of an unsuccessful request, we will give up after a reasonable amount of attempts. Returns :code:`True` on success.
+        Use this method to specify a URL and receive incoming updates via an outgoing webhook. Whenever there is an update for the bot, we will send an HTTPS POST request to the specified URL, containing a JSON-serialized :class:`masogram.types.update.Update`. In case of an unsuccessful request, we will give up after a reasonable amount of attempts. Returns :code:`True` on success.
         If you'd like to make sure that the webhook was set by you, you can specify secret data in the parameter *secret_token*. If specified, the request will contain a header 'X-Telegram-Bot-Api-Secret-Token' with the secret token as content.
 
          **Notes**
 
-         **1.** You will not be able to receive updates using :class:`aiogram.methods.get_updates.GetUpdates` for as long as an outgoing webhook is set up.
+         **1.** You will not be able to receive updates using :class:`masogram.methods.get_updates.GetUpdates` for as long as an outgoing webhook is set up.
 
          **2.** To use a self-signed certificate, you need to upload your `public key certificate <https://core.telegram.org/bots/self-signed>`_ using *certificate* parameter. Please upload as InputFile, sending a String will not work.
 
@@ -3357,7 +3357,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         :param certificate: Upload your public key certificate so that the root certificate in use can be checked. See our `self-signed guide <https://core.telegram.org/bots/self-signed>`_ for details.
         :param ip_address: The fixed IP address which will be used to send webhook requests instead of the IP address resolved through DNS
         :param max_connections: The maximum allowed number of simultaneous HTTPS connections to the webhook for update delivery, 1-100. Defaults to *40*. Use lower values to limit the load on your bot's server, and higher values to increase your bot's throughput.
-        :param allowed_updates: A JSON-serialized list of the update types you want your bot to receive. For example, specify ['message', 'edited_channel_post', 'callback_query'] to only receive updates of these types. See :class:`aiogram.types.update.Update` for a complete list of available update types. Specify an empty list to receive all update types except *chat_member* (default). If not specified, the previous setting will be used.
+        :param allowed_updates: A JSON-serialized list of the update types you want your bot to receive. For example, specify ['message', 'edited_channel_post', 'callback_query'] to only receive updates of these types. See :class:`masogram.types.update.Update` for a complete list of available update types. Specify an empty list to receive all update types except *chat_member* (default). If not specified, the previous setting will be used.
         :param drop_pending_updates: Pass :code:`True` to drop all pending updates
         :param secret_token: A secret token to be sent in a header 'X-Telegram-Bot-Api-Secret-Token' in every webhook request, 1-256 characters. Only characters :code:`A-Z`, :code:`a-z`, :code:`0-9`, :code:`_` and :code:`-` are allowed. The header is useful to ensure that the request comes from a webhook set by you.
         :param request_timeout: Request timeout
@@ -3384,7 +3384,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> Union[Message, bool]:
         """
-        Use this method to stop updating a live location message before *live_period* expires. On success, if the message is not an inline message, the edited :class:`aiogram.types.message.Message` is returned, otherwise :code:`True` is returned.
+        Use this method to stop updating a live location message before *live_period* expires. On success, if the message is not an inline message, the edited :class:`masogram.types.message.Message` is returned, otherwise :code:`True` is returned.
 
         Source: https://core.telegram.org/bots/api#stopmessagelivelocation
 
@@ -3393,7 +3393,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         :param inline_message_id: Required if *chat_id* and *message_id* are not specified. Identifier of the inline message
         :param reply_markup: A JSON-serialized object for a new `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_.
         :param request_timeout: Request timeout
-        :return: On success, if the message is not an inline message, the edited :class:`aiogram.types.message.Message` is returned, otherwise :code:`True` is returned.
+        :return: On success, if the message is not an inline message, the edited :class:`masogram.types.message.Message` is returned, otherwise :code:`True` is returned.
         """
 
         call = StopMessageLiveLocation(
@@ -3412,7 +3412,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> Poll:
         """
-        Use this method to stop a poll which was sent by the bot. On success, the stopped :class:`aiogram.types.poll.Poll` is returned.
+        Use this method to stop a poll which was sent by the bot. On success, the stopped :class:`masogram.types.poll.Poll` is returned.
 
         Source: https://core.telegram.org/bots/api#stoppoll
 
@@ -3420,7 +3420,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         :param message_id: Identifier of the original message with the poll
         :param reply_markup: A JSON-serialized object for a new message `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_.
         :param request_timeout: Request timeout
-        :return: On success, the stopped :class:`aiogram.types.poll.Poll` is returned.
+        :return: On success, the stopped :class:`masogram.types.poll.Poll` is returned.
         """
 
         call = StopPoll(
@@ -3553,7 +3553,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> File:
         """
-        Use this method to upload a file with a sticker for later use in the :class:`aiogram.methods.create_new_sticker_set.CreateNewStickerSet` and :class:`aiogram.methods.add_sticker_to_set.AddStickerToSet` methods (the file can be used multiple times). Returns the uploaded :class:`aiogram.types.file.File` on success.
+        Use this method to upload a file with a sticker for later use in the :class:`masogram.methods.create_new_sticker_set.CreateNewStickerSet` and :class:`masogram.methods.add_sticker_to_set.AddStickerToSet` methods (the file can be used multiple times). Returns the uploaded :class:`masogram.types.file.File` on success.
 
         Source: https://core.telegram.org/bots/api#uploadstickerfile
 
@@ -3561,7 +3561,7 @@ class Bot(ContextInstanceMixin["Bot"]):
         :param sticker: A file with the sticker in .WEBP, .PNG, .TGS, or .WEBM format. See `https://core.telegram.org/stickers <https://core.telegram.org/stickers>`_`https://core.telegram.org/stickers <https://core.telegram.org/stickers>`_ for technical requirements. :ref:`More information on Sending Files » <sending-files>`
         :param sticker_format: Format of the sticker, must be one of 'static', 'animated', 'video'
         :param request_timeout: Request timeout
-        :return: Returns the uploaded :class:`aiogram.types.file.File` on success.
+        :return: Returns the uploaded :class:`masogram.types.file.File` on success.
         """
 
         call = UploadStickerFile(
@@ -3700,13 +3700,13 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> BotDescription:
         """
-        Use this method to get the current bot description for the given user language. Returns :class:`aiogram.types.bot_description.BotDescription` on success.
+        Use this method to get the current bot description for the given user language. Returns :class:`masogram.types.bot_description.BotDescription` on success.
 
         Source: https://core.telegram.org/bots/api#getmydescription
 
         :param language_code: A two-letter ISO 639-1 language code or an empty string
         :param request_timeout: Request timeout
-        :return: Returns :class:`aiogram.types.bot_description.BotDescription` on success.
+        :return: Returns :class:`masogram.types.bot_description.BotDescription` on success.
         """
 
         call = GetMyDescription(
@@ -3720,13 +3720,13 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> BotShortDescription:
         """
-        Use this method to get the current bot short description for the given user language. Returns :class:`aiogram.types.bot_short_description.BotShortDescription` on success.
+        Use this method to get the current bot short description for the given user language. Returns :class:`masogram.types.bot_short_description.BotShortDescription` on success.
 
         Source: https://core.telegram.org/bots/api#getmyshortdescription
 
         :param language_code: A two-letter ISO 639-1 language code or an empty string
         :param request_timeout: Request timeout
-        :return: Returns :class:`aiogram.types.bot_short_description.BotShortDescription` on success.
+        :return: Returns :class:`masogram.types.bot_short_description.BotShortDescription` on success.
         """
 
         call = GetMyShortDescription(
@@ -3927,13 +3927,13 @@ class Bot(ContextInstanceMixin["Bot"]):
         request_timeout: Optional[int] = None,
     ) -> BotName:
         """
-        Use this method to get the current bot name for the given user language. Returns :class:`aiogram.types.bot_name.BotName` on success.
+        Use this method to get the current bot name for the given user language. Returns :class:`masogram.types.bot_name.BotName` on success.
 
         Source: https://core.telegram.org/bots/api#getmyname
 
         :param language_code: A two-letter ISO 639-1 language code or an empty string
         :param request_timeout: Request timeout
-        :return: Returns :class:`aiogram.types.bot_name.BotName` on success.
+        :return: Returns :class:`masogram.types.bot_name.BotName` on success.
         """
 
         call = GetMyName(

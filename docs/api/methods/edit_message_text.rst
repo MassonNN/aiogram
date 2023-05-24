@@ -4,7 +4,7 @@ editMessageText
 
 Returns: :obj:`Union[Message, bool]`
 
-.. automodule:: aiogram.methods.edit_message_text
+.. automodule:: masogram.methods.edit_message_text
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.edit_message_text import EditMessageText`
-- alias: :code:`from aiogram.methods import EditMessageText`
+- :code:`from masogram.methods.edit_message_text import EditMessageText`
+- alias: :code:`from masogram.methods import EditMessageText`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,4 +47,4 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.message.Message.edit_text`
+- :meth:`masogram.types.message.Message.edit_text`

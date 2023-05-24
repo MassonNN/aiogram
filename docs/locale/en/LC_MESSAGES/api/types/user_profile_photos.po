@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,20 +21,20 @@ msgstr ""
 msgid "UserProfilePhotos"
 msgstr ""
 
-#: aiogram.types.user_profile_photos.UserProfilePhotos:1 of
+#: masogram.types.user_profile_photos.UserProfilePhotos:1 of
 msgid "This object represent a user's profile pictures."
 msgstr ""
 
-#: aiogram.types.user_profile_photos.UserProfilePhotos:3 of
+#: masogram.types.user_profile_photos.UserProfilePhotos:3 of
 msgid "Source: https://core.telegram.org/bots/api#userprofilephotos"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.user_profile_photos.UserProfilePhotos.total_count:1 of
+#: masogram.types.user_profile_photos.UserProfilePhotos.total_count:1 of
 msgid "Total number of profile pictures the target user has"
 msgstr ""
 
-#: ../../docstring aiogram.types.user_profile_photos.UserProfilePhotos.photos:1
+#: ../../docstring masogram.types.user_profile_photos.UserProfilePhotos.photos:1
 #: of
 msgid "Requested profile pictures (in up to 4 sizes each)"
 msgstr ""

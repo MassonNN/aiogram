@@ -2,12 +2,12 @@
 ChatMemberUpdated
 =================
 
-.. autoclass:: aiogram.filters.chat_member_updated.ChatMemberUpdatedFilter
+.. autoclass:: masogram.filters.chat_member_updated.ChatMemberUpdatedFilter
     :members:
     :member-order: bysource
     :undoc-members: False
 
-You can import from :code:`aiogram.filters` all available
+You can import from :code:`masogram.filters` all available
 variants of `statuses`_, `status groups`_ or `transitions`_:
 
 Statuses
@@ -84,7 +84,7 @@ Handle user leave or join events
 
 .. code-block:: python
 
-    from aiogram.filters import IS_MEMBER, IS_NOT_MEMBER
+    from masogram.filters import IS_MEMBER, IS_NOT_MEMBER
 
     @router.chat_member(ChatMemberUpdatedFilter(IS_MEMBER >> IS_NOT_MEMBER))
     async def on_user_leave(event: ChatMemberUpdated): ...

@@ -34,11 +34,11 @@ class User(TelegramObject):
     added_to_attachment_menu: Optional[bool] = None
     """*Optional*. :code:`True`, if this user added the bot to the attachment menu"""
     can_join_groups: Optional[bool] = None
-    """*Optional*. :code:`True`, if the bot can be invited to groups. Returned only in :class:`aiogram.methods.get_me.GetMe`."""
+    """*Optional*. :code:`True`, if the bot can be invited to groups. Returned only in :class:`masogram.methods.get_me.GetMe`."""
     can_read_all_group_messages: Optional[bool] = None
-    """*Optional*. :code:`True`, if `privacy mode <https://core.telegram.org/bots/features#privacy-mode>`_ is disabled for the bot. Returned only in :class:`aiogram.methods.get_me.GetMe`."""
+    """*Optional*. :code:`True`, if `privacy mode <https://core.telegram.org/bots/features#privacy-mode>`_ is disabled for the bot. Returned only in :class:`masogram.methods.get_me.GetMe`."""
     supports_inline_queries: Optional[bool] = None
-    """*Optional*. :code:`True`, if the bot supports inline queries. Returned only in :class:`aiogram.methods.get_me.GetMe`."""
+    """*Optional*. :code:`True`, if the bot supports inline queries. Returned only in :class:`masogram.methods.get_me.GetMe`."""
 
     @property
     def full_name(self) -> str:
@@ -67,18 +67,18 @@ class User(TelegramObject):
         **kwargs: Any,
     ) -> GetUserProfilePhotos:
         """
-        Shortcut for method :class:`aiogram.methods.get_user_profile_photos.GetUserProfilePhotos`
+        Shortcut for method :class:`masogram.methods.get_user_profile_photos.GetUserProfilePhotos`
         will automatically fill method attributes:
 
         - :code:`user_id`
 
-        Use this method to get a list of profile pictures for a user. Returns a :class:`aiogram.types.user_profile_photos.UserProfilePhotos` object.
+        Use this method to get a list of profile pictures for a user. Returns a :class:`masogram.types.user_profile_photos.UserProfilePhotos` object.
 
         Source: https://core.telegram.org/bots/api#getuserprofilephotos
 
         :param offset: Sequential number of the first photo to be returned. By default, all photos are returned.
         :param limit: Limits the number of photos to be retrieved. Values between 1-100 are accepted. Defaults to 100.
-        :return: instance of method :class:`aiogram.methods.get_user_profile_photos.GetUserProfilePhotos`
+        :return: instance of method :class:`masogram.methods.get_user_profile_photos.GetUserProfilePhotos`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`

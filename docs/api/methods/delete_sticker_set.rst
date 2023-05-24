@@ -4,7 +4,7 @@ deleteStickerSet
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.delete_sticker_set
+.. automodule:: masogram.methods.delete_sticker_set
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.delete_sticker_set import DeleteStickerSet`
-- alias: :code:`from aiogram.methods import DeleteStickerSet`
+- :code:`from masogram.methods.delete_sticker_set import DeleteStickerSet`
+- alias: :code:`from masogram.methods import DeleteStickerSet`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

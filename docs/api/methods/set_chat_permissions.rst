@@ -4,7 +4,7 @@ setChatPermissions
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.set_chat_permissions
+.. automodule:: masogram.methods.set_chat_permissions
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.set_chat_permissions import SetChatPermissions`
-- alias: :code:`from aiogram.methods import SetChatPermissions`
+- :code:`from masogram.methods.set_chat_permissions import SetChatPermissions`
+- alias: :code:`from masogram.methods import SetChatPermissions`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,4 +47,4 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.chat.Chat.set_permissions`
+- :meth:`masogram.types.chat.Chat.set_permissions`

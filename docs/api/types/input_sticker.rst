@@ -3,7 +3,7 @@ InputSticker
 ############
 
 
-.. automodule:: aiogram.types.input_sticker
+.. automodule:: masogram.types.input_sticker
     :members:
     :member-order: bysource
     :undoc-members: True

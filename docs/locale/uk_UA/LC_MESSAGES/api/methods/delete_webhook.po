@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,19 +25,19 @@ msgstr ""
 msgid "Returns: :obj:`bool`"
 msgstr ""
 
-#: aiogram.methods.delete_webhook.DeleteWebhook:1 of
+#: masogram.methods.delete_webhook.DeleteWebhook:1 of
 msgid ""
 "Use this method to remove webhook integration if you decide to switch "
-"back to :class:`aiogram.methods.get_updates.GetUpdates`. Returns "
+"back to :class:`masogram.methods.get_updates.GetUpdates`. Returns "
 ":code:`True` on success."
 msgstr ""
 
-#: aiogram.methods.delete_webhook.DeleteWebhook:3 of
+#: masogram.methods.delete_webhook.DeleteWebhook:3 of
 msgid "Source: https://core.telegram.org/bots/api#deletewebhook"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.delete_webhook.DeleteWebhook.drop_pending_updates:1 of
+#: masogram.methods.delete_webhook.DeleteWebhook.drop_pending_updates:1 of
 msgid "Pass :code:`True` to drop all pending updates"
 msgstr ""
 
@@ -58,11 +58,11 @@ msgid "Imports:"
 msgstr ""
 
 #: ../../api/methods/delete_webhook.rst:29
-msgid ":code:`from aiogram.methods.delete_webhook import DeleteWebhook`"
+msgid ":code:`from masogram.methods.delete_webhook import DeleteWebhook`"
 msgstr ""
 
 #: ../../api/methods/delete_webhook.rst:30
-msgid "alias: :code:`from aiogram.methods import DeleteWebhook`"
+msgid "alias: :code:`from masogram.methods import DeleteWebhook`"
 msgstr ""
 
 #: ../../api/methods/delete_webhook.rst:33

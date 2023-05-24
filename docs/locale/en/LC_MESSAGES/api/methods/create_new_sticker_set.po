@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-11 01:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,24 +25,24 @@ msgstr ""
 msgid "Returns: :obj:`bool`"
 msgstr ""
 
-#: aiogram.methods.create_new_sticker_set.CreateNewStickerSet:1 of
+#: masogram.methods.create_new_sticker_set.CreateNewStickerSet:1 of
 msgid ""
 "Use this method to create a new sticker set owned by a user. The bot will"
 " be able to edit the sticker set thus created. Returns :code:`True` on "
 "success."
 msgstr ""
 
-#: aiogram.methods.create_new_sticker_set.CreateNewStickerSet:3 of
+#: masogram.methods.create_new_sticker_set.CreateNewStickerSet:3 of
 msgid "Source: https://core.telegram.org/bots/api#createnewstickerset"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.create_new_sticker_set.CreateNewStickerSet.user_id:1 of
+#: masogram.methods.create_new_sticker_set.CreateNewStickerSet.user_id:1 of
 msgid "User identifier of created sticker set owner"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.create_new_sticker_set.CreateNewStickerSet.name:1 of
+#: masogram.methods.create_new_sticker_set.CreateNewStickerSet.name:1 of
 msgid ""
 "Short name of sticker set, to be used in :code:`t.me/addstickers/` URLs "
 "(e.g., *animals*). Can contain only English letters, digits and "
@@ -52,19 +52,19 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.create_new_sticker_set.CreateNewStickerSet.title:1 of
+#: masogram.methods.create_new_sticker_set.CreateNewStickerSet.title:1 of
 msgid "Sticker set title, 1-64 characters"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.create_new_sticker_set.CreateNewStickerSet.stickers:1 of
+#: masogram.methods.create_new_sticker_set.CreateNewStickerSet.stickers:1 of
 msgid ""
 "A JSON-serialized list of 1-50 initial stickers to be added to the "
 "sticker set"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.create_new_sticker_set.CreateNewStickerSet.sticker_format:1
+#: masogram.methods.create_new_sticker_set.CreateNewStickerSet.sticker_format:1
 #: of
 msgid ""
 "Format of stickers in the set, must be one of 'static', 'animated', "
@@ -72,14 +72,14 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.create_new_sticker_set.CreateNewStickerSet.sticker_type:1 of
+#: masogram.methods.create_new_sticker_set.CreateNewStickerSet.sticker_type:1 of
 msgid ""
 "Type of stickers in the set, pass 'regular', 'mask', or 'custom_emoji'. "
 "By default, a regular sticker set is created."
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.create_new_sticker_set.CreateNewStickerSet.needs_repainting:1
+#: masogram.methods.create_new_sticker_set.CreateNewStickerSet.needs_repainting:1
 #: of
 msgid ""
 "Pass :code:`True` if stickers in the sticker set must be repainted to the"
@@ -106,12 +106,12 @@ msgstr ""
 
 #: ../../api/methods/create_new_sticker_set.rst:29
 msgid ""
-":code:`from aiogram.methods.create_new_sticker_set import "
+":code:`from masogram.methods.create_new_sticker_set import "
 "CreateNewStickerSet`"
 msgstr ""
 
 #: ../../api/methods/create_new_sticker_set.rst:30
-msgid "alias: :code:`from aiogram.methods import CreateNewStickerSet`"
+msgid "alias: :code:`from masogram.methods import CreateNewStickerSet`"
 msgstr ""
 
 #: ../../api/methods/create_new_sticker_set.rst:33

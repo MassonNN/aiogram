@@ -170,7 +170,7 @@ class TestDispatcher:
         )
         bot.add_result_for(GetUpdates, ok=False, error_code=500, description="restarting")
         with patch(
-            "aiogram.utils.backoff.Backoff.asleep",
+            "masogram.utils.backoff.Backoff.asleep",
             new_callable=AsyncMock,
         ) as mocked_asleep:
             assert isinstance(await anext(listen), Update)
@@ -589,7 +589,7 @@ class TestDispatcher:
         dispatcher.update.handlers.reverse()
 
         with patch(
-            "aiogram.dispatcher.dispatcher.Dispatcher.silent_call_request",
+            "masogram.dispatcher.dispatcher.Dispatcher.silent_call_request",
             new_callable=AsyncMock,
         ) as mocked_silent_call_request:
             await dispatcher._process_update(bot=bot, update=Update(update_id=42))
@@ -615,9 +615,9 @@ class TestDispatcher:
             yield Update(update_id=42)
 
         with patch(
-            "aiogram.dispatcher.dispatcher.Dispatcher._process_update", new_callable=AsyncMock
+            "masogram.dispatcher.dispatcher.Dispatcher._process_update", new_callable=AsyncMock
         ) as mocked_process_update, patch(
-            "aiogram.dispatcher.dispatcher.Dispatcher._listen_updates"
+            "masogram.dispatcher.dispatcher.Dispatcher._listen_updates"
         ) as patched_listen_updates:
             patched_listen_updates.return_value = _mock_updates()
             await dispatcher._polling(bot=bot, handle_as_tasks=as_task)
@@ -688,13 +688,13 @@ class TestDispatcher:
             yield Update(update_id=42)
 
         with patch(
-            "aiogram.dispatcher.dispatcher.Dispatcher._process_update", new_callable=AsyncMock
+            "masogram.dispatcher.dispatcher.Dispatcher._process_update", new_callable=AsyncMock
         ) as mocked_process_update, patch(
-            "aiogram.dispatcher.router.Router.emit_startup", new_callable=AsyncMock
+            "masogram.dispatcher.router.Router.emit_startup", new_callable=AsyncMock
         ) as mocked_emit_startup, patch(
-            "aiogram.dispatcher.router.Router.emit_shutdown", new_callable=AsyncMock
+            "masogram.dispatcher.router.Router.emit_shutdown", new_callable=AsyncMock
         ) as mocked_emit_shutdown, patch(
-            "aiogram.dispatcher.dispatcher.Dispatcher._listen_updates"
+            "masogram.dispatcher.dispatcher.Dispatcher._listen_updates"
         ) as patched_listen_updates:
             patched_listen_updates.return_value = _mock_updates()
             await dispatcher.start_polling(bot)
@@ -750,9 +750,9 @@ class TestDispatcher:
                 await asyncio.sleep(1)
 
         with patch(
-            "aiogram.dispatcher.dispatcher.Dispatcher._process_update", new_callable=AsyncMock
+            "masogram.dispatcher.dispatcher.Dispatcher._process_update", new_callable=AsyncMock
         ) as mocked_process_update, patch(
-            "aiogram.dispatcher.dispatcher.Dispatcher._listen_updates",
+            "masogram.dispatcher.dispatcher.Dispatcher._listen_updates",
             return_value=_mock_updates(),
         ):
             task = asyncio.ensure_future(dispatcher.start_polling(bot))
@@ -789,7 +789,7 @@ class TestDispatcher:
 
         original_start_polling = dispatcher.start_polling
         with patch(
-            "aiogram.dispatcher.dispatcher.Dispatcher.start_polling",
+            "masogram.dispatcher.dispatcher.Dispatcher.start_polling",
             side_effect=original_start_polling,
         ) as patched_start_polling:
             dispatcher.run_polling(bot)
@@ -811,7 +811,7 @@ class TestDispatcher:
         dispatcher.message.register(simple_message_handler)
 
         with patch(
-            "aiogram.dispatcher.dispatcher.Dispatcher.silent_call_request",
+            "masogram.dispatcher.dispatcher.Dispatcher.silent_call_request",
             new_callable=AsyncMock,
         ) as mocked_silent_call_request:
             response = await dispatcher.feed_webhook_update(bot, RAW_UPDATE, _timeout=0.1)

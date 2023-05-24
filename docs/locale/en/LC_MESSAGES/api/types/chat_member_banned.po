@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,28 +21,28 @@ msgstr ""
 msgid "ChatMemberBanned"
 msgstr ""
 
-#: aiogram.types.chat_member_banned.ChatMemberBanned:1 of
+#: masogram.types.chat_member_banned.ChatMemberBanned:1 of
 msgid ""
 "Represents a `chat member "
 "<https://core.telegram.org/bots/api#chatmember>`_ that was banned in the "
 "chat and can't return to the chat or view chat messages."
 msgstr ""
 
-#: aiogram.types.chat_member_banned.ChatMemberBanned:3 of
+#: masogram.types.chat_member_banned.ChatMemberBanned:3 of
 msgid "Source: https://core.telegram.org/bots/api#chatmemberbanned"
 msgstr ""
 
-#: ../../docstring aiogram.types.chat_member_banned.ChatMemberBanned.status:1
+#: ../../docstring masogram.types.chat_member_banned.ChatMemberBanned.status:1
 #: of
 msgid "The member's status in the chat, always 'kicked'"
 msgstr ""
 
-#: ../../docstring aiogram.types.chat_member_banned.ChatMemberBanned.user:1 of
+#: ../../docstring masogram.types.chat_member_banned.ChatMemberBanned.user:1 of
 msgid "Information about the user"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.chat_member_banned.ChatMemberBanned.until_date:1 of
+#: masogram.types.chat_member_banned.ChatMemberBanned.until_date:1 of
 msgid ""
 "Date when restrictions will be lifted for this user; unix time. If 0, "
 "then the user is banned forever"

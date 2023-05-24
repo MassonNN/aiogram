@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-06 14:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "InlineQueryResultCachedDocument"
 msgstr ""
 
-#: aiogram.types.inline_query_result_cached_document.InlineQueryResultCachedDocument:1
+#: masogram.types.inline_query_result_cached_document.InlineQueryResultCachedDocument:1
 #: of
 msgid ""
 "Represents a link to a file stored on the Telegram servers. By default, "
@@ -32,43 +32,43 @@ msgid ""
 "ignore them."
 msgstr ""
 
-#: aiogram.types.inline_query_result_cached_document.InlineQueryResultCachedDocument:4
+#: masogram.types.inline_query_result_cached_document.InlineQueryResultCachedDocument:4
 #: of
 msgid "Source: https://core.telegram.org/bots/api#inlinequeryresultcacheddocument"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_cached_document.InlineQueryResultCachedDocument.type:1
+#: masogram.types.inline_query_result_cached_document.InlineQueryResultCachedDocument.type:1
 #: of
 msgid "Type of the result, must be *document*"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_cached_document.InlineQueryResultCachedDocument.id:1
+#: masogram.types.inline_query_result_cached_document.InlineQueryResultCachedDocument.id:1
 #: of
 msgid "Unique identifier for this result, 1-64 bytes"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_cached_document.InlineQueryResultCachedDocument.title:1
+#: masogram.types.inline_query_result_cached_document.InlineQueryResultCachedDocument.title:1
 #: of
 msgid "Title for the result"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_cached_document.InlineQueryResultCachedDocument.document_file_id:1
+#: masogram.types.inline_query_result_cached_document.InlineQueryResultCachedDocument.document_file_id:1
 #: of
 msgid "A valid file identifier for the file"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_cached_document.InlineQueryResultCachedDocument.description:1
+#: masogram.types.inline_query_result_cached_document.InlineQueryResultCachedDocument.description:1
 #: of
 msgid "*Optional*. Short description of the result"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_cached_document.InlineQueryResultCachedDocument.caption:1
+#: masogram.types.inline_query_result_cached_document.InlineQueryResultCachedDocument.caption:1
 #: of
 msgid ""
 "*Optional*. Caption of the document to be sent, 0-1024 characters after "
@@ -76,7 +76,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_cached_document.InlineQueryResultCachedDocument.parse_mode:1
+#: masogram.types.inline_query_result_cached_document.InlineQueryResultCachedDocument.parse_mode:1
 #: of
 msgid ""
 "*Optional*. Mode for parsing entities in the document caption. See "
@@ -85,7 +85,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_cached_document.InlineQueryResultCachedDocument.caption_entities:1
+#: masogram.types.inline_query_result_cached_document.InlineQueryResultCachedDocument.caption_entities:1
 #: of
 msgid ""
 "*Optional*. List of special entities that appear in the caption, which "
@@ -93,7 +93,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_cached_document.InlineQueryResultCachedDocument.reply_markup:1
+#: masogram.types.inline_query_result_cached_document.InlineQueryResultCachedDocument.reply_markup:1
 #: of
 msgid ""
 "*Optional*. `Inline keyboard <https://core.telegram.org/bots/features"
@@ -101,7 +101,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_cached_document.InlineQueryResultCachedDocument.input_message_content:1
+#: masogram.types.inline_query_result_cached_document.InlineQueryResultCachedDocument.input_message_content:1
 #: of
 msgid "*Optional*. Content of the message to be sent instead of the file"
 msgstr ""

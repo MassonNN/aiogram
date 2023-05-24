@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 00:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -34,7 +34,7 @@ msgstr ""
 #: ../../utils/callback_answer.rst:12
 msgid ""
 "For use, it is enough to register the inner middleware "
-":class:`aiogram.utils.callback_answer.CallbackAnswerMiddleware` in "
+":class:`masogram.utils.callback_answer.CallbackAnswerMiddleware` in "
 "dispatcher or specific router:"
 msgstr ""
 
@@ -66,7 +66,7 @@ msgstr ""
 
 #: ../../utils/callback_answer.rst:35
 msgid ""
-"Look at :class:`aiogram.utils.callback_answer.CallbackAnswerMiddleware` "
+"Look at :class:`masogram.utils.callback_answer.CallbackAnswerMiddleware` "
 "to get all available parameters"
 msgstr ""
 
@@ -83,7 +83,7 @@ msgstr ""
 #: ../../utils/callback_answer.rst:50
 msgid ""
 "Flag arguments is the same as in "
-":class:`aiogram.utils.callback_answer.CallbackAnswerMiddleware` with "
+":class:`masogram.utils.callback_answer.CallbackAnswerMiddleware` with "
 "additional one :code:`disabled` to disable answer."
 msgstr ""
 
@@ -95,7 +95,7 @@ msgstr ""
 msgid ""
 "It is not always correct to answer the same in every case, so there is an"
 " option to change the answer inside the handler. You can get an instance "
-"of :class:`aiogram.utils.callback_answer.CallbackAnswer` object inside "
+"of :class:`masogram.utils.callback_answer.CallbackAnswer` object inside "
 "handler and change whatever you want."
 msgstr ""
 
@@ -120,86 +120,86 @@ msgstr ""
 msgid "Description of objects"
 msgstr ""
 
-#: aiogram.utils.callback_answer.CallbackAnswerMiddleware:1 of
-msgid "Bases: :py:class:`~aiogram.dispatcher.middlewares.base.BaseMiddleware`"
+#: masogram.utils.callback_answer.CallbackAnswerMiddleware:1 of
+msgid "Bases: :py:class:`~masogram.dispatcher.middlewares.base.BaseMiddleware`"
 msgstr ""
 
-#: aiogram.utils.callback_answer.CallbackAnswerMiddleware.__init__:1 of
+#: masogram.utils.callback_answer.CallbackAnswerMiddleware.__init__:1 of
 msgid ""
 "Inner middleware for callback query handlers, can be useful in bots with "
 "a lot of callback handlers to automatically take answer to all requests"
 msgstr ""
 
-#: aiogram.utils.callback_answer.CallbackAnswer.__init__
-#: aiogram.utils.callback_answer.CallbackAnswerMiddleware.__init__ of
+#: masogram.utils.callback_answer.CallbackAnswer.__init__
+#: masogram.utils.callback_answer.CallbackAnswerMiddleware.__init__ of
 msgid "Parameters"
 msgstr ""
 
-#: aiogram.utils.callback_answer.CallbackAnswerMiddleware.__init__:4 of
+#: masogram.utils.callback_answer.CallbackAnswerMiddleware.__init__:4 of
 msgid "send answer before execute handler"
 msgstr ""
 
-#: aiogram.utils.callback_answer.CallbackAnswer.__init__:5
-#: aiogram.utils.callback_answer.CallbackAnswerMiddleware.__init__:5 of
+#: masogram.utils.callback_answer.CallbackAnswer.__init__:5
+#: masogram.utils.callback_answer.CallbackAnswerMiddleware.__init__:5 of
 msgid "answer with text"
 msgstr ""
 
-#: aiogram.utils.callback_answer.CallbackAnswer.__init__:6
-#: aiogram.utils.callback_answer.CallbackAnswerMiddleware.__init__:6 of
+#: masogram.utils.callback_answer.CallbackAnswer.__init__:6
+#: masogram.utils.callback_answer.CallbackAnswerMiddleware.__init__:6 of
 msgid "show alert"
 msgstr ""
 
-#: aiogram.utils.callback_answer.CallbackAnswer.__init__:7
-#: aiogram.utils.callback_answer.CallbackAnswerMiddleware.__init__:7 of
+#: masogram.utils.callback_answer.CallbackAnswer.__init__:7
+#: masogram.utils.callback_answer.CallbackAnswerMiddleware.__init__:7 of
 msgid "game url"
 msgstr ""
 
-#: aiogram.utils.callback_answer.CallbackAnswer.__init__:8
-#: aiogram.utils.callback_answer.CallbackAnswerMiddleware.__init__:8 of
+#: masogram.utils.callback_answer.CallbackAnswer.__init__:8
+#: masogram.utils.callback_answer.CallbackAnswerMiddleware.__init__:8 of
 msgid "cache answer for some time"
 msgstr ""
 
-#: aiogram.utils.callback_answer.CallbackAnswer:1 of
+#: masogram.utils.callback_answer.CallbackAnswer:1 of
 msgid "Bases: :py:class:`object`"
 msgstr ""
 
-#: aiogram.utils.callback_answer.CallbackAnswer.__init__:1 of
+#: masogram.utils.callback_answer.CallbackAnswer.__init__:1 of
 msgid "Callback answer configuration"
 msgstr ""
 
-#: aiogram.utils.callback_answer.CallbackAnswer.__init__:3 of
+#: masogram.utils.callback_answer.CallbackAnswer.__init__:3 of
 msgid "this request is already answered by middleware"
 msgstr ""
 
-#: aiogram.utils.callback_answer.CallbackAnswer.__init__:4 of
+#: masogram.utils.callback_answer.CallbackAnswer.__init__:4 of
 msgid "answer will not be performed"
 msgstr ""
 
-#: aiogram.utils.callback_answer.CallbackAnswer.disable:1 of
+#: masogram.utils.callback_answer.CallbackAnswer.disable:1 of
 msgid "Deactivate answering for this handler"
 msgstr ""
 
-#: aiogram.utils.callback_answer.CallbackAnswer.disabled:1 of
+#: masogram.utils.callback_answer.CallbackAnswer.disabled:1 of
 msgid "Indicates that automatic answer is disabled in this handler"
 msgstr ""
 
-#: aiogram.utils.callback_answer.CallbackAnswer.answered:1 of
+#: masogram.utils.callback_answer.CallbackAnswer.answered:1 of
 msgid "Indicates that request is already answered by middleware"
 msgstr ""
 
-#: aiogram.utils.callback_answer.CallbackAnswer.text:1 of
+#: masogram.utils.callback_answer.CallbackAnswer.text:1 of
 msgid "Response text :return:"
 msgstr ""
 
-#: aiogram.utils.callback_answer.CallbackAnswer.show_alert:1 of
+#: masogram.utils.callback_answer.CallbackAnswer.show_alert:1 of
 msgid "Whether to display an alert"
 msgstr ""
 
-#: aiogram.utils.callback_answer.CallbackAnswer.url:1 of
+#: masogram.utils.callback_answer.CallbackAnswer.url:1 of
 msgid "Game url"
 msgstr ""
 
-#: aiogram.utils.callback_answer.CallbackAnswer.cache_time:1 of
+#: masogram.utils.callback_answer.CallbackAnswer.cache_time:1 of
 msgid "Response cache time"
 msgstr ""
 

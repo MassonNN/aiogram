@@ -9,7 +9,7 @@
     "name": "getCustomEmojiStickers",
     "description": "Use this method to get information about custom emoji stickers by their identifiers. Returns an Array of Sticker objects.",
     "html_description": "<p>Use this method to get information about custom emoji stickers by their identifiers. Returns an Array of <a href=\"#sticker\">Sticker</a> objects.</p>",
-    "rst_description": "Use this method to get information about custom emoji stickers by their identifiers. Returns an Array of :class:`aiogram.types.sticker.Sticker` objects.",
+    "rst_description": "Use this method to get information about custom emoji stickers by their identifiers. Returns an Array of :class:`masogram.types.sticker.Sticker` objects.",
     "annotations": [
       {
         "type": "Array of String",

@@ -4,7 +4,7 @@ unpinAllChatMessages
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.unpin_all_chat_messages
+.. automodule:: masogram.methods.unpin_all_chat_messages
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.unpin_all_chat_messages import UnpinAllChatMessages`
-- alias: :code:`from aiogram.methods import UnpinAllChatMessages`
+- :code:`from masogram.methods.unpin_all_chat_messages import UnpinAllChatMessages`
+- alias: :code:`from masogram.methods import UnpinAllChatMessages`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,4 +47,4 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.chat.Chat.unpin_all_messages`
+- :meth:`masogram.types.chat.Chat.unpin_all_messages`

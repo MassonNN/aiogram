@@ -15,7 +15,7 @@
         "type": "Array of Array of KeyboardButton",
         "description": "Array of button rows, each represented by an Array of KeyboardButton objects",
         "html_description": "<td>Array of button rows, each represented by an Array of <a href=\"#keyboardbutton\">KeyboardButton</a> objects</td>",
-        "rst_description": "Array of button rows, each represented by an Array of :class:`aiogram.types.keyboard_button.KeyboardButton` objects\n",
+        "rst_description": "Array of button rows, each represented by an Array of :class:`masogram.types.keyboard_button.KeyboardButton` objects\n",
         "name": "keyboard",
         "required": true
       },
@@ -55,7 +55,7 @@
         "type": "Boolean",
         "description": "Use this parameter if you want to show the keyboard to specific users only. Targets: 1) users that are @mentioned in the text of the Message object; 2) if the bot's message is a reply (has reply_to_message_id), sender of the original message.\n\nExample: A user requests to change the bot's language, bot replies to the request with a keyboard to select the new language. Other users in the group don't see the keyboard.",
         "html_description": "<td><em>Optional</em>. Use this parameter if you want to show the keyboard to specific users only. Targets: 1) users that are @mentioned in the <em>text</em> of the <a href=\"#message\">Message</a> object; 2) if the bot's message is a reply (has <em>reply_to_message_id</em>), sender of the original message.<br/>\n<br/>\n<em>Example:</em> A user requests to change the bot's language, bot replies to the request with a keyboard to select the new language. Other users in the group don't see the keyboard.</td>",
-        "rst_description": "*Optional*. Use this parameter if you want to show the keyboard to specific users only. Targets: 1) users that are @mentioned in the *text* of the :class:`aiogram.types.message.Message` object; 2) if the bot's message is a reply (has *reply_to_message_id*), sender of the original message.\n\n\n\n*Example:* A user requests to change the bot's language, bot replies to the request with a keyboard to select the new language. Other users in the group don't see the keyboard.\n",
+        "rst_description": "*Optional*. Use this parameter if you want to show the keyboard to specific users only. Targets: 1) users that are @mentioned in the *text* of the :class:`masogram.types.message.Message` object; 2) if the bot's message is a reply (has *reply_to_message_id*), sender of the original message.\n\n\n\n*Example:* A user requests to change the bot's language, bot replies to the request with a keyboard to select the new language. Other users in the group don't see the keyboard.\n",
         "name": "selective",
         "required": false
       }

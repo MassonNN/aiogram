@@ -8,7 +8,7 @@ from .base import TelegramMethod
 
 class GetMyDefaultAdministratorRights(TelegramMethod[ChatAdministratorRights]):
     """
-    Use this method to get the current default administrator rights of the bot. Returns :class:`aiogram.types.chat_administrator_rights.ChatAdministratorRights` on success.
+    Use this method to get the current default administrator rights of the bot. Returns :class:`masogram.types.chat_administrator_rights.ChatAdministratorRights` on success.
 
     Source: https://core.telegram.org/bots/api#getmydefaultadministratorrights
     """

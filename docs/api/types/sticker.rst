@@ -3,7 +3,7 @@ Sticker
 #######
 
 
-.. automodule:: aiogram.types.sticker
+.. automodule:: masogram.types.sticker
     :members:
     :member-order: bysource
     :undoc-members: True

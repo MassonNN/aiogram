@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-06 14:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -27,19 +27,19 @@ msgid ""
 "MenuButtonCommands]`"
 msgstr ""
 
-#: aiogram.methods.get_chat_menu_button.GetChatMenuButton:1 of
+#: masogram.methods.get_chat_menu_button.GetChatMenuButton:1 of
 msgid ""
 "Use this method to get the current value of the bot's menu button in a "
 "private chat, or the default menu button. Returns "
-":class:`aiogram.types.menu_button.MenuButton` on success."
+":class:`masogram.types.menu_button.MenuButton` on success."
 msgstr ""
 
-#: aiogram.methods.get_chat_menu_button.GetChatMenuButton:3 of
+#: masogram.methods.get_chat_menu_button.GetChatMenuButton:3 of
 msgid "Source: https://core.telegram.org/bots/api#getchatmenubutton"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.get_chat_menu_button.GetChatMenuButton.chat_id:1 of
+#: masogram.methods.get_chat_menu_button.GetChatMenuButton.chat_id:1 of
 msgid ""
 "Unique identifier for the target private chat. If not specified, default "
 "bot's menu button will be returned"
@@ -62,11 +62,11 @@ msgid "Imports:"
 msgstr ""
 
 #: ../../api/methods/get_chat_menu_button.rst:29
-msgid ":code:`from aiogram.methods.get_chat_menu_button import GetChatMenuButton`"
+msgid ":code:`from masogram.methods.get_chat_menu_button import GetChatMenuButton`"
 msgstr ""
 
 #: ../../api/methods/get_chat_menu_button.rst:30
-msgid "alias: :code:`from aiogram.methods import GetChatMenuButton`"
+msgid "alias: :code:`from masogram.methods import GetChatMenuButton`"
 msgstr ""
 
 #: ../../api/methods/get_chat_menu_button.rst:33

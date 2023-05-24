@@ -3,7 +3,7 @@ Game
 ####
 
 
-.. automodule:: aiogram.types.game
+.. automodule:: masogram.types.game
     :members:
     :member-order: bysource
     :undoc-members: True

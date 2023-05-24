@@ -7,7 +7,7 @@ Telegram Bot API 6.0 announces a revolution in the development of chatbots using
 You can read more details on it in the official `blog <https://telegram.org/blog/notifications-bots#bot-revolution>`_
 and `documentation <https://core.telegram.org/bots/webapps>`_.
 
-`aiogram` implements simple utils to remove headache with the data validation from Telegram WebApp on the backend side.
+`masogram` implements simple utils to remove headache with the data validation from Telegram WebApp on the backend side.
 
 Usage
 =====
@@ -17,7 +17,7 @@ with :code:`_auth` field in body and wants to return User info inside response a
 
 .. code-block:: python
 
-    from aiogram.utils.web_app import safe_parse_webapp_init_data
+    from masogram.utils.web_app import safe_parse_webapp_init_data
     from aiohttp.web_request import Request
     from aiohttp.web_response import json_response
 
@@ -34,22 +34,22 @@ with :code:`_auth` field in body and wants to return User info inside response a
 Functions
 =========
 
-.. autofunction:: aiogram.utils.web_app.check_webapp_signature
+.. autofunction:: masogram.utils.web_app.check_webapp_signature
 
-.. autofunction:: aiogram.utils.web_app.parse_webapp_init_data
+.. autofunction:: masogram.utils.web_app.parse_webapp_init_data
 
-.. autofunction:: aiogram.utils.web_app.safe_parse_webapp_init_data
+.. autofunction:: masogram.utils.web_app.safe_parse_webapp_init_data
 
 
 Types
 =====
 
-.. autoclass:: aiogram.utils.web_app.WebAppInitData
+.. autoclass:: masogram.utils.web_app.WebAppInitData
     :members:
     :member-order: bysource
     :undoc-members: True
 
-.. autoclass:: aiogram.utils.web_app.WebAppUser
+.. autoclass:: masogram.utils.web_app.WebAppUser
     :members:
     :member-order: bysource
     :undoc-members: True

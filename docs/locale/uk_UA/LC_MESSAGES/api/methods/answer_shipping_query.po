@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,27 +25,27 @@ msgstr ""
 msgid "Returns: :obj:`bool`"
 msgstr ""
 
-#: aiogram.methods.answer_shipping_query.AnswerShippingQuery:1 of
+#: masogram.methods.answer_shipping_query.AnswerShippingQuery:1 of
 msgid ""
 "If you sent an invoice requesting a shipping address and the parameter "
 "*is_flexible* was specified, the Bot API will send an "
-":class:`aiogram.types.update.Update` with a *shipping_query* field to the"
+":class:`masogram.types.update.Update` with a *shipping_query* field to the"
 " bot. Use this method to reply to shipping queries. On success, "
 ":code:`True` is returned."
 msgstr ""
 
-#: aiogram.methods.answer_shipping_query.AnswerShippingQuery:3 of
+#: masogram.methods.answer_shipping_query.AnswerShippingQuery:3 of
 msgid "Source: https://core.telegram.org/bots/api#answershippingquery"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.answer_shipping_query.AnswerShippingQuery.shipping_query_id:1
+#: masogram.methods.answer_shipping_query.AnswerShippingQuery.shipping_query_id:1
 #: of
 msgid "Unique identifier for the query to be answered"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.answer_shipping_query.AnswerShippingQuery.ok:1 of
+#: masogram.methods.answer_shipping_query.AnswerShippingQuery.ok:1 of
 msgid ""
 "Pass :code:`True` if delivery to the specified address is possible and "
 ":code:`False` if there are any problems (for example, if delivery to the "
@@ -53,7 +53,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.answer_shipping_query.AnswerShippingQuery.shipping_options:1
+#: masogram.methods.answer_shipping_query.AnswerShippingQuery.shipping_options:1
 #: of
 msgid ""
 "Required if *ok* is :code:`True`. A JSON-serialized array of available "
@@ -61,7 +61,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.answer_shipping_query.AnswerShippingQuery.error_message:1 of
+#: masogram.methods.answer_shipping_query.AnswerShippingQuery.error_message:1 of
 msgid ""
 "Required if *ok* is :code:`False`. Error message in human readable form "
 "that explains why it is impossible to complete the order (e.g. \"Sorry, "
@@ -87,12 +87,12 @@ msgstr ""
 
 #: ../../api/methods/answer_shipping_query.rst:29
 msgid ""
-":code:`from aiogram.methods.answer_shipping_query import "
+":code:`from masogram.methods.answer_shipping_query import "
 "AnswerShippingQuery`"
 msgstr ""
 
 #: ../../api/methods/answer_shipping_query.rst:30
-msgid "alias: :code:`from aiogram.methods import AnswerShippingQuery`"
+msgid "alias: :code:`from masogram.methods import AnswerShippingQuery`"
 msgstr ""
 
 #: ../../api/methods/answer_shipping_query.rst:33

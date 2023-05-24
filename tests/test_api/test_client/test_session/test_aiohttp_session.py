@@ -246,10 +246,10 @@ class TestAiohttpSession:
         assert isinstance(session, AsyncContextManager)
 
         with patch(
-            "aiogram.client.session.aiohttp.AiohttpSession.create_session",
+            "masogram.client.session.aiohttp.AiohttpSession.create_session",
             new_callable=AsyncMock,
         ) as mocked_create_session, patch(
-            "aiogram.client.session.aiohttp.AiohttpSession.close", new_callable=AsyncMock
+            "masogram.client.session.aiohttp.AiohttpSession.close", new_callable=AsyncMock
         ) as mocked_close:
             async with session as ctx:
                 assert session == ctx

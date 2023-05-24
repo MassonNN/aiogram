@@ -10,7 +10,7 @@ Here is only listed base information about Dispatcher. All about writing handler
 - `Observer <observer.html>`__
 
 
-.. autoclass:: aiogram.dispatcher.dispatcher.Dispatcher
+.. autoclass:: masogram.dispatcher.dispatcher.Dispatcher
     :members: __init__, feed_update, feed_raw_update, feed_webhook_update, start_polling, run_polling
 
 

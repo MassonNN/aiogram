@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-11 01:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Returns: :obj:`bool`"
 msgstr ""
 
-#: aiogram.methods.set_chat_permissions.SetChatPermissions:1 of
+#: masogram.methods.set_chat_permissions.SetChatPermissions:1 of
 msgid ""
 "Use this method to set default chat permissions for all members. The bot "
 "must be an administrator in the group or a supergroup for this to work "
@@ -33,24 +33,24 @@ msgid ""
 ":code:`True` on success."
 msgstr ""
 
-#: aiogram.methods.set_chat_permissions.SetChatPermissions:3 of
+#: masogram.methods.set_chat_permissions.SetChatPermissions:3 of
 msgid "Source: https://core.telegram.org/bots/api#setchatpermissions"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.set_chat_permissions.SetChatPermissions.chat_id:1 of
+#: masogram.methods.set_chat_permissions.SetChatPermissions.chat_id:1 of
 msgid ""
 "Unique identifier for the target chat or username of the target "
 "supergroup (in the format :code:`@supergroupusername`)"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.set_chat_permissions.SetChatPermissions.permissions:1 of
+#: masogram.methods.set_chat_permissions.SetChatPermissions.permissions:1 of
 msgid "A JSON-serialized object for new default chat permissions"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.set_chat_permissions.SetChatPermissions.use_independent_chat_permissions:1
+#: masogram.methods.set_chat_permissions.SetChatPermissions.use_independent_chat_permissions:1
 #: of
 msgid ""
 "Pass :code:`True` if chat permissions are set independently. Otherwise, "
@@ -80,12 +80,12 @@ msgstr ""
 
 #: ../../api/methods/set_chat_permissions.rst:29
 msgid ""
-":code:`from aiogram.methods.set_chat_permissions import "
+":code:`from masogram.methods.set_chat_permissions import "
 "SetChatPermissions`"
 msgstr ""
 
 #: ../../api/methods/set_chat_permissions.rst:30
-msgid "alias: :code:`from aiogram.methods import SetChatPermissions`"
+msgid "alias: :code:`from masogram.methods import SetChatPermissions`"
 msgstr ""
 
 #: ../../api/methods/set_chat_permissions.rst:33
@@ -101,5 +101,5 @@ msgid "As shortcut from received object"
 msgstr ""
 
 #: ../../api/methods/set_chat_permissions.rst:50
-msgid ":meth:`aiogram.types.chat.Chat.set_permissions`"
+msgid ":meth:`masogram.types.chat.Chat.set_permissions`"
 msgstr ""

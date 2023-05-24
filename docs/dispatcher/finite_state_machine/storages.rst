@@ -8,24 +8,24 @@ Storages out of the box
 MemoryStorage
 -------------
 
-.. autoclass:: aiogram.fsm.storage.memory.MemoryStorage
+.. autoclass:: masogram.fsm.storage.memory.MemoryStorage
     :members: __init__
     :member-order: bysource
 
 RedisStorage
 ------------
 
-.. autoclass:: aiogram.fsm.storage.redis.RedisStorage
+.. autoclass:: masogram.fsm.storage.redis.RedisStorage
     :members: __init__, from_url
     :member-order: bysource
 
 Keys inside storage can be customized via key builders:
 
-.. autoclass:: aiogram.fsm.storage.redis.KeyBuilder
+.. autoclass:: masogram.fsm.storage.redis.KeyBuilder
     :members:
     :member-order: bysource
 
-.. autoclass:: aiogram.fsm.storage.redis.DefaultKeyBuilder
+.. autoclass:: masogram.fsm.storage.redis.DefaultKeyBuilder
     :members:
     :member-order: bysource
 
@@ -33,6 +33,6 @@ Keys inside storage can be customized via key builders:
 Writing own storages
 ====================
 
-.. autoclass:: aiogram.fsm.storage.base.BaseStorage
+.. autoclass:: masogram.fsm.storage.base.BaseStorage
     :members:
     :member-order: bysource

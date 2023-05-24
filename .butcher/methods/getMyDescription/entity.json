@@ -9,7 +9,7 @@
     "name": "getMyDescription",
     "description": "Use this method to get the current bot description for the given user language. Returns BotDescription on success.",
     "html_description": "<p>Use this method to get the current bot description for the given user language. Returns <a href=\"#botdescription\">BotDescription</a> on success.</p>",
-    "rst_description": "Use this method to get the current bot description for the given user language. Returns :class:`aiogram.types.bot_description.BotDescription` on success.",
+    "rst_description": "Use this method to get the current bot description for the given user language. Returns :class:`masogram.types.bot_description.BotDescription` on success.",
     "annotations": [
       {
         "type": "String",

@@ -3,7 +3,7 @@ ForumTopic
 ##########
 
 
-.. automodule:: aiogram.types.forum_topic
+.. automodule:: masogram.types.forum_topic
     :members:
     :member-order: bysource
     :undoc-members: True

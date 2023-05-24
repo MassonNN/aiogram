@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version:  aiogram\n"
+"Project-Id-Version:  masogram\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-11 01:52+0200\n"
 "PO-Revision-Date: 2022-12-13 21:40+0200\n"
@@ -54,26 +54,26 @@ msgstr "Тут доступні три різні типи вхідних фай
 
 #: ../../api/upload_file.rst:17
 msgid ""
-":class:`aiogram.types.input_file.FSInputFile` - `uploading from file "
+":class:`masogram.types.input_file.FSInputFile` - `uploading from file "
 "system <#upload-from-file-system>`__"
 msgstr ""
-":class:`aiogram.types.input_file.FSInputFile` - `відвантажений з файлової"
+":class:`masogram.types.input_file.FSInputFile` - `відвантажений з файлової"
 " системи <#upload-from-file-system>`__"
 
 #: ../../api/upload_file.rst:18
 msgid ""
-":class:`aiogram.types.input_file.BufferedInputFile` - `uploading from "
+":class:`masogram.types.input_file.BufferedInputFile` - `uploading from "
 "buffer <#upload-from-buffer>`__"
 msgstr ""
-":class:`aiogram.types.input_file.BufferedInputFile` - `відвантажений з "
+":class:`masogram.types.input_file.BufferedInputFile` - `відвантажений з "
 "буферу <#upload-from-buffer>`__"
 
 #: ../../api/upload_file.rst:19
 msgid ""
-":class:`aiogram.types.input_file.URLInputFile` - `uploading from URL "
+":class:`masogram.types.input_file.URLInputFile` - `uploading from URL "
 "<#upload-from-url>`__"
 msgstr ""
-":class:`aiogram.types.input_file.URLInputFile` - `відвантажений з URL "
+":class:`masogram.types.input_file.URLInputFile` - `відвантажений з URL "
 "<#upload-from-url>`__"
 
 #: ../../api/upload_file.rst:23
@@ -106,21 +106,21 @@ msgstr "Перш за все, вам потрібно буде імпортув�
 msgid "Then you can use it:"
 msgstr "Тепер ви можете використовувати її:"
 
-#: aiogram.types.input_file.BufferedInputFile.__init__:1
-#: aiogram.types.input_file.FSInputFile.__init__:1 of
+#: masogram.types.input_file.BufferedInputFile.__init__:1
+#: masogram.types.input_file.FSInputFile.__init__:1 of
 msgid "Represents object for uploading files from filesystem"
 msgstr "Об’єкт для відвантаження файлів із файлової системи"
 
-#: aiogram.types.input_file.BufferedInputFile.__init__
-#: aiogram.types.input_file.FSInputFile.__init__ of
+#: masogram.types.input_file.BufferedInputFile.__init__
+#: masogram.types.input_file.FSInputFile.__init__ of
 msgid "Parameters"
 msgstr "Параметри"
 
-#: aiogram.types.input_file.FSInputFile.__init__:3 of
+#: masogram.types.input_file.FSInputFile.__init__:3 of
 msgid "Path to file"
 msgstr "Шлях до файлу"
 
-#: aiogram.types.input_file.FSInputFile.__init__:4 of
+#: masogram.types.input_file.FSInputFile.__init__:4 of
 msgid ""
 "Filename to be propagated to telegram. By default, will be parsed from "
 "path"
@@ -128,8 +128,8 @@ msgstr ""
 "Ім'я файлу, яке буде передано в telegram. За замовчуванням, буде взято зі"
 " шляху"
 
-#: aiogram.types.input_file.BufferedInputFile.__init__:5
-#: aiogram.types.input_file.FSInputFile.__init__:6 of
+#: masogram.types.input_file.BufferedInputFile.__init__:5
+#: masogram.types.input_file.FSInputFile.__init__:6 of
 msgid "Uploading chunk size"
 msgstr "Розмір фрагмента відвантаження"
 
@@ -156,11 +156,11 @@ msgstr "Імпорт обгортки:"
 msgid "And then you can use it:"
 msgstr "Тепер ви можете використовувати її:"
 
-#: aiogram.types.input_file.BufferedInputFile.__init__:3 of
+#: masogram.types.input_file.BufferedInputFile.__init__:3 of
 msgid "Bytes"
 msgstr "Байти"
 
-#: aiogram.types.input_file.BufferedInputFile.__init__:4 of
+#: masogram.types.input_file.BufferedInputFile.__init__:4 of
 msgid "Filename to be propagated to telegram."
 msgstr "Ім'я файлу, яке буде передано в telegram."
 
@@ -173,10 +173,10 @@ msgid ""
 "If you need to upload a file from another server, but the direct link is "
 "bound to your server's IP, or you want to bypass native `upload limits "
 "<https://core.telegram.org/bots/api#sending-files>`_ by URL, you can use "
-":obj:`aiogram.types.input_file.URLInputFile`."
+":obj:`masogram.types.input_file.URLInputFile`."
 msgstr ""
 "Якщо вам потрібно відвантажити файл з іншого сервера, але пряме посилання"
 " прив’язано до IP-адреси вашого сервера, або ви хочете обійти власні "
 "`обмеження на завантаження <https://core.telegram.org/bots/api#sending-"
 "files> `_ за URL-адресою, ви можете використовувати "
-":obj:`aiogram.types.input_file.URLInputFile`."
+":obj:`masogram.types.input_file.URLInputFile`."

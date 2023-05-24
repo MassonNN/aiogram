@@ -9,7 +9,7 @@
     "name": "sendDocument",
     "description": "Use this method to send general files. On success, the sent Message is returned. Bots can currently send files of any type of up to 50 MB in size, this limit may be changed in the future.",
     "html_description": "<p>Use this method to send general files. On success, the sent <a href=\"#message\">Message</a> is returned. Bots can currently send files of any type of up to 50 MB in size, this limit may be changed in the future.</p>",
-    "rst_description": "Use this method to send general files. On success, the sent :class:`aiogram.types.message.Message` is returned. Bots can currently send files of any type of up to 50 MB in size, this limit may be changed in the future.",
+    "rst_description": "Use this method to send general files. On success, the sent :class:`masogram.types.message.Message` is returned. Bots can currently send files of any type of up to 50 MB in size, this limit may be changed in the future.",
     "annotations": [
       {
         "type": "Integer or String",

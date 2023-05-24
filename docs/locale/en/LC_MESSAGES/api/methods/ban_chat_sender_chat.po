@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-23 00:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Returns: :obj:`bool`"
 msgstr ""
 
-#: aiogram.methods.ban_chat_sender_chat.BanChatSenderChat:1 of
+#: masogram.methods.ban_chat_sender_chat.BanChatSenderChat:1 of
 msgid ""
 "Use this method to ban a channel chat in a supergroup or a channel. Until"
 " the chat is `unbanned "
@@ -36,19 +36,19 @@ msgid ""
 "rights. Returns :code:`True` on success."
 msgstr ""
 
-#: aiogram.methods.ban_chat_sender_chat.BanChatSenderChat:3 of
+#: masogram.methods.ban_chat_sender_chat.BanChatSenderChat:3 of
 msgid "Source: https://core.telegram.org/bots/api#banchatsenderchat"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.ban_chat_sender_chat.BanChatSenderChat.chat_id:1 of
+#: masogram.methods.ban_chat_sender_chat.BanChatSenderChat.chat_id:1 of
 msgid ""
 "Unique identifier for the target chat or username of the target channel "
 "(in the format :code:`@channelusername`)"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.ban_chat_sender_chat.BanChatSenderChat.sender_chat_id:1 of
+#: masogram.methods.ban_chat_sender_chat.BanChatSenderChat.sender_chat_id:1 of
 msgid "Unique identifier of the target sender chat"
 msgstr ""
 
@@ -69,11 +69,11 @@ msgid "Imports:"
 msgstr ""
 
 #: ../../api/methods/ban_chat_sender_chat.rst:29
-msgid ":code:`from aiogram.methods.ban_chat_sender_chat import BanChatSenderChat`"
+msgid ":code:`from masogram.methods.ban_chat_sender_chat import BanChatSenderChat`"
 msgstr ""
 
 #: ../../api/methods/ban_chat_sender_chat.rst:30
-msgid "alias: :code:`from aiogram.methods import BanChatSenderChat`"
+msgid "alias: :code:`from masogram.methods import BanChatSenderChat`"
 msgstr ""
 
 #: ../../api/methods/ban_chat_sender_chat.rst:33
@@ -89,5 +89,5 @@ msgid "As shortcut from received object"
 msgstr ""
 
 #: ../../api/methods/ban_chat_sender_chat.rst:50
-msgid ":meth:`aiogram.types.chat.Chat.ban_sender_chat`"
+msgid ":meth:`masogram.types.chat.Chat.ban_sender_chat`"
 msgstr ""

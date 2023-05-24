@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-11 01:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,24 +25,24 @@ msgstr ""
 msgid "Returns: :obj:`bool`"
 msgstr ""
 
-#: aiogram.methods.set_sticker_keywords.SetStickerKeywords:1 of
+#: masogram.methods.set_sticker_keywords.SetStickerKeywords:1 of
 msgid ""
 "Use this method to change search keywords assigned to a regular or custom"
 " emoji sticker. The sticker must belong to a sticker set created by the "
 "bot. Returns :code:`True` on success."
 msgstr ""
 
-#: aiogram.methods.set_sticker_keywords.SetStickerKeywords:3 of
+#: masogram.methods.set_sticker_keywords.SetStickerKeywords:3 of
 msgid "Source: https://core.telegram.org/bots/api#setstickerkeywords"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.set_sticker_keywords.SetStickerKeywords.sticker:1 of
+#: masogram.methods.set_sticker_keywords.SetStickerKeywords.sticker:1 of
 msgid "File identifier of the sticker"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.set_sticker_keywords.SetStickerKeywords.keywords:1 of
+#: masogram.methods.set_sticker_keywords.SetStickerKeywords.keywords:1 of
 msgid ""
 "A JSON-serialized list of 0-20 search keywords for the sticker with total"
 " length of up to 64 characters"
@@ -66,12 +66,12 @@ msgstr ""
 
 #: ../../api/methods/set_sticker_keywords.rst:29
 msgid ""
-":code:`from aiogram.methods.set_sticker_keywords import "
+":code:`from masogram.methods.set_sticker_keywords import "
 "SetStickerKeywords`"
 msgstr ""
 
 #: ../../api/methods/set_sticker_keywords.rst:30
-msgid "alias: :code:`from aiogram.methods import SetStickerKeywords`"
+msgid "alias: :code:`from masogram.methods import SetStickerKeywords`"
 msgstr ""
 
 #: ../../api/methods/set_sticker_keywords.rst:33

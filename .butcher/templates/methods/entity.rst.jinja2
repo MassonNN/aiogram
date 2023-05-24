@@ -4,7 +4,7 @@
 
 Returns: :obj:`{{ object.returning.parsed_type|type }}`
 
-.. automodule:: aiogram.methods.{{ object.name|pythonize_name }}
+.. automodule:: masogram.methods.{{ object.name|pythonize_name }}
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.{{ object.name|pythonize_name }} import {{ object.name|pythonize_class_name }}`
-- alias: :code:`from aiogram.methods import {{ object.name|pythonize_class_name }}`
+- :code:`from masogram.methods.{{ object.name|pythonize_name }} import {{ object.name|pythonize_class_name }}`
+- alias: :code:`from masogram.methods import {{ object.name|pythonize_class_name }}`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -49,6 +49,6 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 {% for alias in aliased %}
-- :meth:`aiogram.types.{{ alias.type|pythonize_name }}.{{ alias.type|pythonize_class_name }}.{{ alias.name }}`
+- :meth:`masogram.types.{{ alias.type|pythonize_name }}.{{ alias.type|pythonize_class_name }}.{{ alias.name }}`
 {%- endfor %}
 {% endif %}

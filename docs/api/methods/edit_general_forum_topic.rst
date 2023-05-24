@@ -4,7 +4,7 @@ editGeneralForumTopic
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.edit_general_forum_topic
+.. automodule:: masogram.methods.edit_general_forum_topic
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.edit_general_forum_topic import EditGeneralForumTopic`
-- alias: :code:`from aiogram.methods import EditGeneralForumTopic`
+- :code:`from masogram.methods.edit_general_forum_topic import EditGeneralForumTopic`
+- alias: :code:`from masogram.methods import EditGeneralForumTopic`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

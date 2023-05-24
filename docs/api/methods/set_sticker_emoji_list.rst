@@ -4,7 +4,7 @@ setStickerEmojiList
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.set_sticker_emoji_list
+.. automodule:: masogram.methods.set_sticker_emoji_list
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.set_sticker_emoji_list import SetStickerEmojiList`
-- alias: :code:`from aiogram.methods import SetStickerEmojiList`
+- :code:`from masogram.methods.set_sticker_emoji_list import SetStickerEmojiList`
+- alias: :code:`from masogram.methods import SetStickerEmojiList`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

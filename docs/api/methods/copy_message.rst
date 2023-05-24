@@ -4,7 +4,7 @@ copyMessage
 
 Returns: :obj:`MessageId`
 
-.. automodule:: aiogram.methods.copy_message
+.. automodule:: masogram.methods.copy_message
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.copy_message import CopyMessage`
-- alias: :code:`from aiogram.methods import CopyMessage`
+- :code:`from masogram.methods.copy_message import CopyMessage`
+- alias: :code:`from masogram.methods import CopyMessage`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,4 +47,4 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.message.Message.copy_to`
+- :meth:`masogram.types.message.Message.copy_to`

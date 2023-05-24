@@ -4,7 +4,7 @@ getChatAdministrators
 
 Returns: :obj:`List[Union[ChatMemberOwner, ChatMemberAdministrator, ChatMemberMember, ChatMemberRestricted, ChatMemberLeft, ChatMemberBanned]]`
 
-.. automodule:: aiogram.methods.get_chat_administrators
+.. automodule:: masogram.methods.get_chat_administrators
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.get_chat_administrators import GetChatAdministrators`
-- alias: :code:`from aiogram.methods import GetChatAdministrators`
+- :code:`from masogram.methods.get_chat_administrators import GetChatAdministrators`
+- alias: :code:`from masogram.methods import GetChatAdministrators`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -42,4 +42,4 @@ With specific bot
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.chat.Chat.get_administrators`
+- :meth:`masogram.types.chat.Chat.get_administrators`

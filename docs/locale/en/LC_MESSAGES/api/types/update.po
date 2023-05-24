@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,23 +21,23 @@ msgstr ""
 msgid "Update"
 msgstr ""
 
-#: aiogram.types.update.Update:1 of
+#: masogram.types.update.Update:1 of
 msgid ""
 "This `object <https://core.telegram.org/bots/api#available-types>`_ "
 "represents an incoming update."
 msgstr ""
 
-#: aiogram.types.update.Update:3 of
+#: masogram.types.update.Update:3 of
 msgid ""
 "At most **one** of the optional parameters can be present in any given "
 "update."
 msgstr ""
 
-#: aiogram.types.update.Update:5 of
+#: masogram.types.update.Update:5 of
 msgid "Source: https://core.telegram.org/bots/api#update"
 msgstr ""
 
-#: ../../docstring aiogram.types.update.Update.update_id:1 of
+#: ../../docstring masogram.types.update.Update.update_id:1 of
 msgid ""
 "The update's unique identifier. Update identifiers start from a certain "
 "positive number and increase sequentially. This ID becomes especially "
@@ -49,35 +49,35 @@ msgid ""
 "of sequentially."
 msgstr ""
 
-#: ../../docstring aiogram.types.update.Update.message:1 of
+#: ../../docstring masogram.types.update.Update.message:1 of
 msgid "*Optional*. New incoming message of any kind - text, photo, sticker, etc."
 msgstr ""
 
-#: ../../docstring aiogram.types.update.Update.edited_message:1 of
+#: ../../docstring masogram.types.update.Update.edited_message:1 of
 msgid ""
 "*Optional*. New version of a message that is known to the bot and was "
 "edited"
 msgstr ""
 
-#: ../../docstring aiogram.types.update.Update.channel_post:1 of
+#: ../../docstring masogram.types.update.Update.channel_post:1 of
 msgid ""
 "*Optional*. New incoming channel post of any kind - text, photo, sticker,"
 " etc."
 msgstr ""
 
-#: ../../docstring aiogram.types.update.Update.edited_channel_post:1 of
+#: ../../docstring masogram.types.update.Update.edited_channel_post:1 of
 msgid ""
 "*Optional*. New version of a channel post that is known to the bot and "
 "was edited"
 msgstr ""
 
-#: ../../docstring aiogram.types.update.Update.inline_query:1 of
+#: ../../docstring masogram.types.update.Update.inline_query:1 of
 msgid ""
 "*Optional*. New incoming `inline <https://core.telegram.org/bots/api"
 "#inline-mode>`_ query"
 msgstr ""
 
-#: ../../docstring aiogram.types.update.Update.chosen_inline_result:1 of
+#: ../../docstring masogram.types.update.Update.chosen_inline_result:1 of
 msgid ""
 "*Optional*. The result of an `inline <https://core.telegram.org/bots/api"
 "#inline-mode>`_ query that was chosen by a user and sent to their chat "
@@ -86,63 +86,63 @@ msgid ""
 " on how to enable these updates for your bot."
 msgstr ""
 
-#: ../../docstring aiogram.types.update.Update.callback_query:1 of
+#: ../../docstring masogram.types.update.Update.callback_query:1 of
 msgid "*Optional*. New incoming callback query"
 msgstr ""
 
-#: ../../docstring aiogram.types.update.Update.shipping_query:1 of
+#: ../../docstring masogram.types.update.Update.shipping_query:1 of
 msgid ""
 "*Optional*. New incoming shipping query. Only for invoices with flexible "
 "price"
 msgstr ""
 
-#: ../../docstring aiogram.types.update.Update.pre_checkout_query:1 of
+#: ../../docstring masogram.types.update.Update.pre_checkout_query:1 of
 msgid ""
 "*Optional*. New incoming pre-checkout query. Contains full information "
 "about checkout"
 msgstr ""
 
-#: ../../docstring aiogram.types.update.Update.poll:1 of
+#: ../../docstring masogram.types.update.Update.poll:1 of
 msgid ""
 "*Optional*. New poll state. Bots receive only updates about stopped polls"
 " and polls, which are sent by the bot"
 msgstr ""
 
-#: ../../docstring aiogram.types.update.Update.poll_answer:1 of
+#: ../../docstring masogram.types.update.Update.poll_answer:1 of
 msgid ""
 "*Optional*. A user changed their answer in a non-anonymous poll. Bots "
 "receive new votes only in polls that were sent by the bot itself."
 msgstr ""
 
-#: ../../docstring aiogram.types.update.Update.my_chat_member:1 of
+#: ../../docstring masogram.types.update.Update.my_chat_member:1 of
 msgid ""
 "*Optional*. The bot's chat member status was updated in a chat. For "
 "private chats, this update is received only when the bot is blocked or "
 "unblocked by the user."
 msgstr ""
 
-#: ../../docstring aiogram.types.update.Update.chat_member:1 of
+#: ../../docstring masogram.types.update.Update.chat_member:1 of
 msgid ""
 "*Optional*. A chat member's status was updated in a chat. The bot must be"
 " an administrator in the chat and must explicitly specify 'chat_member' "
 "in the list of *allowed_updates* to receive these updates."
 msgstr ""
 
-#: ../../docstring aiogram.types.update.Update.chat_join_request:1 of
+#: ../../docstring masogram.types.update.Update.chat_join_request:1 of
 msgid ""
 "*Optional*. A request to join the chat has been sent. The bot must have "
 "the *can_invite_users* administrator right in the chat to receive these "
 "updates."
 msgstr ""
 
-#: aiogram.types.update.Update.event_type:1 of
+#: masogram.types.update.Update.event_type:1 of
 msgid "Detect update type If update type is unknown, raise UpdateTypeLookupError"
 msgstr ""
 
-#: aiogram.types.update.Update.event_type of
+#: masogram.types.update.Update.event_type of
 msgid "Returns"
 msgstr ""
 
-#: aiogram.types.update.UpdateTypeLookupError:1 of
+#: masogram.types.update.UpdateTypeLookupError:1 of
 msgid "Update does not contain any known event type."
 msgstr ""

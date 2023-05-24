@@ -3,7 +3,7 @@ InlineQueryResult
 #################
 
 
-.. automodule:: aiogram.types.inline_query_result
+.. automodule:: masogram.types.inline_query_result
     :members:
     :member-order: bysource
     :undoc-members: True

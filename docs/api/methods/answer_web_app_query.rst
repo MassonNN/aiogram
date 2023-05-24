@@ -4,7 +4,7 @@ answerWebAppQuery
 
 Returns: :obj:`SentWebAppMessage`
 
-.. automodule:: aiogram.methods.answer_web_app_query
+.. automodule:: masogram.methods.answer_web_app_query
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.answer_web_app_query import AnswerWebAppQuery`
-- alias: :code:`from aiogram.methods import AnswerWebAppQuery`
+- :code:`from masogram.methods.answer_web_app_query import AnswerWebAppQuery`
+- alias: :code:`from masogram.methods import AnswerWebAppQuery`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

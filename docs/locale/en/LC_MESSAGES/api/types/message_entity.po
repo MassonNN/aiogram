@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-23 00:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,17 +21,17 @@ msgstr ""
 msgid "MessageEntity"
 msgstr ""
 
-#: aiogram.types.message_entity.MessageEntity:1 of
+#: masogram.types.message_entity.MessageEntity:1 of
 msgid ""
 "This object represents one special entity in a text message. For example,"
 " hashtags, usernames, URLs, etc."
 msgstr ""
 
-#: aiogram.types.message_entity.MessageEntity:3 of
+#: masogram.types.message_entity.MessageEntity:3 of
 msgid "Source: https://core.telegram.org/bots/api#messageentity"
 msgstr ""
 
-#: ../../docstring aiogram.types.message_entity.MessageEntity.type:1 of
+#: ../../docstring masogram.types.message_entity.MessageEntity.type:1 of
 msgid ""
 "Type of the entity. Currently, can be 'mention' (:code:`@username`), "
 "'hashtag' (:code:`#hashtag`), 'cashtag' (:code:`$USD`), 'bot_command' "
@@ -45,38 +45,38 @@ msgid ""
 "mentions>`_), 'custom_emoji' (for inline custom emoji stickers)"
 msgstr ""
 
-#: ../../docstring aiogram.types.message_entity.MessageEntity.offset:1 of
+#: ../../docstring masogram.types.message_entity.MessageEntity.offset:1 of
 msgid ""
 "Offset in `UTF-16 code units <https://core.telegram.org/api/entities"
 "#entity-length>`_ to the start of the entity"
 msgstr ""
 
-#: ../../docstring aiogram.types.message_entity.MessageEntity.length:1 of
+#: ../../docstring masogram.types.message_entity.MessageEntity.length:1 of
 msgid ""
 "Length of the entity in `UTF-16 code units "
 "<https://core.telegram.org/api/entities#entity-length>`_"
 msgstr ""
 
-#: ../../docstring aiogram.types.message_entity.MessageEntity.url:1 of
+#: ../../docstring masogram.types.message_entity.MessageEntity.url:1 of
 msgid ""
 "*Optional*. For 'text_link' only, URL that will be opened after user taps"
 " on the text"
 msgstr ""
 
-#: ../../docstring aiogram.types.message_entity.MessageEntity.user:1 of
+#: ../../docstring masogram.types.message_entity.MessageEntity.user:1 of
 msgid "*Optional*. For 'text_mention' only, the mentioned user"
 msgstr ""
 
-#: ../../docstring aiogram.types.message_entity.MessageEntity.language:1 of
+#: ../../docstring masogram.types.message_entity.MessageEntity.language:1 of
 msgid "*Optional*. For 'pre' only, the programming language of the entity text"
 msgstr ""
 
-#: ../../docstring aiogram.types.message_entity.MessageEntity.custom_emoji_id:1
+#: ../../docstring masogram.types.message_entity.MessageEntity.custom_emoji_id:1
 #: of
 msgid ""
 "*Optional*. For 'custom_emoji' only, unique identifier of the custom "
 "emoji. Use "
-":class:`aiogram.methods.get_custom_emoji_stickers.GetCustomEmojiStickers`"
+":class:`masogram.methods.get_custom_emoji_stickers.GetCustomEmojiStickers`"
 " to get full information about the sticker"
 msgstr ""
 

@@ -9,7 +9,7 @@ from .base import TelegramMethod
 
 class CreateChatInviteLink(TelegramMethod[ChatInviteLink]):
     """
-    Use this method to create an additional invite link for a chat. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. The link can be revoked using the method :class:`aiogram.methods.revoke_chat_invite_link.RevokeChatInviteLink`. Returns the new invite link as :class:`aiogram.types.chat_invite_link.ChatInviteLink` object.
+    Use this method to create an additional invite link for a chat. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. The link can be revoked using the method :class:`masogram.methods.revoke_chat_invite_link.RevokeChatInviteLink`. Returns the new invite link as :class:`masogram.types.chat_invite_link.ChatInviteLink` object.
 
     Source: https://core.telegram.org/bots/api#createchatinvitelink
     """

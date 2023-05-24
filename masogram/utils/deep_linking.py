@@ -15,7 +15,7 @@ Basic link example:
 
     .. code-block:: python
 
-        from aiogram.utils.deep_linking import create_start_link
+        from masogram.utils.deep_linking import create_start_link
 
         link = await create_start_link(bot, 'foo')
 
@@ -25,7 +25,7 @@ Encoded link example:
 
     .. code-block:: python
 
-        from aiogram.utils.deep_linking import create_start_link
+        from masogram.utils.deep_linking import create_start_link
 
         link = await create_start_link(bot, 'foo', encode=True)
         # result: 'https://t.me/MyBot?start=Zm9v'
@@ -33,9 +33,9 @@ Encoded link example:
 Decode it back example:
     .. code-block:: python
 
-        from aiogram.utils.deep_linking import decode_payload
-        from aiogram.filters import CommandStart, CommandObject
-        from aiogram.types import Message
+        from masogram.utils.deep_linking import decode_payload
+        from masogram.filters import CommandStart, CommandObject
+        from masogram.types import Message
 
         @router.message(CommandStart(deep_link=True))
         async def handler(message: Message, command: CommandObject):

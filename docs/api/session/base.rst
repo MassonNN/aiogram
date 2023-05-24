@@ -4,5 +4,5 @@ Base
 
 Abstract session for all client sessions
 
-.. autoclass:: aiogram.client.session.base.BaseSession
+.. autoclass:: masogram.client.session.base.BaseSession
     :members:

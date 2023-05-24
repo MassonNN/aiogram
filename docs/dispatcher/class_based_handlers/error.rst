@@ -10,7 +10,7 @@ Simple usage
 
 .. code-block:: python
 
-    from aiogram.handlers import ErrorHandler
+    from masogram.handlers import ErrorHandler
 
     ...
 

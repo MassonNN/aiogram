@@ -8,7 +8,7 @@ from .base import TelegramMethod
 
 class EditMessageReplyMarkup(TelegramMethod[Union[Message, bool]]):
     """
-    Use this method to edit only the reply markup of messages. On success, if the edited message is not an inline message, the edited :class:`aiogram.types.message.Message` is returned, otherwise :code:`True` is returned.
+    Use this method to edit only the reply markup of messages. On success, if the edited message is not an inline message, the edited :class:`masogram.types.message.Message` is returned, otherwise :code:`True` is returned.
 
     Source: https://core.telegram.org/bots/api#editmessagereplymarkup
     """

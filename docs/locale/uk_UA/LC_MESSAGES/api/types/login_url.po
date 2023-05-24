@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "LoginUrl"
 msgstr ""
 
-#: aiogram.types.login_url.LoginUrl:1 of
+#: masogram.types.login_url.LoginUrl:1 of
 msgid ""
 "This object represents a parameter of the inline keyboard button used to "
 "automatically authorize a user. Serves as a great replacement for the "
@@ -32,15 +32,15 @@ msgid ""
 "discussions-web-bots#meet-seamless-web-bots>`_."
 msgstr ""
 
-#: aiogram.types.login_url.LoginUrl:4 of
+#: masogram.types.login_url.LoginUrl:4 of
 msgid "Sample bot: `@discussbot <https://t.me/discussbot>`_"
 msgstr ""
 
-#: aiogram.types.login_url.LoginUrl:6 of
+#: masogram.types.login_url.LoginUrl:6 of
 msgid "Source: https://core.telegram.org/bots/api#loginurl"
 msgstr ""
 
-#: ../../docstring aiogram.types.login_url.LoginUrl.url:1 of
+#: ../../docstring masogram.types.login_url.LoginUrl.url:1 of
 msgid ""
 "An HTTPS URL to be opened with user authorization data added to the query"
 " string when the button is pressed. If the user refuses to provide "
@@ -50,11 +50,11 @@ msgid ""
 "authorization-data>`_."
 msgstr ""
 
-#: ../../docstring aiogram.types.login_url.LoginUrl.forward_text:1 of
+#: ../../docstring masogram.types.login_url.LoginUrl.forward_text:1 of
 msgid "*Optional*. New text of the button in forwarded messages."
 msgstr ""
 
-#: ../../docstring aiogram.types.login_url.LoginUrl.bot_username:1 of
+#: ../../docstring masogram.types.login_url.LoginUrl.bot_username:1 of
 msgid ""
 "*Optional*. Username of a bot, which will be used for user authorization."
 " See `Setting up a bot <https://core.telegram.org/widgets/login#setting-"
@@ -65,7 +65,7 @@ msgid ""
 "bot>`_ for more details."
 msgstr ""
 
-#: ../../docstring aiogram.types.login_url.LoginUrl.request_write_access:1 of
+#: ../../docstring masogram.types.login_url.LoginUrl.request_write_access:1 of
 msgid ""
 "*Optional*. Pass :code:`True` to request the permission for your bot to "
 "send messages to the user."

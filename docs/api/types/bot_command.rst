@@ -3,7 +3,7 @@ BotCommand
 ##########
 
 
-.. automodule:: aiogram.types.bot_command
+.. automodule:: masogram.types.bot_command
     :members:
     :member-order: bysource
     :undoc-members: True

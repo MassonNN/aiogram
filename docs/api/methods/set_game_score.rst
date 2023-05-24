@@ -4,7 +4,7 @@ setGameScore
 
 Returns: :obj:`Union[Message, bool]`
 
-.. automodule:: aiogram.methods.set_game_score
+.. automodule:: masogram.methods.set_game_score
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.set_game_score import SetGameScore`
-- alias: :code:`from aiogram.methods import SetGameScore`
+- :code:`from masogram.methods.set_game_score import SetGameScore`
+- alias: :code:`from masogram.methods import SetGameScore`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram\n"
+"Project-Id-Version: masogram\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: 2022-12-13 18:47+0200\n"
@@ -23,10 +23,10 @@ msgstr "Бот API"
 
 #: ../../api/index.rst:5
 msgid ""
-"**aiogram** now is fully support of `Telegram Bot API <https://core."
+"**masogram** now is fully support of `Telegram Bot API <https://core."
 "telegram.org/bots/api>`_"
 msgstr ""
-"**aiogram** наразі повністю підтримує `Telegram Bot API <https://core."
+"**masogram** наразі повністю підтримує `Telegram Bot API <https://core."
 "telegram.org/bots/api>`_"
 
 #: ../../api/index.rst:7

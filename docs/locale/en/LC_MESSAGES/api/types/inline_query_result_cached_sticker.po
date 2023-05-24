@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-06 14:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "InlineQueryResultCachedSticker"
 msgstr ""
 
-#: aiogram.types.inline_query_result_cached_sticker.InlineQueryResultCachedSticker:1
+#: masogram.types.inline_query_result_cached_sticker.InlineQueryResultCachedSticker:1
 #: of
 msgid ""
 "Represents a link to a sticker stored on the Telegram servers. By "
@@ -33,31 +33,31 @@ msgid ""
 "stickers>`_. Older clients will ignore them."
 msgstr ""
 
-#: aiogram.types.inline_query_result_cached_sticker.InlineQueryResultCachedSticker:4
+#: masogram.types.inline_query_result_cached_sticker.InlineQueryResultCachedSticker:4
 #: of
 msgid "Source: https://core.telegram.org/bots/api#inlinequeryresultcachedsticker"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_cached_sticker.InlineQueryResultCachedSticker.type:1
+#: masogram.types.inline_query_result_cached_sticker.InlineQueryResultCachedSticker.type:1
 #: of
 msgid "Type of the result, must be *sticker*"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_cached_sticker.InlineQueryResultCachedSticker.id:1
+#: masogram.types.inline_query_result_cached_sticker.InlineQueryResultCachedSticker.id:1
 #: of
 msgid "Unique identifier for this result, 1-64 bytes"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_cached_sticker.InlineQueryResultCachedSticker.sticker_file_id:1
+#: masogram.types.inline_query_result_cached_sticker.InlineQueryResultCachedSticker.sticker_file_id:1
 #: of
 msgid "A valid file identifier of the sticker"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_cached_sticker.InlineQueryResultCachedSticker.reply_markup:1
+#: masogram.types.inline_query_result_cached_sticker.InlineQueryResultCachedSticker.reply_markup:1
 #: of
 msgid ""
 "*Optional*. `Inline keyboard <https://core.telegram.org/bots/features"
@@ -65,7 +65,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_cached_sticker.InlineQueryResultCachedSticker.input_message_content:1
+#: masogram.types.inline_query_result_cached_sticker.InlineQueryResultCachedSticker.input_message_content:1
 #: of
 msgid "*Optional*. Content of the message to be sent instead of the sticker"
 msgstr ""

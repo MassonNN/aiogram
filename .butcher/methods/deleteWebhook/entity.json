@@ -9,7 +9,7 @@
     "name": "deleteWebhook",
     "description": "Use this method to remove webhook integration if you decide to switch back to getUpdates. Returns True on success.",
     "html_description": "<p>Use this method to remove webhook integration if you decide to switch back to <a href=\"#getupdates\">getUpdates</a>. Returns <em>True</em> on success.</p>",
-    "rst_description": "Use this method to remove webhook integration if you decide to switch back to :class:`aiogram.methods.get_updates.GetUpdates`. Returns :code:`True` on success.",
+    "rst_description": "Use this method to remove webhook integration if you decide to switch back to :class:`masogram.methods.get_updates.GetUpdates`. Returns :code:`True` on success.",
     "annotations": [
       {
         "type": "Boolean",

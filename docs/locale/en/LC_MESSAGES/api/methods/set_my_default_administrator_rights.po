@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-11 01:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Returns: :obj:`bool`"
 msgstr ""
 
-#: aiogram.methods.set_my_default_administrator_rights.SetMyDefaultAdministratorRights:1
+#: masogram.methods.set_my_default_administrator_rights.SetMyDefaultAdministratorRights:1
 #: of
 msgid ""
 "Use this method to change the default administrator rights requested by "
@@ -34,13 +34,13 @@ msgid ""
 "before adding the bot. Returns :code:`True` on success."
 msgstr ""
 
-#: aiogram.methods.set_my_default_administrator_rights.SetMyDefaultAdministratorRights:3
+#: masogram.methods.set_my_default_administrator_rights.SetMyDefaultAdministratorRights:3
 #: of
 msgid "Source: https://core.telegram.org/bots/api#setmydefaultadministratorrights"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.set_my_default_administrator_rights.SetMyDefaultAdministratorRights.rights:1
+#: masogram.methods.set_my_default_administrator_rights.SetMyDefaultAdministratorRights.rights:1
 #: of
 msgid ""
 "A JSON-serialized object describing new default administrator rights. If "
@@ -48,7 +48,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.set_my_default_administrator_rights.SetMyDefaultAdministratorRights.for_channels:1
+#: masogram.methods.set_my_default_administrator_rights.SetMyDefaultAdministratorRights.for_channels:1
 #: of
 msgid ""
 "Pass :code:`True` to change the default administrator rights of the bot "
@@ -74,12 +74,12 @@ msgstr ""
 
 #: ../../api/methods/set_my_default_administrator_rights.rst:29
 msgid ""
-":code:`from aiogram.methods.set_my_default_administrator_rights import "
+":code:`from masogram.methods.set_my_default_administrator_rights import "
 "SetMyDefaultAdministratorRights`"
 msgstr ""
 
 #: ../../api/methods/set_my_default_administrator_rights.rst:30
-msgid "alias: :code:`from aiogram.methods import SetMyDefaultAdministratorRights`"
+msgid "alias: :code:`from masogram.methods import SetMyDefaultAdministratorRights`"
 msgstr ""
 
 #: ../../api/methods/set_my_default_administrator_rights.rst:33

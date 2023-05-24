@@ -1,6 +1,6 @@
-class AiogramWarning(Warning):
+class masogramWarning(Warning):
     pass
 
 
-class Recommendation(AiogramWarning):
+class Recommendation(masogramWarning):
     pass

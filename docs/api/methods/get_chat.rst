@@ -4,7 +4,7 @@ getChat
 
 Returns: :obj:`Chat`
 
-.. automodule:: aiogram.methods.get_chat
+.. automodule:: masogram.methods.get_chat
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.get_chat import GetChat`
-- alias: :code:`from aiogram.methods import GetChat`
+- :code:`from masogram.methods.get_chat import GetChat`
+- alias: :code:`from masogram.methods import GetChat`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

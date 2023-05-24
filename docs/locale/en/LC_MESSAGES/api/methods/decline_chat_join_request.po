@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-23 00:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,19 +25,19 @@ msgstr ""
 msgid "Returns: :obj:`bool`"
 msgstr ""
 
-#: aiogram.methods.decline_chat_join_request.DeclineChatJoinRequest:1 of
+#: masogram.methods.decline_chat_join_request.DeclineChatJoinRequest:1 of
 msgid ""
 "Use this method to decline a chat join request. The bot must be an "
 "administrator in the chat for this to work and must have the "
 "*can_invite_users* administrator right. Returns :code:`True` on success."
 msgstr ""
 
-#: aiogram.methods.decline_chat_join_request.DeclineChatJoinRequest:3 of
+#: masogram.methods.decline_chat_join_request.DeclineChatJoinRequest:3 of
 msgid "Source: https://core.telegram.org/bots/api#declinechatjoinrequest"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.decline_chat_join_request.DeclineChatJoinRequest.chat_id:1
+#: masogram.methods.decline_chat_join_request.DeclineChatJoinRequest.chat_id:1
 #: of
 msgid ""
 "Unique identifier for the target chat or username of the target channel "
@@ -45,7 +45,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.decline_chat_join_request.DeclineChatJoinRequest.user_id:1
+#: masogram.methods.decline_chat_join_request.DeclineChatJoinRequest.user_id:1
 #: of
 msgid "Unique identifier of the target user"
 msgstr ""
@@ -68,12 +68,12 @@ msgstr ""
 
 #: ../../api/methods/decline_chat_join_request.rst:29
 msgid ""
-":code:`from aiogram.methods.decline_chat_join_request import "
+":code:`from masogram.methods.decline_chat_join_request import "
 "DeclineChatJoinRequest`"
 msgstr ""
 
 #: ../../api/methods/decline_chat_join_request.rst:30
-msgid "alias: :code:`from aiogram.methods import DeclineChatJoinRequest`"
+msgid "alias: :code:`from masogram.methods import DeclineChatJoinRequest`"
 msgstr ""
 
 #: ../../api/methods/decline_chat_join_request.rst:33
@@ -89,5 +89,5 @@ msgid "As shortcut from received object"
 msgstr ""
 
 #: ../../api/methods/decline_chat_join_request.rst:50
-msgid ":meth:`aiogram.types.chat_join_request.ChatJoinRequest.decline`"
+msgid ":meth:`masogram.types.chat_join_request.ChatJoinRequest.decline`"
 msgstr ""

@@ -22,7 +22,7 @@ class BaseMiddleware(ABC):
         Execute middleware
 
         :param handler: Wrapped handler in middlewares chain
-        :param event: Incoming event (Subclass of :class:`aiogram.types.base.TelegramObject`)
+        :param event: Incoming event (Subclass of :class:`masogram.types.base.TelegramObject`)
         :param data: Contextual data. Will be mapped to handler arguments
         :return: :class:`Any`
         """

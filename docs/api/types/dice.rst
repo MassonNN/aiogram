@@ -3,7 +3,7 @@ Dice
 ####
 
 
-.. automodule:: aiogram.types.dice
+.. automodule:: masogram.types.dice
     :members:
     :member-order: bysource
     :undoc-members: True

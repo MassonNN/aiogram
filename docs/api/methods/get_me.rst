@@ -4,7 +4,7 @@ getMe
 
 Returns: :obj:`User`
 
-.. automodule:: aiogram.methods.get_me
+.. automodule:: masogram.methods.get_me
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.get_me import GetMe`
-- alias: :code:`from aiogram.methods import GetMe`
+- :code:`from masogram.methods.get_me import GetMe`
+- alias: :code:`from masogram.methods import GetMe`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

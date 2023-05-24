@@ -369,14 +369,14 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendAnimation:
         """
-        Shortcut for method :class:`aiogram.methods.send_animation.SendAnimation`
+        Shortcut for method :class:`masogram.methods.send_animation.SendAnimation`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
         - :code:`reply_to_message_id`
 
-        Use this method to send animation files (GIF or H.264/MPEG-4 AVC video without sound). On success, the sent :class:`aiogram.types.message.Message` is returned. Bots can currently send animation files of up to 50 MB in size, this limit may be changed in the future.
+        Use this method to send animation files (GIF or H.264/MPEG-4 AVC video without sound). On success, the sent :class:`masogram.types.message.Message` is returned. Bots can currently send animation files of up to 50 MB in size, this limit may be changed in the future.
 
         Source: https://core.telegram.org/bots/api#sendanimation
 
@@ -393,7 +393,7 @@ class Message(TelegramObject):
         :param protect_content: Protects the contents of the sent message from forwarding and saving
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
-        :return: instance of method :class:`aiogram.methods.send_animation.SendAnimation`
+        :return: instance of method :class:`masogram.methods.send_animation.SendAnimation`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -441,13 +441,13 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendAnimation:
         """
-        Shortcut for method :class:`aiogram.methods.send_animation.SendAnimation`
+        Shortcut for method :class:`masogram.methods.send_animation.SendAnimation`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
 
-        Use this method to send animation files (GIF or H.264/MPEG-4 AVC video without sound). On success, the sent :class:`aiogram.types.message.Message` is returned. Bots can currently send animation files of up to 50 MB in size, this limit may be changed in the future.
+        Use this method to send animation files (GIF or H.264/MPEG-4 AVC video without sound). On success, the sent :class:`masogram.types.message.Message` is returned. Bots can currently send animation files of up to 50 MB in size, this limit may be changed in the future.
 
         Source: https://core.telegram.org/bots/api#sendanimation
 
@@ -465,7 +465,7 @@ class Message(TelegramObject):
         :param reply_to_message_id: If the message is a reply, ID of the original message
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
-        :return: instance of method :class:`aiogram.methods.send_animation.SendAnimation`
+        :return: instance of method :class:`masogram.methods.send_animation.SendAnimation`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -511,15 +511,15 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendAudio:
         """
-        Shortcut for method :class:`aiogram.methods.send_audio.SendAudio`
+        Shortcut for method :class:`masogram.methods.send_audio.SendAudio`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
         - :code:`reply_to_message_id`
 
-        Use this method to send audio files, if you want Telegram clients to display them in the music player. Your audio must be in the .MP3 or .M4A format. On success, the sent :class:`aiogram.types.message.Message` is returned. Bots can currently send audio files of up to 50 MB in size, this limit may be changed in the future.
-        For sending voice messages, use the :class:`aiogram.methods.send_voice.SendVoice` method instead.
+        Use this method to send audio files, if you want Telegram clients to display them in the music player. Your audio must be in the .MP3 or .M4A format. On success, the sent :class:`masogram.types.message.Message` is returned. Bots can currently send audio files of up to 50 MB in size, this limit may be changed in the future.
+        For sending voice messages, use the :class:`masogram.methods.send_voice.SendVoice` method instead.
 
         Source: https://core.telegram.org/bots/api#sendaudio
 
@@ -535,7 +535,7 @@ class Message(TelegramObject):
         :param protect_content: Protects the contents of the sent message from forwarding and saving
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
-        :return: instance of method :class:`aiogram.methods.send_audio.SendAudio`
+        :return: instance of method :class:`masogram.methods.send_audio.SendAudio`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -581,14 +581,14 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendAudio:
         """
-        Shortcut for method :class:`aiogram.methods.send_audio.SendAudio`
+        Shortcut for method :class:`masogram.methods.send_audio.SendAudio`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
 
-        Use this method to send audio files, if you want Telegram clients to display them in the music player. Your audio must be in the .MP3 or .M4A format. On success, the sent :class:`aiogram.types.message.Message` is returned. Bots can currently send audio files of up to 50 MB in size, this limit may be changed in the future.
-        For sending voice messages, use the :class:`aiogram.methods.send_voice.SendVoice` method instead.
+        Use this method to send audio files, if you want Telegram clients to display them in the music player. Your audio must be in the .MP3 or .M4A format. On success, the sent :class:`masogram.types.message.Message` is returned. Bots can currently send audio files of up to 50 MB in size, this limit may be changed in the future.
+        For sending voice messages, use the :class:`masogram.methods.send_voice.SendVoice` method instead.
 
         Source: https://core.telegram.org/bots/api#sendaudio
 
@@ -605,7 +605,7 @@ class Message(TelegramObject):
         :param reply_to_message_id: If the message is a reply, ID of the original message
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
-        :return: instance of method :class:`aiogram.methods.send_audio.SendAudio`
+        :return: instance of method :class:`masogram.methods.send_audio.SendAudio`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -646,14 +646,14 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendContact:
         """
-        Shortcut for method :class:`aiogram.methods.send_contact.SendContact`
+        Shortcut for method :class:`masogram.methods.send_contact.SendContact`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
         - :code:`reply_to_message_id`
 
-        Use this method to send phone contacts. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to send phone contacts. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#sendcontact
 
@@ -665,7 +665,7 @@ class Message(TelegramObject):
         :param protect_content: Protects the contents of the sent message from forwarding and saving
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
-        :return: instance of method :class:`aiogram.methods.send_contact.SendContact`
+        :return: instance of method :class:`masogram.methods.send_contact.SendContact`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -703,13 +703,13 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendContact:
         """
-        Shortcut for method :class:`aiogram.methods.send_contact.SendContact`
+        Shortcut for method :class:`masogram.methods.send_contact.SendContact`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
 
-        Use this method to send phone contacts. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to send phone contacts. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#sendcontact
 
@@ -722,7 +722,7 @@ class Message(TelegramObject):
         :param reply_to_message_id: If the message is a reply, ID of the original message
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
-        :return: instance of method :class:`aiogram.methods.send_contact.SendContact`
+        :return: instance of method :class:`masogram.methods.send_contact.SendContact`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -761,14 +761,14 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendDocument:
         """
-        Shortcut for method :class:`aiogram.methods.send_document.SendDocument`
+        Shortcut for method :class:`masogram.methods.send_document.SendDocument`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
         - :code:`reply_to_message_id`
 
-        Use this method to send general files. On success, the sent :class:`aiogram.types.message.Message` is returned. Bots can currently send files of any type of up to 50 MB in size, this limit may be changed in the future.
+        Use this method to send general files. On success, the sent :class:`masogram.types.message.Message` is returned. Bots can currently send files of any type of up to 50 MB in size, this limit may be changed in the future.
 
         Source: https://core.telegram.org/bots/api#senddocument
 
@@ -782,7 +782,7 @@ class Message(TelegramObject):
         :param protect_content: Protects the contents of the sent message from forwarding and saving
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
-        :return: instance of method :class:`aiogram.methods.send_document.SendDocument`
+        :return: instance of method :class:`masogram.methods.send_document.SendDocument`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -824,13 +824,13 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendDocument:
         """
-        Shortcut for method :class:`aiogram.methods.send_document.SendDocument`
+        Shortcut for method :class:`masogram.methods.send_document.SendDocument`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
 
-        Use this method to send general files. On success, the sent :class:`aiogram.types.message.Message` is returned. Bots can currently send files of any type of up to 50 MB in size, this limit may be changed in the future.
+        Use this method to send general files. On success, the sent :class:`masogram.types.message.Message` is returned. Bots can currently send files of any type of up to 50 MB in size, this limit may be changed in the future.
 
         Source: https://core.telegram.org/bots/api#senddocument
 
@@ -845,7 +845,7 @@ class Message(TelegramObject):
         :param reply_to_message_id: If the message is a reply, ID of the original message
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
-        :return: instance of method :class:`aiogram.methods.send_document.SendDocument`
+        :return: instance of method :class:`masogram.methods.send_document.SendDocument`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -879,14 +879,14 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendGame:
         """
-        Shortcut for method :class:`aiogram.methods.send_game.SendGame`
+        Shortcut for method :class:`masogram.methods.send_game.SendGame`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
         - :code:`reply_to_message_id`
 
-        Use this method to send a game. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to send a game. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#sendgame
 
@@ -895,7 +895,7 @@ class Message(TelegramObject):
         :param protect_content: Protects the contents of the sent message from forwarding and saving
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_. If empty, one 'Play game_title' button will be shown. If not empty, the first button must launch the game.
-        :return: instance of method :class:`aiogram.methods.send_game.SendGame`
+        :return: instance of method :class:`masogram.methods.send_game.SendGame`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -925,13 +925,13 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendGame:
         """
-        Shortcut for method :class:`aiogram.methods.send_game.SendGame`
+        Shortcut for method :class:`masogram.methods.send_game.SendGame`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
 
-        Use this method to send a game. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to send a game. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#sendgame
 
@@ -941,7 +941,7 @@ class Message(TelegramObject):
         :param reply_to_message_id: If the message is a reply, ID of the original message
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_. If empty, one 'Play game_title' button will be shown. If not empty, the first button must launch the game.
-        :return: instance of method :class:`aiogram.methods.send_game.SendGame`
+        :return: instance of method :class:`masogram.methods.send_game.SendGame`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -990,14 +990,14 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendInvoice:
         """
-        Shortcut for method :class:`aiogram.methods.send_invoice.SendInvoice`
+        Shortcut for method :class:`masogram.methods.send_invoice.SendInvoice`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
         - :code:`reply_to_message_id`
 
-        Use this method to send invoices. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to send invoices. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#sendinvoice
 
@@ -1026,7 +1026,7 @@ class Message(TelegramObject):
         :param protect_content: Protects the contents of the sent message from forwarding and saving
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_. If empty, one 'Pay :code:`total price`' button will be shown. If not empty, the first button must be a Pay button.
-        :return: instance of method :class:`aiogram.methods.send_invoice.SendInvoice`
+        :return: instance of method :class:`masogram.methods.send_invoice.SendInvoice`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -1096,13 +1096,13 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendInvoice:
         """
-        Shortcut for method :class:`aiogram.methods.send_invoice.SendInvoice`
+        Shortcut for method :class:`masogram.methods.send_invoice.SendInvoice`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
 
-        Use this method to send invoices. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to send invoices. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#sendinvoice
 
@@ -1132,7 +1132,7 @@ class Message(TelegramObject):
         :param reply_to_message_id: If the message is a reply, ID of the original message
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_. If empty, one 'Pay :code:`total price`' button will be shown. If not empty, the first button must be a Pay button.
-        :return: instance of method :class:`aiogram.methods.send_invoice.SendInvoice`
+        :return: instance of method :class:`masogram.methods.send_invoice.SendInvoice`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -1188,14 +1188,14 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendLocation:
         """
-        Shortcut for method :class:`aiogram.methods.send_location.SendLocation`
+        Shortcut for method :class:`masogram.methods.send_location.SendLocation`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
         - :code:`reply_to_message_id`
 
-        Use this method to send point on the map. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to send point on the map. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#sendlocation
 
@@ -1209,7 +1209,7 @@ class Message(TelegramObject):
         :param protect_content: Protects the contents of the sent message from forwarding and saving
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
-        :return: instance of method :class:`aiogram.methods.send_location.SendLocation`
+        :return: instance of method :class:`masogram.methods.send_location.SendLocation`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -1251,13 +1251,13 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendLocation:
         """
-        Shortcut for method :class:`aiogram.methods.send_location.SendLocation`
+        Shortcut for method :class:`masogram.methods.send_location.SendLocation`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
 
-        Use this method to send point on the map. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to send point on the map. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#sendlocation
 
@@ -1272,7 +1272,7 @@ class Message(TelegramObject):
         :param reply_to_message_id: If the message is a reply, ID of the original message
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
-        :return: instance of method :class:`aiogram.methods.send_location.SendLocation`
+        :return: instance of method :class:`masogram.methods.send_location.SendLocation`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -1305,7 +1305,7 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendMediaGroup:
         """
-        Shortcut for method :class:`aiogram.methods.send_media_group.SendMediaGroup`
+        Shortcut for method :class:`masogram.methods.send_media_group.SendMediaGroup`
         will automatically fill method attributes:
 
         - :code:`chat_id`
@@ -1320,7 +1320,7 @@ class Message(TelegramObject):
         :param disable_notification: Sends messages `silently <https://telegram.org/blog/channels-2-0#silent-messages>`_. Users will receive a notification with no sound.
         :param protect_content: Protects the contents of the sent messages from forwarding and saving
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
-        :return: instance of method :class:`aiogram.methods.send_media_group.SendMediaGroup`
+        :return: instance of method :class:`masogram.methods.send_media_group.SendMediaGroup`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -1348,7 +1348,7 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendMediaGroup:
         """
-        Shortcut for method :class:`aiogram.methods.send_media_group.SendMediaGroup`
+        Shortcut for method :class:`masogram.methods.send_media_group.SendMediaGroup`
         will automatically fill method attributes:
 
         - :code:`chat_id`
@@ -1363,7 +1363,7 @@ class Message(TelegramObject):
         :param protect_content: Protects the contents of the sent messages from forwarding and saving
         :param reply_to_message_id: If the messages are a reply, ID of the original message
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
-        :return: instance of method :class:`aiogram.methods.send_media_group.SendMediaGroup`
+        :return: instance of method :class:`masogram.methods.send_media_group.SendMediaGroup`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -1396,14 +1396,14 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendMessage:
         """
-        Shortcut for method :class:`aiogram.methods.send_message.SendMessage`
+        Shortcut for method :class:`masogram.methods.send_message.SendMessage`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
         - :code:`reply_to_message_id`
 
-        Use this method to send text messages. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to send text messages. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#sendmessage
 
@@ -1415,7 +1415,7 @@ class Message(TelegramObject):
         :param protect_content: Protects the contents of the sent message from forwarding and saving
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
-        :return: instance of method :class:`aiogram.methods.send_message.SendMessage`
+        :return: instance of method :class:`masogram.methods.send_message.SendMessage`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -1453,13 +1453,13 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendMessage:
         """
-        Shortcut for method :class:`aiogram.methods.send_message.SendMessage`
+        Shortcut for method :class:`masogram.methods.send_message.SendMessage`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
 
-        Use this method to send text messages. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to send text messages. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#sendmessage
 
@@ -1472,7 +1472,7 @@ class Message(TelegramObject):
         :param reply_to_message_id: If the message is a reply, ID of the original message
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
-        :return: instance of method :class:`aiogram.methods.send_message.SendMessage`
+        :return: instance of method :class:`masogram.methods.send_message.SendMessage`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -1510,14 +1510,14 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendPhoto:
         """
-        Shortcut for method :class:`aiogram.methods.send_photo.SendPhoto`
+        Shortcut for method :class:`masogram.methods.send_photo.SendPhoto`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
         - :code:`reply_to_message_id`
 
-        Use this method to send photos. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to send photos. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#sendphoto
 
@@ -1530,7 +1530,7 @@ class Message(TelegramObject):
         :param protect_content: Protects the contents of the sent message from forwarding and saving
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
-        :return: instance of method :class:`aiogram.methods.send_photo.SendPhoto`
+        :return: instance of method :class:`masogram.methods.send_photo.SendPhoto`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -1570,13 +1570,13 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendPhoto:
         """
-        Shortcut for method :class:`aiogram.methods.send_photo.SendPhoto`
+        Shortcut for method :class:`masogram.methods.send_photo.SendPhoto`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
 
-        Use this method to send photos. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to send photos. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#sendphoto
 
@@ -1590,7 +1590,7 @@ class Message(TelegramObject):
         :param reply_to_message_id: If the message is a reply, ID of the original message
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
-        :return: instance of method :class:`aiogram.methods.send_photo.SendPhoto`
+        :return: instance of method :class:`masogram.methods.send_photo.SendPhoto`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -1636,14 +1636,14 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendPoll:
         """
-        Shortcut for method :class:`aiogram.methods.send_poll.SendPoll`
+        Shortcut for method :class:`masogram.methods.send_poll.SendPoll`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
         - :code:`reply_to_message_id`
 
-        Use this method to send a native poll. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to send a native poll. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#sendpoll
 
@@ -1663,7 +1663,7 @@ class Message(TelegramObject):
         :param protect_content: Protects the contents of the sent message from forwarding and saving
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
-        :return: instance of method :class:`aiogram.methods.send_poll.SendPoll`
+        :return: instance of method :class:`masogram.methods.send_poll.SendPoll`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -1717,13 +1717,13 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendPoll:
         """
-        Shortcut for method :class:`aiogram.methods.send_poll.SendPoll`
+        Shortcut for method :class:`masogram.methods.send_poll.SendPoll`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
 
-        Use this method to send a native poll. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to send a native poll. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#sendpoll
 
@@ -1744,7 +1744,7 @@ class Message(TelegramObject):
         :param reply_to_message_id: If the message is a reply, ID of the original message
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
-        :return: instance of method :class:`aiogram.methods.send_poll.SendPoll`
+        :return: instance of method :class:`masogram.methods.send_poll.SendPoll`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -1786,14 +1786,14 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendDice:
         """
-        Shortcut for method :class:`aiogram.methods.send_dice.SendDice`
+        Shortcut for method :class:`masogram.methods.send_dice.SendDice`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
         - :code:`reply_to_message_id`
 
-        Use this method to send an animated emoji that will display a random value. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to send an animated emoji that will display a random value. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#senddice
 
@@ -1802,7 +1802,7 @@ class Message(TelegramObject):
         :param protect_content: Protects the contents of the sent message from forwarding
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
-        :return: instance of method :class:`aiogram.methods.send_dice.SendDice`
+        :return: instance of method :class:`masogram.methods.send_dice.SendDice`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -1834,13 +1834,13 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendDice:
         """
-        Shortcut for method :class:`aiogram.methods.send_dice.SendDice`
+        Shortcut for method :class:`masogram.methods.send_dice.SendDice`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
 
-        Use this method to send an animated emoji that will display a random value. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to send an animated emoji that will display a random value. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#senddice
 
@@ -1850,7 +1850,7 @@ class Message(TelegramObject):
         :param reply_to_message_id: If the message is a reply, ID of the original message
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
-        :return: instance of method :class:`aiogram.methods.send_dice.SendDice`
+        :return: instance of method :class:`masogram.methods.send_dice.SendDice`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -1882,14 +1882,14 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendSticker:
         """
-        Shortcut for method :class:`aiogram.methods.send_sticker.SendSticker`
+        Shortcut for method :class:`masogram.methods.send_sticker.SendSticker`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
         - :code:`reply_to_message_id`
 
-        Use this method to send static .WEBP, `animated <https://telegram.org/blog/animated-stickers>`_ .TGS, or `video <https://telegram.org/blog/video-stickers-better-reactions>`_ .WEBM stickers. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to send static .WEBP, `animated <https://telegram.org/blog/animated-stickers>`_ .TGS, or `video <https://telegram.org/blog/video-stickers-better-reactions>`_ .WEBM stickers. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#sendsticker
 
@@ -1899,7 +1899,7 @@ class Message(TelegramObject):
         :param protect_content: Protects the contents of the sent message from forwarding and saving
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
-        :return: instance of method :class:`aiogram.methods.send_sticker.SendSticker`
+        :return: instance of method :class:`masogram.methods.send_sticker.SendSticker`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -1933,13 +1933,13 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendSticker:
         """
-        Shortcut for method :class:`aiogram.methods.send_sticker.SendSticker`
+        Shortcut for method :class:`masogram.methods.send_sticker.SendSticker`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
 
-        Use this method to send static .WEBP, `animated <https://telegram.org/blog/animated-stickers>`_ .TGS, or `video <https://telegram.org/blog/video-stickers-better-reactions>`_ .WEBM stickers. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to send static .WEBP, `animated <https://telegram.org/blog/animated-stickers>`_ .TGS, or `video <https://telegram.org/blog/video-stickers-better-reactions>`_ .WEBM stickers. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#sendsticker
 
@@ -1950,7 +1950,7 @@ class Message(TelegramObject):
         :param reply_to_message_id: If the message is a reply, ID of the original message
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
-        :return: instance of method :class:`aiogram.methods.send_sticker.SendSticker`
+        :return: instance of method :class:`masogram.methods.send_sticker.SendSticker`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -1989,14 +1989,14 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendVenue:
         """
-        Shortcut for method :class:`aiogram.methods.send_venue.SendVenue`
+        Shortcut for method :class:`masogram.methods.send_venue.SendVenue`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
         - :code:`reply_to_message_id`
 
-        Use this method to send information about a venue. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to send information about a venue. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#sendvenue
 
@@ -2012,7 +2012,7 @@ class Message(TelegramObject):
         :param protect_content: Protects the contents of the sent message from forwarding and saving
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
-        :return: instance of method :class:`aiogram.methods.send_venue.SendVenue`
+        :return: instance of method :class:`masogram.methods.send_venue.SendVenue`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -2058,13 +2058,13 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendVenue:
         """
-        Shortcut for method :class:`aiogram.methods.send_venue.SendVenue`
+        Shortcut for method :class:`masogram.methods.send_venue.SendVenue`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
 
-        Use this method to send information about a venue. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to send information about a venue. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#sendvenue
 
@@ -2081,7 +2081,7 @@ class Message(TelegramObject):
         :param reply_to_message_id: If the message is a reply, ID of the original message
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
-        :return: instance of method :class:`aiogram.methods.send_venue.SendVenue`
+        :return: instance of method :class:`masogram.methods.send_venue.SendVenue`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -2128,14 +2128,14 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendVideo:
         """
-        Shortcut for method :class:`aiogram.methods.send_video.SendVideo`
+        Shortcut for method :class:`masogram.methods.send_video.SendVideo`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
         - :code:`reply_to_message_id`
 
-        Use this method to send video files, Telegram clients support MPEG4 videos (other formats may be sent as :class:`aiogram.types.document.Document`). On success, the sent :class:`aiogram.types.message.Message` is returned. Bots can currently send video files of up to 50 MB in size, this limit may be changed in the future.
+        Use this method to send video files, Telegram clients support MPEG4 videos (other formats may be sent as :class:`masogram.types.document.Document`). On success, the sent :class:`masogram.types.message.Message` is returned. Bots can currently send video files of up to 50 MB in size, this limit may be changed in the future.
 
         Source: https://core.telegram.org/bots/api#sendvideo
 
@@ -2153,7 +2153,7 @@ class Message(TelegramObject):
         :param protect_content: Protects the contents of the sent message from forwarding and saving
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
-        :return: instance of method :class:`aiogram.methods.send_video.SendVideo`
+        :return: instance of method :class:`masogram.methods.send_video.SendVideo`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -2203,13 +2203,13 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendVideo:
         """
-        Shortcut for method :class:`aiogram.methods.send_video.SendVideo`
+        Shortcut for method :class:`masogram.methods.send_video.SendVideo`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
 
-        Use this method to send video files, Telegram clients support MPEG4 videos (other formats may be sent as :class:`aiogram.types.document.Document`). On success, the sent :class:`aiogram.types.message.Message` is returned. Bots can currently send video files of up to 50 MB in size, this limit may be changed in the future.
+        Use this method to send video files, Telegram clients support MPEG4 videos (other formats may be sent as :class:`masogram.types.document.Document`). On success, the sent :class:`masogram.types.message.Message` is returned. Bots can currently send video files of up to 50 MB in size, this limit may be changed in the future.
 
         Source: https://core.telegram.org/bots/api#sendvideo
 
@@ -2228,7 +2228,7 @@ class Message(TelegramObject):
         :param reply_to_message_id: If the message is a reply, ID of the original message
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
-        :return: instance of method :class:`aiogram.methods.send_video.SendVideo`
+        :return: instance of method :class:`masogram.methods.send_video.SendVideo`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -2271,14 +2271,14 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendVideoNote:
         """
-        Shortcut for method :class:`aiogram.methods.send_video_note.SendVideoNote`
+        Shortcut for method :class:`masogram.methods.send_video_note.SendVideoNote`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
         - :code:`reply_to_message_id`
 
-        As of `v.4.0 <https://telegram.org/blog/video-messages-and-telescope>`_, Telegram clients support rounded square MPEG4 videos of up to 1 minute long. Use this method to send video messages. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        As of `v.4.0 <https://telegram.org/blog/video-messages-and-telescope>`_, Telegram clients support rounded square MPEG4 videos of up to 1 minute long. Use this method to send video messages. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#sendvideonote
 
@@ -2290,7 +2290,7 @@ class Message(TelegramObject):
         :param protect_content: Protects the contents of the sent message from forwarding and saving
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
-        :return: instance of method :class:`aiogram.methods.send_video_note.SendVideoNote`
+        :return: instance of method :class:`masogram.methods.send_video_note.SendVideoNote`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -2328,13 +2328,13 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendVideoNote:
         """
-        Shortcut for method :class:`aiogram.methods.send_video_note.SendVideoNote`
+        Shortcut for method :class:`masogram.methods.send_video_note.SendVideoNote`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
 
-        As of `v.4.0 <https://telegram.org/blog/video-messages-and-telescope>`_, Telegram clients support rounded square MPEG4 videos of up to 1 minute long. Use this method to send video messages. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        As of `v.4.0 <https://telegram.org/blog/video-messages-and-telescope>`_, Telegram clients support rounded square MPEG4 videos of up to 1 minute long. Use this method to send video messages. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#sendvideonote
 
@@ -2347,7 +2347,7 @@ class Message(TelegramObject):
         :param reply_to_message_id: If the message is a reply, ID of the original message
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
-        :return: instance of method :class:`aiogram.methods.send_video_note.SendVideoNote`
+        :return: instance of method :class:`masogram.methods.send_video_note.SendVideoNote`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -2385,14 +2385,14 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendVoice:
         """
-        Shortcut for method :class:`aiogram.methods.send_voice.SendVoice`
+        Shortcut for method :class:`masogram.methods.send_voice.SendVoice`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
         - :code:`reply_to_message_id`
 
-        Use this method to send audio files, if you want Telegram clients to display the file as a playable voice message. For this to work, your audio must be in an .OGG file encoded with OPUS (other formats may be sent as :class:`aiogram.types.audio.Audio` or :class:`aiogram.types.document.Document`). On success, the sent :class:`aiogram.types.message.Message` is returned. Bots can currently send voice messages of up to 50 MB in size, this limit may be changed in the future.
+        Use this method to send audio files, if you want Telegram clients to display the file as a playable voice message. For this to work, your audio must be in an .OGG file encoded with OPUS (other formats may be sent as :class:`masogram.types.audio.Audio` or :class:`masogram.types.document.Document`). On success, the sent :class:`masogram.types.message.Message` is returned. Bots can currently send voice messages of up to 50 MB in size, this limit may be changed in the future.
 
         Source: https://core.telegram.org/bots/api#sendvoice
 
@@ -2405,7 +2405,7 @@ class Message(TelegramObject):
         :param protect_content: Protects the contents of the sent message from forwarding and saving
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
-        :return: instance of method :class:`aiogram.methods.send_voice.SendVoice`
+        :return: instance of method :class:`masogram.methods.send_voice.SendVoice`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -2445,13 +2445,13 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> SendVoice:
         """
-        Shortcut for method :class:`aiogram.methods.send_voice.SendVoice`
+        Shortcut for method :class:`masogram.methods.send_voice.SendVoice`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_thread_id`
 
-        Use this method to send audio files, if you want Telegram clients to display the file as a playable voice message. For this to work, your audio must be in an .OGG file encoded with OPUS (other formats may be sent as :class:`aiogram.types.audio.Audio` or :class:`aiogram.types.document.Document`). On success, the sent :class:`aiogram.types.message.Message` is returned. Bots can currently send voice messages of up to 50 MB in size, this limit may be changed in the future.
+        Use this method to send audio files, if you want Telegram clients to display the file as a playable voice message. For this to work, your audio must be in an .OGG file encoded with OPUS (other formats may be sent as :class:`masogram.types.audio.Audio` or :class:`masogram.types.document.Document`). On success, the sent :class:`masogram.types.message.Message` is returned. Bots can currently send voice messages of up to 50 MB in size, this limit may be changed in the future.
 
         Source: https://core.telegram.org/bots/api#sendvoice
 
@@ -2465,7 +2465,7 @@ class Message(TelegramObject):
         :param reply_to_message_id: If the message is a reply, ID of the original message
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
-        :return: instance of method :class:`aiogram.methods.send_voice.SendVoice`
+        :return: instance of method :class:`masogram.methods.send_voice.SendVoice`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -2515,8 +2515,8 @@ class Message(TelegramObject):
         """
         Send copy of message.
 
-        Is similar to :meth:`aiogram.client.bot.Bot.copy_message`
-        but returning the sent message instead of :class:`aiogram.types.message_id.MessageId`
+        Is similar to :meth:`masogram.client.bot.Bot.copy_message`
+        but returning the sent message instead of :class:`masogram.types.message_id.MessageId`
 
         .. note::
 
@@ -2643,13 +2643,13 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> CopyMessage:
         """
-        Shortcut for method :class:`aiogram.methods.copy_message.CopyMessage`
+        Shortcut for method :class:`masogram.methods.copy_message.CopyMessage`
         will automatically fill method attributes:
 
         - :code:`from_chat_id`
         - :code:`message_id`
 
-        Use this method to copy messages of any kind. Service messages and invoice messages can't be copied. A quiz :class:`aiogram.methods.poll.Poll` can be copied only if the value of the field *correct_option_id* is known to the bot. The method is analogous to the method :class:`aiogram.methods.forward_message.ForwardMessage`, but the copied message doesn't have a link to the original message. Returns the :class:`aiogram.types.message_id.MessageId` of the sent message on success.
+        Use this method to copy messages of any kind. Service messages and invoice messages can't be copied. A quiz :class:`masogram.methods.poll.Poll` can be copied only if the value of the field *correct_option_id* is known to the bot. The method is analogous to the method :class:`masogram.methods.forward_message.ForwardMessage`, but the copied message doesn't have a link to the original message. Returns the :class:`masogram.types.message_id.MessageId` of the sent message on success.
 
         Source: https://core.telegram.org/bots/api#copymessage
 
@@ -2663,7 +2663,7 @@ class Message(TelegramObject):
         :param reply_to_message_id: If the message is a reply, ID of the original message
         :param allow_sending_without_reply: Pass :code:`True` if the message should be sent even if the specified replied-to message is not found
         :param reply_markup: Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user.
-        :return: instance of method :class:`aiogram.methods.copy_message.CopyMessage`
+        :return: instance of method :class:`masogram.methods.copy_message.CopyMessage`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -2697,13 +2697,13 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> EditMessageText:
         """
-        Shortcut for method :class:`aiogram.methods.edit_message_text.EditMessageText`
+        Shortcut for method :class:`masogram.methods.edit_message_text.EditMessageText`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_id`
 
-        Use this method to edit text and `game <https://core.telegram.org/bots/api#games>`_ messages. On success, if the edited message is not an inline message, the edited :class:`aiogram.types.message.Message` is returned, otherwise :code:`True` is returned.
+        Use this method to edit text and `game <https://core.telegram.org/bots/api#games>`_ messages. On success, if the edited message is not an inline message, the edited :class:`masogram.types.message.Message` is returned, otherwise :code:`True` is returned.
 
         Source: https://core.telegram.org/bots/api#editmessagetext
 
@@ -2713,7 +2713,7 @@ class Message(TelegramObject):
         :param entities: A JSON-serialized list of special entities that appear in message text, which can be specified instead of *parse_mode*
         :param disable_web_page_preview: Disables link previews for links in this message
         :param reply_markup: A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_.
-        :return: instance of method :class:`aiogram.methods.edit_message_text.EditMessageText`
+        :return: instance of method :class:`masogram.methods.edit_message_text.EditMessageText`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -2741,13 +2741,13 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> ForwardMessage:
         """
-        Shortcut for method :class:`aiogram.methods.forward_message.ForwardMessage`
+        Shortcut for method :class:`masogram.methods.forward_message.ForwardMessage`
         will automatically fill method attributes:
 
         - :code:`from_chat_id`
         - :code:`message_id`
 
-        Use this method to forward messages of any kind. Service messages can't be forwarded. On success, the sent :class:`aiogram.types.message.Message` is returned.
+        Use this method to forward messages of any kind. Service messages can't be forwarded. On success, the sent :class:`masogram.types.message.Message` is returned.
 
         Source: https://core.telegram.org/bots/api#forwardmessage
 
@@ -2755,7 +2755,7 @@ class Message(TelegramObject):
         :param message_thread_id: Unique identifier for the target message thread (topic) of the forum; for forum supergroups only
         :param disable_notification: Sends the message `silently <https://telegram.org/blog/channels-2-0#silent-messages>`_. Users will receive a notification with no sound.
         :param protect_content: Protects the contents of the forwarded message from forwarding and saving
-        :return: instance of method :class:`aiogram.methods.forward_message.ForwardMessage`
+        :return: instance of method :class:`masogram.methods.forward_message.ForwardMessage`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -2780,20 +2780,20 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> EditMessageMedia:
         """
-        Shortcut for method :class:`aiogram.methods.edit_message_media.EditMessageMedia`
+        Shortcut for method :class:`masogram.methods.edit_message_media.EditMessageMedia`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_id`
 
-        Use this method to edit animation, audio, document, photo, or video messages. If a message is part of a message album, then it can be edited only to an audio for audio albums, only to a document for document albums and to a photo or a video otherwise. When an inline message is edited, a new file can't be uploaded; use a previously uploaded file via its file_id or specify a URL. On success, if the edited message is not an inline message, the edited :class:`aiogram.types.message.Message` is returned, otherwise :code:`True` is returned.
+        Use this method to edit animation, audio, document, photo, or video messages. If a message is part of a message album, then it can be edited only to an audio for audio albums, only to a document for document albums and to a photo or a video otherwise. When an inline message is edited, a new file can't be uploaded; use a previously uploaded file via its file_id or specify a URL. On success, if the edited message is not an inline message, the edited :class:`masogram.types.message.Message` is returned, otherwise :code:`True` is returned.
 
         Source: https://core.telegram.org/bots/api#editmessagemedia
 
         :param media: A JSON-serialized object for a new media content of the message
         :param inline_message_id: Required if *chat_id* and *message_id* are not specified. Identifier of the inline message
         :param reply_markup: A JSON-serialized object for a new `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_.
-        :return: instance of method :class:`aiogram.methods.edit_message_media.EditMessageMedia`
+        :return: instance of method :class:`masogram.methods.edit_message_media.EditMessageMedia`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -2816,19 +2816,19 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> EditMessageReplyMarkup:
         """
-        Shortcut for method :class:`aiogram.methods.edit_message_reply_markup.EditMessageReplyMarkup`
+        Shortcut for method :class:`masogram.methods.edit_message_reply_markup.EditMessageReplyMarkup`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_id`
 
-        Use this method to edit only the reply markup of messages. On success, if the edited message is not an inline message, the edited :class:`aiogram.types.message.Message` is returned, otherwise :code:`True` is returned.
+        Use this method to edit only the reply markup of messages. On success, if the edited message is not an inline message, the edited :class:`masogram.types.message.Message` is returned, otherwise :code:`True` is returned.
 
         Source: https://core.telegram.org/bots/api#editmessagereplymarkup
 
         :param inline_message_id: Required if *chat_id* and *message_id* are not specified. Identifier of the inline message
         :param reply_markup: A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_.
-        :return: instance of method :class:`aiogram.methods.edit_message_reply_markup.EditMessageReplyMarkup`
+        :return: instance of method :class:`masogram.methods.edit_message_reply_markup.EditMessageReplyMarkup`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -2858,13 +2858,13 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> EditMessageLiveLocation:
         """
-        Shortcut for method :class:`aiogram.methods.edit_message_live_location.EditMessageLiveLocation`
+        Shortcut for method :class:`masogram.methods.edit_message_live_location.EditMessageLiveLocation`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_id`
 
-        Use this method to edit live location messages. A location can be edited until its *live_period* expires or editing is explicitly disabled by a call to :class:`aiogram.methods.stop_message_live_location.StopMessageLiveLocation`. On success, if the edited message is not an inline message, the edited :class:`aiogram.types.message.Message` is returned, otherwise :code:`True` is returned.
+        Use this method to edit live location messages. A location can be edited until its *live_period* expires or editing is explicitly disabled by a call to :class:`masogram.methods.stop_message_live_location.StopMessageLiveLocation`. On success, if the edited message is not an inline message, the edited :class:`masogram.types.message.Message` is returned, otherwise :code:`True` is returned.
 
         Source: https://core.telegram.org/bots/api#editmessagelivelocation
 
@@ -2875,7 +2875,7 @@ class Message(TelegramObject):
         :param heading: Direction in which the user is moving, in degrees. Must be between 1 and 360 if specified.
         :param proximity_alert_radius: The maximum distance for proximity alerts about approaching another chat member, in meters. Must be between 1 and 100000 if specified.
         :param reply_markup: A JSON-serialized object for a new `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_.
-        :return: instance of method :class:`aiogram.methods.edit_message_live_location.EditMessageLiveLocation`
+        :return: instance of method :class:`masogram.methods.edit_message_live_location.EditMessageLiveLocation`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -2902,19 +2902,19 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> StopMessageLiveLocation:
         """
-        Shortcut for method :class:`aiogram.methods.stop_message_live_location.StopMessageLiveLocation`
+        Shortcut for method :class:`masogram.methods.stop_message_live_location.StopMessageLiveLocation`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_id`
 
-        Use this method to stop updating a live location message before *live_period* expires. On success, if the message is not an inline message, the edited :class:`aiogram.types.message.Message` is returned, otherwise :code:`True` is returned.
+        Use this method to stop updating a live location message before *live_period* expires. On success, if the message is not an inline message, the edited :class:`masogram.types.message.Message` is returned, otherwise :code:`True` is returned.
 
         Source: https://core.telegram.org/bots/api#stopmessagelivelocation
 
         :param inline_message_id: Required if *chat_id* and *message_id* are not specified. Identifier of the inline message
         :param reply_markup: A JSON-serialized object for a new `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_.
-        :return: instance of method :class:`aiogram.methods.stop_message_live_location.StopMessageLiveLocation`
+        :return: instance of method :class:`masogram.methods.stop_message_live_location.StopMessageLiveLocation`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -2939,13 +2939,13 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> EditMessageCaption:
         """
-        Shortcut for method :class:`aiogram.methods.edit_message_caption.EditMessageCaption`
+        Shortcut for method :class:`masogram.methods.edit_message_caption.EditMessageCaption`
         will automatically fill method attributes:
 
         - :code:`chat_id`
         - :code:`message_id`
 
-        Use this method to edit captions of messages. On success, if the edited message is not an inline message, the edited :class:`aiogram.types.message.Message` is returned, otherwise :code:`True` is returned.
+        Use this method to edit captions of messages. On success, if the edited message is not an inline message, the edited :class:`masogram.types.message.Message` is returned, otherwise :code:`True` is returned.
 
         Source: https://core.telegram.org/bots/api#editmessagecaption
 
@@ -2954,7 +2954,7 @@ class Message(TelegramObject):
         :param parse_mode: Mode for parsing entities in the message caption. See `formatting options <https://core.telegram.org/bots/api#formatting-options>`_ for more details.
         :param caption_entities: A JSON-serialized list of special entities that appear in the caption, which can be specified instead of *parse_mode*
         :param reply_markup: A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_.
-        :return: instance of method :class:`aiogram.methods.edit_message_caption.EditMessageCaption`
+        :return: instance of method :class:`masogram.methods.edit_message_caption.EditMessageCaption`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -2977,7 +2977,7 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> DeleteMessage:
         """
-        Shortcut for method :class:`aiogram.methods.delete_message.DeleteMessage`
+        Shortcut for method :class:`masogram.methods.delete_message.DeleteMessage`
         will automatically fill method attributes:
 
         - :code:`chat_id`
@@ -3005,7 +3005,7 @@ class Message(TelegramObject):
 
         Source: https://core.telegram.org/bots/api#deletemessage
 
-        :return: instance of method :class:`aiogram.methods.delete_message.DeleteMessage`
+        :return: instance of method :class:`masogram.methods.delete_message.DeleteMessage`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -3024,7 +3024,7 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> PinChatMessage:
         """
-        Shortcut for method :class:`aiogram.methods.pin_chat_message.PinChatMessage`
+        Shortcut for method :class:`masogram.methods.pin_chat_message.PinChatMessage`
         will automatically fill method attributes:
 
         - :code:`chat_id`
@@ -3035,7 +3035,7 @@ class Message(TelegramObject):
         Source: https://core.telegram.org/bots/api#pinchatmessage
 
         :param disable_notification: Pass :code:`True` if it is not necessary to send a notification to all chat members about the new pinned message. Notifications are always disabled in channels and private chats.
-        :return: instance of method :class:`aiogram.methods.pin_chat_message.PinChatMessage`
+        :return: instance of method :class:`masogram.methods.pin_chat_message.PinChatMessage`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -3054,7 +3054,7 @@ class Message(TelegramObject):
         **kwargs: Any,
     ) -> UnpinChatMessage:
         """
-        Shortcut for method :class:`aiogram.methods.unpin_chat_message.UnpinChatMessage`
+        Shortcut for method :class:`masogram.methods.unpin_chat_message.UnpinChatMessage`
         will automatically fill method attributes:
 
         - :code:`chat_id`
@@ -3064,7 +3064,7 @@ class Message(TelegramObject):
 
         Source: https://core.telegram.org/bots/api#unpinchatmessage
 
-        :return: instance of method :class:`aiogram.methods.unpin_chat_message.UnpinChatMessage`
+        :return: instance of method :class:`masogram.methods.unpin_chat_message.UnpinChatMessage`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`

@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,24 +21,24 @@ msgstr ""
 msgid "PassportElementErrorFiles"
 msgstr ""
 
-#: aiogram.types.passport_element_error_files.PassportElementErrorFiles:1 of
+#: masogram.types.passport_element_error_files.PassportElementErrorFiles:1 of
 msgid ""
 "Represents an issue with a list of scans. The error is considered "
 "resolved when the list of files containing the scans changes."
 msgstr ""
 
-#: aiogram.types.passport_element_error_files.PassportElementErrorFiles:3 of
+#: masogram.types.passport_element_error_files.PassportElementErrorFiles:3 of
 msgid "Source: https://core.telegram.org/bots/api#passportelementerrorfiles"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.passport_element_error_files.PassportElementErrorFiles.source:1
+#: masogram.types.passport_element_error_files.PassportElementErrorFiles.source:1
 #: of
 msgid "Error source, must be *files*"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.passport_element_error_files.PassportElementErrorFiles.type:1
+#: masogram.types.passport_element_error_files.PassportElementErrorFiles.type:1
 #: of
 msgid ""
 "The section of the user's Telegram Passport which has the issue, one of "
@@ -47,13 +47,13 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.passport_element_error_files.PassportElementErrorFiles.file_hashes:1
+#: masogram.types.passport_element_error_files.PassportElementErrorFiles.file_hashes:1
 #: of
 msgid "List of base64-encoded file hashes"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.passport_element_error_files.PassportElementErrorFiles.message:1
+#: masogram.types.passport_element_error_files.PassportElementErrorFiles.message:1
 #: of
 msgid "Error message"
 msgstr ""

@@ -15,7 +15,7 @@ from .base import TelegramMethod
 
 class SendLocation(TelegramMethod[Message]):
     """
-    Use this method to send point on the map. On success, the sent :class:`aiogram.types.message.Message` is returned.
+    Use this method to send point on the map. On success, the sent :class:`masogram.types.message.Message` is returned.
 
     Source: https://core.telegram.org/bots/api#sendlocation
     """

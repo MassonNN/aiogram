@@ -4,7 +4,7 @@ setWebhook
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.set_webhook
+.. automodule:: masogram.methods.set_webhook
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.set_webhook import SetWebhook`
-- alias: :code:`from aiogram.methods import SetWebhook`
+- :code:`from masogram.methods.set_webhook import SetWebhook`
+- alias: :code:`from masogram.methods import SetWebhook`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

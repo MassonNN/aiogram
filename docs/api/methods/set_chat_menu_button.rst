@@ -4,7 +4,7 @@ setChatMenuButton
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.set_chat_menu_button
+.. automodule:: masogram.methods.set_chat_menu_button
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.set_chat_menu_button import SetChatMenuButton`
-- alias: :code:`from aiogram.methods import SetChatMenuButton`
+- :code:`from masogram.methods.set_chat_menu_button import SetChatMenuButton`
+- alias: :code:`from masogram.methods import SetChatMenuButton`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

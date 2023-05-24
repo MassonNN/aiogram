@@ -4,7 +4,7 @@ getStickerSet
 
 Returns: :obj:`StickerSet`
 
-.. automodule:: aiogram.methods.get_sticker_set
+.. automodule:: masogram.methods.get_sticker_set
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.get_sticker_set import GetStickerSet`
-- alias: :code:`from aiogram.methods import GetStickerSet`
+- :code:`from masogram.methods.get_sticker_set import GetStickerSet`
+- alias: :code:`from masogram.methods import GetStickerSet`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

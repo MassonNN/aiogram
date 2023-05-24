@@ -16,7 +16,7 @@ from .base import TelegramMethod
 
 class SendVideoNote(TelegramMethod[Message]):
     """
-    As of `v.4.0 <https://telegram.org/blog/video-messages-and-telescope>`_, Telegram clients support rounded square MPEG4 videos of up to 1 minute long. Use this method to send video messages. On success, the sent :class:`aiogram.types.message.Message` is returned.
+    As of `v.4.0 <https://telegram.org/blog/video-messages-and-telescope>`_, Telegram clients support rounded square MPEG4 videos of up to 1 minute long. Use this method to send video messages. On success, the sent :class:`masogram.types.message.Message` is returned.
 
     Source: https://core.telegram.org/bots/api#sendvideonote
     """

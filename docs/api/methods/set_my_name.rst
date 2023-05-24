@@ -4,7 +4,7 @@ setMyName
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.set_my_name
+.. automodule:: masogram.methods.set_my_name
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.set_my_name import SetMyName`
-- alias: :code:`from aiogram.methods import SetMyName`
+- :code:`from masogram.methods.set_my_name import SetMyName`
+- alias: :code:`from masogram.methods import SetMyName`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

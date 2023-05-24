@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "BotCommandScopeDefault"
 msgstr ""
 
-#: aiogram.types.bot_command_scope_default.BotCommandScopeDefault:1 of
+#: masogram.types.bot_command_scope_default.BotCommandScopeDefault:1 of
 msgid ""
 "Represents the default `scope "
 "<https://core.telegram.org/bots/api#botcommandscope>`_ of bot commands. "
@@ -30,11 +30,11 @@ msgid ""
 "specified for the user."
 msgstr ""
 
-#: aiogram.types.bot_command_scope_default.BotCommandScopeDefault:3 of
+#: masogram.types.bot_command_scope_default.BotCommandScopeDefault:3 of
 msgid "Source: https://core.telegram.org/bots/api#botcommandscopedefault"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.bot_command_scope_default.BotCommandScopeDefault.type:1 of
+#: masogram.types.bot_command_scope_default.BotCommandScopeDefault.type:1 of
 msgid "Scope type, must be *default*"
 msgstr ""

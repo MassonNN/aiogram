@@ -4,7 +4,7 @@ sendLocation
 
 Returns: :obj:`Message`
 
-.. automodule:: aiogram.methods.send_location
+.. automodule:: masogram.methods.send_location
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.send_location import SendLocation`
-- alias: :code:`from aiogram.methods import SendLocation`
+- :code:`from masogram.methods.send_location import SendLocation`
+- alias: :code:`from masogram.methods import SendLocation`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,5 +47,5 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.message.Message.answer_location`
-- :meth:`aiogram.types.message.Message.reply_location`
+- :meth:`masogram.types.message.Message.answer_location`
+- :meth:`masogram.types.message.Message.reply_location`

@@ -4,7 +4,7 @@ getChatMenuButton
 
 Returns: :obj:`Union[MenuButtonDefault, MenuButtonWebApp, MenuButtonCommands]`
 
-.. automodule:: aiogram.methods.get_chat_menu_button
+.. automodule:: masogram.methods.get_chat_menu_button
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.get_chat_menu_button import GetChatMenuButton`
-- alias: :code:`from aiogram.methods import GetChatMenuButton`
+- :code:`from masogram.methods.get_chat_menu_button import GetChatMenuButton`
+- alias: :code:`from masogram.methods import GetChatMenuButton`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

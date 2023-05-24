@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,43 +21,43 @@ msgstr ""
 msgid "InputFile"
 msgstr ""
 
-#: aiogram.types.input_file.InputFile:1 of
+#: masogram.types.input_file.InputFile:1 of
 msgid ""
 "This object represents the contents of a file to be uploaded. Must be "
 "posted using multipart/form-data in the usual way that files are uploaded"
 " via the browser."
 msgstr ""
 
-#: aiogram.types.input_file.InputFile:3 of
+#: masogram.types.input_file.InputFile:3 of
 msgid "Source: https://core.telegram.org/bots/api#inputfile"
 msgstr ""
 
-#: aiogram.types.input_file.BufferedInputFile.from_file:1 of
+#: masogram.types.input_file.BufferedInputFile.from_file:1 of
 msgid "Create buffer from file"
 msgstr ""
 
-#: aiogram.types.input_file.BufferedInputFile.from_file of
+#: masogram.types.input_file.BufferedInputFile.from_file of
 msgid "Parameters"
 msgstr ""
 
-#: aiogram.types.input_file.BufferedInputFile.from_file:3 of
+#: masogram.types.input_file.BufferedInputFile.from_file:3 of
 msgid "Path to file"
 msgstr ""
 
-#: aiogram.types.input_file.BufferedInputFile.from_file:4 of
+#: masogram.types.input_file.BufferedInputFile.from_file:4 of
 msgid ""
 "Filename to be propagated to telegram. By default, will be parsed from "
 "path"
 msgstr ""
 
-#: aiogram.types.input_file.BufferedInputFile.from_file:6 of
+#: masogram.types.input_file.BufferedInputFile.from_file:6 of
 msgid "Uploading chunk size"
 msgstr ""
 
-#: aiogram.types.input_file.BufferedInputFile.from_file of
+#: masogram.types.input_file.BufferedInputFile.from_file of
 msgid "Returns"
 msgstr ""
 
-#: aiogram.types.input_file.BufferedInputFile.from_file:7 of
+#: masogram.types.input_file.BufferedInputFile.from_file:7 of
 msgid "instance of :obj:`BufferedInputFile`"
 msgstr ""

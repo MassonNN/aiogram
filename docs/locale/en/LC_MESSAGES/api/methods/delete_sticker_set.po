@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-11 01:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,17 +25,17 @@ msgstr ""
 msgid "Returns: :obj:`bool`"
 msgstr ""
 
-#: aiogram.methods.delete_sticker_set.DeleteStickerSet:1 of
+#: masogram.methods.delete_sticker_set.DeleteStickerSet:1 of
 msgid ""
 "Use this method to delete a sticker set that was created by the bot. "
 "Returns :code:`True` on success."
 msgstr ""
 
-#: aiogram.methods.delete_sticker_set.DeleteStickerSet:3 of
+#: masogram.methods.delete_sticker_set.DeleteStickerSet:3 of
 msgid "Source: https://core.telegram.org/bots/api#deletestickerset"
 msgstr ""
 
-#: ../../docstring aiogram.methods.delete_sticker_set.DeleteStickerSet.name:1
+#: ../../docstring masogram.methods.delete_sticker_set.DeleteStickerSet.name:1
 #: of
 msgid "Sticker set name"
 msgstr ""
@@ -57,11 +57,11 @@ msgid "Imports:"
 msgstr ""
 
 #: ../../api/methods/delete_sticker_set.rst:29
-msgid ":code:`from aiogram.methods.delete_sticker_set import DeleteStickerSet`"
+msgid ":code:`from masogram.methods.delete_sticker_set import DeleteStickerSet`"
 msgstr ""
 
 #: ../../api/methods/delete_sticker_set.rst:30
-msgid "alias: :code:`from aiogram.methods import DeleteStickerSet`"
+msgid "alias: :code:`from masogram.methods import DeleteStickerSet`"
 msgstr ""
 
 #: ../../api/methods/delete_sticker_set.rst:33

@@ -4,7 +4,7 @@ declineChatJoinRequest
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.decline_chat_join_request
+.. automodule:: masogram.methods.decline_chat_join_request
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.decline_chat_join_request import DeclineChatJoinRequest`
-- alias: :code:`from aiogram.methods import DeclineChatJoinRequest`
+- :code:`from masogram.methods.decline_chat_join_request import DeclineChatJoinRequest`
+- alias: :code:`from masogram.methods import DeclineChatJoinRequest`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,4 +47,4 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.chat_join_request.ChatJoinRequest.decline`
+- :meth:`masogram.types.chat_join_request.ChatJoinRequest.decline`

@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-06 14:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "InlineQueryResultVenue"
 msgstr ""
 
-#: aiogram.types.inline_query_result_venue.InlineQueryResultVenue:1 of
+#: masogram.types.inline_query_result_venue.InlineQueryResultVenue:1 of
 msgid ""
 "Represents a venue. By default, the venue will be sent by the user. "
 "Alternatively, you can use *input_message_content* to send a message with"
@@ -30,49 +30,49 @@ msgid ""
 "will ignore them."
 msgstr ""
 
-#: aiogram.types.inline_query_result_venue.InlineQueryResultVenue:4 of
+#: masogram.types.inline_query_result_venue.InlineQueryResultVenue:4 of
 msgid "Source: https://core.telegram.org/bots/api#inlinequeryresultvenue"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_venue.InlineQueryResultVenue.type:1 of
+#: masogram.types.inline_query_result_venue.InlineQueryResultVenue.type:1 of
 msgid "Type of the result, must be *venue*"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_venue.InlineQueryResultVenue.id:1 of
+#: masogram.types.inline_query_result_venue.InlineQueryResultVenue.id:1 of
 msgid "Unique identifier for this result, 1-64 Bytes"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_venue.InlineQueryResultVenue.latitude:1 of
+#: masogram.types.inline_query_result_venue.InlineQueryResultVenue.latitude:1 of
 msgid "Latitude of the venue location in degrees"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_venue.InlineQueryResultVenue.longitude:1
+#: masogram.types.inline_query_result_venue.InlineQueryResultVenue.longitude:1
 #: of
 msgid "Longitude of the venue location in degrees"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_venue.InlineQueryResultVenue.title:1 of
+#: masogram.types.inline_query_result_venue.InlineQueryResultVenue.title:1 of
 msgid "Title of the venue"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_venue.InlineQueryResultVenue.address:1 of
+#: masogram.types.inline_query_result_venue.InlineQueryResultVenue.address:1 of
 msgid "Address of the venue"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_venue.InlineQueryResultVenue.foursquare_id:1
+#: masogram.types.inline_query_result_venue.InlineQueryResultVenue.foursquare_id:1
 #: of
 msgid "*Optional*. Foursquare identifier of the venue if known"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_venue.InlineQueryResultVenue.foursquare_type:1
+#: masogram.types.inline_query_result_venue.InlineQueryResultVenue.foursquare_type:1
 #: of
 msgid ""
 "*Optional*. Foursquare type of the venue, if known. (For example, "
@@ -81,13 +81,13 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_venue.InlineQueryResultVenue.google_place_id:1
+#: masogram.types.inline_query_result_venue.InlineQueryResultVenue.google_place_id:1
 #: of
 msgid "*Optional*. Google Places identifier of the venue"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_venue.InlineQueryResultVenue.google_place_type:1
+#: masogram.types.inline_query_result_venue.InlineQueryResultVenue.google_place_type:1
 #: of
 msgid ""
 "*Optional*. Google Places type of the venue. (See `supported types "
@@ -95,7 +95,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_venue.InlineQueryResultVenue.reply_markup:1
+#: masogram.types.inline_query_result_venue.InlineQueryResultVenue.reply_markup:1
 #: of
 msgid ""
 "*Optional*. `Inline keyboard <https://core.telegram.org/bots/features"
@@ -103,25 +103,25 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_venue.InlineQueryResultVenue.input_message_content:1
+#: masogram.types.inline_query_result_venue.InlineQueryResultVenue.input_message_content:1
 #: of
 msgid "*Optional*. Content of the message to be sent instead of the venue"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_venue.InlineQueryResultVenue.thumb_url:1
+#: masogram.types.inline_query_result_venue.InlineQueryResultVenue.thumb_url:1
 #: of
 msgid "*Optional*. Url of the thumbnail for the result"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_venue.InlineQueryResultVenue.thumb_width:1
+#: masogram.types.inline_query_result_venue.InlineQueryResultVenue.thumb_width:1
 #: of
 msgid "*Optional*. Thumbnail width"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_venue.InlineQueryResultVenue.thumb_height:1
+#: masogram.types.inline_query_result_venue.InlineQueryResultVenue.thumb_height:1
 #: of
 msgid "*Optional*. Thumbnail height"
 msgstr ""

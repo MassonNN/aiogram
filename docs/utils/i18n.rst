@@ -6,7 +6,7 @@ In order to make you bot translatable you have to add a minimal number of hooks 
 
 These hooks are called translation strings.
 
-The aiogram translation utils is build on top of `GNU gettext Python module <https://docs.python.org/3/library/gettext.html>`_
+The masogram translation utils is build on top of `GNU gettext Python module <https://docs.python.org/3/library/gettext.html>`_
 and `Babel library <http://babel.pocoo.org/en/latest/>`_.
 
 Installation
@@ -21,11 +21,11 @@ Can be installed from pip directly:
     pip install Babel
 
 
-or as `aiogram` extra dependency:
+or as `masogram` extra dependency:
 
 .. code-block:: bash
 
-    pip install aiogram[i18n]
+    pip install masogram[i18n]
 
 
 Make messages translatable
@@ -38,8 +38,8 @@ For example:
 .. code-block:: python
     :emphasize-lines: 6-8
 
-    from aiogram import html
-    from aiogram.utils.i18n import gettext as _
+    from masogram import html
+    from masogram.utils.i18n import gettext as _
 
     async def my_handler(message: Message) -> None:
         await message.answer(
@@ -60,8 +60,8 @@ Also if you want to use translated string in keyword- or magic- filters you will
 .. code-block:: python
     :emphasize-lines: 4
 
-    from aiogram import F
-    from aiogram.utils.i18n import lazy_gettext as __
+    from masogram import F
+    from masogram.utils.i18n import lazy_gettext as __
 
     @router.message(F.text.lower() == __("My menu entry"))
     ...
@@ -74,14 +74,14 @@ Also if you want to use translated string in keyword- or magic- filters you will
 
 .. danger::
 
-    Lazy gettext can't be used as value for API methods or any Telegram Object (like :class:`aiogram.types.inline_keyboard_button.InlineKeyboardButton` or etc.)
+    Lazy gettext can't be used as value for API methods or any Telegram Object (like :class:`masogram.types.inline_keyboard_button.InlineKeyboardButton` or etc.)
 
 Configuring engine
 ==================
 
 After you messages is already done to use gettext your bot should know how to detect user language
 
-On top of your application the instance of :class:`aiogram.utils.i18n.I18n` should be created
+On top of your application the instance of :class:`masogram.utils.i18n.I18n` should be created
 
 
 .. code-block::
@@ -97,19 +97,19 @@ Builtin middlewares:
 SimpleI18nMiddleware
 ~~~~~~~~~~~~~~~~~~~~
 
-.. autoclass:: aiogram.utils.i18n.middleware.SimpleI18nMiddleware
+.. autoclass:: masogram.utils.i18n.middleware.SimpleI18nMiddleware
     :members: __init__
 
 ConstI18nMiddleware
 ~~~~~~~~~~~~~~~~~~~
 
-.. autoclass:: aiogram.utils.i18n.middleware.ConstI18nMiddleware
+.. autoclass:: masogram.utils.i18n.middleware.ConstI18nMiddleware
     :members: __init__
 
 FSMI18nMiddleware
 ~~~~~~~~~~~~~~~~~
 
-.. autoclass:: aiogram.utils.i18n.middleware.FSMI18nMiddleware
+.. autoclass:: masogram.utils.i18n.middleware.FSMI18nMiddleware
     :members: __init__,set_locale
 
 
@@ -118,7 +118,7 @@ I18nMiddleware
 
 or define you own based on abstract I18nMiddleware middleware:
 
-.. autoclass:: aiogram.utils.i18n.middleware.I18nMiddleware
+.. autoclass:: masogram.utils.i18n.middleware.I18nMiddleware
     :members: __init__,setup,get_locale
 
 

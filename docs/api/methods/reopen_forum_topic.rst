@@ -4,7 +4,7 @@ reopenForumTopic
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.reopen_forum_topic
+.. automodule:: masogram.methods.reopen_forum_topic
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.reopen_forum_topic import ReopenForumTopic`
-- alias: :code:`from aiogram.methods import ReopenForumTopic`
+- :code:`from masogram.methods.reopen_forum_topic import ReopenForumTopic`
+- alias: :code:`from masogram.methods import ReopenForumTopic`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

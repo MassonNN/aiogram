@@ -3,7 +3,7 @@ Poll
 ####
 
 
-.. automodule:: aiogram.types.poll
+.. automodule:: masogram.types.poll
     :members:
     :member-order: bysource
     :undoc-members: True

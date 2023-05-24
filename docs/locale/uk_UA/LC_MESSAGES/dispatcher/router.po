@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram\n"
+"Project-Id-Version: masogram\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: 2022-12-10 20:41+0200\n"
@@ -21,11 +21,11 @@ msgstr ""
 msgid "Router"
 msgstr "Маршрутизатор"
 
-#: aiogram.dispatcher.router.Router:1 of
+#: masogram.dispatcher.router.Router:1 of
 msgid "Bases: :py:class:`object`"
 msgstr "Базується на :py:class:`object`"
 
-#: aiogram.dispatcher.router.Router:1 of
+#: masogram.dispatcher.router.Router:1 of
 msgid ""
 "Router can route update, and it nested update types like messages, "
 "callback query, polls and all other event types."
@@ -34,12 +34,12 @@ msgstr ""
 "такі як повідомлення, запит зворотного виклику, опитування та всі інші "
 "типи подій."
 
-#: aiogram.dispatcher.router.Router:4 of
+#: masogram.dispatcher.router.Router:4 of
 msgid "Event handlers can be registered in observer by two ways:"
 msgstr ""
 "Обробники подій можуть бути зареєстровані в обсервері двома шляхами:"
 
-#: aiogram.dispatcher.router.Router:6 of
+#: masogram.dispatcher.router.Router:6 of
 msgid ""
 "By observer method - :obj:`router.<event_type>.register(handler, "
 "<filters, ...>)`"
@@ -47,26 +47,26 @@ msgstr ""
 "За допомогою методу обсервера - :obj:`router.<event_type>."
 "register(handler, <filters, ...>)`"
 
-#: aiogram.dispatcher.router.Router:7 of
+#: masogram.dispatcher.router.Router:7 of
 msgid "By decorator - :obj:`@router.<event_type>(<filters, ...>)`"
 msgstr ""
 "За допомогою декоратора - :obj:`@router.<event_type>(<filters, ...>)`"
 
-#: aiogram.dispatcher.router.Router.__init__
-#: aiogram.dispatcher.router.Router.include_router of
+#: masogram.dispatcher.router.Router.__init__
+#: masogram.dispatcher.router.Router.include_router of
 msgid "Parameters"
 msgstr "Параметри"
 
-#: aiogram.dispatcher.router.Router.__init__:1 of
+#: masogram.dispatcher.router.Router.__init__:1 of
 msgid "Optional router name, can be useful for debugging"
 msgstr ""
 "Додаткова назва маршрутизатора, може бути корисною для відлагодження"
 
-#: aiogram.dispatcher.router.Router.include_router:1 of
+#: masogram.dispatcher.router.Router.include_router:1 of
 msgid "Attach another router."
 msgstr "Підключення маршрутизатора."
 
-#: aiogram.dispatcher.router.Router.include_router of
+#: masogram.dispatcher.router.Router.include_router of
 msgid "Returns"
 msgstr "Повертає"
 

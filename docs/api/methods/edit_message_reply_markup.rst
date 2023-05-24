@@ -4,7 +4,7 @@ editMessageReplyMarkup
 
 Returns: :obj:`Union[Message, bool]`
 
-.. automodule:: aiogram.methods.edit_message_reply_markup
+.. automodule:: masogram.methods.edit_message_reply_markup
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.edit_message_reply_markup import EditMessageReplyMarkup`
-- alias: :code:`from aiogram.methods import EditMessageReplyMarkup`
+- :code:`from masogram.methods.edit_message_reply_markup import EditMessageReplyMarkup`
+- alias: :code:`from masogram.methods import EditMessageReplyMarkup`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,4 +47,4 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.message.Message.edit_reply_markup`
+- :meth:`masogram.types.message.Message.edit_reply_markup`

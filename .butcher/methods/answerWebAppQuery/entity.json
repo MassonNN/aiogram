@@ -9,7 +9,7 @@
     "name": "answerWebAppQuery",
     "description": "Use this method to set the result of an interaction with a Web App and send a corresponding message on behalf of the user to the chat from which the query originated. On success, a SentWebAppMessage object is returned.",
     "html_description": "<p>Use this method to set the result of an interaction with a <a href=\"/bots/webapps\">Web App</a> and send a corresponding message on behalf of the user to the chat from which the query originated. On success, a <a href=\"#sentwebappmessage\">SentWebAppMessage</a> object is returned.</p>",
-    "rst_description": "Use this method to set the result of an interaction with a `Web App <https://core.telegram.org/bots/webapps>`_ and send a corresponding message on behalf of the user to the chat from which the query originated. On success, a :class:`aiogram.types.sent_web_app_message.SentWebAppMessage` object is returned.",
+    "rst_description": "Use this method to set the result of an interaction with a `Web App <https://core.telegram.org/bots/webapps>`_ and send a corresponding message on behalf of the user to the chat from which the query originated. On success, a :class:`masogram.types.sent_web_app_message.SentWebAppMessage` object is returned.",
     "annotations": [
       {
         "type": "String",

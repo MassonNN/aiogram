@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-11 01:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,30 +25,30 @@ msgstr ""
 msgid "Returns: :obj:`bool`"
 msgstr ""
 
-#: aiogram.methods.set_sticker_set_thumbnail.SetStickerSetThumbnail:1 of
+#: masogram.methods.set_sticker_set_thumbnail.SetStickerSetThumbnail:1 of
 msgid ""
 "Use this method to set the thumbnail of a regular or mask sticker set. "
 "The format of the thumbnail file must match the format of the stickers in"
 " the set. Returns :code:`True` on success."
 msgstr ""
 
-#: aiogram.methods.set_sticker_set_thumbnail.SetStickerSetThumbnail:3 of
+#: masogram.methods.set_sticker_set_thumbnail.SetStickerSetThumbnail:3 of
 msgid "Source: https://core.telegram.org/bots/api#setstickersetthumbnail"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.set_sticker_set_thumbnail.SetStickerSetThumbnail.name:1 of
+#: masogram.methods.set_sticker_set_thumbnail.SetStickerSetThumbnail.name:1 of
 msgid "Sticker set name"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.set_sticker_set_thumbnail.SetStickerSetThumbnail.user_id:1
+#: masogram.methods.set_sticker_set_thumbnail.SetStickerSetThumbnail.user_id:1
 #: of
 msgid "User identifier of the sticker set owner"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.set_sticker_set_thumbnail.SetStickerSetThumbnail.thumbnail:1
+#: masogram.methods.set_sticker_set_thumbnail.SetStickerSetThumbnail.thumbnail:1
 #: of
 msgid ""
 "A **.WEBP** or **.PNG** image with the thumbnail, must be up to 128 "
@@ -91,12 +91,12 @@ msgstr ""
 
 #: ../../api/methods/set_sticker_set_thumbnail.rst:29
 msgid ""
-":code:`from aiogram.methods.set_sticker_set_thumbnail import "
+":code:`from masogram.methods.set_sticker_set_thumbnail import "
 "SetStickerSetThumbnail`"
 msgstr ""
 
 #: ../../api/methods/set_sticker_set_thumbnail.rst:30
-msgid "alias: :code:`from aiogram.methods import SetStickerSetThumbnail`"
+msgid "alias: :code:`from masogram.methods import SetStickerSetThumbnail`"
 msgstr ""
 
 #: ../../api/methods/set_sticker_set_thumbnail.rst:33

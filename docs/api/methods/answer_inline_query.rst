@@ -4,7 +4,7 @@ answerInlineQuery
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.answer_inline_query
+.. automodule:: masogram.methods.answer_inline_query
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.answer_inline_query import AnswerInlineQuery`
-- alias: :code:`from aiogram.methods import AnswerInlineQuery`
+- :code:`from masogram.methods.answer_inline_query import AnswerInlineQuery`
+- alias: :code:`from masogram.methods import AnswerInlineQuery`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,4 +47,4 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.inline_query.InlineQuery.answer`
+- :meth:`masogram.types.inline_query.InlineQuery.answer`

@@ -8,19 +8,19 @@ Magic filters
 
     This page still in progress. Has many incorrectly worded sentences.
 
-Is external package maintained by *aiogram* core team.
+Is external package maintained by *masogram* core team.
 
-By default installs with *aiogram* and also is available on `PyPi - magic-filter <https://pypi.org/project/magic-filter/>`_.
-That's mean you can install it and use with any other libraries and in own projects without depending *aiogram* installed.
+By default installs with *masogram* and also is available on `PyPi - magic-filter <https://pypi.org/project/magic-filter/>`_.
+That's mean you can install it and use with any other libraries and in own projects without depending *masogram* installed.
 
 Usage
 =====
 
-The **magic_filter** package implements class shortly named :class:`magic_filter.F` that's mean :code:`F` can be imported from :code:`aiogram` or :code:`magic_filter`. :class:`F` is alias for :class:`MagicFilter`.
+The **magic_filter** package implements class shortly named :class:`magic_filter.F` that's mean :code:`F` can be imported from :code:`masogram` or :code:`magic_filter`. :class:`F` is alias for :class:`MagicFilter`.
 
 .. note::
 
-    Note that *aiogram* has an small extension over magic-filter and if you want to use this extension you should import magic from *aiogram* instead of *magic_filter* package
+    Note that *masogram* has an small extension over magic-filter and if you want to use this extension you should import magic from *masogram* instead of *magic_filter* package
 
 The :class:`MagicFilter` object is callable, supports :ref:`some actions <magic-filter-possible-actions>`
 and memorize the attributes chain and the action which should be checked on demand.
@@ -136,11 +136,11 @@ Can be used only with string attributes.
 Get filter result as handler argument
 -------------------------------------
 
-This part is not available in *magic-filter* directly but can be used with *aiogram*
+This part is not available in *magic-filter* directly but can be used with *masogram*
 
 .. code-block:: python
 
-    from aiogram import F
+    from masogram import F
 
     ...
 
@@ -148,7 +148,7 @@ This part is not available in *magic-filter* directly but can be used with *aiog
     async def any_digits_handler(message: Message, digits: Match[str]):
         await message.answer(html.quote(str(digits)))
 
-Usage in *aiogram*
+Usage in *masogram*
 ==================
 
 .. code-block:: python

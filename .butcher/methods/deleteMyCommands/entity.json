@@ -16,7 +16,7 @@
         "required": false,
         "description": "A JSON-serialized object, describing scope of users for which the commands are relevant. Defaults to BotCommandScopeDefault.",
         "html_description": "<td>A JSON-serialized object, describing scope of users for which the commands are relevant. Defaults to <a href=\"#botcommandscopedefault\">BotCommandScopeDefault</a>.</td>",
-        "rst_description": "A JSON-serialized object, describing scope of users for which the commands are relevant. Defaults to :class:`aiogram.types.bot_command_scope_default.BotCommandScopeDefault`.\n",
+        "rst_description": "A JSON-serialized object, describing scope of users for which the commands are relevant. Defaults to :class:`masogram.types.bot_command_scope_default.BotCommandScopeDefault`.\n",
         "name": "scope"
       },
       {

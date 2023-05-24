@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 00:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Returns: :obj:`bool`"
 msgstr ""
 
-#: aiogram.methods.restrict_chat_member.RestrictChatMember:1 of
+#: masogram.methods.restrict_chat_member.RestrictChatMember:1 of
 msgid ""
 "Use this method to restrict a user in a supergroup. The bot must be an "
 "administrator in the supergroup for this to work and must have the "
@@ -33,29 +33,29 @@ msgid ""
 "to lift restrictions from a user. Returns :code:`True` on success."
 msgstr ""
 
-#: aiogram.methods.restrict_chat_member.RestrictChatMember:3 of
+#: masogram.methods.restrict_chat_member.RestrictChatMember:3 of
 msgid "Source: https://core.telegram.org/bots/api#restrictchatmember"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.restrict_chat_member.RestrictChatMember.chat_id:1 of
+#: masogram.methods.restrict_chat_member.RestrictChatMember.chat_id:1 of
 msgid ""
 "Unique identifier for the target chat or username of the target "
 "supergroup (in the format :code:`@supergroupusername`)"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.restrict_chat_member.RestrictChatMember.user_id:1 of
+#: masogram.methods.restrict_chat_member.RestrictChatMember.user_id:1 of
 msgid "Unique identifier of the target user"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.restrict_chat_member.RestrictChatMember.permissions:1 of
+#: masogram.methods.restrict_chat_member.RestrictChatMember.permissions:1 of
 msgid "A JSON-serialized object for new user permissions"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.restrict_chat_member.RestrictChatMember.use_independent_chat_permissions:1
+#: masogram.methods.restrict_chat_member.RestrictChatMember.use_independent_chat_permissions:1
 #: of
 msgid ""
 "Pass :code:`True` if chat permissions are set independently. Otherwise, "
@@ -68,7 +68,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.restrict_chat_member.RestrictChatMember.until_date:1 of
+#: masogram.methods.restrict_chat_member.RestrictChatMember.until_date:1 of
 msgid ""
 "Date when restrictions will be lifted for the user, unix time. If user is"
 " restricted for more than 366 days or less than 30 seconds from the "
@@ -93,12 +93,12 @@ msgstr ""
 
 #: ../../api/methods/restrict_chat_member.rst:29
 msgid ""
-":code:`from aiogram.methods.restrict_chat_member import "
+":code:`from masogram.methods.restrict_chat_member import "
 "RestrictChatMember`"
 msgstr ""
 
 #: ../../api/methods/restrict_chat_member.rst:30
-msgid "alias: :code:`from aiogram.methods import RestrictChatMember`"
+msgid "alias: :code:`from masogram.methods import RestrictChatMember`"
 msgstr ""
 
 #: ../../api/methods/restrict_chat_member.rst:33
@@ -114,6 +114,6 @@ msgid "As shortcut from received object"
 msgstr ""
 
 #: ../../api/methods/restrict_chat_member.rst:50
-msgid ":meth:`aiogram.types.chat.Chat.restrict`"
+msgid ":meth:`masogram.types.chat.Chat.restrict`"
 msgstr ""
 

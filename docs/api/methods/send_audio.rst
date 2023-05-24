@@ -4,7 +4,7 @@ sendAudio
 
 Returns: :obj:`Message`
 
-.. automodule:: aiogram.methods.send_audio
+.. automodule:: masogram.methods.send_audio
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.send_audio import SendAudio`
-- alias: :code:`from aiogram.methods import SendAudio`
+- :code:`from masogram.methods.send_audio import SendAudio`
+- alias: :code:`from masogram.methods import SendAudio`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,5 +47,5 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.message.Message.answer_audio`
-- :meth:`aiogram.types.message.Message.reply_audio`
+- :meth:`masogram.types.message.Message.answer_audio`
+- :meth:`masogram.types.message.Message.reply_audio`

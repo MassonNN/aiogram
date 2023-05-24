@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-11 01:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -41,103 +41,103 @@ msgstr ""
 msgid "`Observer <observer.html>`__"
 msgstr ""
 
-#: aiogram.dispatcher.dispatcher.Dispatcher:1
-#: aiogram.dispatcher.dispatcher.Dispatcher.__init__:1 of
+#: masogram.dispatcher.dispatcher.Dispatcher:1
+#: masogram.dispatcher.dispatcher.Dispatcher.__init__:1 of
 msgid "Root router"
 msgstr ""
 
-#: aiogram.dispatcher.dispatcher.Dispatcher.__init__
-#: aiogram.dispatcher.dispatcher.Dispatcher.feed_raw_update
-#: aiogram.dispatcher.dispatcher.Dispatcher.feed_update
-#: aiogram.dispatcher.dispatcher.Dispatcher.run_polling
-#: aiogram.dispatcher.dispatcher.Dispatcher.start_polling of
+#: masogram.dispatcher.dispatcher.Dispatcher.__init__
+#: masogram.dispatcher.dispatcher.Dispatcher.feed_raw_update
+#: masogram.dispatcher.dispatcher.Dispatcher.feed_update
+#: masogram.dispatcher.dispatcher.Dispatcher.run_polling
+#: masogram.dispatcher.dispatcher.Dispatcher.start_polling of
 msgid "Parameters"
 msgstr ""
 
-#: aiogram.dispatcher.dispatcher.Dispatcher.__init__:3 of
+#: masogram.dispatcher.dispatcher.Dispatcher.__init__:3 of
 msgid "Storage for FSM"
 msgstr ""
 
-#: aiogram.dispatcher.dispatcher.Dispatcher.__init__:4 of
+#: masogram.dispatcher.dispatcher.Dispatcher.__init__:4 of
 msgid "FSM strategy"
 msgstr ""
 
-#: aiogram.dispatcher.dispatcher.Dispatcher.__init__:5 of
+#: masogram.dispatcher.dispatcher.Dispatcher.__init__:5 of
 msgid "Events isolation"
 msgstr ""
 
-#: aiogram.dispatcher.dispatcher.Dispatcher.__init__:6 of
+#: masogram.dispatcher.dispatcher.Dispatcher.__init__:6 of
 msgid ""
 "Disable FSM, note that if you disable FSM then you should not use storage"
 " and events isolation"
 msgstr ""
 
-#: aiogram.dispatcher.dispatcher.Dispatcher.__init__:8 of
+#: masogram.dispatcher.dispatcher.Dispatcher.__init__:8 of
 msgid "Other arguments, will be passed as keyword arguments to handlers"
 msgstr ""
 
-#: aiogram.dispatcher.dispatcher.Dispatcher.feed_raw_update:1 of
+#: masogram.dispatcher.dispatcher.Dispatcher.feed_raw_update:1 of
 msgid ""
 "Main entry point for incoming updates with automatic Dict->Update "
 "serializer"
 msgstr ""
 
-#: aiogram.dispatcher.dispatcher.Dispatcher.feed_update:1 of
+#: masogram.dispatcher.dispatcher.Dispatcher.feed_update:1 of
 msgid ""
 "Main entry point for incoming updates Response of this method can be used"
 " as Webhook response"
 msgstr ""
 
-#: aiogram.dispatcher.dispatcher.Dispatcher.run_polling:1 of
+#: masogram.dispatcher.dispatcher.Dispatcher.run_polling:1 of
 msgid "Run many bots with polling"
 msgstr ""
 
-#: aiogram.dispatcher.dispatcher.Dispatcher.run_polling:3
-#: aiogram.dispatcher.dispatcher.Dispatcher.start_polling:3 of
+#: masogram.dispatcher.dispatcher.Dispatcher.run_polling:3
+#: masogram.dispatcher.dispatcher.Dispatcher.start_polling:3 of
 msgid "Bot instances (one or mre)"
 msgstr ""
 
-#: aiogram.dispatcher.dispatcher.Dispatcher.run_polling:4
-#: aiogram.dispatcher.dispatcher.Dispatcher.start_polling:4 of
+#: masogram.dispatcher.dispatcher.Dispatcher.run_polling:4
+#: masogram.dispatcher.dispatcher.Dispatcher.start_polling:4 of
 msgid "Long-polling wait time"
 msgstr ""
 
-#: aiogram.dispatcher.dispatcher.Dispatcher.run_polling:5
-#: aiogram.dispatcher.dispatcher.Dispatcher.start_polling:5 of
+#: masogram.dispatcher.dispatcher.Dispatcher.run_polling:5
+#: masogram.dispatcher.dispatcher.Dispatcher.start_polling:5 of
 msgid "Run task for each event and no wait result"
 msgstr ""
 
-#: aiogram.dispatcher.dispatcher.Dispatcher.run_polling:6
-#: aiogram.dispatcher.dispatcher.Dispatcher.start_polling:6 of
+#: masogram.dispatcher.dispatcher.Dispatcher.run_polling:6
+#: masogram.dispatcher.dispatcher.Dispatcher.start_polling:6 of
 msgid "backoff-retry config"
 msgstr ""
 
-#: aiogram.dispatcher.dispatcher.Dispatcher.run_polling:7
-#: aiogram.dispatcher.dispatcher.Dispatcher.start_polling:7 of
+#: masogram.dispatcher.dispatcher.Dispatcher.run_polling:7
+#: masogram.dispatcher.dispatcher.Dispatcher.start_polling:7 of
 msgid "List of the update types you want your bot to receive"
 msgstr ""
 
-#: aiogram.dispatcher.dispatcher.Dispatcher.run_polling:8
-#: aiogram.dispatcher.dispatcher.Dispatcher.start_polling:8 of
+#: masogram.dispatcher.dispatcher.Dispatcher.run_polling:8
+#: masogram.dispatcher.dispatcher.Dispatcher.start_polling:8 of
 msgid "handle signals (SIGINT/SIGTERM)"
 msgstr ""
 
-#: aiogram.dispatcher.dispatcher.Dispatcher.run_polling:9
-#: aiogram.dispatcher.dispatcher.Dispatcher.start_polling:9 of
+#: masogram.dispatcher.dispatcher.Dispatcher.run_polling:9
+#: masogram.dispatcher.dispatcher.Dispatcher.start_polling:9 of
 msgid "close bot sessions on shutdown"
 msgstr ""
 
-#: aiogram.dispatcher.dispatcher.Dispatcher.run_polling:10
-#: aiogram.dispatcher.dispatcher.Dispatcher.start_polling:10 of
+#: masogram.dispatcher.dispatcher.Dispatcher.run_polling:10
+#: masogram.dispatcher.dispatcher.Dispatcher.start_polling:10 of
 msgid "contextual data"
 msgstr ""
 
-#: aiogram.dispatcher.dispatcher.Dispatcher.run_polling
-#: aiogram.dispatcher.dispatcher.Dispatcher.start_polling of
+#: masogram.dispatcher.dispatcher.Dispatcher.run_polling
+#: masogram.dispatcher.dispatcher.Dispatcher.start_polling of
 msgid "Returns"
 msgstr ""
 
-#: aiogram.dispatcher.dispatcher.Dispatcher.start_polling:1 of
+#: masogram.dispatcher.dispatcher.Dispatcher.start_polling:1 of
 msgid "Polling runner"
 msgstr ""
 

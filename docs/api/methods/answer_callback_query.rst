@@ -4,7 +4,7 @@ answerCallbackQuery
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.answer_callback_query
+.. automodule:: masogram.methods.answer_callback_query
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.answer_callback_query import AnswerCallbackQuery`
-- alias: :code:`from aiogram.methods import AnswerCallbackQuery`
+- :code:`from masogram.methods.answer_callback_query import AnswerCallbackQuery`
+- alias: :code:`from masogram.methods import AnswerCallbackQuery`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,4 +47,4 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.callback_query.CallbackQuery.answer`
+- :meth:`masogram.types.callback_query.CallbackQuery.answer`

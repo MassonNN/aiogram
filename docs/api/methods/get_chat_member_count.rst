@@ -4,7 +4,7 @@ getChatMemberCount
 
 Returns: :obj:`int`
 
-.. automodule:: aiogram.methods.get_chat_member_count
+.. automodule:: masogram.methods.get_chat_member_count
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.get_chat_member_count import GetChatMemberCount`
-- alias: :code:`from aiogram.methods import GetChatMemberCount`
+- :code:`from masogram.methods.get_chat_member_count import GetChatMemberCount`
+- alias: :code:`from masogram.methods import GetChatMemberCount`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -42,4 +42,4 @@ With specific bot
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.chat.Chat.get_member_count`
+- :meth:`masogram.types.chat.Chat.get_member_count`

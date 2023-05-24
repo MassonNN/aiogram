@@ -4,7 +4,7 @@ forwardMessage
 
 Returns: :obj:`Message`
 
-.. automodule:: aiogram.methods.forward_message
+.. automodule:: masogram.methods.forward_message
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.forward_message import ForwardMessage`
-- alias: :code:`from aiogram.methods import ForwardMessage`
+- :code:`from masogram.methods.forward_message import ForwardMessage`
+- alias: :code:`from masogram.methods import ForwardMessage`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,4 +47,4 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.message.Message.forward`
+- :meth:`masogram.types.message.Message.forward`

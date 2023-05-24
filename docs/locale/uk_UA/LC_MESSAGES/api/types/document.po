@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "Document"
 msgstr ""
 
-#: aiogram.types.document.Document:1 of
+#: masogram.types.document.Document:1 of
 msgid ""
 "This object represents a general file (as opposed to `photos "
 "<https://core.telegram.org/bots/api#photosize>`_, `voice messages "
@@ -29,33 +29,33 @@ msgid ""
 "<https://core.telegram.org/bots/api#audio>`_)."
 msgstr ""
 
-#: aiogram.types.document.Document:3 of
+#: masogram.types.document.Document:3 of
 msgid "Source: https://core.telegram.org/bots/api#document"
 msgstr ""
 
-#: ../../docstring aiogram.types.document.Document.file_id:1 of
+#: ../../docstring masogram.types.document.Document.file_id:1 of
 msgid "Identifier for this file, which can be used to download or reuse the file"
 msgstr ""
 
-#: ../../docstring aiogram.types.document.Document.file_unique_id:1 of
+#: ../../docstring masogram.types.document.Document.file_unique_id:1 of
 msgid ""
 "Unique identifier for this file, which is supposed to be the same over "
 "time and for different bots. Can't be used to download or reuse the file."
 msgstr ""
 
-#: ../../docstring aiogram.types.document.Document.thumb:1 of
+#: ../../docstring masogram.types.document.Document.thumb:1 of
 msgid "*Optional*. Document thumbnail as defined by sender"
 msgstr ""
 
-#: ../../docstring aiogram.types.document.Document.file_name:1 of
+#: ../../docstring masogram.types.document.Document.file_name:1 of
 msgid "*Optional*. Original filename as defined by sender"
 msgstr ""
 
-#: ../../docstring aiogram.types.document.Document.mime_type:1 of
+#: ../../docstring masogram.types.document.Document.mime_type:1 of
 msgid "*Optional*. MIME type of the file as defined by sender"
 msgstr ""
 
-#: ../../docstring aiogram.types.document.Document.file_size:1 of
+#: ../../docstring masogram.types.document.Document.file_size:1 of
 msgid ""
 "*Optional*. File size in bytes. It can be bigger than 2^31 and some "
 "programming languages may have difficulty/silent defects in interpreting "

@@ -9,7 +9,7 @@ from .base import TelegramMethod
 
 class EditChatInviteLink(TelegramMethod[ChatInviteLink]):
     """
-    Use this method to edit a non-primary invite link created by the bot. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. Returns the edited invite link as a :class:`aiogram.types.chat_invite_link.ChatInviteLink` object.
+    Use this method to edit a non-primary invite link created by the bot. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. Returns the edited invite link as a :class:`masogram.types.chat_invite_link.ChatInviteLink` object.
 
     Source: https://core.telegram.org/bots/api#editchatinvitelink
     """

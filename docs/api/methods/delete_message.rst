@@ -4,7 +4,7 @@ deleteMessage
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.delete_message
+.. automodule:: masogram.methods.delete_message
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.delete_message import DeleteMessage`
-- alias: :code:`from aiogram.methods import DeleteMessage`
+- :code:`from masogram.methods.delete_message import DeleteMessage`
+- alias: :code:`from masogram.methods import DeleteMessage`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,5 +47,5 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.message.Message.delete`
-- :meth:`aiogram.types.chat.Chat.delete_message`
+- :meth:`masogram.types.message.Message.delete`
+- :meth:`masogram.types.chat.Chat.delete_message`

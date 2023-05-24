@@ -3,7 +3,7 @@ from masogram.types import TelegramObject
 
 class ChatShared(TelegramObject):
     """
-    This object contains information about the chat whose identifier was shared with the bot using a :class:`aiogram.types.keyboard_button_request_chat.KeyboardButtonRequestChat` button.
+    This object contains information about the chat whose identifier was shared with the bot using a :class:`masogram.types.keyboard_button_request_chat.KeyboardButtonRequestChat` button.
 
     Source: https://core.telegram.org/bots/api#chatshared
     """

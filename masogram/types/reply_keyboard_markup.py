@@ -16,7 +16,7 @@ class ReplyKeyboardMarkup(MutableTelegramObject):
     """
 
     keyboard: List[List[KeyboardButton]]
-    """Array of button rows, each represented by an Array of :class:`aiogram.types.keyboard_button.KeyboardButton` objects"""
+    """Array of button rows, each represented by an Array of :class:`masogram.types.keyboard_button.KeyboardButton` objects"""
     is_persistent: Optional[bool] = None
     """*Optional*. Requests clients to always show the keyboard when the regular keyboard is hidden. Defaults to *false*, in which case the custom keyboard can be hidden and opened with a keyboard icon."""
     resize_keyboard: Optional[bool] = None
@@ -26,4 +26,4 @@ class ReplyKeyboardMarkup(MutableTelegramObject):
     input_field_placeholder: Optional[str] = None
     """*Optional*. The placeholder to be shown in the input field when the keyboard is active; 1-64 characters"""
     selective: Optional[bool] = None
-    """*Optional*. Use this parameter if you want to show the keyboard to specific users only. Targets: 1) users that are @mentioned in the *text* of the :class:`aiogram.types.message.Message` object; 2) if the bot's message is a reply (has *reply_to_message_id*), sender of the original message."""
+    """*Optional*. Use this parameter if you want to show the keyboard to specific users only. Targets: 1) users that are @mentioned in the *text* of the :class:`masogram.types.message.Message` object; 2) if the bot's message is a reply (has *reply_to_message_id*), sender of the original message."""

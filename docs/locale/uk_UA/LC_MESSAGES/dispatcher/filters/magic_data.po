@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version:  aiogram\n"
+"Project-Id-Version:  masogram\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-25 22:10+0300\n"
 "PO-Revision-Date: 2022-10-25 16:00+0300\n"
@@ -20,7 +20,7 @@ msgstr ""
 msgid "MagicData"
 msgstr "MagicData"
 
-#: aiogram.filters.magic_data.MagicData:1 of
+#: masogram.filters.magic_data.MagicData:1 of
 msgid "This filter helps to filter event with contextual data"
 msgstr "Цей фільтр допомагає фільтрувати події з контекстними даними"
 
@@ -29,8 +29,8 @@ msgid "Can be imported:"
 msgstr "Можна імпортувати:"
 
 #: ../../dispatcher/filters/magic_data.rst:12
-msgid ":code:`from aiogram.filters import MagicData`"
-msgstr ":code:`from aiogram.filters import MagicData`"
+msgid ":code:`from masogram.filters import MagicData`"
+msgstr ":code:`from masogram.filters import MagicData`"
 
 #: ../../dispatcher/filters/magic_data.rst:15
 msgid "Usage"

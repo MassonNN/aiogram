@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-23 00:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,24 +25,24 @@ msgstr ""
 msgid "Returns: :obj:`bool`"
 msgstr ""
 
-#: aiogram.methods.set_sticker_position_in_set.SetStickerPositionInSet:1 of
+#: masogram.methods.set_sticker_position_in_set.SetStickerPositionInSet:1 of
 msgid ""
 "Use this method to move a sticker in a set created by the bot to a "
 "specific position. Returns :code:`True` on success."
 msgstr ""
 
-#: aiogram.methods.set_sticker_position_in_set.SetStickerPositionInSet:3 of
+#: masogram.methods.set_sticker_position_in_set.SetStickerPositionInSet:3 of
 msgid "Source: https://core.telegram.org/bots/api#setstickerpositioninset"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.set_sticker_position_in_set.SetStickerPositionInSet.sticker:1
+#: masogram.methods.set_sticker_position_in_set.SetStickerPositionInSet.sticker:1
 #: of
 msgid "File identifier of the sticker"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.set_sticker_position_in_set.SetStickerPositionInSet.position:1
+#: masogram.methods.set_sticker_position_in_set.SetStickerPositionInSet.position:1
 #: of
 msgid "New sticker position in the set, zero-based"
 msgstr ""
@@ -65,12 +65,12 @@ msgstr ""
 
 #: ../../api/methods/set_sticker_position_in_set.rst:29
 msgid ""
-":code:`from aiogram.methods.set_sticker_position_in_set import "
+":code:`from masogram.methods.set_sticker_position_in_set import "
 "SetStickerPositionInSet`"
 msgstr ""
 
 #: ../../api/methods/set_sticker_position_in_set.rst:30
-msgid "alias: :code:`from aiogram.methods import SetStickerPositionInSet`"
+msgid "alias: :code:`from masogram.methods import SetStickerPositionInSet`"
 msgstr ""
 
 #: ../../api/methods/set_sticker_position_in_set.rst:33
@@ -86,5 +86,5 @@ msgid "As shortcut from received object"
 msgstr ""
 
 #: ../../api/methods/set_sticker_position_in_set.rst:50
-msgid ":meth:`aiogram.types.sticker.Sticker.set_position_in_set`"
+msgid ":meth:`masogram.types.sticker.Sticker.set_position_in_set`"
 msgstr ""

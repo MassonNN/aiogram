@@ -4,7 +4,7 @@ unbanChatMember
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.unban_chat_member
+.. automodule:: masogram.methods.unban_chat_member
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.unban_chat_member import UnbanChatMember`
-- alias: :code:`from aiogram.methods import UnbanChatMember`
+- :code:`from masogram.methods.unban_chat_member import UnbanChatMember`
+- alias: :code:`from masogram.methods import UnbanChatMember`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,4 +47,4 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.chat.Chat.unban`
+- :meth:`masogram.types.chat.Chat.unban`

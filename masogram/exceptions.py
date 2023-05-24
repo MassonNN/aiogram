@@ -5,11 +5,11 @@ from masogram.methods.base import TelegramType
 from masogram.utils.link import docs_url
 
 
-class AiogramError(Exception):
+class masogramError(Exception):
     pass
 
 
-class DetailedAiogramError(AiogramError):
+class DetailedmasogramError(masogramError):
     url: Optional[str] = None
 
     def __init__(self, message: str) -> None:
@@ -25,15 +25,15 @@ class DetailedAiogramError(AiogramError):
         return f"{type(self).__name__}('{self}')"
 
 
-class CallbackAnswerException(AiogramError):
+class CallbackAnswerException(masogramError):
     pass
 
 
-class UnsupportedKeywordArgument(DetailedAiogramError):
+class UnsupportedKeywordArgument(DetailedmasogramError):
     url = docs_url("migration_2_to_3.html", fragment_="filtering-events")
 
 
-class TelegramAPIError(DetailedAiogramError):
+class TelegramAPIError(DetailedmasogramError):
     def __init__(
         self,
         method: TelegramMethod[TelegramType],
@@ -119,7 +119,7 @@ class TelegramEntityTooLarge(TelegramNetworkError):
     url = "https://core.telegram.org/bots/api#sending-files"
 
 
-class ClientDecodeError(AiogramError):
+class ClientDecodeError(masogramError):
     def __init__(self, message: str, original: Exception, data: Any) -> None:
         self.message = message
         self.original = original

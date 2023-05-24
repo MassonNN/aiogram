@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-11 01:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -43,12 +43,12 @@ msgstr ""
 
 #: ../../api/methods/set_sticker_set_thumb.rst:29
 msgid ""
-":code:`from aiogram.methods.set_sticker_set_thumb import "
+":code:`from masogram.methods.set_sticker_set_thumb import "
 "SetStickerSetThumb`"
 msgstr ""
 
 #: ../../api/methods/set_sticker_set_thumb.rst:30
-msgid "alias: :code:`from aiogram.methods import SetStickerSetThumb`"
+msgid "alias: :code:`from masogram.methods import SetStickerSetThumb`"
 msgstr ""
 
 #: ../../api/methods/set_sticker_set_thumb.rst:33

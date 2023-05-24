@@ -4,7 +4,7 @@ sendSticker
 
 Returns: :obj:`Message`
 
-.. automodule:: aiogram.methods.send_sticker
+.. automodule:: masogram.methods.send_sticker
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.send_sticker import SendSticker`
-- alias: :code:`from aiogram.methods import SendSticker`
+- :code:`from masogram.methods.send_sticker import SendSticker`
+- alias: :code:`from masogram.methods import SendSticker`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,5 +47,5 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.message.Message.answer_sticker`
-- :meth:`aiogram.types.message.Message.reply_sticker`
+- :meth:`masogram.types.message.Message.answer_sticker`
+- :meth:`masogram.types.message.Message.reply_sticker`

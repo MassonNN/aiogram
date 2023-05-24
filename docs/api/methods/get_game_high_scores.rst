@@ -4,7 +4,7 @@ getGameHighScores
 
 Returns: :obj:`List[GameHighScore]`
 
-.. automodule:: aiogram.methods.get_game_high_scores
+.. automodule:: masogram.methods.get_game_high_scores
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.get_game_high_scores import GetGameHighScores`
-- alias: :code:`from aiogram.methods import GetGameHighScores`
+- :code:`from masogram.methods.get_game_high_scores import GetGameHighScores`
+- alias: :code:`from masogram.methods import GetGameHighScores`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

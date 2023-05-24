@@ -28,7 +28,7 @@ class GetChatAdministrators(
     ]
 ):
     """
-    Use this method to get a list of administrators in a chat, which aren't bots. Returns an Array of :class:`aiogram.types.chat_member.ChatMember` objects.
+    Use this method to get a list of administrators in a chat, which aren't bots. Returns an Array of :class:`masogram.types.chat_member.ChatMember` objects.
 
     Source: https://core.telegram.org/bots/api#getchatadministrators
     """

@@ -4,7 +4,7 @@ answerShippingQuery
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.answer_shipping_query
+.. automodule:: masogram.methods.answer_shipping_query
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.answer_shipping_query import AnswerShippingQuery`
-- alias: :code:`from aiogram.methods import AnswerShippingQuery`
+- :code:`from masogram.methods.answer_shipping_query import AnswerShippingQuery`
+- alias: :code:`from masogram.methods import AnswerShippingQuery`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

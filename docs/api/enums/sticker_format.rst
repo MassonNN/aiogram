@@ -3,7 +3,7 @@ StickerFormat
 #############
 
 
-.. automodule:: aiogram.enums.sticker_format
+.. automodule:: masogram.enums.sticker_format
     :members:
     :member-order: bysource
     :undoc-members: True

@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-06 14:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,28 +21,28 @@ msgstr ""
 msgid "ForumTopicCreated"
 msgstr ""
 
-#: aiogram.types.forum_topic_created.ForumTopicCreated:1 of
+#: masogram.types.forum_topic_created.ForumTopicCreated:1 of
 msgid ""
 "This object represents a service message about a new forum topic created "
 "in the chat."
 msgstr ""
 
-#: aiogram.types.forum_topic_created.ForumTopicCreated:3 of
+#: masogram.types.forum_topic_created.ForumTopicCreated:3 of
 msgid "Source: https://core.telegram.org/bots/api#forumtopiccreated"
 msgstr ""
 
-#: ../../docstring aiogram.types.forum_topic_created.ForumTopicCreated.name:1
+#: ../../docstring masogram.types.forum_topic_created.ForumTopicCreated.name:1
 #: of
 msgid "Name of the topic"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.forum_topic_created.ForumTopicCreated.icon_color:1 of
+#: masogram.types.forum_topic_created.ForumTopicCreated.icon_color:1 of
 msgid "Color of the topic icon in RGB format"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.forum_topic_created.ForumTopicCreated.icon_custom_emoji_id:1
+#: masogram.types.forum_topic_created.ForumTopicCreated.icon_custom_emoji_id:1
 #: of
 msgid "*Optional*. Unique identifier of the custom emoji shown as the topic icon"
 msgstr ""

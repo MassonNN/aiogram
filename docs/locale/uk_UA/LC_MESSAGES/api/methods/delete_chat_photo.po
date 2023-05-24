@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-23 00:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Returns: :obj:`bool`"
 msgstr ""
 
-#: aiogram.methods.delete_chat_photo.DeleteChatPhoto:1 of
+#: masogram.methods.delete_chat_photo.DeleteChatPhoto:1 of
 msgid ""
 "Use this method to delete a chat photo. Photos can't be changed for "
 "private chats. The bot must be an administrator in the chat for this to "
@@ -33,11 +33,11 @@ msgid ""
 ":code:`True` on success."
 msgstr ""
 
-#: aiogram.methods.delete_chat_photo.DeleteChatPhoto:3 of
+#: masogram.methods.delete_chat_photo.DeleteChatPhoto:3 of
 msgid "Source: https://core.telegram.org/bots/api#deletechatphoto"
 msgstr ""
 
-#: ../../docstring aiogram.methods.delete_chat_photo.DeleteChatPhoto.chat_id:1
+#: ../../docstring masogram.methods.delete_chat_photo.DeleteChatPhoto.chat_id:1
 #: of
 msgid ""
 "Unique identifier for the target chat or username of the target channel "
@@ -61,11 +61,11 @@ msgid "Imports:"
 msgstr ""
 
 #: ../../api/methods/delete_chat_photo.rst:29
-msgid ":code:`from aiogram.methods.delete_chat_photo import DeleteChatPhoto`"
+msgid ":code:`from masogram.methods.delete_chat_photo import DeleteChatPhoto`"
 msgstr ""
 
 #: ../../api/methods/delete_chat_photo.rst:30
-msgid "alias: :code:`from aiogram.methods import DeleteChatPhoto`"
+msgid "alias: :code:`from masogram.methods import DeleteChatPhoto`"
 msgstr ""
 
 #: ../../api/methods/delete_chat_photo.rst:33
@@ -81,5 +81,5 @@ msgid "As shortcut from received object"
 msgstr ""
 
 #: ../../api/methods/delete_chat_photo.rst:50
-msgid ":meth:`aiogram.types.chat.Chat.delete_photo`"
+msgid ":meth:`masogram.types.chat.Chat.delete_photo`"
 msgstr ""

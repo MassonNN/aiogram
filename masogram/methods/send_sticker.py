@@ -16,7 +16,7 @@ from .base import TelegramMethod
 
 class SendSticker(TelegramMethod[Message]):
     """
-    Use this method to send static .WEBP, `animated <https://telegram.org/blog/animated-stickers>`_ .TGS, or `video <https://telegram.org/blog/video-stickers-better-reactions>`_ .WEBM stickers. On success, the sent :class:`aiogram.types.message.Message` is returned.
+    Use this method to send static .WEBP, `animated <https://telegram.org/blog/animated-stickers>`_ .TGS, or `video <https://telegram.org/blog/video-stickers-better-reactions>`_ .WEBM stickers. On success, the sent :class:`masogram.types.message.Message` is returned.
 
     Source: https://core.telegram.org/bots/api#sendsticker
     """

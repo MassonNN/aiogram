@@ -4,7 +4,7 @@ closeForumTopic
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.close_forum_topic
+.. automodule:: masogram.methods.close_forum_topic
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.close_forum_topic import CloseForumTopic`
-- alias: :code:`from aiogram.methods import CloseForumTopic`
+- :code:`from masogram.methods.close_forum_topic import CloseForumTopic`
+- alias: :code:`from masogram.methods import CloseForumTopic`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

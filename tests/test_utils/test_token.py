@@ -34,7 +34,7 @@ class TestCheckToken:
 
 class TestExtractBotId:
     def test_extract_bot_id(self):
-        with patch("aiogram.utils.token.validate_token") as mocked_validate_token:
+        with patch("masogram.utils.token.validate_token") as mocked_validate_token:
             result = extract_bot_id(VALID_TOKEN)
 
             mocked_validate_token.assert_called_once_with(VALID_TOKEN)

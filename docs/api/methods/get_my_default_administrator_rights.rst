@@ -4,7 +4,7 @@ getMyDefaultAdministratorRights
 
 Returns: :obj:`ChatAdministratorRights`
 
-.. automodule:: aiogram.methods.get_my_default_administrator_rights
+.. automodule:: masogram.methods.get_my_default_administrator_rights
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.get_my_default_administrator_rights import GetMyDefaultAdministratorRights`
-- alias: :code:`from aiogram.methods import GetMyDefaultAdministratorRights`
+- :code:`from masogram.methods.get_my_default_administrator_rights import GetMyDefaultAdministratorRights`
+- alias: :code:`from masogram.methods import GetMyDefaultAdministratorRights`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

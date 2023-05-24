@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Returns: :obj:`bool`"
 msgstr ""
 
-#: aiogram.methods.close.Close:1 of
+#: masogram.methods.close.Close:1 of
 msgid ""
 "Use this method to close the bot instance before moving it from one local"
 " server to another. You need to delete the webhook before calling this "
@@ -34,7 +34,7 @@ msgid ""
 " launched. Returns :code:`True` on success. Requires no parameters."
 msgstr ""
 
-#: aiogram.methods.close.Close:3 of
+#: masogram.methods.close.Close:3 of
 msgid "Source: https://core.telegram.org/bots/api#close"
 msgstr ""
 
@@ -55,11 +55,11 @@ msgid "Imports:"
 msgstr ""
 
 #: ../../api/methods/close.rst:29
-msgid ":code:`from aiogram.methods.close import Close`"
+msgid ":code:`from masogram.methods.close import Close`"
 msgstr ""
 
 #: ../../api/methods/close.rst:30
-msgid "alias: :code:`from aiogram.methods import Close`"
+msgid "alias: :code:`from masogram.methods import Close`"
 msgstr ""
 
 #: ../../api/methods/close.rst:33

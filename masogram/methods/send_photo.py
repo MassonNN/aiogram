@@ -18,7 +18,7 @@ from .base import TelegramMethod
 
 class SendPhoto(TelegramMethod[Message]):
     """
-    Use this method to send photos. On success, the sent :class:`aiogram.types.message.Message` is returned.
+    Use this method to send photos. On success, the sent :class:`masogram.types.message.Message` is returned.
 
     Source: https://core.telegram.org/bots/api#sendphoto
     """

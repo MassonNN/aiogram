@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,20 +21,20 @@ msgstr ""
 msgid "VideoChatParticipantsInvited"
 msgstr ""
 
-#: aiogram.types.video_chat_participants_invited.VideoChatParticipantsInvited:1
+#: masogram.types.video_chat_participants_invited.VideoChatParticipantsInvited:1
 #: of
 msgid ""
 "This object represents a service message about new members invited to a "
 "video chat."
 msgstr ""
 
-#: aiogram.types.video_chat_participants_invited.VideoChatParticipantsInvited:3
+#: masogram.types.video_chat_participants_invited.VideoChatParticipantsInvited:3
 #: of
 msgid "Source: https://core.telegram.org/bots/api#videochatparticipantsinvited"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.video_chat_participants_invited.VideoChatParticipantsInvited.users:1
+#: masogram.types.video_chat_participants_invited.VideoChatParticipantsInvited.users:1
 #: of
 msgid "New members that were invited to the video chat"
 msgstr ""

@@ -4,7 +4,7 @@ promoteChatMember
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.promote_chat_member
+.. automodule:: masogram.methods.promote_chat_member
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.promote_chat_member import PromoteChatMember`
-- alias: :code:`from aiogram.methods import PromoteChatMember`
+- :code:`from masogram.methods.promote_chat_member import PromoteChatMember`
+- alias: :code:`from masogram.methods import PromoteChatMember`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,4 +47,4 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.chat.Chat.promote`
+- :meth:`masogram.types.chat.Chat.promote`

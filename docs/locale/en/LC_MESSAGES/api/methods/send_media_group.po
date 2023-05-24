@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-23 00:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Returns: :obj:`List[Message]`"
 msgstr ""
 
-#: aiogram.methods.send_media_group.SendMediaGroup:1 of
+#: masogram.methods.send_media_group.SendMediaGroup:1 of
 msgid ""
 "Use this method to send a group of photos, videos, documents or audios as"
 " an album. Documents and audio files can be only grouped in an album with"
@@ -34,48 +34,48 @@ msgid ""
 "returned."
 msgstr ""
 
-#: aiogram.methods.send_media_group.SendMediaGroup:3 of
+#: masogram.methods.send_media_group.SendMediaGroup:3 of
 msgid "Source: https://core.telegram.org/bots/api#sendmediagroup"
 msgstr ""
 
-#: ../../docstring aiogram.methods.send_media_group.SendMediaGroup.chat_id:1 of
+#: ../../docstring masogram.methods.send_media_group.SendMediaGroup.chat_id:1 of
 msgid ""
 "Unique identifier for the target chat or username of the target channel "
 "(in the format :code:`@channelusername`)"
 msgstr ""
 
-#: ../../docstring aiogram.methods.send_media_group.SendMediaGroup.media:1 of
+#: ../../docstring masogram.methods.send_media_group.SendMediaGroup.media:1 of
 msgid ""
 "A JSON-serialized array describing messages to be sent, must include 2-10"
 " items"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.send_media_group.SendMediaGroup.message_thread_id:1 of
+#: masogram.methods.send_media_group.SendMediaGroup.message_thread_id:1 of
 msgid ""
 "Unique identifier for the target message thread (topic) of the forum; for"
 " forum supergroups only"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.send_media_group.SendMediaGroup.disable_notification:1 of
+#: masogram.methods.send_media_group.SendMediaGroup.disable_notification:1 of
 msgid ""
 "Sends messages `silently <https://telegram.org/blog/channels-2-0#silent-"
 "messages>`_. Users will receive a notification with no sound."
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.send_media_group.SendMediaGroup.protect_content:1 of
+#: masogram.methods.send_media_group.SendMediaGroup.protect_content:1 of
 msgid "Protects the contents of the sent messages from forwarding and saving"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.send_media_group.SendMediaGroup.reply_to_message_id:1 of
+#: masogram.methods.send_media_group.SendMediaGroup.reply_to_message_id:1 of
 msgid "If the messages are a reply, ID of the original message"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.send_media_group.SendMediaGroup.allow_sending_without_reply:1
+#: masogram.methods.send_media_group.SendMediaGroup.allow_sending_without_reply:1
 #: of
 msgid ""
 "Pass :code:`True` if the message should be sent even if the specified "
@@ -99,11 +99,11 @@ msgid "Imports:"
 msgstr ""
 
 #: ../../api/methods/send_media_group.rst:29
-msgid ":code:`from aiogram.methods.send_media_group import SendMediaGroup`"
+msgid ":code:`from masogram.methods.send_media_group import SendMediaGroup`"
 msgstr ""
 
 #: ../../api/methods/send_media_group.rst:30
-msgid "alias: :code:`from aiogram.methods import SendMediaGroup`"
+msgid "alias: :code:`from masogram.methods import SendMediaGroup`"
 msgstr ""
 
 #: ../../api/methods/send_media_group.rst:33
@@ -119,9 +119,9 @@ msgid "As shortcut from received object"
 msgstr ""
 
 #: ../../api/methods/send_media_group.rst:50
-msgid ":meth:`aiogram.types.message.Message.answer_media_group`"
+msgid ":meth:`masogram.types.message.Message.answer_media_group`"
 msgstr ""
 
 #: ../../api/methods/send_media_group.rst:51
-msgid ":meth:`aiogram.types.message.Message.reply_media_group`"
+msgid ":meth:`masogram.types.message.Message.reply_media_group`"
 msgstr ""

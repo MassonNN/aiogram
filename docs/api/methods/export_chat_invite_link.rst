@@ -4,7 +4,7 @@ exportChatInviteLink
 
 Returns: :obj:`str`
 
-.. automodule:: aiogram.methods.export_chat_invite_link
+.. automodule:: masogram.methods.export_chat_invite_link
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.export_chat_invite_link import ExportChatInviteLink`
-- alias: :code:`from aiogram.methods import ExportChatInviteLink`
+- :code:`from masogram.methods.export_chat_invite_link import ExportChatInviteLink`
+- alias: :code:`from masogram.methods import ExportChatInviteLink`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,4 +47,4 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.chat.Chat.export_invite_link`
+- :meth:`masogram.types.chat.Chat.export_invite_link`

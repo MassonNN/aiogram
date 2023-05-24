@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,24 +21,24 @@ msgstr ""
 msgid "PreCheckoutQuery"
 msgstr ""
 
-#: aiogram.types.pre_checkout_query.PreCheckoutQuery:1 of
+#: masogram.types.pre_checkout_query.PreCheckoutQuery:1 of
 msgid "This object contains information about an incoming pre-checkout query."
 msgstr ""
 
-#: aiogram.types.pre_checkout_query.PreCheckoutQuery:3 of
+#: masogram.types.pre_checkout_query.PreCheckoutQuery:3 of
 msgid "Source: https://core.telegram.org/bots/api#precheckoutquery"
 msgstr ""
 
-#: ../../docstring aiogram.types.pre_checkout_query.PreCheckoutQuery.id:1 of
+#: ../../docstring masogram.types.pre_checkout_query.PreCheckoutQuery.id:1 of
 msgid "Unique query identifier"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.pre_checkout_query.PreCheckoutQuery.from_user:1 of
+#: masogram.types.pre_checkout_query.PreCheckoutQuery.from_user:1 of
 msgid "User who sent the query"
 msgstr ""
 
-#: ../../docstring aiogram.types.pre_checkout_query.PreCheckoutQuery.currency:1
+#: ../../docstring masogram.types.pre_checkout_query.PreCheckoutQuery.currency:1
 #: of
 msgid ""
 "Three-letter ISO 4217 `currency <https://core.telegram.org/bots/payments"
@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.pre_checkout_query.PreCheckoutQuery.total_amount:1 of
+#: masogram.types.pre_checkout_query.PreCheckoutQuery.total_amount:1 of
 msgid ""
 "Total price in the *smallest units* of the currency (integer, **not** "
 "float/double). For example, for a price of :code:`US$ 1.45` pass "
@@ -57,24 +57,24 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.pre_checkout_query.PreCheckoutQuery.invoice_payload:1 of
+#: masogram.types.pre_checkout_query.PreCheckoutQuery.invoice_payload:1 of
 msgid "Bot specified invoice payload"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.pre_checkout_query.PreCheckoutQuery.shipping_option_id:1 of
+#: masogram.types.pre_checkout_query.PreCheckoutQuery.shipping_option_id:1 of
 msgid "*Optional*. Identifier of the shipping option chosen by the user"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.pre_checkout_query.PreCheckoutQuery.order_info:1 of
+#: masogram.types.pre_checkout_query.PreCheckoutQuery.order_info:1 of
 msgid "*Optional*. Order information provided by the user"
 msgstr ""
 
-#: aiogram.types.pre_checkout_query.PreCheckoutQuery.answer of
+#: masogram.types.pre_checkout_query.PreCheckoutQuery.answer of
 msgid "Parameters"
 msgstr ""
 
-#: aiogram.types.pre_checkout_query.PreCheckoutQuery.answer of
+#: masogram.types.pre_checkout_query.PreCheckoutQuery.answer of
 msgid "Returns"
 msgstr ""

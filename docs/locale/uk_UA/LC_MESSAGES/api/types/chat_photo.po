@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,34 +21,34 @@ msgstr ""
 msgid "ChatPhoto"
 msgstr ""
 
-#: aiogram.types.chat_photo.ChatPhoto:1 of
+#: masogram.types.chat_photo.ChatPhoto:1 of
 msgid "This object represents a chat photo."
 msgstr ""
 
-#: aiogram.types.chat_photo.ChatPhoto:3 of
+#: masogram.types.chat_photo.ChatPhoto:3 of
 msgid "Source: https://core.telegram.org/bots/api#chatphoto"
 msgstr ""
 
-#: ../../docstring aiogram.types.chat_photo.ChatPhoto.small_file_id:1 of
+#: ../../docstring masogram.types.chat_photo.ChatPhoto.small_file_id:1 of
 msgid ""
 "File identifier of small (160x160) chat photo. This file_id can be used "
 "only for photo download and only for as long as the photo is not changed."
 msgstr ""
 
-#: ../../docstring aiogram.types.chat_photo.ChatPhoto.small_file_unique_id:1 of
+#: ../../docstring masogram.types.chat_photo.ChatPhoto.small_file_unique_id:1 of
 msgid ""
 "Unique file identifier of small (160x160) chat photo, which is supposed "
 "to be the same over time and for different bots. Can't be used to "
 "download or reuse the file."
 msgstr ""
 
-#: ../../docstring aiogram.types.chat_photo.ChatPhoto.big_file_id:1 of
+#: ../../docstring masogram.types.chat_photo.ChatPhoto.big_file_id:1 of
 msgid ""
 "File identifier of big (640x640) chat photo. This file_id can be used "
 "only for photo download and only for as long as the photo is not changed."
 msgstr ""
 
-#: ../../docstring aiogram.types.chat_photo.ChatPhoto.big_file_unique_id:1 of
+#: ../../docstring masogram.types.chat_photo.ChatPhoto.big_file_unique_id:1 of
 msgid ""
 "Unique file identifier of big (640x640) chat photo, which is supposed to "
 "be the same over time and for different bots. Can't be used to download "

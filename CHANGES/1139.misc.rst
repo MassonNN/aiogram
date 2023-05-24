@@ -3,5 +3,5 @@ Added full support of `Bot API 6.6 <https://core.telegram.org/bots/api-changelog
 .. danger::
 
     Note that this issue has breaking changes described in in the Bot API changelog,
-    this changes is not breaking in the API but breaking inside aiogram because
+    this changes is not breaking in the API but breaking inside masogram because
     Beta stage is not finished.

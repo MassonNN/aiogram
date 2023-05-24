@@ -39,7 +39,7 @@
         "type": "WebAppInfo",
         "description": "Description of the Web App that will be launched when the user presses the button. The Web App will be able to send an arbitrary message on behalf of the user using the method answerWebAppQuery. Available only in private chats between a user and the bot.",
         "html_description": "<td><em>Optional</em>. Description of the <a href=\"/bots/webapps\">Web App</a> that will be launched when the user presses the button. The Web App will be able to send an arbitrary message on behalf of the user using the method <a href=\"#answerwebappquery\">answerWebAppQuery</a>. Available only in private chats between a user and the bot.</td>",
-        "rst_description": "*Optional*. Description of the `Web App <https://core.telegram.org/bots/webapps>`_ that will be launched when the user presses the button. The Web App will be able to send an arbitrary message on behalf of the user using the method :class:`aiogram.methods.answer_web_app_query.AnswerWebAppQuery`. Available only in private chats between a user and the bot.\n",
+        "rst_description": "*Optional*. Description of the `Web App <https://core.telegram.org/bots/webapps>`_ that will be launched when the user presses the button. The Web App will be able to send an arbitrary message on behalf of the user using the method :class:`masogram.methods.answer_web_app_query.AnswerWebAppQuery`. Available only in private chats between a user and the bot.\n",
         "name": "web_app",
         "required": false
       },

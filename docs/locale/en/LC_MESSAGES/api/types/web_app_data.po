@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,23 +21,23 @@ msgstr ""
 msgid "WebAppData"
 msgstr ""
 
-#: aiogram.types.web_app_data.WebAppData:1 of
+#: masogram.types.web_app_data.WebAppData:1 of
 msgid ""
 "Describes data sent from a `Web App "
 "<https://core.telegram.org/bots/webapps>`_ to the bot."
 msgstr ""
 
-#: aiogram.types.web_app_data.WebAppData:3 of
+#: masogram.types.web_app_data.WebAppData:3 of
 msgid "Source: https://core.telegram.org/bots/api#webappdata"
 msgstr ""
 
-#: ../../docstring aiogram.types.web_app_data.WebAppData.data:1 of
+#: ../../docstring masogram.types.web_app_data.WebAppData.data:1 of
 msgid ""
 "The data. Be aware that a bad client can send arbitrary data in this "
 "field."
 msgstr ""
 
-#: ../../docstring aiogram.types.web_app_data.WebAppData.button_text:1 of
+#: ../../docstring masogram.types.web_app_data.WebAppData.button_text:1 of
 msgid ""
 "Text of the *web_app* keyboard button from which the Web App was opened. "
 "Be aware that a bad client can send arbitrary data in this field."

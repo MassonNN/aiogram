@@ -7,11 +7,11 @@ class InputMedia(MutableTelegramObject):
     """
     This object represents the content of a media message to be sent. It should be one of
 
-     - :class:`aiogram.types.input_media_animation.InputMediaAnimation`
-     - :class:`aiogram.types.input_media_document.InputMediaDocument`
-     - :class:`aiogram.types.input_media_audio.InputMediaAudio`
-     - :class:`aiogram.types.input_media_photo.InputMediaPhoto`
-     - :class:`aiogram.types.input_media_video.InputMediaVideo`
+     - :class:`masogram.types.input_media_animation.InputMediaAnimation`
+     - :class:`masogram.types.input_media_document.InputMediaDocument`
+     - :class:`masogram.types.input_media_audio.InputMediaAudio`
+     - :class:`masogram.types.input_media_photo.InputMediaPhoto`
+     - :class:`masogram.types.input_media_video.InputMediaVideo`
 
     Source: https://core.telegram.org/bots/api#inputmedia
     """

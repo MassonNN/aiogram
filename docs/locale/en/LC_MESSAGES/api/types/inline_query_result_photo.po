@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-06 14:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "InlineQueryResultPhoto"
 msgstr ""
 
-#: aiogram.types.inline_query_result_photo.InlineQueryResultPhoto:1 of
+#: masogram.types.inline_query_result_photo.InlineQueryResultPhoto:1 of
 msgid ""
 "Represents a link to a photo. By default, this photo will be sent by the "
 "user with optional caption. Alternatively, you can use "
@@ -29,22 +29,22 @@ msgid ""
 "instead of the photo."
 msgstr ""
 
-#: aiogram.types.inline_query_result_photo.InlineQueryResultPhoto:3 of
+#: masogram.types.inline_query_result_photo.InlineQueryResultPhoto:3 of
 msgid "Source: https://core.telegram.org/bots/api#inlinequeryresultphoto"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_photo.InlineQueryResultPhoto.type:1 of
+#: masogram.types.inline_query_result_photo.InlineQueryResultPhoto.type:1 of
 msgid "Type of the result, must be *photo*"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_photo.InlineQueryResultPhoto.id:1 of
+#: masogram.types.inline_query_result_photo.InlineQueryResultPhoto.id:1 of
 msgid "Unique identifier for this result, 1-64 bytes"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_photo.InlineQueryResultPhoto.photo_url:1
+#: masogram.types.inline_query_result_photo.InlineQueryResultPhoto.photo_url:1
 #: of
 msgid ""
 "A valid URL of the photo. Photo must be in **JPEG** format. Photo size "
@@ -52,43 +52,43 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_photo.InlineQueryResultPhoto.thumb_url:1
+#: masogram.types.inline_query_result_photo.InlineQueryResultPhoto.thumb_url:1
 #: of
 msgid "URL of the thumbnail for the photo"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_photo.InlineQueryResultPhoto.photo_width:1
+#: masogram.types.inline_query_result_photo.InlineQueryResultPhoto.photo_width:1
 #: of
 msgid "*Optional*. Width of the photo"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_photo.InlineQueryResultPhoto.photo_height:1
+#: masogram.types.inline_query_result_photo.InlineQueryResultPhoto.photo_height:1
 #: of
 msgid "*Optional*. Height of the photo"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_photo.InlineQueryResultPhoto.title:1 of
+#: masogram.types.inline_query_result_photo.InlineQueryResultPhoto.title:1 of
 msgid "*Optional*. Title for the result"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_photo.InlineQueryResultPhoto.description:1
+#: masogram.types.inline_query_result_photo.InlineQueryResultPhoto.description:1
 #: of
 msgid "*Optional*. Short description of the result"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_photo.InlineQueryResultPhoto.caption:1 of
+#: masogram.types.inline_query_result_photo.InlineQueryResultPhoto.caption:1 of
 msgid ""
 "*Optional*. Caption of the photo to be sent, 0-1024 characters after "
 "entities parsing"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_photo.InlineQueryResultPhoto.parse_mode:1
+#: masogram.types.inline_query_result_photo.InlineQueryResultPhoto.parse_mode:1
 #: of
 msgid ""
 "*Optional*. Mode for parsing entities in the photo caption. See "
@@ -97,7 +97,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_photo.InlineQueryResultPhoto.caption_entities:1
+#: masogram.types.inline_query_result_photo.InlineQueryResultPhoto.caption_entities:1
 #: of
 msgid ""
 "*Optional*. List of special entities that appear in the caption, which "
@@ -105,7 +105,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_photo.InlineQueryResultPhoto.reply_markup:1
+#: masogram.types.inline_query_result_photo.InlineQueryResultPhoto.reply_markup:1
 #: of
 msgid ""
 "*Optional*. `Inline keyboard <https://core.telegram.org/bots/features"
@@ -113,7 +113,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_photo.InlineQueryResultPhoto.input_message_content:1
+#: masogram.types.inline_query_result_photo.InlineQueryResultPhoto.input_message_content:1
 #: of
 msgid "*Optional*. Content of the message to be sent instead of the photo"
 msgstr ""

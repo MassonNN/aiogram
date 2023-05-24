@@ -4,7 +4,7 @@ getMyCommands
 
 Returns: :obj:`List[BotCommand]`
 
-.. automodule:: aiogram.methods.get_my_commands
+.. automodule:: masogram.methods.get_my_commands
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.get_my_commands import GetMyCommands`
-- alias: :code:`from aiogram.methods import GetMyCommands`
+- :code:`from masogram.methods.get_my_commands import GetMyCommands`
+- alias: :code:`from masogram.methods import GetMyCommands`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

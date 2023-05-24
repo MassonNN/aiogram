@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-18 01:50+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 
 #: ../../dispatcher/filters/index.rst:8
-msgid "*aiogram* has some builtin useful filters."
+msgid "*masogram* has some builtin useful filters."
 msgstr ""
 
 #: ../../dispatcher/filters/index.rst:11
@@ -64,7 +64,7 @@ msgid "Any awaitable object"
 msgstr ""
 
 #: ../../dispatcher/filters/index.rst:35
-msgid "Subclass of :class:`aiogram.filters.base.Filter`"
+msgid "Subclass of :class:`masogram.filters.base.Filter`"
 msgstr ""
 
 #: ../../dispatcher/filters/index.rst:36
@@ -82,40 +82,40 @@ msgstr ""
 msgid "Base class for own filters"
 msgstr ""
 
-#: aiogram.filters.base.Filter:1 of
+#: masogram.filters.base.Filter:1 of
 msgid ""
 "If you want to register own filters like builtin filters you will need to"
 " write subclass of this class with overriding the :code:`__call__` method"
 " and adding filter attributes."
 msgstr ""
 
-#: aiogram.filters.base.Filter.__call__:1 of
+#: masogram.filters.base.Filter.__call__:1 of
 msgid "This method should be overridden."
 msgstr ""
 
-#: aiogram.filters.base.Filter.__call__:3 of
+#: masogram.filters.base.Filter.__call__:3 of
 msgid "Accepts incoming event and should return boolean or dict."
 msgstr ""
 
-#: aiogram.filters.base.Filter.__call__ of
+#: masogram.filters.base.Filter.__call__ of
 msgid "Returns"
 msgstr ""
 
-#: aiogram.filters.base.Filter.__call__:5 of
+#: masogram.filters.base.Filter.__call__:5 of
 msgid ":class:`bool` or :class:`Dict[str, Any]`"
 msgstr ""
 
-#: aiogram.filters.base.Filter.update_handler_flags:1 of
+#: masogram.filters.base.Filter.update_handler_flags:1 of
 msgid ""
 "Also if you want to extend handler flags with using this filter you "
 "should implement this method"
 msgstr ""
 
-#: aiogram.filters.base.Filter.update_handler_flags of
+#: masogram.filters.base.Filter.update_handler_flags of
 msgid "Parameters"
 msgstr ""
 
-#: aiogram.filters.base.Filter.update_handler_flags:3 of
+#: masogram.filters.base.Filter.update_handler_flags:3 of
 msgid "existing flags, can be updated directly"
 msgstr ""
 
@@ -166,7 +166,7 @@ msgstr ""
 #: ../../dispatcher/filters/index.rst:95
 msgid ""
 "An alternative way is to combine using special functions (:func:`and_f`, "
-":func:`or_f`, :func:`invert_f` from :code:`aiogram.filters` module):"
+":func:`or_f`, :func:`invert_f` from :code:`masogram.filters` module):"
 msgstr ""
 
 #~ msgid ""

@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-23 00:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,20 +25,20 @@ msgstr ""
 msgid "Returns: :obj:`Union[Message, bool]`"
 msgstr ""
 
-#: aiogram.methods.edit_message_reply_markup.EditMessageReplyMarkup:1 of
+#: masogram.methods.edit_message_reply_markup.EditMessageReplyMarkup:1 of
 msgid ""
 "Use this method to edit only the reply markup of messages. On success, if"
 " the edited message is not an inline message, the edited "
-":class:`aiogram.types.message.Message` is returned, otherwise "
+":class:`masogram.types.message.Message` is returned, otherwise "
 ":code:`True` is returned."
 msgstr ""
 
-#: aiogram.methods.edit_message_reply_markup.EditMessageReplyMarkup:3 of
+#: masogram.methods.edit_message_reply_markup.EditMessageReplyMarkup:3 of
 msgid "Source: https://core.telegram.org/bots/api#editmessagereplymarkup"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.edit_message_reply_markup.EditMessageReplyMarkup.chat_id:1
+#: masogram.methods.edit_message_reply_markup.EditMessageReplyMarkup.chat_id:1
 #: of
 msgid ""
 "Required if *inline_message_id* is not specified. Unique identifier for "
@@ -47,7 +47,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.edit_message_reply_markup.EditMessageReplyMarkup.message_id:1
+#: masogram.methods.edit_message_reply_markup.EditMessageReplyMarkup.message_id:1
 #: of
 msgid ""
 "Required if *inline_message_id* is not specified. Identifier of the "
@@ -55,7 +55,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.edit_message_reply_markup.EditMessageReplyMarkup.inline_message_id:1
+#: masogram.methods.edit_message_reply_markup.EditMessageReplyMarkup.inline_message_id:1
 #: of
 msgid ""
 "Required if *chat_id* and *message_id* are not specified. Identifier of "
@@ -63,7 +63,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.edit_message_reply_markup.EditMessageReplyMarkup.reply_markup:1
+#: masogram.methods.edit_message_reply_markup.EditMessageReplyMarkup.reply_markup:1
 #: of
 msgid ""
 "A JSON-serialized object for an `inline keyboard "
@@ -88,12 +88,12 @@ msgstr ""
 
 #: ../../api/methods/edit_message_reply_markup.rst:29
 msgid ""
-":code:`from aiogram.methods.edit_message_reply_markup import "
+":code:`from masogram.methods.edit_message_reply_markup import "
 "EditMessageReplyMarkup`"
 msgstr ""
 
 #: ../../api/methods/edit_message_reply_markup.rst:30
-msgid "alias: :code:`from aiogram.methods import EditMessageReplyMarkup`"
+msgid "alias: :code:`from masogram.methods import EditMessageReplyMarkup`"
 msgstr ""
 
 #: ../../api/methods/edit_message_reply_markup.rst:33
@@ -109,7 +109,7 @@ msgid "As shortcut from received object"
 msgstr ""
 
 #: ../../api/methods/edit_message_reply_markup.rst:50
-msgid ":meth:`aiogram.types.message.Message.edit_reply_markup`"
+msgid ":meth:`masogram.types.message.Message.edit_reply_markup`"
 msgstr ""
 
 #~ msgid ""

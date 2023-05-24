@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,22 +25,22 @@ msgstr ""
 msgid "Returns: :obj:`ChatAdministratorRights`"
 msgstr ""
 
-#: aiogram.methods.get_my_default_administrator_rights.GetMyDefaultAdministratorRights:1
+#: masogram.methods.get_my_default_administrator_rights.GetMyDefaultAdministratorRights:1
 #: of
 msgid ""
 "Use this method to get the current default administrator rights of the "
 "bot. Returns "
-":class:`aiogram.types.chat_administrator_rights.ChatAdministratorRights` "
+":class:`masogram.types.chat_administrator_rights.ChatAdministratorRights` "
 "on success."
 msgstr ""
 
-#: aiogram.methods.get_my_default_administrator_rights.GetMyDefaultAdministratorRights:3
+#: masogram.methods.get_my_default_administrator_rights.GetMyDefaultAdministratorRights:3
 #: of
 msgid "Source: https://core.telegram.org/bots/api#getmydefaultadministratorrights"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.get_my_default_administrator_rights.GetMyDefaultAdministratorRights.for_channels:1
+#: masogram.methods.get_my_default_administrator_rights.GetMyDefaultAdministratorRights.for_channels:1
 #: of
 msgid ""
 "Pass :code:`True` to get default administrator rights of the bot in "
@@ -66,12 +66,12 @@ msgstr ""
 
 #: ../../api/methods/get_my_default_administrator_rights.rst:29
 msgid ""
-":code:`from aiogram.methods.get_my_default_administrator_rights import "
+":code:`from masogram.methods.get_my_default_administrator_rights import "
 "GetMyDefaultAdministratorRights`"
 msgstr ""
 
 #: ../../api/methods/get_my_default_administrator_rights.rst:30
-msgid "alias: :code:`from aiogram.methods import GetMyDefaultAdministratorRights`"
+msgid "alias: :code:`from masogram.methods import GetMyDefaultAdministratorRights`"
 msgstr ""
 
 #: ../../api/methods/get_my_default_administrator_rights.rst:33

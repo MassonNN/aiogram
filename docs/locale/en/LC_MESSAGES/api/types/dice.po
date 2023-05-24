@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,19 +21,19 @@ msgstr ""
 msgid "Dice"
 msgstr ""
 
-#: aiogram.types.dice.Dice:1 of
+#: masogram.types.dice.Dice:1 of
 msgid "This object represents an animated emoji that displays a random value."
 msgstr ""
 
-#: aiogram.types.dice.Dice:3 of
+#: masogram.types.dice.Dice:3 of
 msgid "Source: https://core.telegram.org/bots/api#dice"
 msgstr ""
 
-#: ../../docstring aiogram.types.dice.Dice.emoji:1 of
+#: ../../docstring masogram.types.dice.Dice.emoji:1 of
 msgid "Emoji on which the dice throw animation is based"
 msgstr ""
 
-#: ../../docstring aiogram.types.dice.Dice.value:1 of
+#: ../../docstring masogram.types.dice.Dice.value:1 of
 msgid ""
 "Value of the dice, 1-6 for '🎲', '🎯' and '🎳' base emoji, 1-5 for '🏀' and "
 "'⚽' base emoji, 1-64 for '🎰' base emoji"

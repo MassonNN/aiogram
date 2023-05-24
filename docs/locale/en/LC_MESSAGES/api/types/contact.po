@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,27 +21,27 @@ msgstr ""
 msgid "Contact"
 msgstr ""
 
-#: aiogram.types.contact.Contact:1 of
+#: masogram.types.contact.Contact:1 of
 msgid "This object represents a phone contact."
 msgstr ""
 
-#: aiogram.types.contact.Contact:3 of
+#: masogram.types.contact.Contact:3 of
 msgid "Source: https://core.telegram.org/bots/api#contact"
 msgstr ""
 
-#: ../../docstring aiogram.types.contact.Contact.phone_number:1 of
+#: ../../docstring masogram.types.contact.Contact.phone_number:1 of
 msgid "Contact's phone number"
 msgstr ""
 
-#: ../../docstring aiogram.types.contact.Contact.first_name:1 of
+#: ../../docstring masogram.types.contact.Contact.first_name:1 of
 msgid "Contact's first name"
 msgstr ""
 
-#: ../../docstring aiogram.types.contact.Contact.last_name:1 of
+#: ../../docstring masogram.types.contact.Contact.last_name:1 of
 msgid "*Optional*. Contact's last name"
 msgstr ""
 
-#: ../../docstring aiogram.types.contact.Contact.user_id:1 of
+#: ../../docstring masogram.types.contact.Contact.user_id:1 of
 msgid ""
 "*Optional*. Contact's user identifier in Telegram. This number may have "
 "more than 32 significant bits and some programming languages may have "
@@ -50,7 +50,7 @@ msgid ""
 "safe for storing this identifier."
 msgstr ""
 
-#: ../../docstring aiogram.types.contact.Contact.vcard:1 of
+#: ../../docstring masogram.types.contact.Contact.vcard:1 of
 msgid ""
 "*Optional*. Additional data about the contact in the form of a `vCard "
 "<https://en.wikipedia.org/wiki/VCard>`_"

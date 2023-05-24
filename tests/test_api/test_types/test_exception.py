@@ -1,15 +1,15 @@
 import pytest
 
-from masogram.exceptions import DetailedAiogramError
+from masogram.exceptions import DetailedmasogramError
 
 
 class TestException:
     @pytest.mark.parametrize(
         "message,result",
         [
-            ["reason", "DetailedAiogramError('reason')"],
+            ["reason", "DetailedmasogramError('reason')"],
         ],
     )
     def test_representation(self, message: str, result: str):
-        exc = DetailedAiogramError(message=message)
+        exc = DetailedmasogramError(message=message)
         assert repr(exc) == result

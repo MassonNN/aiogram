@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-23 00:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,51 +21,51 @@ msgstr ""
 msgid "MenuButton"
 msgstr ""
 
-#: aiogram.types.menu_button.MenuButton:1 of
+#: masogram.types.menu_button.MenuButton:1 of
 msgid ""
 "This object describes the bot's menu button in a private chat. It should "
 "be one of"
 msgstr ""
 
-#: aiogram.types.menu_button.MenuButton:3 of
-msgid ":class:`aiogram.types.menu_button_commands.MenuButtonCommands`"
+#: masogram.types.menu_button.MenuButton:3 of
+msgid ":class:`masogram.types.menu_button_commands.MenuButtonCommands`"
 msgstr ""
 
-#: aiogram.types.menu_button.MenuButton:4 of
-msgid ":class:`aiogram.types.menu_button_web_app.MenuButtonWebApp`"
+#: masogram.types.menu_button.MenuButton:4 of
+msgid ":class:`masogram.types.menu_button_web_app.MenuButtonWebApp`"
 msgstr ""
 
-#: aiogram.types.menu_button.MenuButton:5 of
-msgid ":class:`aiogram.types.menu_button_default.MenuButtonDefault`"
+#: masogram.types.menu_button.MenuButton:5 of
+msgid ":class:`masogram.types.menu_button_default.MenuButtonDefault`"
 msgstr ""
 
-#: aiogram.types.menu_button.MenuButton:7 of
+#: masogram.types.menu_button.MenuButton:7 of
 msgid ""
 "If a menu button other than "
-":class:`aiogram.types.menu_button_default.MenuButtonDefault` is set for a"
+":class:`masogram.types.menu_button_default.MenuButtonDefault` is set for a"
 " private chat, then it is applied in the chat. Otherwise the default menu"
 " button is applied. By default, the menu button opens the list of bot "
 "commands."
 msgstr ""
 
-#: aiogram.types.menu_button.MenuButton:9 of
+#: masogram.types.menu_button.MenuButton:9 of
 msgid "Source: https://core.telegram.org/bots/api#menubutton"
 msgstr ""
 
-#: ../../docstring aiogram.types.menu_button.MenuButton.type:1 of
+#: ../../docstring masogram.types.menu_button.MenuButton.type:1 of
 msgid "Type of the button"
 msgstr ""
 
-#: ../../docstring aiogram.types.menu_button.MenuButton.text:1 of
+#: ../../docstring masogram.types.menu_button.MenuButton.text:1 of
 msgid "*Optional*. Text on the button"
 msgstr ""
 
-#: ../../docstring aiogram.types.menu_button.MenuButton.web_app:1 of
+#: ../../docstring masogram.types.menu_button.MenuButton.web_app:1 of
 msgid ""
 "*Optional*. Description of the Web App that will be launched when the "
 "user presses the button. The Web App will be able to send an arbitrary "
 "message on behalf of the user using the method "
-":class:`aiogram.methods.answer_web_app_query.AnswerWebAppQuery`."
+":class:`masogram.methods.answer_web_app_query.AnswerWebAppQuery`."
 msgstr ""
 
 #~ msgid "..."

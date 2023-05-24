@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,49 +21,49 @@ msgstr ""
 msgid "InputVenueMessageContent"
 msgstr ""
 
-#: aiogram.types.input_venue_message_content.InputVenueMessageContent:1 of
+#: masogram.types.input_venue_message_content.InputVenueMessageContent:1 of
 msgid ""
 "Represents the `content "
 "<https://core.telegram.org/bots/api#inputmessagecontent>`_ of a venue "
 "message to be sent as the result of an inline query."
 msgstr ""
 
-#: aiogram.types.input_venue_message_content.InputVenueMessageContent:3 of
+#: masogram.types.input_venue_message_content.InputVenueMessageContent:3 of
 msgid "Source: https://core.telegram.org/bots/api#inputvenuemessagecontent"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.input_venue_message_content.InputVenueMessageContent.latitude:1
+#: masogram.types.input_venue_message_content.InputVenueMessageContent.latitude:1
 #: of
 msgid "Latitude of the venue in degrees"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.input_venue_message_content.InputVenueMessageContent.longitude:1
+#: masogram.types.input_venue_message_content.InputVenueMessageContent.longitude:1
 #: of
 msgid "Longitude of the venue in degrees"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.input_venue_message_content.InputVenueMessageContent.title:1
+#: masogram.types.input_venue_message_content.InputVenueMessageContent.title:1
 #: of
 msgid "Name of the venue"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.input_venue_message_content.InputVenueMessageContent.address:1
+#: masogram.types.input_venue_message_content.InputVenueMessageContent.address:1
 #: of
 msgid "Address of the venue"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.input_venue_message_content.InputVenueMessageContent.foursquare_id:1
+#: masogram.types.input_venue_message_content.InputVenueMessageContent.foursquare_id:1
 #: of
 msgid "*Optional*. Foursquare identifier of the venue, if known"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.input_venue_message_content.InputVenueMessageContent.foursquare_type:1
+#: masogram.types.input_venue_message_content.InputVenueMessageContent.foursquare_type:1
 #: of
 msgid ""
 "*Optional*. Foursquare type of the venue, if known. (For example, "
@@ -72,13 +72,13 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.input_venue_message_content.InputVenueMessageContent.google_place_id:1
+#: masogram.types.input_venue_message_content.InputVenueMessageContent.google_place_id:1
 #: of
 msgid "*Optional*. Google Places identifier of the venue"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.input_venue_message_content.InputVenueMessageContent.google_place_type:1
+#: masogram.types.input_venue_message_content.InputVenueMessageContent.google_place_type:1
 #: of
 msgid ""
 "*Optional*. Google Places type of the venue. (See `supported types "

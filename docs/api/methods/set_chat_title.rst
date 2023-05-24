@@ -4,7 +4,7 @@ setChatTitle
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.set_chat_title
+.. automodule:: masogram.methods.set_chat_title
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.set_chat_title import SetChatTitle`
-- alias: :code:`from aiogram.methods import SetChatTitle`
+- :code:`from masogram.methods.set_chat_title import SetChatTitle`
+- alias: :code:`from masogram.methods import SetChatTitle`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,4 +47,4 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.chat.Chat.set_title`
+- :meth:`masogram.types.chat.Chat.set_title`

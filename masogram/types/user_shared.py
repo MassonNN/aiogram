@@ -3,7 +3,7 @@ from masogram.types import TelegramObject
 
 class UserShared(TelegramObject):
     """
-    This object contains information about the user whose identifier was shared with the bot using a :class:`aiogram.types.keyboard_button_request_user.KeyboardButtonRequestUser` button.
+    This object contains information about the user whose identifier was shared with the bot using a :class:`masogram.types.keyboard_button_request_user.KeyboardButtonRequestUser` button.
 
     Source: https://core.telegram.org/bots/api#usershared
     """

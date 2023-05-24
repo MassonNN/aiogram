@@ -4,7 +4,7 @@ addStickerToSet
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.add_sticker_to_set
+.. automodule:: masogram.methods.add_sticker_to_set
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.add_sticker_to_set import AddStickerToSet`
-- alias: :code:`from aiogram.methods import AddStickerToSet`
+- :code:`from masogram.methods.add_sticker_to_set import AddStickerToSet`
+- alias: :code:`from masogram.methods import AddStickerToSet`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

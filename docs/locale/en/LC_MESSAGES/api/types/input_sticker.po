@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-11 01:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,15 +21,15 @@ msgstr ""
 msgid "InputSticker"
 msgstr ""
 
-#: aiogram.types.input_sticker.InputSticker:1 of
+#: masogram.types.input_sticker.InputSticker:1 of
 msgid "This object describes a sticker to be added to a sticker set."
 msgstr ""
 
-#: aiogram.types.input_sticker.InputSticker:3 of
+#: masogram.types.input_sticker.InputSticker:3 of
 msgid "Source: https://core.telegram.org/bots/api#inputsticker"
 msgstr ""
 
-#: ../../docstring aiogram.types.input_sticker.InputSticker.sticker:1 of
+#: ../../docstring masogram.types.input_sticker.InputSticker.sticker:1 of
 msgid ""
 "The added sticker. Pass a *file_id* as a String to send a file that "
 "already exists on the Telegram servers, pass an HTTP URL as a String for "
@@ -38,17 +38,17 @@ msgid ""
 "HTTP URL. :ref:`More information on Sending Files » <sending-files>`"
 msgstr ""
 
-#: ../../docstring aiogram.types.input_sticker.InputSticker.emoji_list:1 of
+#: ../../docstring masogram.types.input_sticker.InputSticker.emoji_list:1 of
 msgid "List of 1-20 emoji associated with the sticker"
 msgstr ""
 
-#: ../../docstring aiogram.types.input_sticker.InputSticker.mask_position:1 of
+#: ../../docstring masogram.types.input_sticker.InputSticker.mask_position:1 of
 msgid ""
 "*Optional*. Position where the mask should be placed on faces. For 'mask'"
 " stickers only."
 msgstr ""
 
-#: ../../docstring aiogram.types.input_sticker.InputSticker.keywords:1 of
+#: ../../docstring masogram.types.input_sticker.InputSticker.keywords:1 of
 msgid ""
 "*Optional*. List of 0-20 search keywords for the sticker with total "
 "length of up to 64 characters. For 'regular' and 'custom_emoji' stickers "

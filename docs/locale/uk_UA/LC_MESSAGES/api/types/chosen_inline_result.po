@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "ChosenInlineResult"
 msgstr ""
 
-#: aiogram.types.chosen_inline_result.ChosenInlineResult:1 of
+#: masogram.types.chosen_inline_result.ChosenInlineResult:1 of
 msgid ""
 "Represents a `result "
 "<https://core.telegram.org/bots/api#inlinequeryresult>`_ of an inline "
@@ -32,32 +32,32 @@ msgid ""
 "in updates."
 msgstr ""
 
-#: aiogram.types.chosen_inline_result.ChosenInlineResult:4 of
+#: masogram.types.chosen_inline_result.ChosenInlineResult:4 of
 msgid "Source: https://core.telegram.org/bots/api#choseninlineresult"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.chosen_inline_result.ChosenInlineResult.result_id:1 of
+#: masogram.types.chosen_inline_result.ChosenInlineResult.result_id:1 of
 msgid "The unique identifier for the result that was chosen"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.chosen_inline_result.ChosenInlineResult.from_user:1 of
+#: masogram.types.chosen_inline_result.ChosenInlineResult.from_user:1 of
 msgid "The user that chose the result"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.chosen_inline_result.ChosenInlineResult.query:1 of
+#: masogram.types.chosen_inline_result.ChosenInlineResult.query:1 of
 msgid "The query that was used to obtain the result"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.chosen_inline_result.ChosenInlineResult.location:1 of
+#: masogram.types.chosen_inline_result.ChosenInlineResult.location:1 of
 msgid "*Optional*. Sender location, only for bots that require user location"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.chosen_inline_result.ChosenInlineResult.inline_message_id:1 of
+#: masogram.types.chosen_inline_result.ChosenInlineResult.inline_message_id:1 of
 msgid ""
 "*Optional*. Identifier of the sent inline message. Available only if "
 "there is an `inline keyboard "

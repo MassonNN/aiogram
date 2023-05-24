@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 00:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -22,12 +22,12 @@ msgid "Contributing"
 msgstr ""
 
 #: ../../contributing.rst:5
-msgid "You're welcome to contribute to aiogram!"
+msgid "You're welcome to contribute to masogram!"
 msgstr ""
 
 #: ../../contributing.rst:7
 msgid ""
-"*aiogram* is an open-source project, and anyone can contribute to it in "
+"*masogram* is an open-source project, and anyone can contribute to it in "
 "any possible way"
 msgstr ""
 
@@ -112,13 +112,13 @@ msgstr ""
 
 #: ../../contributing.rst:76
 msgid ""
-"After activating the environment install `aiogram` from sources and their"
+"After activating the environment install `masogram` from sources and their"
 " dependencies:"
 msgstr ""
 
 #: ../../contributing.rst:82
 msgid ""
-"It will install :code:`aiogram` in editable mode into your virtual "
+"It will install :code:`masogram` in editable mode into your virtual "
 "environment and all dependencies."
 msgstr ""
 
@@ -263,7 +263,7 @@ msgstr ""
 #: ../../contributing.rst:185
 msgid ""
 "You can \"star\" repository on GitHub - "
-"https://github.com/aiogram/aiogram (click the star button at the top "
+"https://github.com/masogram/masogram (click the star button at the top "
 "right)"
 msgstr ""
 
@@ -279,7 +279,7 @@ msgstr ""
 
 #: ../../contributing.rst:192
 msgid ""
-"You can write guides how to develop Bots on top of aiogram and publish it"
+"You can write guides how to develop Bots on top of masogram and publish it"
 " into YouTube, Medium, GitHub Books, any Courses platform or any other "
 "platform that you know."
 msgstr ""
@@ -317,7 +317,7 @@ msgstr ""
 msgid ""
 "So, if you want to financially support the project, or, for example, give"
 " me a pizza or a beer, you can do it on `OpenCollective "
-"<https://opencollective.com/aiogram>`_ or `Patreon "
-"<https://www.patreon.com/aiogram>`_."
+"<https://opencollective.com/masogram>`_ or `Patreon "
+"<https://www.patreon.com/masogram>`_."
 msgstr ""
 

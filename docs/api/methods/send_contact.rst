@@ -4,7 +4,7 @@ sendContact
 
 Returns: :obj:`Message`
 
-.. automodule:: aiogram.methods.send_contact
+.. automodule:: masogram.methods.send_contact
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.send_contact import SendContact`
-- alias: :code:`from aiogram.methods import SendContact`
+- :code:`from masogram.methods.send_contact import SendContact`
+- alias: :code:`from masogram.methods import SendContact`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,5 +47,5 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.message.Message.answer_contact`
-- :meth:`aiogram.types.message.Message.reply_contact`
+- :meth:`masogram.types.message.Message.answer_contact`
+- :meth:`masogram.types.message.Message.reply_contact`

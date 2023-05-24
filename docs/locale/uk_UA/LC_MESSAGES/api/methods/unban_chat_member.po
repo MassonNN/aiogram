@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-23 00:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Returns: :obj:`bool`"
 msgstr ""
 
-#: aiogram.methods.unban_chat_member.UnbanChatMember:1 of
+#: masogram.methods.unban_chat_member.UnbanChatMember:1 of
 msgid ""
 "Use this method to unban a previously banned user in a supergroup or "
 "channel. The user will **not** return to the group or channel "
@@ -37,24 +37,24 @@ msgid ""
 "*only_if_banned*. Returns :code:`True` on success."
 msgstr ""
 
-#: aiogram.methods.unban_chat_member.UnbanChatMember:3 of
+#: masogram.methods.unban_chat_member.UnbanChatMember:3 of
 msgid "Source: https://core.telegram.org/bots/api#unbanchatmember"
 msgstr ""
 
-#: ../../docstring aiogram.methods.unban_chat_member.UnbanChatMember.chat_id:1
+#: ../../docstring masogram.methods.unban_chat_member.UnbanChatMember.chat_id:1
 #: of
 msgid ""
 "Unique identifier for the target group or username of the target "
 "supergroup or channel (in the format :code:`@channelusername`)"
 msgstr ""
 
-#: ../../docstring aiogram.methods.unban_chat_member.UnbanChatMember.user_id:1
+#: ../../docstring masogram.methods.unban_chat_member.UnbanChatMember.user_id:1
 #: of
 msgid "Unique identifier of the target user"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.unban_chat_member.UnbanChatMember.only_if_banned:1 of
+#: masogram.methods.unban_chat_member.UnbanChatMember.only_if_banned:1 of
 msgid "Do nothing if the user is not banned"
 msgstr ""
 
@@ -75,11 +75,11 @@ msgid "Imports:"
 msgstr ""
 
 #: ../../api/methods/unban_chat_member.rst:29
-msgid ":code:`from aiogram.methods.unban_chat_member import UnbanChatMember`"
+msgid ":code:`from masogram.methods.unban_chat_member import UnbanChatMember`"
 msgstr ""
 
 #: ../../api/methods/unban_chat_member.rst:30
-msgid "alias: :code:`from aiogram.methods import UnbanChatMember`"
+msgid "alias: :code:`from masogram.methods import UnbanChatMember`"
 msgstr ""
 
 #: ../../api/methods/unban_chat_member.rst:33
@@ -95,5 +95,5 @@ msgid "As shortcut from received object"
 msgstr ""
 
 #: ../../api/methods/unban_chat_member.rst:50
-msgid ":meth:`aiogram.types.chat.Chat.unban`"
+msgid ":meth:`masogram.types.chat.Chat.unban`"
 msgstr ""

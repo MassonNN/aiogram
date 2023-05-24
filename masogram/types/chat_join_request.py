@@ -41,7 +41,7 @@ class ChatJoinRequest(TelegramObject):
         **kwargs: Any,
     ) -> ApproveChatJoinRequest:
         """
-        Shortcut for method :class:`aiogram.methods.approve_chat_join_request.ApproveChatJoinRequest`
+        Shortcut for method :class:`masogram.methods.approve_chat_join_request.ApproveChatJoinRequest`
         will automatically fill method attributes:
 
         - :code:`chat_id`
@@ -51,7 +51,7 @@ class ChatJoinRequest(TelegramObject):
 
         Source: https://core.telegram.org/bots/api#approvechatjoinrequest
 
-        :return: instance of method :class:`aiogram.methods.approve_chat_join_request.ApproveChatJoinRequest`
+        :return: instance of method :class:`masogram.methods.approve_chat_join_request.ApproveChatJoinRequest`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`
@@ -69,7 +69,7 @@ class ChatJoinRequest(TelegramObject):
         **kwargs: Any,
     ) -> DeclineChatJoinRequest:
         """
-        Shortcut for method :class:`aiogram.methods.decline_chat_join_request.DeclineChatJoinRequest`
+        Shortcut for method :class:`masogram.methods.decline_chat_join_request.DeclineChatJoinRequest`
         will automatically fill method attributes:
 
         - :code:`chat_id`
@@ -79,7 +79,7 @@ class ChatJoinRequest(TelegramObject):
 
         Source: https://core.telegram.org/bots/api#declinechatjoinrequest
 
-        :return: instance of method :class:`aiogram.methods.decline_chat_join_request.DeclineChatJoinRequest`
+        :return: instance of method :class:`masogram.methods.decline_chat_join_request.DeclineChatJoinRequest`
         """
         # DO NOT EDIT MANUALLY!!!
         # This method was auto-generated via `butcher`

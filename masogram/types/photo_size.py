@@ -7,7 +7,7 @@ from .base import TelegramObject
 
 class PhotoSize(TelegramObject):
     """
-    This object represents one size of a photo or a `file <https://core.telegram.org/bots/api#document>`_ / :class:`aiogram.methods.sticker.Sticker` thumbnail.
+    This object represents one size of a photo or a `file <https://core.telegram.org/bots/api#document>`_ / :class:`masogram.methods.sticker.Sticker` thumbnail.
 
     Source: https://core.telegram.org/bots/api#photosize
     """

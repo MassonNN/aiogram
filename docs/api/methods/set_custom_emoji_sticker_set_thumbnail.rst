@@ -4,7 +4,7 @@ setCustomEmojiStickerSetThumbnail
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.set_custom_emoji_sticker_set_thumbnail
+.. automodule:: masogram.methods.set_custom_emoji_sticker_set_thumbnail
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.set_custom_emoji_sticker_set_thumbnail import SetCustomEmojiStickerSetThumbnail`
-- alias: :code:`from aiogram.methods import SetCustomEmojiStickerSetThumbnail`
+- :code:`from masogram.methods.set_custom_emoji_sticker_set_thumbnail import SetCustomEmojiStickerSetThumbnail`
+- alias: :code:`from masogram.methods import SetCustomEmojiStickerSetThumbnail`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

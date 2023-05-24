@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,19 +25,19 @@ msgstr ""
 msgid "Returns: :obj:`Chat`"
 msgstr ""
 
-#: aiogram.methods.get_chat.GetChat:1 of
+#: masogram.methods.get_chat.GetChat:1 of
 msgid ""
 "Use this method to get up to date information about the chat (current "
 "name of the user for one-on-one conversations, current username of a "
-"user, group or channel, etc.). Returns a :class:`aiogram.types.chat.Chat`"
+"user, group or channel, etc.). Returns a :class:`masogram.types.chat.Chat`"
 " object on success."
 msgstr ""
 
-#: aiogram.methods.get_chat.GetChat:3 of
+#: masogram.methods.get_chat.GetChat:3 of
 msgid "Source: https://core.telegram.org/bots/api#getchat"
 msgstr ""
 
-#: ../../docstring aiogram.methods.get_chat.GetChat.chat_id:1 of
+#: ../../docstring masogram.methods.get_chat.GetChat.chat_id:1 of
 msgid ""
 "Unique identifier for the target chat or username of the target "
 "supergroup or channel (in the format :code:`@channelusername`)"
@@ -60,11 +60,11 @@ msgid "Imports:"
 msgstr ""
 
 #: ../../api/methods/get_chat.rst:29
-msgid ":code:`from aiogram.methods.get_chat import GetChat`"
+msgid ":code:`from masogram.methods.get_chat import GetChat`"
 msgstr ""
 
 #: ../../api/methods/get_chat.rst:30
-msgid "alias: :code:`from aiogram.methods import GetChat`"
+msgid "alias: :code:`from masogram.methods import GetChat`"
 msgstr ""
 
 #: ../../api/methods/get_chat.rst:33

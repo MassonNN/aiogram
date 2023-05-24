@@ -4,7 +4,7 @@ close
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.close
+.. automodule:: masogram.methods.close
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.close import Close`
-- alias: :code:`from aiogram.methods import Close`
+- :code:`from masogram.methods.close import Close`
+- alias: :code:`from masogram.methods import Close`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

@@ -4,7 +4,7 @@ unhideGeneralForumTopic
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.unhide_general_forum_topic
+.. automodule:: masogram.methods.unhide_general_forum_topic
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.unhide_general_forum_topic import UnhideGeneralForumTopic`
-- alias: :code:`from aiogram.methods import UnhideGeneralForumTopic`
+- :code:`from masogram.methods.unhide_general_forum_topic import UnhideGeneralForumTopic`
+- alias: :code:`from masogram.methods import UnhideGeneralForumTopic`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

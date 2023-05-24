@@ -4,7 +4,7 @@ sendVideo
 
 Returns: :obj:`Message`
 
-.. automodule:: aiogram.methods.send_video
+.. automodule:: masogram.methods.send_video
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.send_video import SendVideo`
-- alias: :code:`from aiogram.methods import SendVideo`
+- :code:`from masogram.methods.send_video import SendVideo`
+- alias: :code:`from masogram.methods import SendVideo`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,5 +47,5 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.message.Message.answer_video`
-- :meth:`aiogram.types.message.Message.reply_video`
+- :meth:`masogram.types.message.Message.answer_video`
+- :meth:`masogram.types.message.Message.reply_video`

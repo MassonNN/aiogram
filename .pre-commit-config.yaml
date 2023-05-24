@@ -17,7 +17,7 @@ repos:
     rev: 22.10.0
     hooks:
       - id: black
-        files: &files '^(aiogram|tests|examples)'
+        files: &files '^(masogram|tests|examples)'
 
   - repo: https://github.com/charliermarsh/ruff-pre-commit
     rev: 'v0.0.215'

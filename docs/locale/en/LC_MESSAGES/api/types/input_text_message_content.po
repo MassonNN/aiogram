@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,25 +21,25 @@ msgstr ""
 msgid "InputTextMessageContent"
 msgstr ""
 
-#: aiogram.types.input_text_message_content.InputTextMessageContent:1 of
+#: masogram.types.input_text_message_content.InputTextMessageContent:1 of
 msgid ""
 "Represents the `content "
 "<https://core.telegram.org/bots/api#inputmessagecontent>`_ of a text "
 "message to be sent as the result of an inline query."
 msgstr ""
 
-#: aiogram.types.input_text_message_content.InputTextMessageContent:3 of
+#: masogram.types.input_text_message_content.InputTextMessageContent:3 of
 msgid "Source: https://core.telegram.org/bots/api#inputtextmessagecontent"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.input_text_message_content.InputTextMessageContent.message_text:1
+#: masogram.types.input_text_message_content.InputTextMessageContent.message_text:1
 #: of
 msgid "Text of the message to be sent, 1-4096 characters"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.input_text_message_content.InputTextMessageContent.parse_mode:1
+#: masogram.types.input_text_message_content.InputTextMessageContent.parse_mode:1
 #: of
 msgid ""
 "*Optional*. Mode for parsing entities in the message text. See "
@@ -48,7 +48,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.input_text_message_content.InputTextMessageContent.entities:1
+#: masogram.types.input_text_message_content.InputTextMessageContent.entities:1
 #: of
 msgid ""
 "*Optional*. List of special entities that appear in message text, which "
@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.input_text_message_content.InputTextMessageContent.disable_web_page_preview:1
+#: masogram.types.input_text_message_content.InputTextMessageContent.disable_web_page_preview:1
 #: of
 msgid "*Optional*. Disables link previews for links in the sent message"
 msgstr ""

@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-06 14:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "InlineQueryResultLocation"
 msgstr ""
 
-#: aiogram.types.inline_query_result_location.InlineQueryResultLocation:1 of
+#: masogram.types.inline_query_result_location.InlineQueryResultLocation:1 of
 msgid ""
 "Represents a location on a map. By default, the location will be sent by "
 "the user. Alternatively, you can use *input_message_content* to send a "
@@ -30,41 +30,41 @@ msgid ""
 "Older clients will ignore them."
 msgstr ""
 
-#: aiogram.types.inline_query_result_location.InlineQueryResultLocation:4 of
+#: masogram.types.inline_query_result_location.InlineQueryResultLocation:4 of
 msgid "Source: https://core.telegram.org/bots/api#inlinequeryresultlocation"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_location.InlineQueryResultLocation.type:1
+#: masogram.types.inline_query_result_location.InlineQueryResultLocation.type:1
 #: of
 msgid "Type of the result, must be *location*"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_location.InlineQueryResultLocation.id:1 of
+#: masogram.types.inline_query_result_location.InlineQueryResultLocation.id:1 of
 msgid "Unique identifier for this result, 1-64 Bytes"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_location.InlineQueryResultLocation.latitude:1
+#: masogram.types.inline_query_result_location.InlineQueryResultLocation.latitude:1
 #: of
 msgid "Location latitude in degrees"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_location.InlineQueryResultLocation.longitude:1
+#: masogram.types.inline_query_result_location.InlineQueryResultLocation.longitude:1
 #: of
 msgid "Location longitude in degrees"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_location.InlineQueryResultLocation.title:1
+#: masogram.types.inline_query_result_location.InlineQueryResultLocation.title:1
 #: of
 msgid "Location title"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_location.InlineQueryResultLocation.horizontal_accuracy:1
+#: masogram.types.inline_query_result_location.InlineQueryResultLocation.horizontal_accuracy:1
 #: of
 msgid ""
 "*Optional*. The radius of uncertainty for the location, measured in "
@@ -72,7 +72,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_location.InlineQueryResultLocation.live_period:1
+#: masogram.types.inline_query_result_location.InlineQueryResultLocation.live_period:1
 #: of
 msgid ""
 "*Optional*. Period in seconds for which the location can be updated, "
@@ -80,7 +80,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_location.InlineQueryResultLocation.heading:1
+#: masogram.types.inline_query_result_location.InlineQueryResultLocation.heading:1
 #: of
 msgid ""
 "*Optional*. For live locations, a direction in which the user is moving, "
@@ -88,7 +88,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_location.InlineQueryResultLocation.proximity_alert_radius:1
+#: masogram.types.inline_query_result_location.InlineQueryResultLocation.proximity_alert_radius:1
 #: of
 msgid ""
 "*Optional*. For live locations, a maximum distance for proximity alerts "
@@ -97,7 +97,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_location.InlineQueryResultLocation.reply_markup:1
+#: masogram.types.inline_query_result_location.InlineQueryResultLocation.reply_markup:1
 #: of
 msgid ""
 "*Optional*. `Inline keyboard <https://core.telegram.org/bots/features"
@@ -105,25 +105,25 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_location.InlineQueryResultLocation.input_message_content:1
+#: masogram.types.inline_query_result_location.InlineQueryResultLocation.input_message_content:1
 #: of
 msgid "*Optional*. Content of the message to be sent instead of the location"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_location.InlineQueryResultLocation.thumb_url:1
+#: masogram.types.inline_query_result_location.InlineQueryResultLocation.thumb_url:1
 #: of
 msgid "*Optional*. Url of the thumbnail for the result"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_location.InlineQueryResultLocation.thumb_width:1
+#: masogram.types.inline_query_result_location.InlineQueryResultLocation.thumb_width:1
 #: of
 msgid "*Optional*. Thumbnail width"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.types.inline_query_result_location.InlineQueryResultLocation.thumb_height:1
+#: masogram.types.inline_query_result_location.InlineQueryResultLocation.thumb_height:1
 #: of
 msgid "*Optional*. Thumbnail height"
 msgstr ""

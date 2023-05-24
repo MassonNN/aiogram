@@ -4,7 +4,7 @@ sendPoll
 
 Returns: :obj:`Message`
 
-.. automodule:: aiogram.methods.send_poll
+.. automodule:: masogram.methods.send_poll
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.send_poll import SendPoll`
-- alias: :code:`from aiogram.methods import SendPoll`
+- :code:`from masogram.methods.send_poll import SendPoll`
+- alias: :code:`from masogram.methods import SendPoll`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,5 +47,5 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.message.Message.answer_poll`
-- :meth:`aiogram.types.message.Message.reply_poll`
+- :meth:`masogram.types.message.Message.answer_poll`
+- :meth:`masogram.types.message.Message.reply_poll`

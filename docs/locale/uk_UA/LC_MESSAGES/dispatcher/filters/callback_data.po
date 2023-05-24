@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram\n"
+"Project-Id-Version: masogram\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: 2022-10-25 18:31+0300\n"
@@ -21,17 +21,17 @@ msgstr ""
 msgid "Callback Data Factory & Filter"
 msgstr "Фабрика міток зворотнього виклику та фільтрування"
 
-#: aiogram.filters.callback_data.CallbackData:1 of
+#: masogram.filters.callback_data.CallbackData:1 of
 msgid "Base class for callback data wrapper"
 msgstr "Базовий клас для обгортки мітки зворотного виклику"
 
-#: aiogram.filters.callback_data.CallbackData:3 of
+#: masogram.filters.callback_data.CallbackData:3 of
 msgid "This class should be used as super-class of user-defined callbacks."
 msgstr ""
 "Цей клас слід використовувати як супер-клас зворотних викликів, визначених "
 "користувачем."
 
-#: aiogram.filters.callback_data.CallbackData:5 of
+#: masogram.filters.callback_data.CallbackData:5 of
 msgid ""
 "The class-keyword :code:`prefix` is required to define prefix and also the "
 "argument :code:`sep` can be passed to define separator (default is :code:`:`)."
@@ -40,46 +40,46 @@ msgstr ""
 "аргумент :code:`sep` можна передати для визначення роздільника (за "
 "замовчуванням це :code:`:`)."
 
-#: aiogram.filters.callback_data.CallbackData.pack:1 of
+#: masogram.filters.callback_data.CallbackData.pack:1 of
 msgid "Generate callback data string"
 msgstr "Генерування рядок мітки зворотного виклику"
 
-#: aiogram.filters.callback_data.CallbackData.filter
-#: aiogram.filters.callback_data.CallbackData.pack
-#: aiogram.filters.callback_data.CallbackData.unpack of
+#: masogram.filters.callback_data.CallbackData.filter
+#: masogram.filters.callback_data.CallbackData.pack
+#: masogram.filters.callback_data.CallbackData.unpack of
 msgid "Returns"
 msgstr "Повертає"
 
-#: aiogram.filters.callback_data.CallbackData.pack:3 of
+#: masogram.filters.callback_data.CallbackData.pack:3 of
 msgid "valid callback data for Telegram Bot API"
 msgstr "дійсна мітка зворотного виклику для Telegram Bot API"
 
-#: aiogram.filters.callback_data.CallbackData.unpack:1 of
+#: masogram.filters.callback_data.CallbackData.unpack:1 of
 msgid "Parse callback data string"
 msgstr "Аналіз рядка мітки зворотного виклику"
 
-#: aiogram.filters.callback_data.CallbackData.filter
-#: aiogram.filters.callback_data.CallbackData.unpack of
+#: masogram.filters.callback_data.CallbackData.filter
+#: masogram.filters.callback_data.CallbackData.unpack of
 msgid "Parameters"
 msgstr "Параметри"
 
-#: aiogram.filters.callback_data.CallbackData.unpack:3 of
+#: masogram.filters.callback_data.CallbackData.unpack:3 of
 msgid "value from Telegram"
 msgstr "значення з Telegram"
 
-#: aiogram.filters.callback_data.CallbackData.unpack:4 of
+#: masogram.filters.callback_data.CallbackData.unpack:4 of
 msgid "instance of CallbackData"
 msgstr "екземпляр мітки зворотного виклику"
 
-#: aiogram.filters.callback_data.CallbackData.filter:1 of
+#: masogram.filters.callback_data.CallbackData.filter:1 of
 msgid "Generates a filter for callback query with rule"
 msgstr "Створює фільтр для запиту зворотного виклику з правилом"
 
-#: aiogram.filters.callback_data.CallbackData.filter:3 of
+#: masogram.filters.callback_data.CallbackData.filter:3 of
 msgid "magic rule"
 msgstr "магічне правило"
 
-#: aiogram.filters.callback_data.CallbackData.filter:4 of
+#: masogram.filters.callback_data.CallbackData.filter:4 of
 msgid "instance of filter"
 msgstr "екземпляр фільтру"
 

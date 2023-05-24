@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -21,72 +21,72 @@ msgstr ""
 msgid "Use Custom API server"
 msgstr ""
 
-#: aiogram.client.telegram.TelegramAPIServer:1 of
+#: masogram.client.telegram.TelegramAPIServer:1 of
 msgid "Base config for API Endpoints"
 msgstr ""
 
-#: aiogram.client.telegram.TelegramAPIServer.api_url:1 of
+#: masogram.client.telegram.TelegramAPIServer.api_url:1 of
 msgid "Generate URL for API methods"
 msgstr ""
 
-#: aiogram.client.telegram.TelegramAPIServer.api_url
-#: aiogram.client.telegram.TelegramAPIServer.file_url
-#: aiogram.client.telegram.TelegramAPIServer.from_base of
+#: masogram.client.telegram.TelegramAPIServer.api_url
+#: masogram.client.telegram.TelegramAPIServer.file_url
+#: masogram.client.telegram.TelegramAPIServer.from_base of
 msgid "Parameters"
 msgstr ""
 
-#: aiogram.client.telegram.TelegramAPIServer.api_url:3
-#: aiogram.client.telegram.TelegramAPIServer.file_url:3 of
+#: masogram.client.telegram.TelegramAPIServer.api_url:3
+#: masogram.client.telegram.TelegramAPIServer.file_url:3 of
 msgid "Bot token"
 msgstr ""
 
-#: aiogram.client.telegram.TelegramAPIServer.api_url:4 of
+#: masogram.client.telegram.TelegramAPIServer.api_url:4 of
 msgid "API method name (case insensitive)"
 msgstr ""
 
-#: aiogram.client.telegram.TelegramAPIServer.api_url
-#: aiogram.client.telegram.TelegramAPIServer.file_url
-#: aiogram.client.telegram.TelegramAPIServer.from_base of
+#: masogram.client.telegram.TelegramAPIServer.api_url
+#: masogram.client.telegram.TelegramAPIServer.file_url
+#: masogram.client.telegram.TelegramAPIServer.from_base of
 msgid "Returns"
 msgstr ""
 
-#: aiogram.client.telegram.TelegramAPIServer.api_url:5
-#: aiogram.client.telegram.TelegramAPIServer.file_url:5 of
+#: masogram.client.telegram.TelegramAPIServer.api_url:5
+#: masogram.client.telegram.TelegramAPIServer.file_url:5 of
 msgid "URL"
 msgstr ""
 
-#: ../../docstring aiogram.client.telegram.TelegramAPIServer.base:1
-#: aiogram.client.telegram.TelegramAPIServer.from_base:3 of
+#: ../../docstring masogram.client.telegram.TelegramAPIServer.base:1
+#: masogram.client.telegram.TelegramAPIServer.from_base:3 of
 msgid "Base URL"
 msgstr ""
 
-#: ../../docstring aiogram.client.telegram.TelegramAPIServer.file:1 of
+#: ../../docstring masogram.client.telegram.TelegramAPIServer.file:1 of
 msgid "Files URL"
 msgstr ""
 
-#: aiogram.client.telegram.TelegramAPIServer.file_url:1 of
+#: masogram.client.telegram.TelegramAPIServer.file_url:1 of
 msgid "Generate URL for downloading files"
 msgstr ""
 
-#: aiogram.client.telegram.TelegramAPIServer.file_url:4 of
+#: masogram.client.telegram.TelegramAPIServer.file_url:4 of
 msgid "file path"
 msgstr ""
 
-#: aiogram.client.telegram.TelegramAPIServer.from_base:1 of
+#: masogram.client.telegram.TelegramAPIServer.from_base:1 of
 msgid "Use this method to auto-generate TelegramAPIServer instance from base URL"
 msgstr ""
 
-#: aiogram.client.telegram.TelegramAPIServer.from_base:4 of
+#: masogram.client.telegram.TelegramAPIServer.from_base:4 of
 msgid "instance of :class:`TelegramAPIServer`"
 msgstr ""
 
-#: ../../docstring aiogram.client.telegram.TelegramAPIServer.is_local:1 of
+#: ../../docstring masogram.client.telegram.TelegramAPIServer.is_local:1 of
 msgid ""
 "Mark this server is in `local mode "
 "<https://core.telegram.org/bots/api#using-a-local-bot-api-server>`_."
 msgstr ""
 
-#: ../../docstring aiogram.client.telegram.TelegramAPIServer.wrap_local_file:1
+#: ../../docstring masogram.client.telegram.TelegramAPIServer.wrap_local_file:1
 #: of
 msgid "Callback to wrap files path in local mode"
 msgstr ""

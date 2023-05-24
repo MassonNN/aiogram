@@ -178,7 +178,7 @@ class TestSimpleRequestHandler:
         client: TestClient = await aiohttp_client(app)
 
         with patch(
-            "aiogram.dispatcher.dispatcher.Dispatcher.silent_call_request",
+            "masogram.dispatcher.dispatcher.Dispatcher.silent_call_request",
             new_callable=AsyncMock,
         ) as mocked_silent_call_request:
             handler_event.clear()

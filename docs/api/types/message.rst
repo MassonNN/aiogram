@@ -3,7 +3,7 @@ Message
 #######
 
 
-.. automodule:: aiogram.types.message
+.. automodule:: masogram.types.message
     :members:
     :member-order: bysource
     :undoc-members: True

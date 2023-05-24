@@ -4,7 +4,7 @@ deleteMyCommands
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.delete_my_commands
+.. automodule:: masogram.methods.delete_my_commands
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.delete_my_commands import DeleteMyCommands`
-- alias: :code:`from aiogram.methods import DeleteMyCommands`
+- :code:`from masogram.methods.delete_my_commands import DeleteMyCommands`
+- alias: :code:`from masogram.methods import DeleteMyCommands`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~

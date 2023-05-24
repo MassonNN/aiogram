@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-11 01:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,20 +25,20 @@ msgstr ""
 msgid "Returns: :obj:`BotShortDescription`"
 msgstr ""
 
-#: aiogram.methods.get_my_short_description.GetMyShortDescription:1 of
+#: masogram.methods.get_my_short_description.GetMyShortDescription:1 of
 msgid ""
 "Use this method to get the current bot short description for the given "
 "user language. Returns "
-":class:`aiogram.types.bot_short_description.BotShortDescription` on "
+":class:`masogram.types.bot_short_description.BotShortDescription` on "
 "success."
 msgstr ""
 
-#: aiogram.methods.get_my_short_description.GetMyShortDescription:3 of
+#: masogram.methods.get_my_short_description.GetMyShortDescription:3 of
 msgid "Source: https://core.telegram.org/bots/api#getmyshortdescription"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.get_my_short_description.GetMyShortDescription.language_code:1
+#: masogram.methods.get_my_short_description.GetMyShortDescription.language_code:1
 #: of
 msgid "A two-letter ISO 639-1 language code or an empty string"
 msgstr ""
@@ -61,12 +61,12 @@ msgstr ""
 
 #: ../../api/methods/get_my_short_description.rst:29
 msgid ""
-":code:`from aiogram.methods.get_my_short_description import "
+":code:`from masogram.methods.get_my_short_description import "
 "GetMyShortDescription`"
 msgstr ""
 
 #: ../../api/methods/get_my_short_description.rst:30
-msgid "alias: :code:`from aiogram.methods import GetMyShortDescription`"
+msgid "alias: :code:`from masogram.methods import GetMyShortDescription`"
 msgstr ""
 
 #: ../../api/methods/get_my_short_description.rst:33

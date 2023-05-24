@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2022, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 22:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,28 +25,28 @@ msgstr ""
 msgid "Returns: :obj:`bool`"
 msgstr ""
 
-#: aiogram.methods.answer_pre_checkout_query.AnswerPreCheckoutQuery:1 of
+#: masogram.methods.answer_pre_checkout_query.AnswerPreCheckoutQuery:1 of
 msgid ""
 "Once the user has confirmed their payment and shipping details, the Bot "
 "API sends the final confirmation in the form of an "
-":class:`aiogram.types.update.Update` with the field *pre_checkout_query*."
+":class:`masogram.types.update.Update` with the field *pre_checkout_query*."
 " Use this method to respond to such pre-checkout queries. On success, "
 ":code:`True` is returned. **Note:** The Bot API must receive an answer "
 "within 10 seconds after the pre-checkout query was sent."
 msgstr ""
 
-#: aiogram.methods.answer_pre_checkout_query.AnswerPreCheckoutQuery:3 of
+#: masogram.methods.answer_pre_checkout_query.AnswerPreCheckoutQuery:3 of
 msgid "Source: https://core.telegram.org/bots/api#answerprecheckoutquery"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.answer_pre_checkout_query.AnswerPreCheckoutQuery.pre_checkout_query_id:1
+#: masogram.methods.answer_pre_checkout_query.AnswerPreCheckoutQuery.pre_checkout_query_id:1
 #: of
 msgid "Unique identifier for the query to be answered"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.answer_pre_checkout_query.AnswerPreCheckoutQuery.ok:1 of
+#: masogram.methods.answer_pre_checkout_query.AnswerPreCheckoutQuery.ok:1 of
 msgid ""
 "Specify :code:`True` if everything is alright (goods are available, etc.)"
 " and the bot is ready to proceed with the order. Use :code:`False` if "
@@ -54,7 +54,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.answer_pre_checkout_query.AnswerPreCheckoutQuery.error_message:1
+#: masogram.methods.answer_pre_checkout_query.AnswerPreCheckoutQuery.error_message:1
 #: of
 msgid ""
 "Required if *ok* is :code:`False`. Error message in human readable form "
@@ -83,12 +83,12 @@ msgstr ""
 
 #: ../../api/methods/answer_pre_checkout_query.rst:29
 msgid ""
-":code:`from aiogram.methods.answer_pre_checkout_query import "
+":code:`from masogram.methods.answer_pre_checkout_query import "
 "AnswerPreCheckoutQuery`"
 msgstr ""
 
 #: ../../api/methods/answer_pre_checkout_query.rst:30
-msgid "alias: :code:`from aiogram.methods import AnswerPreCheckoutQuery`"
+msgid "alias: :code:`from masogram.methods import AnswerPreCheckoutQuery`"
 msgstr ""
 
 #: ../../api/methods/answer_pre_checkout_query.rst:33

@@ -4,7 +4,7 @@ setChatStickerSet
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.set_chat_sticker_set
+.. automodule:: masogram.methods.set_chat_sticker_set
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.set_chat_sticker_set import SetChatStickerSet`
-- alias: :code:`from aiogram.methods import SetChatStickerSet`
+- :code:`from masogram.methods.set_chat_sticker_set import SetChatStickerSet`
+- alias: :code:`from masogram.methods import SetChatStickerSet`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,4 +47,4 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.chat.Chat.set_sticker_set`
+- :meth:`masogram.types.chat.Chat.set_sticker_set`

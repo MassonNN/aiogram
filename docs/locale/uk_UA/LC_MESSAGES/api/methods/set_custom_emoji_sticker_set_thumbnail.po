@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023, aiogram Team
-# This file is distributed under the same license as the aiogram package.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: aiogram \n"
+"Project-Id-Version: masogram \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-11 01:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -25,14 +25,14 @@ msgstr ""
 msgid "Returns: :obj:`bool`"
 msgstr ""
 
-#: aiogram.methods.set_custom_emoji_sticker_set_thumbnail.SetCustomEmojiStickerSetThumbnail:1
+#: masogram.methods.set_custom_emoji_sticker_set_thumbnail.SetCustomEmojiStickerSetThumbnail:1
 #: of
 msgid ""
 "Use this method to set the thumbnail of a custom emoji sticker set. "
 "Returns :code:`True` on success."
 msgstr ""
 
-#: aiogram.methods.set_custom_emoji_sticker_set_thumbnail.SetCustomEmojiStickerSetThumbnail:3
+#: masogram.methods.set_custom_emoji_sticker_set_thumbnail.SetCustomEmojiStickerSetThumbnail:3
 #: of
 msgid ""
 "Source: "
@@ -40,13 +40,13 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.set_custom_emoji_sticker_set_thumbnail.SetCustomEmojiStickerSetThumbnail.name:1
+#: masogram.methods.set_custom_emoji_sticker_set_thumbnail.SetCustomEmojiStickerSetThumbnail.name:1
 #: of
 msgid "Sticker set name"
 msgstr ""
 
 #: ../../docstring
-#: aiogram.methods.set_custom_emoji_sticker_set_thumbnail.SetCustomEmojiStickerSetThumbnail.custom_emoji_id:1
+#: masogram.methods.set_custom_emoji_sticker_set_thumbnail.SetCustomEmojiStickerSetThumbnail.custom_emoji_id:1
 #: of
 msgid ""
 "Custom emoji identifier of a sticker from the sticker set; pass an empty "
@@ -71,13 +71,13 @@ msgstr ""
 
 #: ../../api/methods/set_custom_emoji_sticker_set_thumbnail.rst:29
 msgid ""
-":code:`from aiogram.methods.set_custom_emoji_sticker_set_thumbnail import"
+":code:`from masogram.methods.set_custom_emoji_sticker_set_thumbnail import"
 " SetCustomEmojiStickerSetThumbnail`"
 msgstr ""
 
 #: ../../api/methods/set_custom_emoji_sticker_set_thumbnail.rst:30
 msgid ""
-"alias: :code:`from aiogram.methods import "
+"alias: :code:`from masogram.methods import "
 "SetCustomEmojiStickerSetThumbnail`"
 msgstr ""
 

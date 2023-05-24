@@ -17,4 +17,4 @@ class InlineKeyboardMarkup(MutableTelegramObject):
     """
 
     inline_keyboard: List[List[InlineKeyboardButton]]
-    """Array of button rows, each represented by an Array of :class:`aiogram.types.inline_keyboard_button.InlineKeyboardButton` objects"""
+    """Array of button rows, each represented by an Array of :class:`masogram.types.inline_keyboard_button.InlineKeyboardButton` objects"""

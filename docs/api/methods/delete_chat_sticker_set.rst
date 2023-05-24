@@ -4,7 +4,7 @@ deleteChatStickerSet
 
 Returns: :obj:`bool`
 
-.. automodule:: aiogram.methods.delete_chat_sticker_set
+.. automodule:: masogram.methods.delete_chat_sticker_set
     :members:
     :member-order: bysource
     :undoc-members: True
@@ -26,8 +26,8 @@ Method as object
 
 Imports:
 
-- :code:`from aiogram.methods.delete_chat_sticker_set import DeleteChatStickerSet`
-- alias: :code:`from aiogram.methods import DeleteChatStickerSet`
+- :code:`from masogram.methods.delete_chat_sticker_set import DeleteChatStickerSet`
+- alias: :code:`from masogram.methods import DeleteChatStickerSet`
 
 With specific bot
 ~~~~~~~~~~~~~~~~~
@@ -47,4 +47,4 @@ As reply into Webhook in handler
 As shortcut from received object
 --------------------------------
 
-- :meth:`aiogram.types.chat.Chat.delete_sticker_set`
+- :meth:`masogram.types.chat.Chat.delete_sticker_set`
