@@ -106,7 +106,7 @@ dev = [
 [project.urls]
 Homepage = "https://masogram.dev/"
 Documentation = "https://docs.masogram.dev/"
-Repository = "https://github.com/masogram/masogram/"
+Repository = "https://github.com/MassonNN/masogram/"
 
 [tool.hatch.envs.default]
 features = [
