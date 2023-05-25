@@ -47,7 +47,7 @@ def check_ip(ip_filter: IPFilter, request: web.Request) -> Tuple[str, bool]:
     if forwarded_for := request.headers.get("X-Forwarded-For", ""):
         # Get the left-most ip when there is multiple ips
         # (request got through multiple proxy/load balancers)
-        # https://github.com/masogram/masogram/issues/672
+        # https://github.com/MassonNN/masogram/issues/672
         forwarded_for, *_ = forwarded_for.split(",", maxsplit=1)
         return forwarded_for, forwarded_for in ip_filter
 
