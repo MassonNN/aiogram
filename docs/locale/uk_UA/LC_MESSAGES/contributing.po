@@ -263,7 +263,7 @@ msgstr ""
 #: ../../contributing.rst:185
 msgid ""
 "You can \"star\" repository on GitHub - "
-"https://github.com/masogram/masogram (click the star button at the top "
+"https://github.com/MassonNN/masogram (click the star button at the top "
 "right)"
 msgstr ""
 

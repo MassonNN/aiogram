@@ -182,7 +182,7 @@ as mentioned at the beginning of the article and wait for a review of these chan
 Star on GitHub
 ==============
 
-You can "star" repository on GitHub - https://github.com/masogram/masogram (click the star button at the top right)
+You can "star" repository on GitHub - https://github.com/MassonNN/masogram (click the star button at the top right)
 
 Adding stars makes it easier for other people to find this project and understand how useful it is.
 

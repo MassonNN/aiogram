@@ -149,7 +149,7 @@ class TestCommandFilter:
         assert result["args"] == "42"
 
     async def test_empty_mention_is_none(self, bot: MockedBot):
-        # Fixed https://github.com/masogram/masogram/issues/1013:
+        # Fixed https://github.com/MassonNN/masogram/issues/1013:
         #   Empty mention should be None instead of empty string.
 
         message = Message(

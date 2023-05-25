@@ -309,7 +309,7 @@ package = "masogram"
 filename = "CHANGES.rst"
 directory = "CHANGES/"
 template = "CHANGES/.template.rst.jinja2"
-issue_format = "`#{issue} <https://github.com/masogram/masogram/issues/{issue}>`_"
+issue_format = "`#{issue} <https://github.com/MassonNN/masogram/issues/{issue}>`_"
 
 [[tool.towncrier.section]]
 path = ""

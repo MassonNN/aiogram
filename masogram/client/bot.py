@@ -381,7 +381,7 @@ class Bot(ContextInstanceMixin["Bot"]):
 
         # `file_path` can be None for large files but this files can't be downloaded
         # So we need to do type-cast
-        # https://github.com/masogram/masogram/pull/282/files#r394110017
+        # https://github.com/MassonNN/masogram/pull/282/files#r394110017
         file_path = cast(str, file_.file_path)
 
         return await self.download_file(

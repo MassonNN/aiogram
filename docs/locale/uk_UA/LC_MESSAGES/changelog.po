@@ -33,7 +33,7 @@ msgstr ""
 #: ../../[towncrier-fragments]:7
 msgid ""
 "Changed small grammar typos for `upload_file` `#1133 "
-"<https://github.com/masogram/masogram/issues/1133>`_"
+"<https://github.com/MassonNN/masogram/issues/1133>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:127 ../../../CHANGES.rst:204 ../../../CHANGES.rst:257
@@ -58,7 +58,7 @@ msgid ""
 msgstr ""
 
 #: ../../[towncrier-fragments]:21
-msgid "`#1139 <https://github.com/masogram/masogram/issues/1139>`_"
+msgid "`#1139 <https://github.com/MassonNN/masogram/issues/1139>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:20
@@ -174,19 +174,19 @@ msgid "*User*: :meth:`masogram.types.user.User.get_profile_photos`"
 msgstr ""
 
 #: ../../../CHANGES.rst:110
-msgid "`#952 <https://github.com/masogram/masogram/issues/952>`_"
+msgid "`#952 <https://github.com/MassonNN/masogram/issues/952>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:111
 msgid ""
 "Added :ref:`callback answer <callback-answer-util>` feature `#1091 "
-"<https://github.com/masogram/masogram/issues/1091>`_"
+"<https://github.com/MassonNN/masogram/issues/1091>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:113
 msgid ""
 "Added a method that allows you to compactly register routers `#1117 "
-"<https://github.com/masogram/masogram/issues/1117>`_"
+"<https://github.com/MassonNN/masogram/issues/1117>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:118 ../../../CHANGES.rst:181 ../../../CHANGES.rst:230
@@ -199,34 +199,34 @@ msgstr ""
 #: ../../../CHANGES.rst:120
 msgid ""
 "Check status code when downloading file `#816 "
-"<https://github.com/masogram/masogram/issues/816>`_"
+"<https://github.com/MassonNN/masogram/issues/816>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:122
 msgid ""
 "Fixed `ignore_case` parameter in :obj:`masogram.filters.command.Command` "
-"filter `#1106 <https://github.com/masogram/masogram/issues/1106>`_"
+"filter `#1106 <https://github.com/MassonNN/masogram/issues/1106>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:129
 msgid ""
 "Added integration with new code-generator named `Butcher "
 "<https://github.com/masogram/butcher>`_ `#1069 "
-"<https://github.com/masogram/masogram/issues/1069>`_"
+"<https://github.com/MassonNN/masogram/issues/1069>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:131
 msgid ""
 "Added full support of `Bot API 6.4 <https://core.telegram.org/bots/api-"
 "changelog#december-30-2022>`_ `#1088 "
-"<https://github.com/masogram/masogram/issues/1088>`_"
+"<https://github.com/MassonNN/masogram/issues/1088>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:133
 msgid ""
 "Updated package metadata, moved build internals from Poetry to Hatch, "
 "added contributing guides. `#1095 "
-"<https://github.com/masogram/masogram/issues/1095>`_"
+"<https://github.com/MassonNN/masogram/issues/1095>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:135
@@ -243,7 +243,7 @@ msgid ""
 msgstr ""
 
 #: ../../../CHANGES.rst:141
-msgid "`#1112 <https://github.com/masogram/masogram/issues/1112>`_"
+msgid "`#1112 <https://github.com/MassonNN/masogram/issues/1112>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:142
@@ -251,13 +251,13 @@ msgid ""
 "Replaced error :code:`TypeError: TelegramEventObserver.__call__() got an "
 "unexpected keyword argument '<name>'` with a more understandable one for "
 "developers and with a link to the documentation. `#1114 "
-"<https://github.com/masogram/masogram/issues/1114>`_"
+"<https://github.com/MassonNN/masogram/issues/1114>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:145
 msgid ""
 "Added possibility to reply into webhook with files `#1120 "
-"<https://github.com/masogram/masogram/issues/1120>`_"
+"<https://github.com/MassonNN/masogram/issues/1120>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:147
@@ -265,7 +265,7 @@ msgid ""
 "Reworked graceful shutdown. Added method to stop polling. Now polling "
 "started from dispatcher can be stopped by signals gracefully without "
 "errors (on Linux and Mac). `#1124 "
-"<https://github.com/masogram/masogram/issues/1124>`_"
+"<https://github.com/MassonNN/masogram/issues/1124>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:153
@@ -282,7 +282,7 @@ msgstr ""
 msgid ""
 "Read more in \":ref:`Combining filters <combining-filters>`\" "
 "documentation section `#1018 "
-"<https://github.com/masogram/masogram/issues/1018>`_"
+"<https://github.com/MassonNN/masogram/issues/1018>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:162
@@ -314,7 +314,7 @@ msgid ":code:`Message.unpin()`"
 msgstr ""
 
 #: ../../../CHANGES.rst:170
-msgid "`#1030 <https://github.com/masogram/masogram/issues/1030>`_"
+msgid "`#1030 <https://github.com/MassonNN/masogram/issues/1030>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:171
@@ -330,21 +330,21 @@ msgid ":code:`User.mention_html(...)`"
 msgstr ""
 
 #: ../../../CHANGES.rst:175
-msgid "`#1049 <https://github.com/masogram/masogram/issues/1049>`_"
+msgid "`#1049 <https://github.com/MassonNN/masogram/issues/1049>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:176
 msgid ""
 "Added full support of `Bot API 6.3 <https://core.telegram.org/bots/api-"
 "changelog#november-5-2022>`_ `#1057 "
-"<https://github.com/masogram/masogram/issues/1057>`_"
+"<https://github.com/MassonNN/masogram/issues/1057>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:183
 msgid ""
 "Fixed :code:`Message.send_invoice` and :code:`Message.reply_invoice`, "
 "added missing arguments `#1047 "
-"<https://github.com/masogram/masogram/issues/1047>`_"
+"<https://github.com/MassonNN/masogram/issues/1047>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:185
@@ -360,32 +360,32 @@ msgid ":code:`Message.copy_to(...)`"
 msgstr ""
 
 #: ../../../CHANGES.rst:189
-msgid "`#1064 <https://github.com/masogram/masogram/issues/1064>`_"
+msgid "`#1064 <https://github.com/MassonNN/masogram/issues/1064>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:195
 msgid ""
 "Fixed UA translations in index.po `#1017 "
-"<https://github.com/masogram/masogram/issues/1017>`_"
+"<https://github.com/MassonNN/masogram/issues/1017>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:197
 msgid ""
 "Fix typehints for :code:`Message`, :code:`reply_media_group` and "
 ":code:`answer_media_group` methods `#1029 "
-"<https://github.com/masogram/masogram/issues/1029>`_"
+"<https://github.com/MassonNN/masogram/issues/1029>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:199
 msgid ""
 "Removed an old now non-working feature `#1060 "
-"<https://github.com/masogram/masogram/issues/1060>`_"
+"<https://github.com/MassonNN/masogram/issues/1060>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:206
 msgid ""
 "Enabled testing on Python 3.11 `#1044 "
-"<https://github.com/masogram/masogram/issues/1044>`_"
+"<https://github.com/MassonNN/masogram/issues/1044>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:208
@@ -394,7 +394,7 @@ msgid ""
 "systems that doesn't have updated ca-certificates the requests to Bot API"
 " fails with reason :code:`[SSL: CERTIFICATE_VERIFY_FAILED] certificate "
 "verify failed: self signed certificate in certificate chain` `#1066 "
-"<https://github.com/masogram/masogram/issues/1066>`_"
+"<https://github.com/MassonNN/masogram/issues/1066>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:213
@@ -404,13 +404,13 @@ msgstr ""
 #: ../../../CHANGES.rst:218
 msgid ""
 "Add PyPy support and run tests under PyPy `#985 "
-"<https://github.com/masogram/masogram/issues/985>`_"
+"<https://github.com/MassonNN/masogram/issues/985>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:220
 msgid ""
 "Added message text to masogram exceptions representation `#988 "
-"<https://github.com/masogram/masogram/issues/988>`_"
+"<https://github.com/MassonNN/masogram/issues/988>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:222
@@ -418,45 +418,45 @@ msgid ""
 "Added warning about using magic filter from `magic_filter` instead of "
 "`masogram`'s ones. Is recommended to use `from masogram import F` instead "
 "of `from magic_filter import F` `#990 "
-"<https://github.com/masogram/masogram/issues/990>`_"
+"<https://github.com/MassonNN/masogram/issues/990>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:225
 msgid ""
 "Added more detailed error when server response can't be deserialized. "
 "This feature will help to debug unexpected responses from the Server "
-"`#1014 <https://github.com/masogram/masogram/issues/1014>`_"
+"`#1014 <https://github.com/MassonNN/masogram/issues/1014>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:232
 msgid ""
 "Reworked error event, introduced "
 ":class:`masogram.types.error_event.ErrorEvent` object. `#898 "
-"<https://github.com/masogram/masogram/issues/898>`_"
+"<https://github.com/MassonNN/masogram/issues/898>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:234
 msgid ""
 "Fixed escaping markdown in `masogram.utils.markdown` module `#903 "
-"<https://github.com/masogram/masogram/issues/903>`_"
+"<https://github.com/MassonNN/masogram/issues/903>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:236
 msgid ""
 "Fixed polling crash when Telegram Bot API raises HTTP 429 status-code. "
-"`#995 <https://github.com/masogram/masogram/issues/995>`_"
+"`#995 <https://github.com/MassonNN/masogram/issues/995>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:238
 msgid ""
 "Fixed empty mention in command parsing, now it will be None instead of an"
-" empty string `#1013 <https://github.com/masogram/masogram/issues/1013>`_"
+" empty string `#1013 <https://github.com/MassonNN/masogram/issues/1013>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:245
 msgid ""
 "Initialized Docs translation (added Ukrainian language) `#925 "
-"<https://github.com/masogram/masogram/issues/925>`_"
+"<https://github.com/MassonNN/masogram/issues/925>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:250
@@ -466,13 +466,13 @@ msgstr ""
 #: ../../../CHANGES.rst:252
 msgid ""
 "Removed filters factory as described in corresponding issue. `#942 "
-"<https://github.com/masogram/masogram/issues/942>`_"
+"<https://github.com/MassonNN/masogram/issues/942>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:259
 msgid ""
 "Now Router/Dispatcher accepts only keyword arguments. `#982 "
-"<https://github.com/masogram/masogram/issues/982>`_"
+"<https://github.com/MassonNN/masogram/issues/982>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:264
@@ -484,7 +484,7 @@ msgid ""
 "Add class helper ChatAction for constants that Telegram BotAPI uses in "
 "sendChatAction request. In my opinion, this will help users and will also"
 " improve compatibility with 2.x version where similar class was called "
-"\"ChatActions\". `#803 <https://github.com/masogram/masogram/issues/803>`_"
+"\"ChatActions\". `#803 <https://github.com/MassonNN/masogram/issues/803>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:273
@@ -496,25 +496,25 @@ msgid "Example:"
 msgstr ""
 
 #: ../../../CHANGES.rst:283
-msgid "`#894 <https://github.com/masogram/masogram/issues/894>`_"
+msgid "`#894 <https://github.com/MassonNN/masogram/issues/894>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:284
 msgid ""
 "Fixed type hints for redis TTL params. `#922 "
-"<https://github.com/masogram/masogram/issues/922>`_"
+"<https://github.com/MassonNN/masogram/issues/922>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:286
 msgid ""
 "Added `full_name` shortcut for `Chat` object `#929 "
-"<https://github.com/masogram/masogram/issues/929>`_"
+"<https://github.com/MassonNN/masogram/issues/929>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:293
 msgid ""
 "Fixed false-positive coercing of Union types in API methods `#901 "
-"<https://github.com/masogram/masogram/issues/901>`_"
+"<https://github.com/MassonNN/masogram/issues/901>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:295
@@ -534,40 +534,40 @@ msgid "channel_chat_created"
 msgstr ""
 
 #: ../../../CHANGES.rst:300
-msgid "`#906 <https://github.com/masogram/masogram/issues/906>`_"
+msgid "`#906 <https://github.com/MassonNN/masogram/issues/906>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:301
 msgid ""
 "Fixed the ability to compare the state, now comparison to copy of the "
 "state will return `True`. `#927 "
-"<https://github.com/masogram/masogram/issues/927>`_"
+"<https://github.com/MassonNN/masogram/issues/927>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:303
 msgid ""
 "Fixed default lock kwargs in RedisEventIsolation. `#972 "
-"<https://github.com/masogram/masogram/issues/972>`_"
+"<https://github.com/MassonNN/masogram/issues/972>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:310
 msgid ""
 "Restrict including routers with strings `#896 "
-"<https://github.com/masogram/masogram/issues/896>`_"
+"<https://github.com/MassonNN/masogram/issues/896>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:312
 msgid ""
 "Changed CommandPatterType to CommandPatternType in "
 "`masogram/dispatcher/filters/command.py` `#907 "
-"<https://github.com/masogram/masogram/issues/907>`_"
+"<https://github.com/MassonNN/masogram/issues/907>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:314
 msgid ""
 "Added full support of `Bot API 6.1 <https://core.telegram.org/bots/api-"
 "changelog#june-20-2022>`_ `#936 "
-"<https://github.com/masogram/masogram/issues/936>`_"
+"<https://github.com/MassonNN/masogram/issues/936>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:316
@@ -601,33 +601,33 @@ msgid ""
 msgstr ""
 
 #: ../../../CHANGES.rst:325
-msgid "`#938 <https://github.com/masogram/masogram/issues/938>`_"
+msgid "`#938 <https://github.com/MassonNN/masogram/issues/938>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:326
 msgid ""
 "Removed deprecated :code:`router.<event>_handler` and "
 ":code:`router.register_<event>_handler` methods. `#941 "
-"<https://github.com/masogram/masogram/issues/941>`_"
+"<https://github.com/MassonNN/masogram/issues/941>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:328
 msgid ""
 "Deprecated filters factory. It will be removed in next Beta (3.0b5) `#942"
-" <https://github.com/masogram/masogram/issues/942>`_"
+" <https://github.com/MassonNN/masogram/issues/942>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:330
 msgid ""
 "`MessageEntity` method `get_text` was removed and `extract` was renamed "
-"to `extract_from` `#944 <https://github.com/masogram/masogram/issues/944>`_"
+"to `extract_from` `#944 <https://github.com/MassonNN/masogram/issues/944>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:332
 msgid ""
 "Added full support of `Bot API 6.2 <https://core.telegram.org/bots/api-"
 "changelog#august-12-2022>`_ `#975 "
-"<https://github.com/masogram/masogram/issues/975>`_"
+"<https://github.com/MassonNN/masogram/issues/975>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:337
@@ -637,45 +637,45 @@ msgstr ""
 #: ../../../CHANGES.rst:342
 msgid ""
 "Added possibility to get command magic result as handler argument `#889 "
-"<https://github.com/masogram/masogram/issues/889>`_"
+"<https://github.com/MassonNN/masogram/issues/889>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:344
 msgid ""
 "Added full support of `Telegram Bot API 6.0 "
 "<https://core.telegram.org/bots/api-changelog#april-16-2022>`_ `#890 "
-"<https://github.com/masogram/masogram/issues/890>`_"
+"<https://github.com/MassonNN/masogram/issues/890>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:351
 msgid ""
 "Fixed I18n lazy-proxy. Disabled caching. `#839 "
-"<https://github.com/masogram/masogram/issues/839>`_"
+"<https://github.com/MassonNN/masogram/issues/839>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:353
 msgid ""
 "Added parsing of spoiler message entity `#865 "
-"<https://github.com/masogram/masogram/issues/865>`_"
+"<https://github.com/MassonNN/masogram/issues/865>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:355
 msgid ""
 "Fixed default `parse_mode` for `Message.copy_to()` method. `#876 "
-"<https://github.com/masogram/masogram/issues/876>`_"
+"<https://github.com/MassonNN/masogram/issues/876>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:357
 msgid ""
 "Fixed CallbackData factory parsing IntEnum's `#885 "
-"<https://github.com/masogram/masogram/issues/885>`_"
+"<https://github.com/MassonNN/masogram/issues/885>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:364
 msgid ""
 "Added automated check that pull-request adds a changes description to "
 "**CHANGES** directory `#873 "
-"<https://github.com/masogram/masogram/issues/873>`_"
+"<https://github.com/MassonNN/masogram/issues/873>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:366
@@ -683,14 +683,14 @@ msgid ""
 "Changed :code:`Message.html_text` and :code:`Message.md_text` attributes "
 "behaviour when message has no text. The empty string will be used instead"
 " of raising error. `#874 "
-"<https://github.com/masogram/masogram/issues/874>`_"
+"<https://github.com/MassonNN/masogram/issues/874>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:369
 msgid ""
 "Used `redis-py` instead of `aioredis` package in due to this packages was"
 " merged into single one `#882 "
-"<https://github.com/masogram/masogram/issues/882>`_"
+"<https://github.com/MassonNN/masogram/issues/882>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:371
@@ -699,7 +699,7 @@ msgid ""
 "developers - now you can't see the `middleware` and `middlewares` "
 "attributes at the same point because this functionality encapsulated to "
 "special interface. `#883 "
-"<https://github.com/masogram/masogram/issues/883>`_"
+"<https://github.com/MassonNN/masogram/issues/883>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:378
@@ -710,14 +710,14 @@ msgstr ""
 msgid ""
 "Added possibility to pass additional arguments into the aiohttp webhook "
 "handler to use this arguments inside handlers as the same as it possible "
-"in polling mode. `#785 <https://github.com/masogram/masogram/issues/785>`_"
+"in polling mode. `#785 <https://github.com/MassonNN/masogram/issues/785>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:386
 msgid ""
 "Added possibility to add handler flags via decorator (like `pytest.mark` "
 "decorator but `masogram.flags`) `#836 "
-"<https://github.com/masogram/masogram/issues/836>`_"
+"<https://github.com/MassonNN/masogram/issues/836>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:388
@@ -730,38 +730,38 @@ msgstr ""
 msgid ""
 "It also can be used as message middleware and can be customized via "
 ":code:`chat_action` flag. `#837 "
-"<https://github.com/masogram/masogram/issues/837>`_"
+"<https://github.com/MassonNN/masogram/issues/837>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:397
 msgid ""
 "Fixed unexpected behavior of sequences in the StateFilter. `#791 "
-"<https://github.com/masogram/masogram/issues/791>`_"
+"<https://github.com/MassonNN/masogram/issues/791>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:399
 msgid ""
 "Fixed exceptions filters `#827 "
-"<https://github.com/masogram/masogram/issues/827>`_"
+"<https://github.com/MassonNN/masogram/issues/827>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:406
 msgid ""
 "Logger name for processing events is changed to :code:`masogram.events`. "
-"`#830 <https://github.com/masogram/masogram/issues/830>`_"
+"`#830 <https://github.com/MassonNN/masogram/issues/830>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:408
 msgid ""
 "Added full support of Telegram Bot API 5.6 and 5.7 `#835 "
-"<https://github.com/masogram/masogram/issues/835>`_"
+"<https://github.com/MassonNN/masogram/issues/835>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:410
 msgid ""
 "**BREAKING** Events isolation mechanism is moved from FSM storages to "
 "standalone managers `#838 "
-"<https://github.com/masogram/masogram/issues/838>`_"
+"<https://github.com/MassonNN/masogram/issues/838>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:416
@@ -777,35 +777,35 @@ msgid "Now you can use it to get magic filter result as handler argument"
 msgstr ""
 
 #: ../../../CHANGES.rst:439
-msgid "`#759 <https://github.com/masogram/masogram/issues/759>`_"
+msgid "`#759 <https://github.com/MassonNN/masogram/issues/759>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:445
 msgid ""
 "Fixed: Missing :code:`ChatMemberHandler` import in "
 ":code:`masogram/dispatcher/handler` `#751 "
-"<https://github.com/masogram/masogram/issues/751>`_"
+"<https://github.com/MassonNN/masogram/issues/751>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:452
 msgid ""
 "Check :code:`destiny` in case of no :code:`with_destiny` enabled in "
 "RedisStorage key builder `#776 "
-"<https://github.com/masogram/masogram/issues/776>`_"
+"<https://github.com/MassonNN/masogram/issues/776>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:454
 msgid ""
 "Added full support of `Bot API 5.5 <https://core.telegram.org/bots/api-"
 "changelog#december-7-2021>`_ `#777 "
-"<https://github.com/masogram/masogram/issues/777>`_"
+"<https://github.com/MassonNN/masogram/issues/777>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:456
 msgid ""
 "Stop using feature from #336. From now settings of client-session should "
 "be placed as initializer arguments instead of changing instance "
-"attributes. `#778 <https://github.com/masogram/masogram/issues/778>`_"
+"attributes. `#778 <https://github.com/MassonNN/masogram/issues/778>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:458
@@ -813,7 +813,7 @@ msgid ""
 "Make TelegramAPIServer files wrapper in local mode bi-directional "
 "(server-client, client-server) Now you can convert local path to server "
 "path and server path to local path. `#779 "
-"<https://github.com/masogram/masogram/issues/779>`_"
+"<https://github.com/MassonNN/masogram/issues/779>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:464
@@ -825,7 +825,7 @@ msgid ""
 "Breaking: Changed the signature of the session middlewares Breaking: "
 "Renamed AiohttpSession.make_request method parameter from call to method "
 "to match the naming in the base class Added middleware for logging "
-"outgoing requests `#716 <https://github.com/masogram/masogram/issues/716>`_"
+"outgoing requests `#716 <https://github.com/MassonNN/masogram/issues/716>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:473
@@ -836,13 +836,13 @@ msgid ""
 msgstr ""
 
 #: ../../../CHANGES.rst:483
-msgid "`#717 <https://github.com/masogram/masogram/issues/717>`_"
+msgid "`#717 <https://github.com/MassonNN/masogram/issues/717>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:484
 msgid ""
 "**Breaking internal API change** Reworked FSM Storage record keys "
-"propagation `#723 <https://github.com/masogram/masogram/issues/723>`_"
+"propagation `#723 <https://github.com/MassonNN/masogram/issues/723>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:487
@@ -859,38 +859,38 @@ msgid ""
 msgstr ""
 
 #: ../../../CHANGES.rst:495
-msgid "`#724 <https://github.com/masogram/masogram/issues/724>`_"
+msgid "`#724 <https://github.com/MassonNN/masogram/issues/724>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:501
 msgid ""
 "Fixed I18n context inside error handlers `#726 "
-"<https://github.com/masogram/masogram/issues/726>`_"
+"<https://github.com/MassonNN/masogram/issues/726>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:503
 msgid ""
 "Fixed bot session closing before emit shutdown `#734 "
-"<https://github.com/masogram/masogram/issues/734>`_"
+"<https://github.com/MassonNN/masogram/issues/734>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:505
 msgid ""
 "Fixed: bound filter resolving does not require children routers `#736 "
-"<https://github.com/masogram/masogram/issues/736>`_"
+"<https://github.com/MassonNN/masogram/issues/736>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:512
 msgid ""
 "Enabled testing on Python 3.10 Removed `async_lru` dependency (is "
 "incompatible with Python 3.10) and replaced usage with protected property"
-" `#719 <https://github.com/masogram/masogram/issues/719>`_"
+" `#719 <https://github.com/MassonNN/masogram/issues/719>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:515
 msgid ""
 "Converted README.md to README.rst and use it as base file for docs `#725 "
-"<https://github.com/masogram/masogram/issues/725>`_"
+"<https://github.com/MassonNN/masogram/issues/725>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:517
@@ -906,14 +906,14 @@ msgid "Fix data transfer from parent to included routers filters"
 msgstr ""
 
 #: ../../../CHANGES.rst:521
-msgid "`#727 <https://github.com/masogram/masogram/issues/727>`_"
+msgid "`#727 <https://github.com/MassonNN/masogram/issues/727>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:522
 msgid ""
 "Added full support of Bot API 5.4 https://core.telegram.org/bots/api-"
 "changelog#november-5-2021 `#744 "
-"<https://github.com/masogram/masogram/issues/744>`_"
+"<https://github.com/MassonNN/masogram/issues/744>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:528
@@ -923,13 +923,13 @@ msgstr ""
 #: ../../../CHANGES.rst:533
 msgid ""
 "Added :code:`html_text` and :code:`md_text` to Message object `#708 "
-"<https://github.com/masogram/masogram/issues/708>`_"
+"<https://github.com/MassonNN/masogram/issues/708>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:535
 msgid ""
 "Refactored I18n, added context managers for I18n engine and current "
-"locale `#709 <https://github.com/masogram/masogram/issues/709>`_"
+"locale `#709 <https://github.com/MassonNN/masogram/issues/709>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:540
@@ -944,19 +944,19 @@ msgstr ""
 msgid ""
 "When Local API is enabled files can be downloaded via "
 "`bot.download`/`bot.download_file` methods. `#698 "
-"<https://github.com/masogram/masogram/issues/698>`_"
+"<https://github.com/MassonNN/masogram/issues/698>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:549
 msgid ""
 "Implemented I18n & L10n support `#701 "
-"<https://github.com/masogram/masogram/issues/701>`_"
+"<https://github.com/MassonNN/masogram/issues/701>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:556
 msgid ""
 "Covered by tests and docs KeyboardBuilder util `#699 "
-"<https://github.com/masogram/masogram/issues/699>`_"
+"<https://github.com/MassonNN/masogram/issues/699>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:558
@@ -974,14 +974,14 @@ msgid "Added prefix `Telegram` for all error classes"
 msgstr ""
 
 #: ../../../CHANGES.rst:562
-msgid "`#700 <https://github.com/masogram/masogram/issues/700>`_"
+msgid "`#700 <https://github.com/MassonNN/masogram/issues/700>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:563
 msgid ""
 "Replaced all :code:`pragma: no cover` marks via global "
 ":code:`.coveragerc` config `#702 "
-"<https://github.com/masogram/masogram/issues/702>`_"
+"<https://github.com/MassonNN/masogram/issues/702>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:565
@@ -992,7 +992,7 @@ msgstr ""
 msgid ""
 "**Breaking for framework developers** Now all optional dependencies "
 "should be installed as extra: `poetry install -E fast -E redis -E proxy "
-"-E i18n -E docs` `#703 <https://github.com/masogram/masogram/issues/703>`_"
+"-E i18n -E docs` `#703 <https://github.com/MassonNN/masogram/issues/703>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:573
@@ -1003,39 +1003,39 @@ msgstr ""
 msgid ""
 "Ability to iterate over all states in StatesGroup. masogram already had in"
 " check for states group so this is relative feature. `#666 "
-"<https://github.com/masogram/masogram/issues/666>`_"
+"<https://github.com/MassonNN/masogram/issues/666>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:586
 msgid ""
 "Fixed incorrect type checking in the "
 ":class:`masogram.utils.keyboard.KeyboardBuilder` `#674 "
-"<https://github.com/masogram/masogram/issues/674>`_"
+"<https://github.com/MassonNN/masogram/issues/674>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:593
 msgid ""
 "Disable ContentType filter by default `#668 "
-"<https://github.com/masogram/masogram/issues/668>`_"
+"<https://github.com/MassonNN/masogram/issues/668>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:595
 msgid ""
 "Moved update type detection from Dispatcher to Update object `#669 "
-"<https://github.com/masogram/masogram/issues/669>`_"
+"<https://github.com/MassonNN/masogram/issues/669>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:597
 msgid ""
 "Updated **pre-commit** config `#681 "
-"<https://github.com/masogram/masogram/issues/681>`_"
+"<https://github.com/MassonNN/masogram/issues/681>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:599
 msgid ""
 "Reworked **handlers_in_use** util. Function moved to Router as method "
 "**.resolve_used_update_types()** `#682 "
-"<https://github.com/masogram/masogram/issues/682>`_"
+"<https://github.com/MassonNN/masogram/issues/682>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:604
@@ -1045,44 +1045,44 @@ msgstr ""
 #: ../../../CHANGES.rst:609
 msgid ""
 "add aliases for edit/delete reply markup to Message `#662 "
-"<https://github.com/masogram/masogram/issues/662>`_"
+"<https://github.com/MassonNN/masogram/issues/662>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:611
 msgid ""
 "Reworked outer middleware chain. Prevent to call many times the outer "
 "middleware for each nested router `#664 "
-"<https://github.com/masogram/masogram/issues/664>`_"
+"<https://github.com/MassonNN/masogram/issues/664>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:618
 msgid ""
 "Prepare parse mode for InputMessageContent in AnswerInlineQuery method "
-"`#660 <https://github.com/masogram/masogram/issues/660>`_"
+"`#660 <https://github.com/MassonNN/masogram/issues/660>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:625
 msgid ""
 "Added integration with :code:`towncrier` `#602 "
-"<https://github.com/masogram/masogram/issues/602>`_"
+"<https://github.com/MassonNN/masogram/issues/602>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:632
 msgid ""
 "Added `.editorconfig` `#650 "
-"<https://github.com/masogram/masogram/issues/650>`_"
+"<https://github.com/MassonNN/masogram/issues/650>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:634
 msgid ""
 "Redis storage speedup globals `#651 "
-"<https://github.com/masogram/masogram/issues/651>`_"
+"<https://github.com/MassonNN/masogram/issues/651>`_"
 msgstr ""
 
 #: ../../../CHANGES.rst:636
 msgid ""
 "add allow_sending_without_reply param to Message reply aliases `#663 "
-"<https://github.com/masogram/masogram/issues/663>`_"
+"<https://github.com/MassonNN/masogram/issues/663>`_"
 msgstr ""
 
 #: ../../../HISTORY.rst:7
@@ -1093,8 +1093,8 @@ msgstr ""
 msgid ""
 "Fixed :code:`ChatMember` type detection via adding customizable object "
 "serialization mechanism (`#624 "
-"<https://github.com/masogram/masogram/issues/624>`_, `#623 "
-"<https://github.com/masogram/masogram/issues/623>`_)"
+"<https://github.com/MassonNN/masogram/issues/624>`_, `#623 "
+"<https://github.com/MassonNN/masogram/issues/623>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:13
@@ -1104,14 +1104,14 @@ msgstr ""
 #: ../../../HISTORY.rst:15
 msgid ""
 "Fixed :code:`MemoryStorage` cleaner (`#619 "
-"<https://github.com/masogram/masogram/issues/619>`_)"
+"<https://github.com/MassonNN/masogram/issues/619>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:16
 msgid ""
 "Fixed unused default locale in :code:`I18nMiddleware` (`#562 "
-"<https://github.com/masogram/masogram/issues/562>`_, `#563 "
-"<https://github.com/masogram/masogram/issues/563>`_)"
+"<https://github.com/MassonNN/masogram/issues/562>`_, `#563 "
+"<https://github.com/MassonNN/masogram/issues/563>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:20
@@ -1121,47 +1121,47 @@ msgstr ""
 #: ../../../HISTORY.rst:22
 msgid ""
 "Full support of Bot API 5.3 (`#610 "
-"<https://github.com/masogram/masogram/issues/610>`_, `#614 "
-"<https://github.com/masogram/masogram/issues/614>`_)"
+"<https://github.com/MassonNN/masogram/issues/610>`_, `#614 "
+"<https://github.com/MassonNN/masogram/issues/614>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:23
 msgid ""
 "Fixed :code:`Message.send_copy` method for polls (`#603 "
-"<https://github.com/masogram/masogram/issues/603>`_)"
+"<https://github.com/MassonNN/masogram/issues/603>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:24
 msgid ""
 "Updated pattern for :code:`GroupDeactivated` exception (`#549 "
-"<https://github.com/masogram/masogram/issues/549>`_"
+"<https://github.com/MassonNN/masogram/issues/549>`_"
 msgstr ""
 
 #: ../../../HISTORY.rst:25
 msgid ""
 "Added :code:`caption_entities` field in :code:`InputMedia` base class "
-"(`#583 <https://github.com/masogram/masogram/issues/583>`_)"
+"(`#583 <https://github.com/MassonNN/masogram/issues/583>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:26
 msgid ""
 "Fixed HTML text decorations for tag :code:`pre` (`#597 "
-"<https://github.com/masogram/masogram/issues/597>`_ fixes issues `#596 "
-"<https://github.com/masogram/masogram/issues/596>`_ and `#481 "
-"<https://github.com/masogram/masogram/issues/481>`_)"
+"<https://github.com/MassonNN/masogram/issues/597>`_ fixes issues `#596 "
+"<https://github.com/MassonNN/masogram/issues/596>`_ and `#481 "
+"<https://github.com/MassonNN/masogram/issues/481>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:27
 msgid ""
 "Fixed :code:`Message.get_full_command` method for messages with caption "
-"(`#576 <https://github.com/masogram/masogram/issues/576>`_)"
+"(`#576 <https://github.com/MassonNN/masogram/issues/576>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:28
 msgid ""
 "Improved :code:`MongoStorage`: remove documents with empty data from "
 ":code:`masogram_data` collection to save memory. (`#609 "
-"<https://github.com/masogram/masogram/issues/609>`_)"
+"<https://github.com/MassonNN/masogram/issues/609>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:32
@@ -1171,7 +1171,7 @@ msgstr ""
 #: ../../../HISTORY.rst:34
 msgid ""
 "Added full support of Bot API 5.2 (`#572 "
-"<https://github.com/masogram/masogram/issues/572>`_)"
+"<https://github.com/MassonNN/masogram/issues/572>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:35
@@ -1183,52 +1183,52 @@ msgstr ""
 #: ../../../HISTORY.rst:36
 msgid ""
 "Fixed builtin command filter args (`#556 "
-"<https://github.com/masogram/masogram/issues/556>`_) (`#558 "
-"<https://github.com/masogram/masogram/issues/558>`_)"
+"<https://github.com/MassonNN/masogram/issues/556>`_) (`#558 "
+"<https://github.com/MassonNN/masogram/issues/558>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:37
 msgid ""
 "Allowed to use State instances FSM storage directly (`#542 "
-"<https://github.com/masogram/masogram/issues/542>`_)"
+"<https://github.com/MassonNN/masogram/issues/542>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:38
 msgid ""
 "Added possibility to get i18n locale without User instance (`#546 "
-"<https://github.com/masogram/masogram/issues/546>`_)"
+"<https://github.com/MassonNN/masogram/issues/546>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:39
 msgid ""
 "Fixed returning type of :code:`Bot.*_chat_invite_link()` methods `#548 "
-"<https://github.com/masogram/masogram/issues/548>`_ (`#549 "
-"<https://github.com/masogram/masogram/issues/549>`_)"
+"<https://github.com/MassonNN/masogram/issues/548>`_ (`#549 "
+"<https://github.com/MassonNN/masogram/issues/549>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:40
 msgid ""
 "Fixed deep-linking util (`#569 "
-"<https://github.com/masogram/masogram/issues/569>`_)"
+"<https://github.com/MassonNN/masogram/issues/569>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:41
 msgid ""
 "Small changes in documentation - describe limits in docstrings "
 "corresponding to the current limit. (`#565 "
-"<https://github.com/masogram/masogram/issues/565>`_)"
+"<https://github.com/MassonNN/masogram/issues/565>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:42
 msgid ""
 "Fixed internal call to deprecated 'is_private' method (`#553 "
-"<https://github.com/masogram/masogram/issues/553>`_)"
+"<https://github.com/MassonNN/masogram/issues/553>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:43
 msgid ""
 "Added possibility to use :code:`allowed_updates` argument in Polling mode"
-" (`#564 <https://github.com/masogram/masogram/issues/564>`_)"
+" (`#564 <https://github.com/MassonNN/masogram/issues/564>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:47
@@ -1238,49 +1238,49 @@ msgstr ""
 #: ../../../HISTORY.rst:49
 msgid ""
 "Fixed :code:`TypeError: Value should be instance of 'User' not "
-"'NoneType'` (`#527 <https://github.com/masogram/masogram/issues/527>`_)"
+"'NoneType'` (`#527 <https://github.com/MassonNN/masogram/issues/527>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:50
 msgid ""
 "Added missing :code:`Chat.message_auto_delete_time` field (`#535 "
-"<https://github.com/masogram/masogram/issues/535>`_)"
+"<https://github.com/MassonNN/masogram/issues/535>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:51
 msgid ""
 "Added :code:`MediaGroup` filter (`#528 "
-"<https://github.com/masogram/masogram/issues/528>`_)"
+"<https://github.com/MassonNN/masogram/issues/528>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:52
 msgid ""
 "Added :code:`Chat.delete_message` shortcut (`#526 "
-"<https://github.com/masogram/masogram/issues/526>`_)"
+"<https://github.com/MassonNN/masogram/issues/526>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:53
 msgid ""
 "Added mime types parsing for :code:`masogram.types.Document` (`#431 "
-"<https://github.com/masogram/masogram/issues/431>`_)"
+"<https://github.com/MassonNN/masogram/issues/431>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:54
 msgid ""
 "Added warning in :code:`TelegramObject.__setitem__` when Telegram adds a "
-"new field (`#532 <https://github.com/masogram/masogram/issues/532>`_)"
+"new field (`#532 <https://github.com/MassonNN/masogram/issues/532>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:55
 msgid ""
 "Fixed :code:`examples/chat_type_filter.py` (`#533 "
-"<https://github.com/masogram/masogram/issues/533>`_)"
+"<https://github.com/MassonNN/masogram/issues/533>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:56
 msgid ""
 "Removed redundant definitions in framework code (`#531 "
-"<https://github.com/masogram/masogram/issues/531>`_)"
+"<https://github.com/MassonNN/masogram/issues/531>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:60
@@ -1290,85 +1290,85 @@ msgstr ""
 #: ../../../HISTORY.rst:62
 msgid ""
 "Full support for Telegram Bot API 5.1 (`#519 "
-"<https://github.com/masogram/masogram/issues/519>`_)"
+"<https://github.com/MassonNN/masogram/issues/519>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:63
 msgid ""
 "Fixed sending playlist of audio files and documents (`#465 "
-"<https://github.com/masogram/masogram/issues/465>`_, `#468 "
-"<https://github.com/masogram/masogram/issues/468>`_)"
+"<https://github.com/MassonNN/masogram/issues/465>`_, `#468 "
+"<https://github.com/MassonNN/masogram/issues/468>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:64
 msgid ""
 "Fixed :code:`FSMContextProxy.setdefault` method (`#491 "
-"<https://github.com/masogram/masogram/issues/491>`_)"
+"<https://github.com/MassonNN/masogram/issues/491>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:65
 msgid ""
 "Fixed :code:`Message.answer_location` and :code:`Message.reply_location` "
 "unable to send live location (`#497 "
-"<https://github.com/masogram/masogram/issues/497>`_)"
+"<https://github.com/MassonNN/masogram/issues/497>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:66
 msgid ""
 "Fixed :code:`user_id` and :code:`chat_id` getters from the context at "
 "Dispatcher :code:`check_key`, :code:`release_key` and :code:`throttle` "
-"methods (`#520 <https://github.com/masogram/masogram/issues/520>`_)"
+"methods (`#520 <https://github.com/MassonNN/masogram/issues/520>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:67
 msgid ""
 "Fixed :code:`Chat.update_chat` method and all similar situations (`#516 "
-"<https://github.com/masogram/masogram/issues/516>`_)"
+"<https://github.com/MassonNN/masogram/issues/516>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:68
 msgid ""
 "Fixed :code:`MediaGroup` attach methods (`#514 "
-"<https://github.com/masogram/masogram/issues/514>`_)"
+"<https://github.com/MassonNN/masogram/issues/514>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:69
 msgid ""
 "Fixed state filter for inline keyboard query callback in groups (`#508 "
-"<https://github.com/masogram/masogram/issues/508>`_, `#510 "
-"<https://github.com/masogram/masogram/issues/510>`_)"
+"<https://github.com/MassonNN/masogram/issues/508>`_, `#510 "
+"<https://github.com/MassonNN/masogram/issues/510>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:70
 msgid ""
 "Added missing :code:`ContentTypes.DICE` (`#466 "
-"<https://github.com/masogram/masogram/issues/466>`_)"
+"<https://github.com/MassonNN/masogram/issues/466>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:71
 msgid ""
 "Added missing vcard argument to :code:`InputContactMessageContent` "
-"constructor (`#473 <https://github.com/masogram/masogram/issues/473>`_)"
+"constructor (`#473 <https://github.com/MassonNN/masogram/issues/473>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:72
 msgid ""
 "Add missing exceptions: :code:`MessageIdInvalid`, "
 ":code:`CantRestrictChatOwner` and :code:`UserIsAnAdministratorOfTheChat` "
-"(`#474 <https://github.com/masogram/masogram/issues/474>`_, `#512 "
-"<https://github.com/masogram/masogram/issues/512>`_)"
+"(`#474 <https://github.com/MassonNN/masogram/issues/474>`_, `#512 "
+"<https://github.com/MassonNN/masogram/issues/512>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:73
 msgid ""
 "Added :code:`answer_chat_action` to the :code:`Message` object (`#501 "
-"<https://github.com/masogram/masogram/issues/501>`_)"
+"<https://github.com/MassonNN/masogram/issues/501>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:74
 msgid ""
 "Added dice to :code:`message.send_copy` method (`#511 "
-"<https://github.com/masogram/masogram/issues/511>`_)"
+"<https://github.com/MassonNN/masogram/issues/511>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:75
@@ -1379,23 +1379,23 @@ msgstr ""
 msgid ""
 "Added an example of integration between externally created aiohttp "
 "Application and masogram (`#433 "
-"<https://github.com/masogram/masogram/issues/433>`_)"
+"<https://github.com/MassonNN/masogram/issues/433>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:77
 msgid ""
 "Added :code:`split_separator` argument to :code:`safe_split_text` (`#515 "
-"<https://github.com/masogram/masogram/issues/515>`_)"
+"<https://github.com/MassonNN/masogram/issues/515>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:78
 msgid ""
 "Fixed some typos in docs and examples (`#489 "
-"<https://github.com/masogram/masogram/issues/489>`_, `#490 "
-"<https://github.com/masogram/masogram/issues/490>`_, `#498 "
-"<https://github.com/masogram/masogram/issues/498>`_, `#504 "
-"<https://github.com/masogram/masogram/issues/504>`_, `#514 "
-"<https://github.com/masogram/masogram/issues/514>`_)"
+"<https://github.com/MassonNN/masogram/issues/489>`_, `#490 "
+"<https://github.com/MassonNN/masogram/issues/490>`_, `#498 "
+"<https://github.com/MassonNN/masogram/issues/498>`_, `#504 "
+"<https://github.com/MassonNN/masogram/issues/504>`_, `#514 "
+"<https://github.com/MassonNN/masogram/issues/514>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:82
@@ -1409,7 +1409,7 @@ msgstr ""
 #: ../../../HISTORY.rst:85
 msgid ""
 "Added missing \"supports_streaming\" argument to answer_video method "
-"`#462 <https://github.com/masogram/masogram/issues/462>`_"
+"`#462 <https://github.com/MassonNN/masogram/issues/462>`_"
 msgstr ""
 
 #: ../../../HISTORY.rst:89
@@ -1423,25 +1423,25 @@ msgstr ""
 #: ../../../HISTORY.rst:92
 msgid ""
 "Fix MessageEntity serialization for API calls `#457 "
-"<https://github.com/masogram/masogram/issues/457>`_"
+"<https://github.com/MassonNN/masogram/issues/457>`_"
 msgstr ""
 
 #: ../../../HISTORY.rst:93
 msgid ""
 "When entities are set, default parse_mode become disabled (`#461 "
-"<https://github.com/masogram/masogram/issues/461>`_)"
+"<https://github.com/MassonNN/masogram/issues/461>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:94
 msgid ""
 "Added parameter supports_streaming to reply_video, remove redundant "
-"docstrings (`#459 <https://github.com/masogram/masogram/issues/459>`_)"
+"docstrings (`#459 <https://github.com/MassonNN/masogram/issues/459>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:95
 msgid ""
 "Added missing parameter to promoteChatMember alias (`#458 "
-"<https://github.com/masogram/masogram/issues/458>`_)"
+"<https://github.com/MassonNN/masogram/issues/458>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:99
@@ -1451,7 +1451,7 @@ msgstr ""
 #: ../../../HISTORY.rst:101
 msgid ""
 "Added full support of Telegram Bot API 5.0 (`#454 "
-"<https://github.com/masogram/masogram/issues/454>`_)"
+"<https://github.com/MassonNN/masogram/issues/454>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:102
@@ -1474,7 +1474,7 @@ msgstr ""
 #: ../../../HISTORY.rst:105
 msgid ""
 ":code:`ChatType.SUPER_GROUP` renamed to :code:`ChatType.SUPERGROUP` "
-"(`#438 <https://github.com/masogram/masogram/issues/438>`_)"
+"(`#438 <https://github.com/MassonNN/masogram/issues/438>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:109
@@ -1484,7 +1484,7 @@ msgstr ""
 #: ../../../HISTORY.rst:111
 msgid ""
 "Fixed critical bug with getting asyncio event loop in executor. (`#424 "
-"<https://github.com/masogram/masogram/issues/424>`_) :code:`AttributeError:"
+"<https://github.com/MassonNN/masogram/issues/424>`_) :code:`AttributeError:"
 " 'NoneType' object has no attribute 'run_until_complete'`"
 msgstr ""
 
@@ -1495,39 +1495,39 @@ msgstr ""
 #: ../../../HISTORY.rst:117
 msgid ""
 "Breaking change: Stop using _MainThread event loop in bot/dispatcher "
-"instances (`#397 <https://github.com/masogram/masogram/issues/397>`_)"
+"instances (`#397 <https://github.com/MassonNN/masogram/issues/397>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:118
 msgid ""
 "Breaking change: Replaced aiomongo with motor (`#368 "
-"<https://github.com/masogram/masogram/issues/368>`_, `#380 "
-"<https://github.com/masogram/masogram/issues/380>`_)"
+"<https://github.com/MassonNN/masogram/issues/368>`_, `#380 "
+"<https://github.com/MassonNN/masogram/issues/380>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:119
 msgid ""
 "Fixed: TelegramObject's aren't destroyed after update handling `#307 "
-"<https://github.com/masogram/masogram/issues/307>`_ (`#371 "
-"<https://github.com/masogram/masogram/issues/371>`_)"
+"<https://github.com/MassonNN/masogram/issues/307>`_ (`#371 "
+"<https://github.com/MassonNN/masogram/issues/371>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:120
 msgid ""
 "Add setting current context of Telegram types (`#369 "
-"<https://github.com/masogram/masogram/issues/369>`_)"
+"<https://github.com/MassonNN/masogram/issues/369>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:121
 msgid ""
 "Fixed markdown escaping issues (`#363 "
-"<https://github.com/masogram/masogram/issues/363>`_)"
+"<https://github.com/MassonNN/masogram/issues/363>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:122
 msgid ""
 "Fixed HTML characters escaping (`#409 "
-"<https://github.com/masogram/masogram/issues/409>`_)"
+"<https://github.com/MassonNN/masogram/issues/409>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:123
@@ -1536,45 +1536,45 @@ msgstr ""
 
 #: ../../../HISTORY.rst:124
 msgid ""
-"Fixed `#413 <https://github.com/masogram/masogram/issues/413>`_: parse "
+"Fixed `#413 <https://github.com/MassonNN/masogram/issues/413>`_: parse "
 "entities positioning (`#414 "
-"<https://github.com/masogram/masogram/issues/414>`_)"
+"<https://github.com/MassonNN/masogram/issues/414>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:125
 msgid ""
 "Added missing thumb parameter (`#362 "
-"<https://github.com/masogram/masogram/issues/362>`_)"
+"<https://github.com/MassonNN/masogram/issues/362>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:126
 msgid ""
 "Added public methods to register filters and middlewares (`#370 "
-"<https://github.com/masogram/masogram/issues/370>`_)"
+"<https://github.com/MassonNN/masogram/issues/370>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:127
 msgid ""
 "Added ChatType builtin filter (`#356 "
-"<https://github.com/masogram/masogram/issues/356>`_)"
+"<https://github.com/MassonNN/masogram/issues/356>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:128
 msgid ""
 "Fixed IDFilter checking message from channel (`#376 "
-"<https://github.com/masogram/masogram/issues/376>`_)"
+"<https://github.com/MassonNN/masogram/issues/376>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:129
 msgid ""
 "Added missed answer_poll and reply_poll (`#384 "
-"<https://github.com/masogram/masogram/issues/384>`_)"
+"<https://github.com/MassonNN/masogram/issues/384>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:130
 msgid ""
 "Added possibility to ignore message caption in commands filter (`#383 "
-"<https://github.com/masogram/masogram/issues/383>`_)"
+"<https://github.com/MassonNN/masogram/issues/383>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:131
@@ -1584,67 +1584,67 @@ msgstr ""
 #: ../../../HISTORY.rst:132
 msgid ""
 "Added preparing thumb in send_document method (`#391 "
-"<https://github.com/masogram/masogram/issues/391>`_)"
+"<https://github.com/MassonNN/masogram/issues/391>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:133
 msgid ""
 "Added exception MessageToPinNotFound (`#404 "
-"<https://github.com/masogram/masogram/issues/404>`_)"
+"<https://github.com/MassonNN/masogram/issues/404>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:134
 msgid ""
 "Fixed handlers parameter-spec solving (`#408 "
-"<https://github.com/masogram/masogram/issues/408>`_)"
+"<https://github.com/MassonNN/masogram/issues/408>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:135
 msgid ""
 "Fixed CallbackQuery.answer() returns nothing (`#420 "
-"<https://github.com/masogram/masogram/issues/420>`_)"
+"<https://github.com/MassonNN/masogram/issues/420>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:136
 msgid ""
 "CHOSEN_INLINE_RESULT is a correct API-term (`#415 "
-"<https://github.com/masogram/masogram/issues/415>`_)"
+"<https://github.com/MassonNN/masogram/issues/415>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:137
 msgid ""
 "Fixed missing attributes for Animation class (`#422 "
-"<https://github.com/masogram/masogram/issues/422>`_)"
+"<https://github.com/MassonNN/masogram/issues/422>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:138
 msgid ""
 "Added missed emoji argument to reply_dice (`#395 "
-"<https://github.com/masogram/masogram/issues/395>`_)"
+"<https://github.com/MassonNN/masogram/issues/395>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:139
 msgid ""
 "Added is_chat_creator method to ChatMemberStatus (`#394 "
-"<https://github.com/masogram/masogram/issues/394>`_)"
+"<https://github.com/MassonNN/masogram/issues/394>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:140
 msgid ""
 "Added missed ChatPermissions to __all__ (`#393 "
-"<https://github.com/masogram/masogram/issues/393>`_)"
+"<https://github.com/MassonNN/masogram/issues/393>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:141
 msgid ""
 "Added is_forward method to Message (`#390 "
-"<https://github.com/masogram/masogram/issues/390>`_)"
+"<https://github.com/MassonNN/masogram/issues/390>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:142
 msgid ""
 "Fixed usage of deprecated is_private function (`#421 "
-"<https://github.com/masogram/masogram/issues/421>`_)"
+"<https://github.com/MassonNN/masogram/issues/421>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:144
@@ -1654,49 +1654,49 @@ msgstr ""
 #: ../../../HISTORY.rst:146
 msgid ""
 "Updated docstring of RedisStorage2 (`#423 "
-"<https://github.com/masogram/masogram/issues/423>`_)"
+"<https://github.com/MassonNN/masogram/issues/423>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:147
 msgid ""
 "Updated I18n example (added docs and fixed typos) (`#419 "
-"<https://github.com/masogram/masogram/issues/419>`_)"
+"<https://github.com/MassonNN/masogram/issues/419>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:148
 msgid ""
 "A little documentation revision (`#381 "
-"<https://github.com/masogram/masogram/issues/381>`_)"
+"<https://github.com/MassonNN/masogram/issues/381>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:149
 msgid ""
 "Added comments about correct errors_handlers usage (`#398 "
-"<https://github.com/masogram/masogram/issues/398>`_)"
+"<https://github.com/MassonNN/masogram/issues/398>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:150
 msgid ""
 "Fixed typo rexex -> regex (`#386 "
-"<https://github.com/masogram/masogram/issues/386>`_)"
+"<https://github.com/MassonNN/masogram/issues/386>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:151
 msgid ""
 "Fixed docs Quick start page code blocks (`#417 "
-"<https://github.com/masogram/masogram/issues/417>`_)"
+"<https://github.com/MassonNN/masogram/issues/417>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:152
 msgid ""
 "fixed type hints of callback_data (`#400 "
-"<https://github.com/masogram/masogram/issues/400>`_)"
+"<https://github.com/MassonNN/masogram/issues/400>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:153
 msgid ""
 "Prettify readme, update downloads stats badge (`#406 "
-"<https://github.com/masogram/masogram/issues/406>`_)"
+"<https://github.com/MassonNN/masogram/issues/406>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:157
@@ -1706,13 +1706,13 @@ msgstr ""
 #: ../../../HISTORY.rst:159
 msgid ""
 "Fixed :code:`Message.get_full_command()` `#352 "
-"<https://github.com/masogram/masogram/issues/352>`_"
+"<https://github.com/MassonNN/masogram/issues/352>`_"
 msgstr ""
 
 #: ../../../HISTORY.rst:160
 msgid ""
 "Fixed markdown util `#353 "
-"<https://github.com/masogram/masogram/issues/353>`_"
+"<https://github.com/MassonNN/masogram/issues/353>`_"
 msgstr ""
 
 #: ../../../HISTORY.rst:164
@@ -1726,46 +1726,46 @@ msgstr ""
 #: ../../../HISTORY.rst:167
 msgid ""
 "Fixed user context at poll_answer update (`#322 "
-"<https://github.com/masogram/masogram/issues/322>`_)"
+"<https://github.com/MassonNN/masogram/issues/322>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:168
 msgid ""
 "Fix Chat.set_description (`#325 "
-"<https://github.com/masogram/masogram/issues/325>`_)"
+"<https://github.com/MassonNN/masogram/issues/325>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:169
 msgid ""
 "Add lazy session generator (`#326 "
-"<https://github.com/masogram/masogram/issues/326>`_)"
+"<https://github.com/MassonNN/masogram/issues/326>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:170
 msgid ""
 "Fix text decorations (`#315 "
-"<https://github.com/masogram/masogram/issues/315>`_, `#316 "
-"<https://github.com/masogram/masogram/issues/316>`_, `#328 "
-"<https://github.com/masogram/masogram/issues/328>`_)"
+"<https://github.com/MassonNN/masogram/issues/315>`_, `#316 "
+"<https://github.com/MassonNN/masogram/issues/316>`_, `#328 "
+"<https://github.com/MassonNN/masogram/issues/328>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:171
 msgid ""
 "Fix missing :code:`InlineQueryResultPhoto` :code:`parse_mode` field "
-"(`#331 <https://github.com/masogram/masogram/issues/331>`_)"
+"(`#331 <https://github.com/MassonNN/masogram/issues/331>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:172
 msgid ""
 "Fix fields from parent object in :code:`KeyboardButton` (`#344 "
-"<https://github.com/masogram/masogram/issues/344>`_ fixes `#343 "
-"<https://github.com/masogram/masogram/issues/343>`_)"
+"<https://github.com/MassonNN/masogram/issues/344>`_ fixes `#343 "
+"<https://github.com/MassonNN/masogram/issues/343>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:173
 msgid ""
 "Add possibility to get bot id without calling :code:`get_me` (`#296 "
-"<https://github.com/masogram/masogram/issues/296>`_)"
+"<https://github.com/MassonNN/masogram/issues/296>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:177
@@ -1779,7 +1779,7 @@ msgstr ""
 #: ../../../HISTORY.rst:180
 msgid ""
 "Added :code:`Message.answer_dice` and :code:`Message.reply_dice` methods "
-"(`#306 <https://github.com/masogram/masogram/issues/306>`_)"
+"(`#306 <https://github.com/MassonNN/masogram/issues/306>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:184
@@ -1789,27 +1789,27 @@ msgstr ""
 #: ../../../HISTORY.rst:186
 msgid ""
 "Added full support of Bot API 4.7 (`#294 "
-"<https://github.com/masogram/masogram/issues/294>`_ `#289 "
-"<https://github.com/masogram/masogram/issues/289>`_)"
+"<https://github.com/MassonNN/masogram/issues/294>`_ `#289 "
+"<https://github.com/MassonNN/masogram/issues/289>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:187
 msgid ""
 "Added default parse mode for send_animation method (`#293 "
-"<https://github.com/masogram/masogram/issues/293>`_ `#292 "
-"<https://github.com/masogram/masogram/issues/292>`_)"
+"<https://github.com/MassonNN/masogram/issues/293>`_ `#292 "
+"<https://github.com/MassonNN/masogram/issues/292>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:188
 msgid ""
 "Added new API exception when poll requested in public chats (`#270 "
-"<https://github.com/masogram/masogram/issues/270>`_)"
+"<https://github.com/MassonNN/masogram/issues/270>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:189
 msgid ""
 "Make correct User and Chat get_mention methods (`#277 "
-"<https://github.com/masogram/masogram/issues/277>`_)"
+"<https://github.com/MassonNN/masogram/issues/277>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:190
@@ -1823,7 +1823,7 @@ msgstr ""
 #: ../../../HISTORY.rst:196
 msgid ""
 "Fixed reply :code:`KeyboardButton` initializer with :code:`request_poll` "
-"argument (`#266 <https://github.com/masogram/masogram/issues/266>`_)"
+"argument (`#266 <https://github.com/MassonNN/masogram/issues/266>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:197
@@ -1834,7 +1834,7 @@ msgstr ""
 msgid ""
 "Changed behavior of Telegram_object :code:`.as_*` and :code:`.to_*` "
 "methods. It will no more mutate the object. (`#247 "
-"<https://github.com/masogram/masogram/issues/247>`_)"
+"<https://github.com/MassonNN/masogram/issues/247>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:202
@@ -1844,7 +1844,7 @@ msgstr ""
 #: ../../../HISTORY.rst:204
 msgid ""
 "Full support of Telegram Bot API v4.6 (Polls 2.0) `#265 "
-"<https://github.com/masogram/masogram/issues/265>`_"
+"<https://github.com/MassonNN/masogram/issues/265>`_"
 msgstr ""
 
 #: ../../../HISTORY.rst:205
@@ -1854,7 +1854,7 @@ msgstr ""
 #: ../../../HISTORY.rst:206
 msgid ""
 "Fixed proxy extra dependencies version `#262 "
-"<https://github.com/masogram/masogram/issues/262>`_"
+"<https://github.com/MassonNN/masogram/issues/262>`_"
 msgstr ""
 
 #: ../../../HISTORY.rst:210
@@ -1863,19 +1863,19 @@ msgstr ""
 
 #: ../../../HISTORY.rst:212
 msgid ""
-"`#255 <https://github.com/masogram/masogram/issues/255>`_ Updated "
+"`#255 <https://github.com/MassonNN/masogram/issues/255>`_ Updated "
 "CallbackData factory validity check. More correct for non-latin symbols"
 msgstr ""
 
 #: ../../../HISTORY.rst:213
 msgid ""
-"`#256 <https://github.com/masogram/masogram/issues/256>`_ Fixed "
+"`#256 <https://github.com/MassonNN/masogram/issues/256>`_ Fixed "
 ":code:`renamed_argument` decorator error"
 msgstr ""
 
 #: ../../../HISTORY.rst:214
 msgid ""
-"`#257 <https://github.com/masogram/masogram/issues/257>`_ One more fix of "
+"`#257 <https://github.com/MassonNN/masogram/issues/257>`_ One more fix of "
 "CommandStart filter"
 msgstr ""
 
@@ -1902,26 +1902,26 @@ msgstr ""
 #: ../../../HISTORY.rst:232
 msgid ""
 "Added full support of Telegram Bot API 4.5 (`#250 "
-"<https://github.com/masogram/masogram/issues/250>`_, `#251 "
-"<https://github.com/masogram/masogram/issues/251>`_)"
+"<https://github.com/MassonNN/masogram/issues/250>`_, `#251 "
+"<https://github.com/MassonNN/masogram/issues/251>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:233
 msgid ""
-"`#239 <https://github.com/masogram/masogram/issues/239>`_ Fixed "
+"`#239 <https://github.com/MassonNN/masogram/issues/239>`_ Fixed "
 ":code:`check_token` method"
 msgstr ""
 
 #: ../../../HISTORY.rst:234
 msgid ""
-"`#238 <https://github.com/masogram/masogram/issues/238>`_, `#241 "
-"<https://github.com/masogram/masogram/issues/241>`_: Added deep-linking "
+"`#238 <https://github.com/MassonNN/masogram/issues/238>`_, `#241 "
+"<https://github.com/MassonNN/masogram/issues/241>`_: Added deep-linking "
 "utils"
 msgstr ""
 
 #: ../../../HISTORY.rst:235
 msgid ""
-"`#248 <https://github.com/masogram/masogram/issues/248>`_ Fixed support of "
+"`#248 <https://github.com/MassonNN/masogram/issues/248>`_ Fixed support of "
 "aiohttp-socks"
 msgstr ""
 
@@ -1936,7 +1936,7 @@ msgstr ""
 #: ../../../HISTORY.rst:238
 msgid ""
 "Other small changes and minor improvements (`#223 "
-"<https://github.com/masogram/masogram/issues/223>`_ and others...)"
+"<https://github.com/MassonNN/masogram/issues/223>`_ and others...)"
 msgstr ""
 
 #: ../../../HISTORY.rst:242
@@ -1956,69 +1956,69 @@ msgstr ""
 #: ../../../HISTORY.rst:246
 msgid ""
 "No more \"adWanced\" words in project `#209 "
-"<https://github.com/masogram/masogram/issues/209>`_"
+"<https://github.com/MassonNN/masogram/issues/209>`_"
 msgstr ""
 
 #: ../../../HISTORY.rst:247
 msgid ""
 "Arguments user and chat is renamed to user_id and chat_id in "
 "Dispatcher.throttle method `#196 "
-"<https://github.com/masogram/masogram/issues/196>`_"
+"<https://github.com/MassonNN/masogram/issues/196>`_"
 msgstr ""
 
 #: ../../../HISTORY.rst:248
 msgid ""
 "Fixed set_chat_permissions `#198 "
-"<https://github.com/masogram/masogram/issues/198>`_"
+"<https://github.com/MassonNN/masogram/issues/198>`_"
 msgstr ""
 
 #: ../../../HISTORY.rst:249
 msgid ""
 "Fixed Dispatcher polling task does not process cancellation `#199 "
-"<https://github.com/masogram/masogram/issues/199>`_, `#201 "
-"<https://github.com/masogram/masogram/issues/201>`_"
+"<https://github.com/MassonNN/masogram/issues/199>`_, `#201 "
+"<https://github.com/MassonNN/masogram/issues/201>`_"
 msgstr ""
 
 #: ../../../HISTORY.rst:250
 msgid ""
 "Fixed compatibility with latest asyncio version `#200 "
-"<https://github.com/masogram/masogram/issues/200>`_"
+"<https://github.com/MassonNN/masogram/issues/200>`_"
 msgstr ""
 
 #: ../../../HISTORY.rst:251
 msgid ""
 "Disabled caching by default for lazy_gettext method of I18nMiddleware "
-"`#203 <https://github.com/masogram/masogram/issues/203>`_"
+"`#203 <https://github.com/MassonNN/masogram/issues/203>`_"
 msgstr ""
 
 #: ../../../HISTORY.rst:252
 msgid ""
 "Fixed HTML user mention parser `#205 "
-"<https://github.com/masogram/masogram/issues/205>`_"
+"<https://github.com/MassonNN/masogram/issues/205>`_"
 msgstr ""
 
 #: ../../../HISTORY.rst:253
 msgid ""
 "Added IsReplyFilter `#210 "
-"<https://github.com/masogram/masogram/issues/210>`_"
+"<https://github.com/MassonNN/masogram/issues/210>`_"
 msgstr ""
 
 #: ../../../HISTORY.rst:254
 msgid ""
 "Fixed send_poll method arguments `#211 "
-"<https://github.com/masogram/masogram/issues/211>`_"
+"<https://github.com/MassonNN/masogram/issues/211>`_"
 msgstr ""
 
 #: ../../../HISTORY.rst:255
 msgid ""
 "Added OrderedHelper `#215 "
-"<https://github.com/masogram/masogram/issues/215>`_"
+"<https://github.com/MassonNN/masogram/issues/215>`_"
 msgstr ""
 
 #: ../../../HISTORY.rst:256
 msgid ""
 "Fix incorrect completion order. `#217 "
-"<https://github.com/masogram/masogram/issues/217>`_"
+"<https://github.com/MassonNN/masogram/issues/217>`_"
 msgstr ""
 
 #: ../../../HISTORY.rst:260
@@ -2030,34 +2030,34 @@ msgid "Full support of Telegram Bot API 4.4"
 msgstr ""
 
 #: ../../../HISTORY.rst:263
-msgid "Fixed `#143 <https://github.com/masogram/masogram/issues/143>`_"
+msgid "Fixed `#143 <https://github.com/MassonNN/masogram/issues/143>`_"
 msgstr ""
 
 #: ../../../HISTORY.rst:264
 msgid ""
 "Added new filters from issue `#151 "
-"<https://github.com/masogram/masogram/issues/151>`_: `#172 "
-"<https://github.com/masogram/masogram/issues/172>`_, `#176 "
-"<https://github.com/masogram/masogram/issues/176>`_, `#182 "
-"<https://github.com/masogram/masogram/issues/182>`_"
+"<https://github.com/MassonNN/masogram/issues/151>`_: `#172 "
+"<https://github.com/MassonNN/masogram/issues/172>`_, `#176 "
+"<https://github.com/MassonNN/masogram/issues/176>`_, `#182 "
+"<https://github.com/MassonNN/masogram/issues/182>`_"
 msgstr ""
 
 #: ../../../HISTORY.rst:265
 msgid ""
 "Added expire argument to RedisStorage2 and other storage fixes `#145 "
-"<https://github.com/masogram/masogram/issues/145>`_"
+"<https://github.com/MassonNN/masogram/issues/145>`_"
 msgstr ""
 
 #: ../../../HISTORY.rst:266
 msgid ""
 "Fixed JSON and Pickle storages `#138 "
-"<https://github.com/masogram/masogram/issues/138>`_"
+"<https://github.com/MassonNN/masogram/issues/138>`_"
 msgstr ""
 
 #: ../../../HISTORY.rst:267
 msgid ""
 "Implemented MongoStorage `#153 "
-"<https://github.com/masogram/masogram/issues/153>`_ based on aiomongo (soon"
+"<https://github.com/MassonNN/masogram/issues/153>`_ based on aiomongo (soon"
 " motor will be also added)"
 msgstr ""
 
@@ -2072,13 +2072,13 @@ msgstr ""
 #: ../../../HISTORY.rst:270
 msgid ""
 "Warning: Updated auth widget util. `#190 "
-"<https://github.com/masogram/masogram/issues/190>`_"
+"<https://github.com/MassonNN/masogram/issues/190>`_"
 msgstr ""
 
 #: ../../../HISTORY.rst:271
 msgid ""
 "Implemented throttle decorator `#181 "
-"<https://github.com/masogram/masogram/issues/181>`_"
+"<https://github.com/MassonNN/masogram/issues/181>`_"
 msgstr ""
 
 #: ../../../HISTORY.rst:275
@@ -2097,14 +2097,14 @@ msgstr ""
 msgid ""
 "Added opportunity to use different bot tokens from single bot instance "
 "(via context manager, `#100 "
-"<https://github.com/masogram/masogram/issues/100>`_)"
+"<https://github.com/MassonNN/masogram/issues/100>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:280
 msgid ""
 "IMPORTANT: Fixed Typo: :code:`data` -> :code:`bucket` in "
 ":code:`update_bucket` for RedisStorage2 (`#132 "
-"<https://github.com/masogram/masogram/issues/132>`_)"
+"<https://github.com/MassonNN/masogram/issues/132>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:284
@@ -2130,22 +2130,22 @@ msgstr ""
 msgid ""
 "Added some useful Message edit functions (:code:`Message.edit_caption`, "
 ":code:`Message.edit_media`, :code:`Message.edit_reply_markup`) (`#121 "
-"<https://github.com/masogram/masogram/issues/121>`_, `#103 "
-"<https://github.com/masogram/masogram/issues/103>`_, `#104 "
-"<https://github.com/masogram/masogram/issues/104>`_, `#112 "
-"<https://github.com/masogram/masogram/issues/112>`_)"
+"<https://github.com/MassonNN/masogram/issues/121>`_, `#103 "
+"<https://github.com/MassonNN/masogram/issues/103>`_, `#104 "
+"<https://github.com/MassonNN/masogram/issues/104>`_, `#112 "
+"<https://github.com/MassonNN/masogram/issues/112>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:290
 msgid ""
 "Added requests timeout for all methods (`#110 "
-"<https://github.com/masogram/masogram/issues/110>`_)"
+"<https://github.com/MassonNN/masogram/issues/110>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:291
 msgid ""
 "Added :code:`answer*` methods to :code:`Message` object (`#112 "
-"<https://github.com/masogram/masogram/issues/112>`_)"
+"<https://github.com/MassonNN/masogram/issues/112>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:292
@@ -2159,8 +2159,8 @@ msgstr ""
 #: ../../../HISTORY.rst:294
 msgid ""
 "Implemented opportunity to use DNS over socks (`#97 "
-"<https://github.com/masogram/masogram/issues/97>`_ -> `#98 "
-"<https://github.com/masogram/masogram/issues/98>`_)"
+"<https://github.com/MassonNN/masogram/issues/97>`_ -> `#98 "
+"<https://github.com/MassonNN/masogram/issues/98>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:295
@@ -2184,20 +2184,20 @@ msgstr ""
 #: ../../../HISTORY.rst:303
 msgid ""
 "Implemented CallbackData factory (`example "
-"<https://github.com/masogram/masogram/blob/master/examples/callback_data_factory.py>`_)"
+"<https://github.com/MassonNN/masogram/blob/master/examples/callback_data_factory.py>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:304
 msgid ""
 "Implemented methods for answering to inline query from context and reply "
 "with animation to the messages. `#85 "
-"<https://github.com/masogram/masogram/issues/85>`_"
+"<https://github.com/MassonNN/masogram/issues/85>`_"
 msgstr ""
 
 #: ../../../HISTORY.rst:305
 msgid ""
 "Fixed installation from tar.gz `#84 "
-"<https://github.com/masogram/masogram/issues/84>`_"
+"<https://github.com/MassonNN/masogram/issues/84>`_"
 msgstr ""
 
 #: ../../../HISTORY.rst:306
@@ -2246,7 +2246,7 @@ msgid "1.4 (2021-08-03)"
 msgstr ""
 
 #: ../../../HISTORY.rst:340
-msgid "Bot API 4.0 (`#57 <https://github.com/masogram/masogram/issues/57>`_)"
+msgid "Bot API 4.0 (`#57 <https://github.com/MassonNN/masogram/issues/57>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:344
@@ -2288,8 +2288,8 @@ msgstr ""
 #: ../../../HISTORY.rst:358
 msgid ""
 "Added new methods for Chat object. (`#42 "
-"<https://github.com/masogram/masogram/issues/42>`_, `#43 "
-"<https://github.com/masogram/masogram/issues/43>`_)"
+"<https://github.com/MassonNN/masogram/issues/42>`_, `#43 "
+"<https://github.com/MassonNN/masogram/issues/43>`_)"
 msgstr ""
 
 #: ../../../HISTORY.rst:359
@@ -2377,27 +2377,27 @@ msgstr ""
 #: ../../../HISTORY.rst:397
 msgid ""
 "Fixed handling Venue's [`#27 "
-"<https://github.com/masogram/masogram/issues/27>`_, `#26 "
-"<https://github.com/masogram/masogram/issues/26>`_]"
+"<https://github.com/MassonNN/masogram/issues/27>`_, `#26 "
+"<https://github.com/MassonNN/masogram/issues/26>`_]"
 msgstr ""
 
 #: ../../../HISTORY.rst:398
 msgid ""
 "Added parse_mode to all medias (Bot API 3.6 support) [`#23 "
-"<https://github.com/masogram/masogram/issues/23>`_]"
+"<https://github.com/MassonNN/masogram/issues/23>`_]"
 msgstr ""
 
 #: ../../../HISTORY.rst:399
 msgid ""
 "Now regexp filter can be used with callback query data [`#19 "
-"<https://github.com/masogram/masogram/issues/19>`_]"
+"<https://github.com/MassonNN/masogram/issues/19>`_]"
 msgstr ""
 
 #: ../../../HISTORY.rst:400
 msgid ""
 "Improvements in :code:`InlineKeyboardMarkup` & "
 ":code:`ReplyKeyboardMarkup` objects [`#21 "
-"<https://github.com/masogram/masogram/issues/21>`_]"
+"<https://github.com/MassonNN/masogram/issues/21>`_]"
 msgstr ""
 
 #: ../../../HISTORY.rst:401
@@ -2522,7 +2522,7 @@ msgstr ""
 #: ../../../HISTORY.rst:450
 msgid ""
 "Added `example "
-"<https://github.com/masogram/masogram/blob/master/examples/media_group.py>`_"
+"<https://github.com/MassonNN/masogram/blob/master/examples/media_group.py>`_"
 " for media group."
 msgstr ""
 

@@ -34,7 +34,7 @@ From GitHub
 
 .. code-block:: bash
 
-    pip install https://github.com/masogram/masogram/archive/refs/heads/dev-3.x.zip
+    pip install https://github.com/MassonNN/masogram/archive/refs/heads/dev-3.x.zip
 
 From AUR
 --------
