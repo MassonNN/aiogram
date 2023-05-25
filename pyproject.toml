@@ -4,15 +4,17 @@ build-backend = "hatchling.build"
 
 [project]
 name = "masogram"
-description = 'Modern and fully asynchronous framework for Telegram Bot API'
+description = 'Fork of aiogram with specific functionality'
 readme = "README.rst"
 requires-python = ">=3.8"
 license = "MIT"
 authors = [
     { name = "Alex Root Junior", email = "jroot.junior@gmail.com" },
+    { name = "MassonNn", email = "jb48l8wo@duck.com" },
 ]
 maintainers = [
     { name = "Alex Root Junior", email = "jroot.junior@gmail.com" },
+    { name = "MassonNn", email = "jb48l8wo@duck.com" },
 ]
 keywords = [
     "telegram",
@@ -24,7 +26,7 @@ keywords = [
 ]
 classifiers = [
     "License :: OSI Approved :: MIT License",
-    "Development Status :: 4 - Beta",
+    "Development Status :: 2 - Pre-Alpha",
     "Environment :: Console",
     "Framework :: AsyncIO",
     "Typing :: Typed",
