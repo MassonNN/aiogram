@@ -58,7 +58,7 @@ class FilterObject(CallableMixin):
             self.magic = self.callback
             self.callback = self.callback.resolve
             if not isinstance(self.magic, MagicFilter):
-                # Issue: https://github.com/masogram/masogram/issues/990
+                # Issue: https://github.com/MassonNN/masogram/issues/990
                 warnings.warn(
                     category=Recommendation,
                     message="You are using F provided by magic_filter package directly, "
