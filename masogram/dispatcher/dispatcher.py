@@ -8,6 +8,7 @@ from asyncio import CancelledError, Event, Future, Lock
 from contextlib import suppress
 from typing import Any, AsyncGenerator, Dict, List, Optional, Union
 
+from .middlewares.extract_photo import ExtractPhotoMiddleware
 from .. import loggers
 from ..client.bot import Bot
 from ..exceptions import TelegramAPIError
@@ -76,6 +77,9 @@ class Dispatcher(Router):
         # User context middleware makes small optimization for all other builtin
         # middlewares via caching the user and chat instances in the event context
         self.update.outer_middleware(UserContextMiddleware())
+
+        # Extract photo middleware provides link to photo from message in the data
+        self.update.outer_middleware(ExtractPhotoMiddleware())
 
         # FSM middleware should always be registered after User context middleware
         # because here is used context from previous step
