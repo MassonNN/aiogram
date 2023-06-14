@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: masogram \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-14 14:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../api/methods/set_chat_title.rst:3
+msgid "setChatTitle"
+msgstr ""
+
+#: ../../api/methods/set_chat_title.rst:5
+msgid "Returns: :obj:`bool`"
+msgstr ""
+
+#: ../../../masogram/methods/set_chat_title.py:docstring of masogram.methods.set_chat_title.SetChatTitle:1
+msgid "Use this method to change the title of a chat. Titles can't be changed for private chats. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. Returns :code:`True` on success."
+msgstr ""
+
+#: ../../../masogram/methods/set_chat_title.py:docstring of masogram.methods.set_chat_title.SetChatTitle:3
+msgid "Source: https://core.telegram.org/bots/api#setchattitle"
+msgstr ""
+
+#: ../../docstring of masogram.methods.set_chat_title.SetChatTitle.chat_id:1
+msgid "Unique identifier for the target chat or username of the target channel (in the format :code:`@channelusername`)"
+msgstr ""
+
+#: ../../docstring of masogram.methods.set_chat_title.SetChatTitle.title:1
+msgid "New chat title, 1-128 characters"
+msgstr ""
+
+#: ../../api/methods/set_chat_title.rst:14
+msgid "Usage"
+msgstr ""
+
+#: ../../api/methods/set_chat_title.rst:17
+msgid "As bot method"
+msgstr ""
+
+#: ../../api/methods/set_chat_title.rst:25
+msgid "Method as object"
+msgstr ""
+
+#: ../../api/methods/set_chat_title.rst:27
+msgid "Imports:"
+msgstr ""
+
+#: ../../api/methods/set_chat_title.rst:29
+msgid ":code:`from masogram.methods.set_chat_title import SetChatTitle`"
+msgstr ""
+
+#: ../../api/methods/set_chat_title.rst:30
+msgid "alias: :code:`from masogram.methods import SetChatTitle`"
+msgstr ""
+
+#: ../../api/methods/set_chat_title.rst:33
+msgid "With specific bot"
+msgstr ""
+
+#: ../../api/methods/set_chat_title.rst:40
+msgid "As reply into Webhook in handler"
+msgstr ""
+
+#: ../../api/methods/set_chat_title.rst:48
+msgid "As shortcut from received object"
+msgstr ""
+
+#: ../../api/methods/set_chat_title.rst:50
+msgid ":meth:`masogram.types.chat.Chat.set_title`"
+msgstr ""

@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: masogram \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-14 14:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../api/types/bot_command_scope_chat.rst:3
+msgid "BotCommandScopeChat"
+msgstr ""
+
+#: ../../../masogram/types/bot_command_scope_chat.py:docstring of masogram.types.bot_command_scope_chat.BotCommandScopeChat:1
+msgid "Represents the `scope <https://core.telegram.org/bots/api#botcommandscope>`_ of bot commands, covering a specific chat."
+msgstr ""
+
+#: ../../../masogram/types/bot_command_scope_chat.py:docstring of masogram.types.bot_command_scope_chat.BotCommandScopeChat:3
+msgid "Source: https://core.telegram.org/bots/api#botcommandscopechat"
+msgstr ""
+
+#: ../../docstring of masogram.types.bot_command_scope_chat.BotCommandScopeChat.type:1
+msgid "Scope type, must be *chat*"
+msgstr ""
+
+#: ../../docstring of masogram.types.bot_command_scope_chat.BotCommandScopeChat.chat_id:1
+msgid "Unique identifier for the target chat or username of the target supergroup (in the format :code:`@supergroupusername`)"
+msgstr ""

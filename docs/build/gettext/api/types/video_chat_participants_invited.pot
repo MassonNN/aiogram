@@ -1,0 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: masogram \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-14 14:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../api/types/video_chat_participants_invited.rst:3
+msgid "VideoChatParticipantsInvited"
+msgstr ""
+
+#: ../../../masogram/types/video_chat_participants_invited.py:docstring of masogram.types.video_chat_participants_invited.VideoChatParticipantsInvited:1
+msgid "This object represents a service message about new members invited to a video chat."
+msgstr ""
+
+#: ../../../masogram/types/video_chat_participants_invited.py:docstring of masogram.types.video_chat_participants_invited.VideoChatParticipantsInvited:3
+msgid "Source: https://core.telegram.org/bots/api#videochatparticipantsinvited"
+msgstr ""
+
+#: ../../docstring of masogram.types.video_chat_participants_invited.VideoChatParticipantsInvited.users:1
+msgid "New members that were invited to the video chat"
+msgstr ""

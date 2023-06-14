@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: masogram \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-14 14:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../api/types/chat_permissions.rst:3
+msgid "ChatPermissions"
+msgstr ""
+
+#: ../../../masogram/types/chat_permissions.py:docstring of masogram.types.chat_permissions.ChatPermissions:1
+msgid "Describes actions that a non-administrator user is allowed to take in a chat."
+msgstr ""
+
+#: ../../../masogram/types/chat_permissions.py:docstring of masogram.types.chat_permissions.ChatPermissions:3
+msgid "Source: https://core.telegram.org/bots/api#chatpermissions"
+msgstr ""
+
+#: ../../docstring of masogram.types.chat_permissions.ChatPermissions.can_send_messages:1
+msgid "*Optional*. :code:`True`, if the user is allowed to send text messages, contacts, invoices, locations and venues"
+msgstr ""
+
+#: ../../docstring of masogram.types.chat_permissions.ChatPermissions.can_send_audios:1
+msgid "*Optional*. :code:`True`, if the user is allowed to send audios"
+msgstr ""
+
+#: ../../docstring of masogram.types.chat_permissions.ChatPermissions.can_send_documents:1
+msgid "*Optional*. :code:`True`, if the user is allowed to send documents"
+msgstr ""
+
+#: ../../docstring of masogram.types.chat_permissions.ChatPermissions.can_send_photos:1
+msgid "*Optional*. :code:`True`, if the user is allowed to send photos"
+msgstr ""
+
+#: ../../docstring of masogram.types.chat_permissions.ChatPermissions.can_send_videos:1
+msgid "*Optional*. :code:`True`, if the user is allowed to send videos"
+msgstr ""
+
+#: ../../docstring of masogram.types.chat_permissions.ChatPermissions.can_send_video_notes:1
+msgid "*Optional*. :code:`True`, if the user is allowed to send video notes"
+msgstr ""
+
+#: ../../docstring of masogram.types.chat_permissions.ChatPermissions.can_send_voice_notes:1
+msgid "*Optional*. :code:`True`, if the user is allowed to send voice notes"
+msgstr ""
+
+#: ../../docstring of masogram.types.chat_permissions.ChatPermissions.can_send_polls:1
+msgid "*Optional*. :code:`True`, if the user is allowed to send polls"
+msgstr ""
+
+#: ../../docstring of masogram.types.chat_permissions.ChatPermissions.can_send_other_messages:1
+msgid "*Optional*. :code:`True`, if the user is allowed to send animations, games, stickers and use inline bots"
+msgstr ""
+
+#: ../../docstring of masogram.types.chat_permissions.ChatPermissions.can_add_web_page_previews:1
+msgid "*Optional*. :code:`True`, if the user is allowed to add web page previews to their messages"
+msgstr ""
+
+#: ../../docstring of masogram.types.chat_permissions.ChatPermissions.can_change_info:1
+msgid "*Optional*. :code:`True`, if the user is allowed to change the chat title, photo and other settings. Ignored in public supergroups"
+msgstr ""
+
+#: ../../docstring of masogram.types.chat_permissions.ChatPermissions.can_invite_users:1
+msgid "*Optional*. :code:`True`, if the user is allowed to invite new users to the chat"
+msgstr ""
+
+#: ../../docstring of masogram.types.chat_permissions.ChatPermissions.can_pin_messages:1
+msgid "*Optional*. :code:`True`, if the user is allowed to pin messages. Ignored in public supergroups"
+msgstr ""
+
+#: ../../docstring of masogram.types.chat_permissions.ChatPermissions.can_manage_topics:1
+msgid "*Optional*. :code:`True`, if the user is allowed to create forum topics. If omitted defaults to the value of can_pin_messages"
+msgstr ""

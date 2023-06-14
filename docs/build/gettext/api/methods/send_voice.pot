@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: masogram \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-14 14:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../api/methods/send_voice.rst:3
+msgid "sendVoice"
+msgstr ""
+
+#: ../../api/methods/send_voice.rst:5
+msgid "Returns: :obj:`Message`"
+msgstr ""
+
+#: ../../../masogram/methods/send_voice.py:docstring of masogram.methods.send_voice.SendVoice:1
+msgid "Use this method to send audio files, if you want Telegram clients to display the file as a playable voice message. For this to work, your audio must be in an .OGG file encoded with OPUS (other formats may be sent as :class:`masogram.types.audio.Audio` or :class:`masogram.types.document.Document`). On success, the sent :class:`masogram.types.message.Message` is returned. Bots can currently send voice messages of up to 50 MB in size, this limit may be changed in the future."
+msgstr ""
+
+#: ../../../masogram/methods/send_voice.py:docstring of masogram.methods.send_voice.SendVoice:3
+msgid "Source: https://core.telegram.org/bots/api#sendvoice"
+msgstr ""
+
+#: ../../docstring of masogram.methods.send_voice.SendVoice.chat_id:1
+msgid "Unique identifier for the target chat or username of the target channel (in the format :code:`@channelusername`)"
+msgstr ""
+
+#: ../../docstring of masogram.methods.send_voice.SendVoice.voice:1
+msgid "Audio file to send. Pass a file_id as String to send a file that exists on the Telegram servers (recommended), pass an HTTP URL as a String for Telegram to get a file from the Internet, or upload a new one using multipart/form-data. :ref:`More information on Sending Files » <sending-files>`"
+msgstr ""
+
+#: ../../docstring of masogram.methods.send_voice.SendVoice.message_thread_id:1
+msgid "Unique identifier for the target message thread (topic) of the forum; for forum supergroups only"
+msgstr ""
+
+#: ../../docstring of masogram.methods.send_voice.SendVoice.caption:1
+msgid "Voice message caption, 0-1024 characters after entities parsing"
+msgstr ""
+
+#: ../../docstring of masogram.methods.send_voice.SendVoice.parse_mode:1
+msgid "Mode for parsing entities in the voice message caption. See `formatting options <https://core.telegram.org/bots/api#formatting-options>`_ for more details."
+msgstr ""
+
+#: ../../docstring of masogram.methods.send_voice.SendVoice.caption_entities:1
+msgid "A JSON-serialized list of special entities that appear in the caption, which can be specified instead of *parse_mode*"
+msgstr ""
+
+#: ../../docstring of masogram.methods.send_voice.SendVoice.duration:1
+msgid "Duration of the voice message in seconds"
+msgstr ""
+
+#: ../../docstring of masogram.methods.send_voice.SendVoice.disable_notification:1
+msgid "Sends the message `silently <https://telegram.org/blog/channels-2-0#silent-messages>`_. Users will receive a notification with no sound."
+msgstr ""
+
+#: ../../docstring of masogram.methods.send_voice.SendVoice.protect_content:1
+msgid "Protects the contents of the sent message from forwarding and saving"
+msgstr ""
+
+#: ../../docstring of masogram.methods.send_voice.SendVoice.reply_to_message_id:1
+msgid "If the message is a reply, ID of the original message"
+msgstr ""
+
+#: ../../docstring of masogram.methods.send_voice.SendVoice.allow_sending_without_reply:1
+msgid "Pass :code:`True` if the message should be sent even if the specified replied-to message is not found"
+msgstr ""
+
+#: ../../docstring of masogram.methods.send_voice.SendVoice.reply_markup:1
+msgid "Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user."
+msgstr ""
+
+#: ../../api/methods/send_voice.rst:14
+msgid "Usage"
+msgstr ""
+
+#: ../../api/methods/send_voice.rst:17
+msgid "As bot method"
+msgstr ""
+
+#: ../../api/methods/send_voice.rst:25
+msgid "Method as object"
+msgstr ""
+
+#: ../../api/methods/send_voice.rst:27
+msgid "Imports:"
+msgstr ""
+
+#: ../../api/methods/send_voice.rst:29
+msgid ":code:`from masogram.methods.send_voice import SendVoice`"
+msgstr ""
+
+#: ../../api/methods/send_voice.rst:30
+msgid "alias: :code:`from masogram.methods import SendVoice`"
+msgstr ""
+
+#: ../../api/methods/send_voice.rst:33
+msgid "With specific bot"
+msgstr ""
+
+#: ../../api/methods/send_voice.rst:40
+msgid "As reply into Webhook in handler"
+msgstr ""
+
+#: ../../api/methods/send_voice.rst:48
+msgid "As shortcut from received object"
+msgstr ""
+
+#: ../../api/methods/send_voice.rst:50
+msgid ":meth:`masogram.types.message.Message.answer_voice`"
+msgstr ""
+
+#: ../../api/methods/send_voice.rst:51
+msgid ":meth:`masogram.types.message.Message.reply_voice`"
+msgstr ""

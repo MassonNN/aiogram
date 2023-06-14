@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: masogram \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-14 14:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../api/types/chat_invite_link.rst:3
+msgid "ChatInviteLink"
+msgstr ""
+
+#: ../../../masogram/types/chat_invite_link.py:docstring of masogram.types.chat_invite_link.ChatInviteLink:1
+msgid "Represents an invite link for a chat."
+msgstr ""
+
+#: ../../../masogram/types/chat_invite_link.py:docstring of masogram.types.chat_invite_link.ChatInviteLink:3
+msgid "Source: https://core.telegram.org/bots/api#chatinvitelink"
+msgstr ""
+
+#: ../../docstring of masogram.types.chat_invite_link.ChatInviteLink.invite_link:1
+msgid "The invite link. If the link was created by another chat administrator, then the second part of the link will be replaced with '…'."
+msgstr ""
+
+#: ../../docstring of masogram.types.chat_invite_link.ChatInviteLink.creator:1
+msgid "Creator of the link"
+msgstr ""
+
+#: ../../docstring of masogram.types.chat_invite_link.ChatInviteLink.creates_join_request:1
+msgid ":code:`True`, if users joining the chat via the link need to be approved by chat administrators"
+msgstr ""
+
+#: ../../docstring of masogram.types.chat_invite_link.ChatInviteLink.is_primary:1
+msgid ":code:`True`, if the link is primary"
+msgstr ""
+
+#: ../../docstring of masogram.types.chat_invite_link.ChatInviteLink.is_revoked:1
+msgid ":code:`True`, if the link is revoked"
+msgstr ""
+
+#: ../../docstring of masogram.types.chat_invite_link.ChatInviteLink.name:1
+msgid "*Optional*. Invite link name"
+msgstr ""
+
+#: ../../docstring of masogram.types.chat_invite_link.ChatInviteLink.expire_date:1
+msgid "*Optional*. Point in time (Unix timestamp) when the link will expire or has been expired"
+msgstr ""
+
+#: ../../docstring of masogram.types.chat_invite_link.ChatInviteLink.member_limit:1
+msgid "*Optional*. The maximum number of users that can be members of the chat simultaneously after joining the chat via this invite link; 1-99999"
+msgstr ""
+
+#: ../../docstring of masogram.types.chat_invite_link.ChatInviteLink.pending_join_request_count:1
+msgid "*Optional*. Number of pending join requests created using this link"
+msgstr ""

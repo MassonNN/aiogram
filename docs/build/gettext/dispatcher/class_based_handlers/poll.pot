@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: masogram \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-14 14:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../dispatcher/class_based_handlers/poll.rst:3
+msgid "PollHandler"
+msgstr ""
+
+#: ../../dispatcher/class_based_handlers/poll.rst:5
+msgid "There is base class for poll handlers."
+msgstr ""
+
+#: ../../dispatcher/class_based_handlers/poll.rst:8
+msgid "Simple usage"
+msgstr ""
+
+#: ../../dispatcher/class_based_handlers/poll.rst:21
+msgid "Extension"
+msgstr ""
+
+#: ../../dispatcher/class_based_handlers/poll.rst:23
+msgid "This base handler is subclass of :ref:`BaseHandler <cbh-base-handler>` with some extensions:"
+msgstr ""
+
+#: ../../dispatcher/class_based_handlers/poll.rst:25
+msgid ":code:`self.question` is alias for :code:`self.event.question`"
+msgstr ""
+
+#: ../../dispatcher/class_based_handlers/poll.rst:26
+msgid ":code:`self.options` is alias for :code:`self.event.options`"
+msgstr ""

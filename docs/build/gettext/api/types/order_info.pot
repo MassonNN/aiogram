@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: masogram \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-14 14:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../api/types/order_info.rst:3
+msgid "OrderInfo"
+msgstr ""
+
+#: ../../../masogram/types/order_info.py:docstring of masogram.types.order_info.OrderInfo:1
+msgid "This object represents information about an order."
+msgstr ""
+
+#: ../../../masogram/types/order_info.py:docstring of masogram.types.order_info.OrderInfo:3
+msgid "Source: https://core.telegram.org/bots/api#orderinfo"
+msgstr ""
+
+#: ../../docstring of masogram.types.order_info.OrderInfo.name:1
+msgid "*Optional*. User name"
+msgstr ""
+
+#: ../../docstring of masogram.types.order_info.OrderInfo.phone_number:1
+msgid "*Optional*. User's phone number"
+msgstr ""
+
+#: ../../docstring of masogram.types.order_info.OrderInfo.email:1
+msgid "*Optional*. User email"
+msgstr ""
+
+#: ../../docstring of masogram.types.order_info.OrderInfo.shipping_address:1
+msgid "*Optional*. User shipping address"
+msgstr ""

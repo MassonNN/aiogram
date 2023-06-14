@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: masogram \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-14 14:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../api/types/chat_member_updated.rst:3
+msgid "ChatMemberUpdated"
+msgstr ""
+
+#: ../../../masogram/types/chat_member_updated.py:docstring of masogram.types.chat_member_updated.ChatMemberUpdated:1
+msgid "This object represents changes in the status of a chat member."
+msgstr ""
+
+#: ../../../masogram/types/chat_member_updated.py:docstring of masogram.types.chat_member_updated.ChatMemberUpdated:3
+msgid "Source: https://core.telegram.org/bots/api#chatmemberupdated"
+msgstr ""
+
+#: ../../docstring of masogram.types.chat_member_updated.ChatMemberUpdated.chat:1
+msgid "Chat the user belongs to"
+msgstr ""
+
+#: ../../docstring of masogram.types.chat_member_updated.ChatMemberUpdated.from_user:1
+msgid "Performer of the action, which resulted in the change"
+msgstr ""
+
+#: ../../docstring of masogram.types.chat_member_updated.ChatMemberUpdated.date:1
+msgid "Date the change was done in Unix time"
+msgstr ""
+
+#: ../../docstring of masogram.types.chat_member_updated.ChatMemberUpdated.old_chat_member:1
+msgid "Previous information about the chat member"
+msgstr ""
+
+#: ../../docstring of masogram.types.chat_member_updated.ChatMemberUpdated.new_chat_member:1
+msgid "New information about the chat member"
+msgstr ""
+
+#: ../../docstring of masogram.types.chat_member_updated.ChatMemberUpdated.invite_link:1
+msgid "*Optional*. Chat invite link, which was used by the user to join the chat; for joining by invite link events only."
+msgstr ""
+
+#: ../../docstring of masogram.types.chat_member_updated.ChatMemberUpdated.via_chat_folder_invite_link:1
+msgid "*Optional*. True, if the user joined the chat via a chat folder invite link"
+msgstr ""

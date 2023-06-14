@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: masogram \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-14 14:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../api/types/inline_query.rst:3
+msgid "InlineQuery"
+msgstr ""
+
+#: ../../../masogram/types/inline_query.py:docstring of masogram.types.inline_query.InlineQuery:1
+msgid "This object represents an incoming inline query. When the user sends an empty query, your bot could return some default or trending results."
+msgstr ""
+
+#: ../../../masogram/types/inline_query.py:docstring of masogram.types.inline_query.InlineQuery:3
+msgid "Source: https://core.telegram.org/bots/api#inlinequery"
+msgstr ""
+
+#: ../../docstring of masogram.types.inline_query.InlineQuery.id:1
+msgid "Unique identifier for this query"
+msgstr ""
+
+#: ../../docstring of masogram.types.inline_query.InlineQuery.from_user:1
+msgid "Sender"
+msgstr ""
+
+#: ../../docstring of masogram.types.inline_query.InlineQuery.query:1
+msgid "Text of the query (up to 256 characters)"
+msgstr ""
+
+#: ../../docstring of masogram.types.inline_query.InlineQuery.offset:1
+msgid "Offset of the results to be returned, can be controlled by the bot"
+msgstr ""
+
+#: ../../docstring of masogram.types.inline_query.InlineQuery.chat_type:1
+msgid "*Optional*. Type of the chat from which the inline query was sent. Can be either 'sender' for a private chat with the inline query sender, 'private', 'group', 'supergroup', or 'channel'. The chat type should be always known for requests sent from official clients and most third-party clients, unless the request was sent from a secret chat"
+msgstr ""
+
+#: ../../docstring of masogram.types.inline_query.InlineQuery.location:1
+msgid "*Optional*. Sender location, only for bots that request user location"
+msgstr ""
+
+#: ../../../masogram/types/inline_query.py:docstring of masogram.types.inline_query.InlineQuery.answer:1
+msgid "Shortcut for method :class:`masogram.methods.answer_inline_query.AnswerInlineQuery` will automatically fill method attributes:"
+msgstr ""
+
+#: ../../../masogram/types/inline_query.py:docstring of masogram.types.inline_query.InlineQuery.answer:4
+msgid ":code:`inline_query_id`"
+msgstr ""
+
+#: ../../../masogram/types/inline_query.py:docstring of masogram.types.inline_query.InlineQuery.answer:6
+msgid "Use this method to send answers to an inline query. On success, :code:`True` is returned."
+msgstr ""
+
+#: ../../../masogram/types/inline_query.py:docstring of masogram.types.inline_query.InlineQuery.answer:8
+msgid "No more than **50** results per query are allowed."
+msgstr ""
+
+#: ../../../masogram/types/inline_query.py:docstring of masogram.types.inline_query.InlineQuery.answer:10
+msgid "Source: https://core.telegram.org/bots/api#answerinlinequery"
+msgstr ""
+
+#: ../../../masogram/types/inline_query.py:docstring of masogram.types.inline_query.InlineQuery.answer:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../masogram/types/inline_query.py:docstring of masogram.types.inline_query.InlineQuery.answer:12
+msgid "A JSON-serialized array of results for the inline query"
+msgstr ""
+
+#: ../../../masogram/types/inline_query.py:docstring of masogram.types.inline_query.InlineQuery.answer:13
+msgid "The maximum amount of time in seconds that the result of the inline query may be cached on the server. Defaults to 300."
+msgstr ""
+
+#: ../../../masogram/types/inline_query.py:docstring of masogram.types.inline_query.InlineQuery.answer:14
+msgid "Pass :code:`True` if results may be cached on the server side only for the user that sent the query. By default, results may be returned to any user who sends the same query."
+msgstr ""
+
+#: ../../../masogram/types/inline_query.py:docstring of masogram.types.inline_query.InlineQuery.answer:15
+msgid "Pass the offset that a client should send in the next query with the same text to receive more results. Pass an empty string if there are no more results or if you don't support pagination. Offset length can't exceed 64 bytes."
+msgstr ""
+
+#: ../../../masogram/types/inline_query.py:docstring of masogram.types.inline_query.InlineQuery.answer:16
+msgid "A JSON-serialized object describing a button to be shown above inline query results"
+msgstr ""
+
+#: ../../../masogram/types/inline_query.py:docstring of masogram.types.inline_query.InlineQuery.answer:17
+msgid "`Deep-linking <https://core.telegram.org/bots/features#deep-linking>`_ parameter for the /start message sent to the bot when user presses the switch button. 1-64 characters, only :code:`A-Z`, :code:`a-z`, :code:`0-9`, :code:`_` and :code:`-` are allowed."
+msgstr ""
+
+#: ../../../masogram/types/inline_query.py:docstring of masogram.types.inline_query.InlineQuery.answer:18
+msgid "If passed, clients will display a button with specified text that switches the user to a private chat with the bot and sends the bot a start message with the parameter *switch_pm_parameter*"
+msgstr ""
+
+#: ../../../masogram/types/inline_query.py:docstring of masogram.types.inline_query.InlineQuery.answer:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../masogram/types/inline_query.py:docstring of masogram.types.inline_query.InlineQuery.answer:19
+msgid "instance of method :class:`masogram.methods.answer_inline_query.AnswerInlineQuery`"
+msgstr ""

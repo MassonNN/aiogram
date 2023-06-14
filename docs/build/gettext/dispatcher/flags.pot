@@ -1,0 +1,119 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: masogram \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-14 14:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../dispatcher/flags.rst:5
+msgid "Flags"
+msgstr ""
+
+#: ../../dispatcher/flags.rst:7
+msgid "Flags is a markers for handlers that can be used in `middlewares <#use-in-middlewares>`_ or special `utilities <#use-in-utilities>`_ to make classification of the handlers."
+msgstr ""
+
+#: ../../dispatcher/flags.rst:10
+msgid "Flags can be added to the handler via `decorators <#via-decorators>`_, `handlers registration <#via-handler-registration-method>`_ or `filters <via-filters>`_."
+msgstr ""
+
+#: ../../dispatcher/flags.rst:15
+msgid "Via decorators"
+msgstr ""
+
+#: ../../dispatcher/flags.rst:17
+msgid "For example mark handler with `chat_action` flag"
+msgstr ""
+
+#: ../../dispatcher/flags.rst:26
+msgid "Or just for rate-limit or something else"
+msgstr ""
+
+#: ../../dispatcher/flags.rst:36
+msgid "Via handler registration method"
+msgstr ""
+
+#: ../../dispatcher/flags.rst:43
+msgid "Via filters"
+msgstr ""
+
+#: ../../dispatcher/flags.rst:57
+msgid "Use in middlewares"
+msgstr ""
+
+#: ../../../masogram/dispatcher/flags.py:docstring of masogram.dispatcher.flags.check_flags:1
+msgid "Check flags via magic filter"
+msgstr ""
+
+#: ../../../masogram/dispatcher/flags.py:docstring of masogram.dispatcher.flags.check_flags:0
+#: ../../../masogram/dispatcher/flags.py:docstring of masogram.dispatcher.flags.extract_flags:0
+#: ../../../masogram/dispatcher/flags.py:docstring of masogram.dispatcher.flags.get_flag:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../masogram/dispatcher/flags.py:docstring of masogram.dispatcher.flags.check_flags:3
+#: ../../../masogram/dispatcher/flags.py:docstring of masogram.dispatcher.flags.extract_flags:3
+#: ../../../masogram/dispatcher/flags.py:docstring of masogram.dispatcher.flags.get_flag:3
+msgid "handler object or data"
+msgstr ""
+
+#: ../../../masogram/dispatcher/flags.py:docstring of masogram.dispatcher.flags.check_flags:4
+msgid "instance of the magic"
+msgstr ""
+
+#: ../../../masogram/dispatcher/flags.py:docstring of masogram.dispatcher.flags.check_flags:0
+#: ../../../masogram/dispatcher/flags.py:docstring of masogram.dispatcher.flags.extract_flags:0
+#: ../../../masogram/dispatcher/flags.py:docstring of masogram.dispatcher.flags.get_flag:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../masogram/dispatcher/flags.py:docstring of masogram.dispatcher.flags.check_flags:5
+msgid "the result of magic filter check"
+msgstr ""
+
+#: ../../../masogram/dispatcher/flags.py:docstring of masogram.dispatcher.flags.extract_flags:1
+msgid "Extract flags from handler or middleware context data"
+msgstr ""
+
+#: ../../../masogram/dispatcher/flags.py:docstring of masogram.dispatcher.flags.extract_flags:4
+msgid "dictionary with all handler flags"
+msgstr ""
+
+#: ../../../masogram/dispatcher/flags.py:docstring of masogram.dispatcher.flags.get_flag:1
+msgid "Get flag by name"
+msgstr ""
+
+#: ../../../masogram/dispatcher/flags.py:docstring of masogram.dispatcher.flags.get_flag:4
+msgid "name of the flag"
+msgstr ""
+
+#: ../../../masogram/dispatcher/flags.py:docstring of masogram.dispatcher.flags.get_flag:5
+msgid "default value (None)"
+msgstr ""
+
+#: ../../../masogram/dispatcher/flags.py:docstring of masogram.dispatcher.flags.get_flag:6
+msgid "value of the flag or default"
+msgstr ""
+
+#: ../../dispatcher/flags.rst:64
+msgid "Example in middlewares"
+msgstr ""
+
+#: ../../dispatcher/flags.rst:77
+msgid "Use in utilities"
+msgstr ""
+
+#: ../../dispatcher/flags.rst:79
+msgid "For example you can collect all registered commands with handler description and then it can be used for generating commands help"
+msgstr ""

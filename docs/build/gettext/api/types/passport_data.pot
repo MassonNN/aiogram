@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: masogram \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-14 14:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../api/types/passport_data.rst:3
+msgid "PassportData"
+msgstr ""
+
+#: ../../../masogram/types/passport_data.py:docstring of masogram.types.passport_data.PassportData:1
+msgid "Describes Telegram Passport data shared with the bot by the user."
+msgstr ""
+
+#: ../../../masogram/types/passport_data.py:docstring of masogram.types.passport_data.PassportData:3
+msgid "Source: https://core.telegram.org/bots/api#passportdata"
+msgstr ""
+
+#: ../../docstring of masogram.types.passport_data.PassportData.data:1
+msgid "Array with information about documents and other Telegram Passport elements that was shared with the bot"
+msgstr ""
+
+#: ../../docstring of masogram.types.passport_data.PassportData.credentials:1
+msgid "Encrypted credentials required to decrypt the data"
+msgstr ""

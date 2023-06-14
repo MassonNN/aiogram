@@ -1,0 +1,1970 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="Contributing" href="contributing.html" /><link rel="prev" title="Callback answer" href="utils/callback_answer.html" />
+
+    <meta name="generator" content="sphinx-5.2.3, furo 2022.09.29"/>
+        <title>Changelog - masogram 1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?digest=d81277517bee4d6b0349d71bb2661d4890b5617c" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?digest=30d1aed668e5c3a91c3e3bf6a60b675221979f0e" />
+    <link rel="stylesheet" type="text/css" href="_static/stylesheets/extra.css" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #eeffcc;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="index.html"><div class="brand">masogram 1.0 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand centered" href="index.html">
+  
+  <div class="sidebar-logo-container">
+    <img class="sidebar-logo" src="_static/logo.png" alt="Logo"/>
+  </div>
+  
+  <span class="sidebar-brand-text">masogram 1.0 documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="search.html" role="search">
+  <input class="sidebar-search" placeholder=Search name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="api/index.html">Bot API</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/bot.html">Bot</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="api/session/index.html">Client session</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/session/custom_server.html">Use Custom API server</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/session/base.html">Base</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/session/aiohttp.html">aiohttp</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="api/types/index.html">Types</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/types/chosen_inline_result.html">ChosenInlineResult</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/inline_query.html">InlineQuery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/inline_query_result.html">InlineQueryResult</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/inline_query_result_article.html">InlineQueryResultArticle</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/inline_query_result_audio.html">InlineQueryResultAudio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/inline_query_result_cached_audio.html">InlineQueryResultCachedAudio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/inline_query_result_cached_document.html">InlineQueryResultCachedDocument</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/inline_query_result_cached_gif.html">InlineQueryResultCachedGif</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/inline_query_result_cached_mpeg4_gif.html">InlineQueryResultCachedMpeg4Gif</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/inline_query_result_cached_photo.html">InlineQueryResultCachedPhoto</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/inline_query_result_cached_sticker.html">InlineQueryResultCachedSticker</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/inline_query_result_cached_video.html">InlineQueryResultCachedVideo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/inline_query_result_cached_voice.html">InlineQueryResultCachedVoice</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/inline_query_result_contact.html">InlineQueryResultContact</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/inline_query_result_document.html">InlineQueryResultDocument</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/inline_query_result_game.html">InlineQueryResultGame</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/inline_query_result_gif.html">InlineQueryResultGif</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/inline_query_result_location.html">InlineQueryResultLocation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/inline_query_result_mpeg4_gif.html">InlineQueryResultMpeg4Gif</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/inline_query_result_photo.html">InlineQueryResultPhoto</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/inline_query_result_venue.html">InlineQueryResultVenue</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/inline_query_result_video.html">InlineQueryResultVideo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/inline_query_result_voice.html">InlineQueryResultVoice</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/inline_query_results_button.html">InlineQueryResultsButton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/input_contact_message_content.html">InputContactMessageContent</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/input_invoice_message_content.html">InputInvoiceMessageContent</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/input_location_message_content.html">InputLocationMessageContent</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/input_message_content.html">InputMessageContent</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/input_text_message_content.html">InputTextMessageContent</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/input_venue_message_content.html">InputVenueMessageContent</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/sent_web_app_message.html">SentWebAppMessage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/animation.html">Animation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/audio.html">Audio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/bot_command.html">BotCommand</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/bot_command_scope.html">BotCommandScope</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/bot_command_scope_all_chat_administrators.html">BotCommandScopeAllChatAdministrators</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/bot_command_scope_all_group_chats.html">BotCommandScopeAllGroupChats</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/bot_command_scope_all_private_chats.html">BotCommandScopeAllPrivateChats</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/bot_command_scope_chat.html">BotCommandScopeChat</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/bot_command_scope_chat_administrators.html">BotCommandScopeChatAdministrators</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/bot_command_scope_chat_member.html">BotCommandScopeChatMember</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/bot_command_scope_default.html">BotCommandScopeDefault</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/bot_description.html">BotDescription</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/bot_name.html">BotName</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/bot_short_description.html">BotShortDescription</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/callback_query.html">CallbackQuery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/chat.html">Chat</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/chat_administrator_rights.html">ChatAdministratorRights</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/chat_invite_link.html">ChatInviteLink</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/chat_join_request.html">ChatJoinRequest</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/chat_location.html">ChatLocation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/chat_member.html">ChatMember</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/chat_member_administrator.html">ChatMemberAdministrator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/chat_member_banned.html">ChatMemberBanned</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/chat_member_left.html">ChatMemberLeft</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/chat_member_member.html">ChatMemberMember</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/chat_member_owner.html">ChatMemberOwner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/chat_member_restricted.html">ChatMemberRestricted</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/chat_member_updated.html">ChatMemberUpdated</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/chat_permissions.html">ChatPermissions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/chat_photo.html">ChatPhoto</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/chat_shared.html">ChatShared</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/contact.html">Contact</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/dice.html">Dice</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/document.html">Document</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/file.html">File</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/force_reply.html">ForceReply</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/forum_topic.html">ForumTopic</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/forum_topic_closed.html">ForumTopicClosed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/forum_topic_created.html">ForumTopicCreated</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/forum_topic_edited.html">ForumTopicEdited</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/forum_topic_reopened.html">ForumTopicReopened</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/general_forum_topic_hidden.html">GeneralForumTopicHidden</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/general_forum_topic_unhidden.html">GeneralForumTopicUnhidden</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/inline_keyboard_button.html">InlineKeyboardButton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/inline_keyboard_markup.html">InlineKeyboardMarkup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/input_file.html">InputFile</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/input_media.html">InputMedia</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/input_media_animation.html">InputMediaAnimation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/input_media_audio.html">InputMediaAudio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/input_media_document.html">InputMediaDocument</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/input_media_photo.html">InputMediaPhoto</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/input_media_video.html">InputMediaVideo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/keyboard_button.html">KeyboardButton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/keyboard_button_poll_type.html">KeyboardButtonPollType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/keyboard_button_request_chat.html">KeyboardButtonRequestChat</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/keyboard_button_request_user.html">KeyboardButtonRequestUser</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/location.html">Location</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/login_url.html">LoginUrl</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/menu_button.html">MenuButton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/menu_button_commands.html">MenuButtonCommands</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/menu_button_default.html">MenuButtonDefault</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/menu_button_web_app.html">MenuButtonWebApp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/message.html">Message</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/message_auto_delete_timer_changed.html">MessageAutoDeleteTimerChanged</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/message_entity.html">MessageEntity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/message_id.html">MessageId</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/photo_size.html">PhotoSize</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/poll.html">Poll</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/poll_answer.html">PollAnswer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/poll_option.html">PollOption</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/proximity_alert_triggered.html">ProximityAlertTriggered</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/reply_keyboard_markup.html">ReplyKeyboardMarkup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/reply_keyboard_remove.html">ReplyKeyboardRemove</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/response_parameters.html">ResponseParameters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/switch_inline_query_chosen_chat.html">SwitchInlineQueryChosenChat</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/user.html">User</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/user_profile_photos.html">UserProfilePhotos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/user_shared.html">UserShared</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/venue.html">Venue</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/video.html">Video</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/video_chat_ended.html">VideoChatEnded</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/video_chat_participants_invited.html">VideoChatParticipantsInvited</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/video_chat_scheduled.html">VideoChatScheduled</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/video_chat_started.html">VideoChatStarted</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/video_note.html">VideoNote</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/voice.html">Voice</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/web_app_data.html">WebAppData</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/web_app_info.html">WebAppInfo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/write_access_allowed.html">WriteAccessAllowed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/encrypted_credentials.html">EncryptedCredentials</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/encrypted_passport_element.html">EncryptedPassportElement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/passport_data.html">PassportData</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/passport_element_error.html">PassportElementError</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/passport_element_error_data_field.html">PassportElementErrorDataField</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/passport_element_error_file.html">PassportElementErrorFile</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/passport_element_error_files.html">PassportElementErrorFiles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/passport_element_error_front_side.html">PassportElementErrorFrontSide</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/passport_element_error_reverse_side.html">PassportElementErrorReverseSide</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/passport_element_error_selfie.html">PassportElementErrorSelfie</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/passport_element_error_translation_file.html">PassportElementErrorTranslationFile</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/passport_element_error_translation_files.html">PassportElementErrorTranslationFiles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/passport_element_error_unspecified.html">PassportElementErrorUnspecified</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/passport_file.html">PassportFile</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/update.html">Update</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/webhook_info.html">WebhookInfo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/input_sticker.html">InputSticker</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/mask_position.html">MaskPosition</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/sticker.html">Sticker</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/sticker_set.html">StickerSet</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/invoice.html">Invoice</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/labeled_price.html">LabeledPrice</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/order_info.html">OrderInfo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/pre_checkout_query.html">PreCheckoutQuery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/shipping_address.html">ShippingAddress</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/shipping_option.html">ShippingOption</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/shipping_query.html">ShippingQuery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/successful_payment.html">SuccessfulPayment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/callback_game.html">CallbackGame</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/game.html">Game</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/types/game_high_score.html">GameHighScore</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="api/methods/index.html">Methods</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/answer_callback_query.html">answerCallbackQuery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/approve_chat_join_request.html">approveChatJoinRequest</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/ban_chat_member.html">banChatMember</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/ban_chat_sender_chat.html">banChatSenderChat</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/close.html">close</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/close_forum_topic.html">closeForumTopic</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/close_general_forum_topic.html">closeGeneralForumTopic</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/copy_message.html">copyMessage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/create_chat_invite_link.html">createChatInviteLink</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/create_forum_topic.html">createForumTopic</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/decline_chat_join_request.html">declineChatJoinRequest</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/delete_chat_photo.html">deleteChatPhoto</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/delete_chat_sticker_set.html">deleteChatStickerSet</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/delete_forum_topic.html">deleteForumTopic</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/delete_my_commands.html">deleteMyCommands</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/edit_chat_invite_link.html">editChatInviteLink</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/edit_forum_topic.html">editForumTopic</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/edit_general_forum_topic.html">editGeneralForumTopic</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/export_chat_invite_link.html">exportChatInviteLink</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/forward_message.html">forwardMessage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/get_chat.html">getChat</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/get_chat_administrators.html">getChatAdministrators</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/get_chat_member.html">getChatMember</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/get_chat_member_count.html">getChatMemberCount</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/get_chat_menu_button.html">getChatMenuButton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/get_file.html">getFile</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/get_forum_topic_icon_stickers.html">getForumTopicIconStickers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/get_me.html">getMe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/get_my_commands.html">getMyCommands</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/get_my_default_administrator_rights.html">getMyDefaultAdministratorRights</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/get_my_description.html">getMyDescription</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/get_my_name.html">getMyName</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/get_my_short_description.html">getMyShortDescription</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/get_user_profile_photos.html">getUserProfilePhotos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/hide_general_forum_topic.html">hideGeneralForumTopic</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/leave_chat.html">leaveChat</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/log_out.html">logOut</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/pin_chat_message.html">pinChatMessage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/promote_chat_member.html">promoteChatMember</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/reopen_forum_topic.html">reopenForumTopic</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/reopen_general_forum_topic.html">reopenGeneralForumTopic</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/restrict_chat_member.html">restrictChatMember</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/revoke_chat_invite_link.html">revokeChatInviteLink</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/send_animation.html">sendAnimation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/send_audio.html">sendAudio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/send_chat_action.html">sendChatAction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/send_contact.html">sendContact</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/send_dice.html">sendDice</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/send_document.html">sendDocument</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/send_location.html">sendLocation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/send_media_group.html">sendMediaGroup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/send_message.html">sendMessage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/send_photo.html">sendPhoto</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/send_poll.html">sendPoll</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/send_venue.html">sendVenue</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/send_video.html">sendVideo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/send_video_note.html">sendVideoNote</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/send_voice.html">sendVoice</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/set_chat_administrator_custom_title.html">setChatAdministratorCustomTitle</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/set_chat_description.html">setChatDescription</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/set_chat_menu_button.html">setChatMenuButton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/set_chat_permissions.html">setChatPermissions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/set_chat_photo.html">setChatPhoto</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/set_chat_sticker_set.html">setChatStickerSet</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/set_chat_title.html">setChatTitle</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/set_my_commands.html">setMyCommands</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/set_my_default_administrator_rights.html">setMyDefaultAdministratorRights</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/set_my_description.html">setMyDescription</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/set_my_name.html">setMyName</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/set_my_short_description.html">setMyShortDescription</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/unban_chat_member.html">unbanChatMember</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/unban_chat_sender_chat.html">unbanChatSenderChat</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/unhide_general_forum_topic.html">unhideGeneralForumTopic</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/unpin_all_chat_messages.html">unpinAllChatMessages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/unpin_all_forum_topic_messages.html">unpinAllForumTopicMessages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/unpin_chat_message.html">unpinChatMessage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/answer_pre_checkout_query.html">answerPreCheckoutQuery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/answer_shipping_query.html">answerShippingQuery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/create_invoice_link.html">createInvoiceLink</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/send_invoice.html">sendInvoice</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/add_sticker_to_set.html">addStickerToSet</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/create_new_sticker_set.html">createNewStickerSet</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/delete_sticker_from_set.html">deleteStickerFromSet</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/delete_sticker_set.html">deleteStickerSet</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/get_custom_emoji_stickers.html">getCustomEmojiStickers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/get_sticker_set.html">getStickerSet</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/send_sticker.html">sendSticker</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/set_custom_emoji_sticker_set_thumbnail.html">setCustomEmojiStickerSetThumbnail</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/set_sticker_emoji_list.html">setStickerEmojiList</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/set_sticker_keywords.html">setStickerKeywords</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/set_sticker_mask_position.html">setStickerMaskPosition</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/set_sticker_position_in_set.html">setStickerPositionInSet</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/set_sticker_set_thumbnail.html">setStickerSetThumbnail</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/set_sticker_set_title.html">setStickerSetTitle</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/upload_sticker_file.html">uploadStickerFile</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/get_game_high_scores.html">getGameHighScores</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/send_game.html">sendGame</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/set_game_score.html">setGameScore</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/delete_webhook.html">deleteWebhook</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/get_updates.html">getUpdates</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/get_webhook_info.html">getWebhookInfo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/set_webhook.html">setWebhook</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/set_passport_data_errors.html">setPassportDataErrors</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/delete_message.html">deleteMessage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/edit_message_caption.html">editMessageCaption</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/edit_message_live_location.html">editMessageLiveLocation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/edit_message_media.html">editMessageMedia</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/edit_message_reply_markup.html">editMessageReplyMarkup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/edit_message_text.html">editMessageText</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/stop_message_live_location.html">stopMessageLiveLocation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/stop_poll.html">stopPoll</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/answer_inline_query.html">answerInlineQuery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/methods/answer_web_app_query.html">answerWebAppQuery</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="api/enums/index.html">Enums</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/enums/bot_command_scope_type.html">BotCommandScopeType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/enums/chat_action.html">ChatAction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/enums/chat_member_status.html">ChatMemberStatus</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/enums/chat_type.html">ChatType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/enums/content_type.html">ContentType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/enums/dice_emoji.html">DiceEmoji</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/enums/inline_query_result_type.html">InlineQueryResultType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/enums/input_media_type.html">InputMediaType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/enums/mask_position_point.html">MaskPositionPoint</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/enums/menu_button_type.html">MenuButtonType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/enums/message_entity_type.html">MessageEntityType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/enums/parse_mode.html">ParseMode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/enums/poll_type.html">PollType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/enums/sticker_format.html">StickerFormat</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/enums/sticker_type.html">StickerType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/enums/topic_icon_color.html">TopicIconColor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/enums/update_type.html">UpdateType</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/download_file.html">How to download file?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/upload_file.html">How to upload file?</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="dispatcher/index.html">Handling events</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="dispatcher/observer.html">Observer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dispatcher/router.html">Router</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dispatcher/dispatcher.html">Dispatcher</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="dispatcher/class_based_handlers/index.html">Class based handlers</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="dispatcher/class_based_handlers/base.html">BaseHandler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dispatcher/class_based_handlers/callback_query.html">CallbackQueryHandler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dispatcher/class_based_handlers/chosen_inline_result.html">ChosenInlineResultHandler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dispatcher/class_based_handlers/error.html">ErrorHandler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dispatcher/class_based_handlers/inline_query.html">InlineQueryHandler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dispatcher/class_based_handlers/message.html">MessageHandler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dispatcher/class_based_handlers/poll.html">PollHandler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dispatcher/class_based_handlers/pre_checkout_query.html">PreCheckoutQueryHandler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dispatcher/class_based_handlers/shipping_query.html">ShippingQueryHandler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dispatcher/class_based_handlers/chat_member.html">ChatMemberHandler</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="dispatcher/filters/index.html">Filtering events</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="dispatcher/filters/command.html">Command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dispatcher/filters/chat_member_updated.html">ChatMemberUpdated</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dispatcher/filters/magic_filters.html">Magic filters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dispatcher/filters/magic_data.html">MagicData</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dispatcher/filters/callback_data.html">Callback Data Factory &amp; Filter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dispatcher/filters/exception.html">Exceptions</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="dispatcher/middlewares.html">Middlewares</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="dispatcher/finite_state_machine/index.html">Finite State Machine</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" role="switch" type="checkbox"/><label for="toctree-checkbox-9"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="dispatcher/finite_state_machine/storages.html">Storages</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="dispatcher/flags.html">Flags</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="utils/index.html">Utils</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" role="switch" type="checkbox"/><label for="toctree-checkbox-10"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="utils/keyboard.html">Keyboard builder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="utils/i18n.html">Translation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="utils/chat_action.html">Chat action sender</a></li>
+<li class="toctree-l2"><a class="reference internal" href="utils/web_app.html">WebApp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="utils/callback_answer.html">Callback answer</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="changelog">
+<span id="masogram-changes"></span><h1>Changelog<a class="headerlink" href="#changelog" title="Permalink to this heading">#</a></h1>
+<section id="release-unreleased-draft-2023-06-14">
+<h2>1.0 [UNRELEASED DRAFT] (2023-06-14)<a class="headerlink" href="#release-unreleased-draft-2023-06-14" title="Permalink to this heading">#</a></h2>
+<section id="features">
+<h3>Features<a class="headerlink" href="#features" title="Permalink to this heading">#</a></h3>
+<ul>
+<li><p>If router does not support custom event it does not break and passes it to included routers
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/1147">#1147</a></p></li>
+<li><p>Added support for FSM in Forum topics.</p>
+<p>The strategy can be changed in dispatcher:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">masogram.fsm.strategy</span> <span class="kn">import</span> <span class="n">FSMStrategy</span>
+<span class="o">...</span>
+<span class="n">dispatcher</span> <span class="o">=</span> <span class="n">Dispatcher</span><span class="p">(</span>
+    <span class="n">fsm_strategy</span><span class="o">=</span><span class="n">FSMStrategy</span><span class="o">.</span><span class="n">USER_IN_THREAD</span><span class="p">,</span>
+    <span class="n">storage</span><span class="o">=...</span><span class="p">,</span>  <span class="c1"># Any persistent storage</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you have implemented you own storages you should extend record key generation
+with new one attribute - <cite>thread_id</cite></p>
+</div>
+<p><a class="reference external" href="https://github.com/MassonNN/masogram/issues/1161">#1161</a></p>
+</li>
+<li><p>Improved CallbackData serialization.</p>
+<ul class="simple">
+<li><p>Minimized UUID (hex without dashes)</p></li>
+<li><p>Replaced bool values with int (true=1, false=0)</p></li>
+</ul>
+<p><a class="reference external" href="https://github.com/MassonNN/masogram/issues/1163">#1163</a></p>
+</li>
+</ul>
+</section>
+<section id="bugfixes">
+<h3>Bugfixes<a class="headerlink" href="#bugfixes" title="Permalink to this heading">#</a></h3>
+<ul>
+<li><p>Change type of result in InlineQueryResult enum for <cite>InlineQueryResultCachedMpeg4Gif</cite>
+and <cite>InlineQueryResultMpeg4Gif</cite> to more correct according to documentation.</p>
+<p>Change regexp for entities parsing to more correct (<cite>InlineQueryResultType.yml</cite>).
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/1146">#1146</a></p>
+</li>
+<li><p>Fixed signature of startup/shutdown events to include the <a href="#id5"><span class="problematic" id="id6">**</span></a>dispatcher.workflow_data as the handler arguments.
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/1155">#1155</a></p></li>
+<li><p>Added missing FORUM_TOPIC_EDITED value to content_type property
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/1160">#1160</a></p></li>
+<li><p>Fixed compatibility with Python 3.8-3.9
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/1162">#1162</a></p></li>
+<li><p>Fixed the markdown spoiler parser.
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/1176">#1176</a></p></li>
+</ul>
+</section>
+<section id="improved-documentation">
+<h3>Improved Documentation<a class="headerlink" href="#improved-documentation" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Changed small grammar typos for <cite>upload_file</cite>
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/1133">#1133</a></p></li>
+</ul>
+</section>
+<section id="deprecations-and-removals">
+<h3>Deprecations and Removals<a class="headerlink" href="#deprecations-and-removals" title="Permalink to this heading">#</a></h3>
+<ul>
+<li><p>Removed text filter in due to is planned to remove this filter few versions ago.</p>
+<p>Use <code class="code docutils literal notranslate"><span class="pre">F.text</span></code> instead
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/1170">#1170</a></p>
+</li>
+</ul>
+</section>
+<section id="misc">
+<h3>Misc<a class="headerlink" href="#misc" title="Permalink to this heading">#</a></h3>
+<ul>
+<li><p>Added full support of <a class="reference external" href="https://core.telegram.org/bots/api-changelog#march-9-2023">Bot API 6.6</a></p>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>Note that this issue has breaking changes described in in the Bot API changelog,
+this changes is not breaking in the API but breaking inside masogram because
+Beta stage is not finished.</p>
+</div>
+<p><a class="reference external" href="https://github.com/MassonNN/masogram/issues/1139">#1139</a></p>
+</li>
+<li><p>Added global defaults <cite>disable_web_page_preview</cite> and <cite>protect_content</cite> in addition to <cite>parse_mode</cite> to the Bot instance,
+reworked internal request builder mechanism.
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/1142">#1142</a></p></li>
+<li><p>Removed bot parameters from storages
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/1144">#1144</a></p></li>
+<li><p>Added full support of <a class="reference external" href="https://core.telegram.org/bots/api-changelog#april-21-2023">Bot API 6.7</a></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Note that arguments <em>switch_pm_parameter</em> and <em>switch_pm_text</em> was deprecated
+and should be changed to <em>button</em> argument as described in API docs.</p>
+</div>
+<p><a class="reference external" href="https://github.com/MassonNN/masogram/issues/1168">#1168</a></p>
+</li>
+</ul>
+</section>
+</section>
+<section id="b7-2023-02-18">
+<h2>3.0.0b7 (2023-02-18)<a class="headerlink" href="#b7-2023-02-18" title="Permalink to this heading">#</a></h2>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Note that this version has incompatibility with Python 3.8-3.9 in case when you create an instance of Dispatcher outside of the any coroutine.</p>
+<p>Sorry for the inconvenience, it will be fixed in the next version.</p>
+<p>This code will not work:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">dp</span> <span class="o">=</span> <span class="n">Dispatcher</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="o">...</span>
+    <span class="n">dp</span><span class="o">.</span><span class="n">run_polling</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
+
+<span class="n">main</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>But if you change it like this it should works as well:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">router</span> <span class="o">=</span> <span class="n">Router</span><span class="p">()</span>
+
+<span class="k">async</span> <span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="n">dp</span> <span class="o">=</span> <span class="n">Dispatcher</span><span class="p">()</span>
+    <span class="n">dp</span><span class="o">.</span><span class="n">include_router</span><span class="p">(</span><span class="n">router</span><span class="p">)</span>
+    <span class="o">...</span>
+    <span class="n">dp</span><span class="o">.</span><span class="n">start_polling</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
+
+<span class="n">asyncio</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">main</span><span class="p">())</span>
+</pre></div>
+</div>
+</div>
+<section id="id17">
+<h3>Features<a class="headerlink" href="#id17" title="Permalink to this heading">#</a></h3>
+<ul>
+<li><p>Added missing shortcuts, new enums, reworked old stuff</p>
+<p><strong>Breaking</strong>
+All previously added enums is re-generated in new place - <cite>masogram.enums</cite> instead of <cite>masogram.types</cite></p>
+<dl class="simple">
+<dt><strong>Added enums:</strong> <a class="reference internal" href="api/enums/bot_command_scope_type.html#masogram.enums.bot_command_scope_type.BotCommandScopeType" title="masogram.enums.bot_command_scope_type.BotCommandScopeType"><code class="xref py py-class docutils literal notranslate"><span class="pre">masogram.enums.bot_command_scope_type.BotCommandScopeType</span></code></a>,</dt><dd><p><a class="reference internal" href="api/enums/chat_action.html#masogram.enums.chat_action.ChatAction" title="masogram.enums.chat_action.ChatAction"><code class="xref py py-class docutils literal notranslate"><span class="pre">masogram.enums.chat_action.ChatAction</span></code></a>,
+<a class="reference internal" href="api/enums/chat_member_status.html#masogram.enums.chat_member_status.ChatMemberStatus" title="masogram.enums.chat_member_status.ChatMemberStatus"><code class="xref py py-class docutils literal notranslate"><span class="pre">masogram.enums.chat_member_status.ChatMemberStatus</span></code></a>,
+<a class="reference internal" href="api/enums/chat_type.html#masogram.enums.chat_type.ChatType" title="masogram.enums.chat_type.ChatType"><code class="xref py py-class docutils literal notranslate"><span class="pre">masogram.enums.chat_type.ChatType</span></code></a>,
+<a class="reference internal" href="api/enums/content_type.html#masogram.enums.content_type.ContentType" title="masogram.enums.content_type.ContentType"><code class="xref py py-class docutils literal notranslate"><span class="pre">masogram.enums.content_type.ContentType</span></code></a>,
+<a class="reference internal" href="api/enums/dice_emoji.html#masogram.enums.dice_emoji.DiceEmoji" title="masogram.enums.dice_emoji.DiceEmoji"><code class="xref py py-class docutils literal notranslate"><span class="pre">masogram.enums.dice_emoji.DiceEmoji</span></code></a>,
+<a class="reference internal" href="api/enums/inline_query_result_type.html#masogram.enums.inline_query_result_type.InlineQueryResultType" title="masogram.enums.inline_query_result_type.InlineQueryResultType"><code class="xref py py-class docutils literal notranslate"><span class="pre">masogram.enums.inline_query_result_type.InlineQueryResultType</span></code></a>,
+<a class="reference internal" href="api/enums/input_media_type.html#masogram.enums.input_media_type.InputMediaType" title="masogram.enums.input_media_type.InputMediaType"><code class="xref py py-class docutils literal notranslate"><span class="pre">masogram.enums.input_media_type.InputMediaType</span></code></a>,
+<a class="reference internal" href="api/enums/mask_position_point.html#masogram.enums.mask_position_point.MaskPositionPoint" title="masogram.enums.mask_position_point.MaskPositionPoint"><code class="xref py py-class docutils literal notranslate"><span class="pre">masogram.enums.mask_position_point.MaskPositionPoint</span></code></a>,
+<a class="reference internal" href="api/enums/menu_button_type.html#masogram.enums.menu_button_type.MenuButtonType" title="masogram.enums.menu_button_type.MenuButtonType"><code class="xref py py-class docutils literal notranslate"><span class="pre">masogram.enums.menu_button_type.MenuButtonType</span></code></a>,
+<a class="reference internal" href="api/enums/message_entity_type.html#masogram.enums.message_entity_type.MessageEntityType" title="masogram.enums.message_entity_type.MessageEntityType"><code class="xref py py-class docutils literal notranslate"><span class="pre">masogram.enums.message_entity_type.MessageEntityType</span></code></a>,
+<a class="reference internal" href="api/enums/parse_mode.html#masogram.enums.parse_mode.ParseMode" title="masogram.enums.parse_mode.ParseMode"><code class="xref py py-class docutils literal notranslate"><span class="pre">masogram.enums.parse_mode.ParseMode</span></code></a>,
+<a class="reference internal" href="api/enums/poll_type.html#masogram.enums.poll_type.PollType" title="masogram.enums.poll_type.PollType"><code class="xref py py-class docutils literal notranslate"><span class="pre">masogram.enums.poll_type.PollType</span></code></a>,
+<a class="reference internal" href="api/enums/sticker_type.html#masogram.enums.sticker_type.StickerType" title="masogram.enums.sticker_type.StickerType"><code class="xref py py-class docutils literal notranslate"><span class="pre">masogram.enums.sticker_type.StickerType</span></code></a>,
+<a class="reference internal" href="api/enums/topic_icon_color.html#masogram.enums.topic_icon_color.TopicIconColor" title="masogram.enums.topic_icon_color.TopicIconColor"><code class="xref py py-class docutils literal notranslate"><span class="pre">masogram.enums.topic_icon_color.TopicIconColor</span></code></a>,
+<a class="reference internal" href="api/enums/update_type.html#masogram.enums.update_type.UpdateType" title="masogram.enums.update_type.UpdateType"><code class="xref py py-class docutils literal notranslate"><span class="pre">masogram.enums.update_type.UpdateType</span></code></a>,</p>
+</dd>
+</dl>
+<p><strong>Added shortcuts</strong>:</p>
+<ul class="simple">
+<li><dl class="simple">
+<dt><em>Chat</em> <a class="reference internal" href="api/types/chat.html#masogram.types.chat.Chat.get_administrators" title="masogram.types.chat.Chat.get_administrators"><code class="xref py py-meth docutils literal notranslate"><span class="pre">masogram.types.chat.Chat.get_administrators()</span></code></a>,</dt><dd><p><a class="reference internal" href="api/types/chat.html#masogram.types.chat.Chat.delete_message" title="masogram.types.chat.Chat.delete_message"><code class="xref py py-meth docutils literal notranslate"><span class="pre">masogram.types.chat.Chat.delete_message()</span></code></a>,
+<a class="reference internal" href="api/types/chat.html#masogram.types.chat.Chat.revoke_invite_link" title="masogram.types.chat.Chat.revoke_invite_link"><code class="xref py py-meth docutils literal notranslate"><span class="pre">masogram.types.chat.Chat.revoke_invite_link()</span></code></a>,
+<a class="reference internal" href="api/types/chat.html#masogram.types.chat.Chat.edit_invite_link" title="masogram.types.chat.Chat.edit_invite_link"><code class="xref py py-meth docutils literal notranslate"><span class="pre">masogram.types.chat.Chat.edit_invite_link()</span></code></a>,
+<a class="reference internal" href="api/types/chat.html#masogram.types.chat.Chat.create_invite_link" title="masogram.types.chat.Chat.create_invite_link"><code class="xref py py-meth docutils literal notranslate"><span class="pre">masogram.types.chat.Chat.create_invite_link()</span></code></a>,
+<a class="reference internal" href="api/types/chat.html#masogram.types.chat.Chat.export_invite_link" title="masogram.types.chat.Chat.export_invite_link"><code class="xref py py-meth docutils literal notranslate"><span class="pre">masogram.types.chat.Chat.export_invite_link()</span></code></a>,
+<a class="reference internal" href="api/types/chat.html#masogram.types.chat.Chat.do" title="masogram.types.chat.Chat.do"><code class="xref py py-meth docutils literal notranslate"><span class="pre">masogram.types.chat.Chat.do()</span></code></a>,
+<a class="reference internal" href="api/types/chat.html#masogram.types.chat.Chat.delete_sticker_set" title="masogram.types.chat.Chat.delete_sticker_set"><code class="xref py py-meth docutils literal notranslate"><span class="pre">masogram.types.chat.Chat.delete_sticker_set()</span></code></a>,
+<a class="reference internal" href="api/types/chat.html#masogram.types.chat.Chat.set_sticker_set" title="masogram.types.chat.Chat.set_sticker_set"><code class="xref py py-meth docutils literal notranslate"><span class="pre">masogram.types.chat.Chat.set_sticker_set()</span></code></a>,
+<a class="reference internal" href="api/types/chat.html#masogram.types.chat.Chat.get_member" title="masogram.types.chat.Chat.get_member"><code class="xref py py-meth docutils literal notranslate"><span class="pre">masogram.types.chat.Chat.get_member()</span></code></a>,
+<a class="reference internal" href="api/types/chat.html#masogram.types.chat.Chat.get_member_count" title="masogram.types.chat.Chat.get_member_count"><code class="xref py py-meth docutils literal notranslate"><span class="pre">masogram.types.chat.Chat.get_member_count()</span></code></a>,
+<a class="reference internal" href="api/types/chat.html#masogram.types.chat.Chat.leave" title="masogram.types.chat.Chat.leave"><code class="xref py py-meth docutils literal notranslate"><span class="pre">masogram.types.chat.Chat.leave()</span></code></a>,
+<a class="reference internal" href="api/types/chat.html#masogram.types.chat.Chat.unpin_all_messages" title="masogram.types.chat.Chat.unpin_all_messages"><code class="xref py py-meth docutils literal notranslate"><span class="pre">masogram.types.chat.Chat.unpin_all_messages()</span></code></a>,
+<a class="reference internal" href="api/types/chat.html#masogram.types.chat.Chat.unpin_message" title="masogram.types.chat.Chat.unpin_message"><code class="xref py py-meth docutils literal notranslate"><span class="pre">masogram.types.chat.Chat.unpin_message()</span></code></a>,
+<a class="reference internal" href="api/types/chat.html#masogram.types.chat.Chat.pin_message" title="masogram.types.chat.Chat.pin_message"><code class="xref py py-meth docutils literal notranslate"><span class="pre">masogram.types.chat.Chat.pin_message()</span></code></a>,
+<a class="reference internal" href="api/types/chat.html#masogram.types.chat.Chat.set_administrator_custom_title" title="masogram.types.chat.Chat.set_administrator_custom_title"><code class="xref py py-meth docutils literal notranslate"><span class="pre">masogram.types.chat.Chat.set_administrator_custom_title()</span></code></a>,
+<a class="reference internal" href="api/types/chat.html#masogram.types.chat.Chat.set_permissions" title="masogram.types.chat.Chat.set_permissions"><code class="xref py py-meth docutils literal notranslate"><span class="pre">masogram.types.chat.Chat.set_permissions()</span></code></a>,
+<a class="reference internal" href="api/types/chat.html#masogram.types.chat.Chat.promote" title="masogram.types.chat.Chat.promote"><code class="xref py py-meth docutils literal notranslate"><span class="pre">masogram.types.chat.Chat.promote()</span></code></a>,
+<a class="reference internal" href="api/types/chat.html#masogram.types.chat.Chat.restrict" title="masogram.types.chat.Chat.restrict"><code class="xref py py-meth docutils literal notranslate"><span class="pre">masogram.types.chat.Chat.restrict()</span></code></a>,
+<a class="reference internal" href="api/types/chat.html#masogram.types.chat.Chat.unban" title="masogram.types.chat.Chat.unban"><code class="xref py py-meth docutils literal notranslate"><span class="pre">masogram.types.chat.Chat.unban()</span></code></a>,
+<a class="reference internal" href="api/types/chat.html#masogram.types.chat.Chat.ban" title="masogram.types.chat.Chat.ban"><code class="xref py py-meth docutils literal notranslate"><span class="pre">masogram.types.chat.Chat.ban()</span></code></a>,
+<a class="reference internal" href="api/types/chat.html#masogram.types.chat.Chat.set_description" title="masogram.types.chat.Chat.set_description"><code class="xref py py-meth docutils literal notranslate"><span class="pre">masogram.types.chat.Chat.set_description()</span></code></a>,
+<a class="reference internal" href="api/types/chat.html#masogram.types.chat.Chat.set_title" title="masogram.types.chat.Chat.set_title"><code class="xref py py-meth docutils literal notranslate"><span class="pre">masogram.types.chat.Chat.set_title()</span></code></a>,
+<a class="reference internal" href="api/types/chat.html#masogram.types.chat.Chat.delete_photo" title="masogram.types.chat.Chat.delete_photo"><code class="xref py py-meth docutils literal notranslate"><span class="pre">masogram.types.chat.Chat.delete_photo()</span></code></a>,
+<a class="reference internal" href="api/types/chat.html#masogram.types.chat.Chat.set_photo" title="masogram.types.chat.Chat.set_photo"><code class="xref py py-meth docutils literal notranslate"><span class="pre">masogram.types.chat.Chat.set_photo()</span></code></a>,</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt><em>Sticker</em>: <a class="reference internal" href="api/types/sticker.html#masogram.types.sticker.Sticker.set_position_in_set" title="masogram.types.sticker.Sticker.set_position_in_set"><code class="xref py py-meth docutils literal notranslate"><span class="pre">masogram.types.sticker.Sticker.set_position_in_set()</span></code></a>,</dt><dd><p><a class="reference internal" href="api/types/sticker.html#masogram.types.sticker.Sticker.delete_from_set" title="masogram.types.sticker.Sticker.delete_from_set"><code class="xref py py-meth docutils literal notranslate"><span class="pre">masogram.types.sticker.Sticker.delete_from_set()</span></code></a>,</p>
+</dd>
+</dl>
+</li>
+<li><p><em>User</em>: <a class="reference internal" href="api/types/user.html#masogram.types.user.User.get_profile_photos" title="masogram.types.user.User.get_profile_photos"><code class="xref py py-meth docutils literal notranslate"><span class="pre">masogram.types.user.User.get_profile_photos()</span></code></a></p></li>
+</ul>
+<p><a class="reference external" href="https://github.com/MassonNN/masogram/issues/952">#952</a></p>
+</li>
+<li><p>Added <a class="reference internal" href="utils/callback_answer.html#callback-answer-util"><span class="std std-ref">callback answer</span></a> feature
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/1091">#1091</a></p></li>
+<li><p>Added a method that allows you to compactly register routers
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/1117">#1117</a></p></li>
+</ul>
+</section>
+<section id="id21">
+<h3>Bugfixes<a class="headerlink" href="#id21" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Check status code when downloading file
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/816">#816</a></p></li>
+<li><p>Fixed <cite>ignore_case</cite> parameter in <a class="reference internal" href="dispatcher/filters/command.html#masogram.filters.command.Command" title="masogram.filters.command.Command"><code class="xref py py-obj docutils literal notranslate"><span class="pre">masogram.filters.command.Command</span></code></a> filter
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/1106">#1106</a></p></li>
+</ul>
+</section>
+<section id="id24">
+<h3>Misc<a class="headerlink" href="#id24" title="Permalink to this heading">#</a></h3>
+<ul>
+<li><p>Added integration with new code-generator named <a class="reference external" href="https://github.com/masogram/butcher">Butcher</a>
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/1069">#1069</a></p></li>
+<li><p>Added full support of <a class="reference external" href="https://core.telegram.org/bots/api-changelog#december-30-2022">Bot API 6.4</a>
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/1088">#1088</a></p></li>
+<li><p>Updated package metadata, moved build internals from Poetry to Hatch, added contributing guides.
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/1095">#1095</a></p></li>
+<li><p>Added full support of <a class="reference external" href="https://core.telegram.org/bots/api-changelog#february-3-2023">Bot API 6.5</a></p>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>Note that <a class="reference internal" href="api/types/chat_permissions.html#masogram.types.chat_permissions.ChatPermissions" title="masogram.types.chat_permissions.ChatPermissions"><code class="xref py py-obj docutils literal notranslate"><span class="pre">masogram.types.chat_permissions.ChatPermissions</span></code></a> is updated without
+backward compatibility, so now this object has no <code class="code docutils literal notranslate"><span class="pre">can_send_media_messages</span></code> attribute</p>
+</div>
+<p><a class="reference external" href="https://github.com/MassonNN/masogram/issues/1112">#1112</a></p>
+</li>
+<li><p>Replaced error <code class="code docutils literal notranslate"><span class="pre">TypeError:</span> <span class="pre">TelegramEventObserver.__call__()</span> <span class="pre">got</span> <span class="pre">an</span> <span class="pre">unexpected</span> <span class="pre">keyword</span> <span class="pre">argument</span> <span class="pre">'&lt;name&gt;'</span></code>
+with a more understandable one for developers and with a link to the documentation.
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/1114">#1114</a></p></li>
+<li><p>Added possibility to reply into webhook with files
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/1120">#1120</a></p></li>
+<li><p>Reworked graceful shutdown. Added method to stop polling.
+Now polling started from dispatcher can be stopped by signals gracefully without errors (on Linux and Mac).
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/1124">#1124</a></p></li>
+</ul>
+</section>
+</section>
+<section id="b6-2022-11-18">
+<h2>3.0.0b6 (2022-11-18)<a class="headerlink" href="#b6-2022-11-18" title="Permalink to this heading">#</a></h2>
+<section id="id32">
+<h3>Features<a class="headerlink" href="#id32" title="Permalink to this heading">#</a></h3>
+<ul>
+<li><p>(again) Added possibility to combine filters with an <em>and</em>/<em>or</em> operations.</p>
+<p>Read more in “<a class="reference internal" href="dispatcher/filters/index.html#combining-filters"><span class="std std-ref">Combining filters</span></a>” documentation section
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/1018">#1018</a></p>
+</li>
+<li><p>Added following methods to <code class="docutils literal notranslate"><span class="pre">Message</span></code> class:</p>
+<ul class="simple">
+<li><p><code class="code docutils literal notranslate"><span class="pre">Message.forward(...)</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">Message.edit_media(...)</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">Message.edit_live_location(...)</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">Message.stop_live_location(...)</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">Message.pin(...)</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">Message.unpin()</span></code></p></li>
+</ul>
+<p><a class="reference external" href="https://github.com/MassonNN/masogram/issues/1030">#1030</a></p>
+</li>
+<li><p>Added following methods to <code class="code docutils literal notranslate"><span class="pre">User</span></code> class:</p>
+<ul class="simple">
+<li><p><code class="code docutils literal notranslate"><span class="pre">User.mention_markdown(...)</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">User.mention_html(...)</span></code></p></li>
+</ul>
+<p><a class="reference external" href="https://github.com/MassonNN/masogram/issues/1049">#1049</a></p>
+</li>
+<li><p>Added full support of <a class="reference external" href="https://core.telegram.org/bots/api-changelog#november-5-2022">Bot API 6.3</a>
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/1057">#1057</a></p></li>
+</ul>
+</section>
+<section id="id37">
+<h3>Bugfixes<a class="headerlink" href="#id37" title="Permalink to this heading">#</a></h3>
+<ul>
+<li><p>Fixed <code class="code docutils literal notranslate"><span class="pre">Message.send_invoice</span></code> and <code class="code docutils literal notranslate"><span class="pre">Message.reply_invoice</span></code>, added missing arguments
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/1047">#1047</a></p></li>
+<li><p>Fixed copy and forward in:</p>
+<ul class="simple">
+<li><p><code class="code docutils literal notranslate"><span class="pre">Message.answer(...)</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">Message.copy_to(...)</span></code></p></li>
+</ul>
+<p><a class="reference external" href="https://github.com/MassonNN/masogram/issues/1064">#1064</a></p>
+</li>
+</ul>
+</section>
+<section id="id40">
+<h3>Improved Documentation<a class="headerlink" href="#id40" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Fixed UA translations in index.po
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/1017">#1017</a></p></li>
+<li><p>Fix typehints for <code class="code docutils literal notranslate"><span class="pre">Message</span></code>, <code class="code docutils literal notranslate"><span class="pre">reply_media_group</span></code> and <code class="code docutils literal notranslate"><span class="pre">answer_media_group</span></code> methods
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/1029">#1029</a></p></li>
+<li><p>Removed an old now non-working feature
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/1060">#1060</a></p></li>
+</ul>
+</section>
+<section id="id44">
+<h3>Misc<a class="headerlink" href="#id44" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Enabled testing on Python 3.11
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/1044">#1044</a></p></li>
+<li><p>Added a mandatory dependency <code class="code docutils literal notranslate"><span class="pre">certifi</span></code> in due to in some cases on systems that doesn’t have updated ca-certificates the requests to Bot API fails with reason <code class="code docutils literal notranslate"><span class="pre">[SSL:</span> <span class="pre">CERTIFICATE_VERIFY_FAILED]</span> <span class="pre">certificate</span> <span class="pre">verify</span> <span class="pre">failed:</span> <span class="pre">self</span> <span class="pre">signed</span> <span class="pre">certificate</span> <span class="pre">in</span> <span class="pre">certificate</span> <span class="pre">chain</span></code>
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/1066">#1066</a></p></li>
+</ul>
+</section>
+</section>
+<section id="b5-2022-10-02">
+<h2>3.0.0b5 (2022-10-02)<a class="headerlink" href="#b5-2022-10-02" title="Permalink to this heading">#</a></h2>
+<section id="id47">
+<h3>Features<a class="headerlink" href="#id47" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Add PyPy support and run tests under PyPy
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/985">#985</a></p></li>
+<li><p>Added message text to masogram exceptions representation
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/988">#988</a></p></li>
+<li><p>Added warning about using magic filter from <cite>magic_filter</cite> instead of <cite>masogram</cite>’s ones.
+Is recommended to use <cite>from masogram import F</cite> instead of <cite>from magic_filter import F</cite>
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/990">#990</a></p></li>
+<li><p>Added more detailed error when server response can’t be deserialized. This feature will help to debug unexpected responses from the Server
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/1014">#1014</a></p></li>
+</ul>
+</section>
+<section id="id52">
+<h3>Bugfixes<a class="headerlink" href="#id52" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Reworked error event, introduced <a class="reference internal" href="api/types/error_event.html#masogram.types.error_event.ErrorEvent" title="masogram.types.error_event.ErrorEvent"><code class="xref py py-class docutils literal notranslate"><span class="pre">masogram.types.error_event.ErrorEvent</span></code></a> object.
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/898">#898</a></p></li>
+<li><p>Fixed escaping markdown in <cite>masogram.utils.markdown</cite> module
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/903">#903</a></p></li>
+<li><p>Fixed polling crash when Telegram Bot API raises HTTP 429 status-code.
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/995">#995</a></p></li>
+<li><p>Fixed empty mention in command parsing, now it will be None instead of an empty string
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/1013">#1013</a></p></li>
+</ul>
+</section>
+<section id="id57">
+<h3>Improved Documentation<a class="headerlink" href="#id57" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Initialized Docs translation (added Ukrainian language)
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/925">#925</a></p></li>
+</ul>
+</section>
+<section id="id59">
+<h3>Deprecations and Removals<a class="headerlink" href="#id59" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Removed filters factory as described in corresponding issue.
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/942">#942</a></p></li>
+</ul>
+</section>
+<section id="id61">
+<h3>Misc<a class="headerlink" href="#id61" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Now Router/Dispatcher accepts only keyword arguments.
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/982">#982</a></p></li>
+</ul>
+</section>
+</section>
+<section id="b4-2022-08-14">
+<h2>3.0.0b4 (2022-08-14)<a class="headerlink" href="#b4-2022-08-14" title="Permalink to this heading">#</a></h2>
+<section id="id63">
+<h3>Features<a class="headerlink" href="#id63" title="Permalink to this heading">#</a></h3>
+<ul>
+<li><p>Add class helper ChatAction for constants that Telegram BotAPI uses in sendChatAction request.
+In my opinion, this will help users and will also improve compatibility with 2.x version
+where similar class was called “ChatActions”.
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/803">#803</a></p></li>
+<li><p>Added possibility to combine filters or invert result</p>
+<p>Example:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">Text</span><span class="p">(</span><span class="n">text</span><span class="o">=</span><span class="s2">&quot;demo&quot;</span><span class="p">)</span> <span class="o">|</span> <span class="n">Command</span><span class="p">(</span><span class="n">commands</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;demo&quot;</span><span class="p">])</span>
+<span class="n">MyFilter</span><span class="p">()</span> <span class="o">&amp;</span> <span class="n">AnotherFilter</span><span class="p">()</span>
+<span class="o">~</span><span class="n">StateFilter</span><span class="p">(</span><span class="n">state</span><span class="o">=</span><span class="s1">&#39;my-state&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><a class="reference external" href="https://github.com/MassonNN/masogram/issues/894">#894</a></p>
+</li>
+<li><p>Fixed type hints for redis TTL params.
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/922">#922</a></p></li>
+<li><p>Added <cite>full_name</cite> shortcut for <cite>Chat</cite> object
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/929">#929</a></p></li>
+</ul>
+</section>
+<section id="id68">
+<h3>Bugfixes<a class="headerlink" href="#id68" title="Permalink to this heading">#</a></h3>
+<ul>
+<li><p>Fixed false-positive coercing of Union types in API methods
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/901">#901</a></p></li>
+<li><p>Added 3 missing content types:</p>
+<ul class="simple">
+<li><p>proximity_alert_triggered</p></li>
+<li><p>supergroup_chat_created</p></li>
+<li><p>channel_chat_created</p></li>
+</ul>
+<p><a class="reference external" href="https://github.com/MassonNN/masogram/issues/906">#906</a></p>
+</li>
+<li><p>Fixed the ability to compare the state, now comparison to copy of the state will return <cite>True</cite>.
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/927">#927</a></p></li>
+<li><p>Fixed default lock kwargs in RedisEventIsolation.
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/972">#972</a></p></li>
+</ul>
+</section>
+<section id="id73">
+<h3>Misc<a class="headerlink" href="#id73" title="Permalink to this heading">#</a></h3>
+<ul>
+<li><p>Restrict including routers with strings
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/896">#896</a></p></li>
+<li><p>Changed CommandPatterType to CommandPatternType in <cite>masogram/dispatcher/filters/command.py</cite>
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/907">#907</a></p></li>
+<li><p>Added full support of <a class="reference external" href="https://core.telegram.org/bots/api-changelog#june-20-2022">Bot API 6.1</a>
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/936">#936</a></p></li>
+<li><p><strong>Breaking!</strong> More flat project structure</p>
+<p>These packages was moved, imports in your code should be fixed:</p>
+<ul class="simple">
+<li><p><code class="code docutils literal notranslate"><span class="pre">masogram.dispatcher.filters</span></code> -&gt; <code class="code docutils literal notranslate"><span class="pre">masogram.filters</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">masogram.dispatcher.fsm</span></code> -&gt; <code class="code docutils literal notranslate"><span class="pre">masogram.fsm</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">masogram.dispatcher.handler</span></code> -&gt; <code class="code docutils literal notranslate"><span class="pre">masogram.handler</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">masogram.dispatcher.webhook</span></code> -&gt; <code class="code docutils literal notranslate"><span class="pre">masogram.webhook</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">masogram.dispatcher.flags/*</span></code> -&gt; <code class="code docutils literal notranslate"><span class="pre">masogram.dispatcher.flags</span></code> (single module instead of package)</p></li>
+</ul>
+<p><a class="reference external" href="https://github.com/MassonNN/masogram/issues/938">#938</a></p>
+</li>
+<li><p>Removed deprecated <code class="code docutils literal notranslate"><span class="pre">router.&lt;event&gt;_handler</span></code> and <code class="code docutils literal notranslate"><span class="pre">router.register_&lt;event&gt;_handler</span></code> methods.
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/941">#941</a></p></li>
+<li><p>Deprecated filters factory. It will be removed in next Beta (3.0b5)
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/942">#942</a></p></li>
+<li><p><cite>MessageEntity</cite> method <cite>get_text</cite> was removed and <cite>extract</cite> was renamed to <cite>extract_from</cite>
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/944">#944</a></p></li>
+<li><p>Added full support of <a class="reference external" href="https://core.telegram.org/bots/api-changelog#august-12-2022">Bot API 6.2</a>
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/975">#975</a></p></li>
+</ul>
+</section>
+</section>
+<section id="b3-2022-04-19">
+<h2>3.0.0b3 (2022-04-19)<a class="headerlink" href="#b3-2022-04-19" title="Permalink to this heading">#</a></h2>
+<section id="id82">
+<h3>Features<a class="headerlink" href="#id82" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Added possibility to get command magic result as handler argument
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/889">#889</a></p></li>
+<li><p>Added full support of <a class="reference external" href="https://core.telegram.org/bots/api-changelog#april-16-2022">Telegram Bot API 6.0</a>
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/890">#890</a></p></li>
+</ul>
+</section>
+<section id="id85">
+<h3>Bugfixes<a class="headerlink" href="#id85" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Fixed I18n lazy-proxy. Disabled caching.
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/839">#839</a></p></li>
+<li><p>Added parsing of spoiler message entity
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/865">#865</a></p></li>
+<li><p>Fixed default <cite>parse_mode</cite> for <cite>Message.copy_to()</cite> method.
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/876">#876</a></p></li>
+<li><p>Fixed CallbackData factory parsing IntEnum’s
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/885">#885</a></p></li>
+</ul>
+</section>
+<section id="id90">
+<h3>Misc<a class="headerlink" href="#id90" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Added automated check that pull-request adds a changes description to <strong>CHANGES</strong> directory
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/873">#873</a></p></li>
+<li><p>Changed <code class="code docutils literal notranslate"><span class="pre">Message.html_text</span></code> and <code class="code docutils literal notranslate"><span class="pre">Message.md_text</span></code> attributes behaviour when message has no text.
+The empty string will be used instead of raising error.
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/874">#874</a></p></li>
+<li><p>Used <cite>redis-py</cite> instead of <cite>aioredis</cite> package in due to this packages was merged into single one
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/882">#882</a></p></li>
+<li><p>Solved common naming problem with middlewares that confusing too much developers
+- now you can’t see the <cite>middleware</cite> and <cite>middlewares</cite> attributes at the same point
+because this functionality encapsulated to special interface.
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/883">#883</a></p></li>
+</ul>
+</section>
+</section>
+<section id="b2-2022-02-19">
+<h2>3.0.0b2 (2022-02-19)<a class="headerlink" href="#b2-2022-02-19" title="Permalink to this heading">#</a></h2>
+<section id="id95">
+<h3>Features<a class="headerlink" href="#id95" title="Permalink to this heading">#</a></h3>
+<ul>
+<li><p>Added possibility to pass additional arguments into the aiohttp webhook handler to use this
+arguments inside handlers as the same as it possible in polling mode.
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/785">#785</a></p></li>
+<li><p>Added possibility to add handler flags via decorator (like <cite>pytest.mark</cite> decorator but <cite>masogram.flags</cite>)
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/836">#836</a></p></li>
+<li><p>Added <code class="code docutils literal notranslate"><span class="pre">ChatActionSender</span></code> utility to automatically sends chat action while long process is running.</p>
+<p>It also can be used as message middleware and can be customized via <code class="code docutils literal notranslate"><span class="pre">chat_action</span></code> flag.
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/837">#837</a></p>
+</li>
+</ul>
+</section>
+<section id="id99">
+<h3>Bugfixes<a class="headerlink" href="#id99" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Fixed unexpected behavior of sequences in the StateFilter.
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/791">#791</a></p></li>
+<li><p>Fixed exceptions filters
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/827">#827</a></p></li>
+</ul>
+</section>
+<section id="id102">
+<h3>Misc<a class="headerlink" href="#id102" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Logger name for processing events is changed to <code class="code docutils literal notranslate"><span class="pre">masogram.events</span></code>.
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/830">#830</a></p></li>
+<li><p>Added full support of Telegram Bot API 5.6 and 5.7
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/835">#835</a></p></li>
+<li><p><strong>BREAKING</strong>
+Events isolation mechanism is moved from FSM storages to standalone managers
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/838">#838</a></p></li>
+</ul>
+</section>
+</section>
+<section id="b1-2021-12-12">
+<h2>3.0.0b1 (2021-12-12)<a class="headerlink" href="#b1-2021-12-12" title="Permalink to this heading">#</a></h2>
+<section id="id106">
+<h3>Features<a class="headerlink" href="#id106" title="Permalink to this heading">#</a></h3>
+<ul>
+<li><p>Added new custom operation for MagicFilter named <code class="code docutils literal notranslate"><span class="pre">as_</span></code></p>
+<p>Now you can use it to get magic filter result as handler argument</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">masogram</span> <span class="kn">import</span> <span class="n">F</span>
+
+<span class="o">...</span>
+
+<span class="nd">@router</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="n">F</span><span class="o">.</span><span class="n">text</span><span class="o">.</span><span class="n">regexp</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;^(\d+)$&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">as_</span><span class="p">(</span><span class="s2">&quot;digits&quot;</span><span class="p">))</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">any_digits_handler</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="n">Message</span><span class="p">,</span> <span class="n">digits</span><span class="p">:</span> <span class="n">Match</span><span class="p">[</span><span class="nb">str</span><span class="p">]):</span>
+    <span class="k">await</span> <span class="n">message</span><span class="o">.</span><span class="n">answer</span><span class="p">(</span><span class="n">html</span><span class="o">.</span><span class="n">quote</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">digits</span><span class="p">)))</span>
+
+
+<span class="nd">@router</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="n">F</span><span class="o">.</span><span class="n">photo</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">as_</span><span class="p">(</span><span class="s2">&quot;photo&quot;</span><span class="p">))</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">download_photos_handler</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="n">Message</span><span class="p">,</span> <span class="n">photo</span><span class="p">:</span> <span class="n">PhotoSize</span><span class="p">,</span> <span class="n">bot</span><span class="p">:</span> <span class="n">Bot</span><span class="p">):</span>
+    <span class="n">content</span> <span class="o">=</span> <span class="k">await</span> <span class="n">bot</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="n">photo</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><a class="reference external" href="https://github.com/MassonNN/masogram/issues/759">#759</a></p>
+</li>
+</ul>
+</section>
+<section id="id108">
+<h3>Bugfixes<a class="headerlink" href="#id108" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Fixed: Missing <code class="code docutils literal notranslate"><span class="pre">ChatMemberHandler</span></code> import in <code class="code docutils literal notranslate"><span class="pre">masogram/dispatcher/handler</span></code>
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/751">#751</a></p></li>
+</ul>
+</section>
+<section id="id110">
+<h3>Misc<a class="headerlink" href="#id110" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Check <code class="code docutils literal notranslate"><span class="pre">destiny</span></code> in case of no <code class="code docutils literal notranslate"><span class="pre">with_destiny</span></code> enabled in RedisStorage key builder
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/776">#776</a></p></li>
+<li><p>Added full support of <a class="reference external" href="https://core.telegram.org/bots/api-changelog#december-7-2021">Bot API 5.5</a>
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/777">#777</a></p></li>
+<li><p>Stop using feature from #336. From now settings of client-session should be placed as initializer arguments instead of changing instance attributes.
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/778">#778</a></p></li>
+<li><p>Make TelegramAPIServer files wrapper in local mode bi-directional (server-client, client-server)
+Now you can convert local path to server path and server path to local path.
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/779">#779</a></p></li>
+</ul>
+</section>
+</section>
+<section id="a18-2021-11-10">
+<h2>3.0.0a18 (2021-11-10)<a class="headerlink" href="#a18-2021-11-10" title="Permalink to this heading">#</a></h2>
+<section id="id115">
+<h3>Features<a class="headerlink" href="#id115" title="Permalink to this heading">#</a></h3>
+<ul>
+<li><p>Breaking: Changed the signature of the session middlewares
+Breaking: Renamed AiohttpSession.make_request method parameter from call to method to match the naming in the base class
+Added middleware for logging outgoing requests
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/716">#716</a></p></li>
+<li><p>Improved description of filters resolving error.
+For example when you try to pass wrong type of argument to the filter but don’t know why filter is not resolved now you can get error like this:</p>
+<div class="highlight-python3 notranslate"><div class="highlight"><pre><span></span><span class="n">masogram</span><span class="o">.</span><span class="n">exceptions</span><span class="o">.</span><span class="n">FiltersResolveError</span><span class="p">:</span> <span class="n">Unknown</span> <span class="n">keyword</span> <span class="n">filters</span><span class="p">:</span> <span class="p">{</span><span class="s1">&#39;content_types&#39;</span><span class="p">}</span>
+  <span class="n">Possible</span> <span class="n">cases</span><span class="p">:</span>
+  <span class="o">-</span> <span class="mi">1</span> <span class="n">validation</span> <span class="n">error</span> <span class="k">for</span> <span class="n">ContentTypesFilter</span>
+    <span class="n">content_types</span>
+      <span class="n">Invalid</span> <span class="n">content</span> <span class="n">types</span> <span class="p">{</span><span class="s1">&#39;42&#39;</span><span class="p">}</span> <span class="ow">is</span> <span class="ow">not</span> <span class="n">allowed</span> <span class="n">here</span> <span class="p">(</span><span class="nb">type</span><span class="o">=</span><span class="n">value_error</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><a class="reference external" href="https://github.com/MassonNN/masogram/issues/717">#717</a></p>
+</li>
+<li><p><strong>Breaking internal API change</strong>
+Reworked FSM Storage record keys propagation
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/723">#723</a></p></li>
+<li><p>Implemented new filter named <code class="code docutils literal notranslate"><span class="pre">MagicData(magic_data)</span></code> that helps to filter event by data from middlewares or other filters</p>
+<p>For example your bot is running with argument named <code class="code docutils literal notranslate"><span class="pre">config</span></code> that contains the application config then you can filter event by value from this config:</p>
+<div class="highlight-python3 notranslate"><div class="highlight"><pre><span></span><span class="nd">@router</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="n">magic_data</span><span class="o">=</span><span class="n">F</span><span class="o">.</span><span class="n">event</span><span class="o">.</span><span class="n">from_user</span><span class="o">.</span><span class="n">id</span> <span class="o">==</span> <span class="n">F</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">admin_id</span><span class="p">)</span>
+<span class="o">...</span>
+</pre></div>
+</div>
+<p><a class="reference external" href="https://github.com/MassonNN/masogram/issues/724">#724</a></p>
+</li>
+</ul>
+</section>
+<section id="id120">
+<h3>Bugfixes<a class="headerlink" href="#id120" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Fixed I18n context inside error handlers
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/726">#726</a></p></li>
+<li><p>Fixed bot session closing before emit shutdown
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/734">#734</a></p></li>
+<li><p>Fixed: bound filter resolving does not require children routers
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/736">#736</a></p></li>
+</ul>
+</section>
+<section id="id124">
+<h3>Misc<a class="headerlink" href="#id124" title="Permalink to this heading">#</a></h3>
+<ul>
+<li><p>Enabled testing on Python 3.10
+Removed <cite>async_lru</cite> dependency (is incompatible with Python 3.10) and replaced usage with protected property
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/719">#719</a></p></li>
+<li><p>Converted README.md to README.rst and use it as base file for docs
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/725">#725</a></p></li>
+<li><p>Rework filters resolving:</p>
+<ul class="simple">
+<li><p>Automatically apply Bound Filters with default values to handlers</p></li>
+<li><p>Fix data transfer from parent to included routers filters</p></li>
+</ul>
+<p><a class="reference external" href="https://github.com/MassonNN/masogram/issues/727">#727</a></p>
+</li>
+<li><p>Added full support of Bot API 5.4
+<a class="reference external" href="https://core.telegram.org/bots/api-changelog#november-5-2021">https://core.telegram.org/bots/api-changelog#november-5-2021</a>
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/744">#744</a></p></li>
+</ul>
+</section>
+</section>
+<section id="a17-2021-09-24">
+<h2>3.0.0a17 (2021-09-24)<a class="headerlink" href="#a17-2021-09-24" title="Permalink to this heading">#</a></h2>
+<section id="id129">
+<h3>Misc<a class="headerlink" href="#id129" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Added <code class="code docutils literal notranslate"><span class="pre">html_text</span></code> and <code class="code docutils literal notranslate"><span class="pre">md_text</span></code> to Message object
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/708">#708</a></p></li>
+<li><p>Refactored I18n, added context managers for I18n engine and current locale
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/709">#709</a></p></li>
+</ul>
+</section>
+</section>
+<section id="a16-2021-09-22">
+<h2>3.0.0a16 (2021-09-22)<a class="headerlink" href="#a16-2021-09-22" title="Permalink to this heading">#</a></h2>
+<section id="id132">
+<h3>Features<a class="headerlink" href="#id132" title="Permalink to this heading">#</a></h3>
+<ul>
+<li><p>Added support of local Bot API server files downloading</p>
+<p>When Local API is enabled files can be downloaded via <cite>bot.download</cite>/<cite>bot.download_file</cite> methods.
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/698">#698</a></p>
+</li>
+<li><p>Implemented I18n &amp; L10n support
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/701">#701</a></p></li>
+</ul>
+</section>
+<section id="id135">
+<h3>Misc<a class="headerlink" href="#id135" title="Permalink to this heading">#</a></h3>
+<ul>
+<li><p>Covered by tests and docs KeyboardBuilder util
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/699">#699</a></p></li>
+<li><p><strong>Breaking!!!</strong>. Refactored and renamed exceptions.</p>
+<ul class="simple">
+<li><p>Exceptions module was moved from <code class="code docutils literal notranslate"><span class="pre">masogram.utils.exceptions</span></code> to <code class="code docutils literal notranslate"><span class="pre">masogram.exceptions</span></code></p></li>
+<li><p>Added prefix <cite>Telegram</cite> for all error classes</p></li>
+</ul>
+<p><a class="reference external" href="https://github.com/MassonNN/masogram/issues/700">#700</a></p>
+</li>
+<li><p>Replaced all <code class="code docutils literal notranslate"><span class="pre">pragma:</span> <span class="pre">no</span> <span class="pre">cover</span></code> marks via global <code class="code docutils literal notranslate"><span class="pre">.coveragerc</span></code> config
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/702">#702</a></p></li>
+<li><p>Updated dependencies.</p>
+<p><strong>Breaking for framework developers</strong>
+Now all optional dependencies should be installed as extra: <cite>poetry install -E fast -E redis -E proxy -E i18n -E docs</cite>
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/703">#703</a></p>
+</li>
+</ul>
+</section>
+</section>
+<section id="a15-2021-09-10">
+<h2>3.0.0a15 (2021-09-10)<a class="headerlink" href="#a15-2021-09-10" title="Permalink to this heading">#</a></h2>
+<section id="id140">
+<h3>Features<a class="headerlink" href="#id140" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Ability to iterate over all states in StatesGroup.
+masogram already had in check for states group so this is relative feature.
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/666">#666</a></p></li>
+</ul>
+</section>
+<section id="id142">
+<h3>Bugfixes<a class="headerlink" href="#id142" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Fixed incorrect type checking in the <code class="xref py py-class docutils literal notranslate"><span class="pre">masogram.utils.keyboard.KeyboardBuilder</span></code>
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/674">#674</a></p></li>
+</ul>
+</section>
+<section id="id144">
+<h3>Misc<a class="headerlink" href="#id144" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Disable ContentType filter by default
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/668">#668</a></p></li>
+<li><p>Moved update type detection from Dispatcher to Update object
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/669">#669</a></p></li>
+<li><p>Updated <strong>pre-commit</strong> config
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/681">#681</a></p></li>
+<li><p>Reworked <strong>handlers_in_use</strong> util. Function moved to Router as method <strong>.resolve_used_update_types()</strong>
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/682">#682</a></p></li>
+</ul>
+</section>
+</section>
+<section id="a14-2021-08-17">
+<h2>3.0.0a14 (2021-08-17)<a class="headerlink" href="#a14-2021-08-17" title="Permalink to this heading">#</a></h2>
+<section id="id149">
+<h3>Features<a class="headerlink" href="#id149" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>add aliases for edit/delete reply markup to Message
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/662">#662</a></p></li>
+<li><p>Reworked outer middleware chain. Prevent to call many times the outer middleware for each nested router
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/664">#664</a></p></li>
+</ul>
+</section>
+<section id="id152">
+<h3>Bugfixes<a class="headerlink" href="#id152" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Prepare parse mode for InputMessageContent in AnswerInlineQuery method
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/660">#660</a></p></li>
+</ul>
+</section>
+<section id="id154">
+<h3>Improved Documentation<a class="headerlink" href="#id154" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Added integration with <code class="code docutils literal notranslate"><span class="pre">towncrier</span></code>
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/602">#602</a></p></li>
+</ul>
+</section>
+<section id="id156">
+<h3>Misc<a class="headerlink" href="#id156" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Added <cite>.editorconfig</cite>
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/650">#650</a></p></li>
+<li><p>Redis storage speedup globals
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/651">#651</a></p></li>
+<li><p>add allow_sending_without_reply param to Message reply aliases
+<a class="reference external" href="https://github.com/MassonNN/masogram/issues/663">#663</a></p></li>
+</ul>
+</section>
+</section>
+<section id="id160">
+<h2>2.14.3 (2021-07-21)<a class="headerlink" href="#id160" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Fixed <code class="code docutils literal notranslate"><span class="pre">ChatMember</span></code> type detection via adding customizable object serialization mechanism (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/624">#624</a>, <a class="reference external" href="https://github.com/MassonNN/masogram/issues/623">#623</a>)</p></li>
+</ul>
+</section>
+<section id="id163">
+<h2>2.14.2 (2021-07-26)<a class="headerlink" href="#id163" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Fixed <code class="code docutils literal notranslate"><span class="pre">MemoryStorage</span></code> cleaner (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/619">#619</a>)</p></li>
+<li><p>Fixed unused default locale in <code class="code docutils literal notranslate"><span class="pre">I18nMiddleware</span></code> (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/562">#562</a>, <a class="reference external" href="https://github.com/MassonNN/masogram/issues/563">#563</a>)</p></li>
+</ul>
+</section>
+<section id="id167">
+<h2>2.14 (2021-07-27)<a class="headerlink" href="#id167" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Full support of Bot API 5.3 (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/610">#610</a>, <a class="reference external" href="https://github.com/MassonNN/masogram/issues/614">#614</a>)</p></li>
+<li><p>Fixed <code class="code docutils literal notranslate"><span class="pre">Message.send_copy</span></code> method for polls (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/603">#603</a>)</p></li>
+<li><p>Updated pattern for <code class="code docutils literal notranslate"><span class="pre">GroupDeactivated</span></code> exception (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/549">#549</a></p></li>
+<li><p>Added <code class="code docutils literal notranslate"><span class="pre">caption_entities</span></code> field in <code class="code docutils literal notranslate"><span class="pre">InputMedia</span></code> base class (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/583">#583</a>)</p></li>
+<li><p>Fixed HTML text decorations for tag <code class="code docutils literal notranslate"><span class="pre">pre</span></code> (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/597">#597</a> fixes issues <a class="reference external" href="https://github.com/MassonNN/masogram/issues/596">#596</a> and <a class="reference external" href="https://github.com/MassonNN/masogram/issues/481">#481</a>)</p></li>
+<li><p>Fixed <code class="code docutils literal notranslate"><span class="pre">Message.get_full_command</span></code> method for messages with caption (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/576">#576</a>)</p></li>
+<li><p>Improved <code class="code docutils literal notranslate"><span class="pre">MongoStorage</span></code>: remove documents with empty data from <code class="code docutils literal notranslate"><span class="pre">masogram_data</span></code> collection to save memory. (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/609">#609</a>)</p></li>
+</ul>
+</section>
+<section id="id178">
+<h2>2.13 (2021-04-28)<a class="headerlink" href="#id178" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Added full support of Bot API 5.2 (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/572">#572</a>)</p></li>
+<li><p>Fixed usage of <code class="code docutils literal notranslate"><span class="pre">provider_data</span></code> argument in <code class="code docutils literal notranslate"><span class="pre">sendInvoice</span></code> method call</p></li>
+<li><p>Fixed builtin command filter args (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/556">#556</a>) (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/558">#558</a>)</p></li>
+<li><p>Allowed to use State instances FSM storage directly (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/542">#542</a>)</p></li>
+<li><p>Added possibility to get i18n locale without User instance (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/546">#546</a>)</p></li>
+<li><p>Fixed returning type of <code class="code docutils literal notranslate"><span class="pre">Bot.*_chat_invite_link()</span></code> methods <a class="reference external" href="https://github.com/MassonNN/masogram/issues/548">#548</a> (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/549">#549</a>)</p></li>
+<li><p>Fixed deep-linking util (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/569">#569</a>)</p></li>
+<li><p>Small changes in documentation - describe limits in docstrings corresponding to the current limit. (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/565">#565</a>)</p></li>
+<li><p>Fixed internal call to deprecated ‘is_private’ method (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/553">#553</a>)</p></li>
+<li><p>Added possibility to use <code class="code docutils literal notranslate"><span class="pre">allowed_updates</span></code> argument in Polling mode (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/564">#564</a>)</p></li>
+</ul>
+</section>
+<section id="id190">
+<h2>2.12.1 (2021-03-22)<a class="headerlink" href="#id190" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Fixed <code class="code docutils literal notranslate"><span class="pre">TypeError:</span> <span class="pre">Value</span> <span class="pre">should</span> <span class="pre">be</span> <span class="pre">instance</span> <span class="pre">of</span> <span class="pre">'User'</span> <span class="pre">not</span> <span class="pre">'NoneType'</span></code> (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/527">#527</a>)</p></li>
+<li><p>Added missing <code class="code docutils literal notranslate"><span class="pre">Chat.message_auto_delete_time</span></code> field (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/535">#535</a>)</p></li>
+<li><p>Added <code class="code docutils literal notranslate"><span class="pre">MediaGroup</span></code> filter (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/528">#528</a>)</p></li>
+<li><p>Added <code class="code docutils literal notranslate"><span class="pre">Chat.delete_message</span></code> shortcut (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/526">#526</a>)</p></li>
+<li><p>Added mime types parsing for <code class="code docutils literal notranslate"><span class="pre">masogram.types.Document</span></code> (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/431">#431</a>)</p></li>
+<li><p>Added warning in <code class="code docutils literal notranslate"><span class="pre">TelegramObject.__setitem__</span></code> when Telegram adds a new field (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/532">#532</a>)</p></li>
+<li><p>Fixed <code class="code docutils literal notranslate"><span class="pre">examples/chat_type_filter.py</span></code> (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/533">#533</a>)</p></li>
+<li><p>Removed redundant definitions in framework code (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/531">#531</a>)</p></li>
+</ul>
+</section>
+<section id="id199">
+<h2>2.12 (2021-03-14)<a class="headerlink" href="#id199" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Full support for Telegram Bot API 5.1 (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/519">#519</a>)</p></li>
+<li><p>Fixed sending playlist of audio files and documents (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/465">#465</a>, <a class="reference external" href="https://github.com/MassonNN/masogram/issues/468">#468</a>)</p></li>
+<li><p>Fixed <code class="code docutils literal notranslate"><span class="pre">FSMContextProxy.setdefault</span></code> method (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/491">#491</a>)</p></li>
+<li><p>Fixed <code class="code docutils literal notranslate"><span class="pre">Message.answer_location</span></code> and <code class="code docutils literal notranslate"><span class="pre">Message.reply_location</span></code> unable to send live location (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/497">#497</a>)</p></li>
+<li><p>Fixed <code class="code docutils literal notranslate"><span class="pre">user_id</span></code> and <code class="code docutils literal notranslate"><span class="pre">chat_id</span></code> getters from the context at Dispatcher <code class="code docutils literal notranslate"><span class="pre">check_key</span></code>, <code class="code docutils literal notranslate"><span class="pre">release_key</span></code> and <code class="code docutils literal notranslate"><span class="pre">throttle</span></code> methods (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/520">#520</a>)</p></li>
+<li><p>Fixed <code class="code docutils literal notranslate"><span class="pre">Chat.update_chat</span></code> method and all similar situations (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/516">#516</a>)</p></li>
+<li><p>Fixed <code class="code docutils literal notranslate"><span class="pre">MediaGroup</span></code> attach methods (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/514">#514</a>)</p></li>
+<li><p>Fixed state filter for inline keyboard query callback in groups (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/508">#508</a>, <a class="reference external" href="https://github.com/MassonNN/masogram/issues/510">#510</a>)</p></li>
+<li><p>Added missing <code class="code docutils literal notranslate"><span class="pre">ContentTypes.DICE</span></code> (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/466">#466</a>)</p></li>
+<li><p>Added missing vcard argument to <code class="code docutils literal notranslate"><span class="pre">InputContactMessageContent</span></code> constructor (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/473">#473</a>)</p></li>
+<li><p>Add missing exceptions: <code class="code docutils literal notranslate"><span class="pre">MessageIdInvalid</span></code>, <code class="code docutils literal notranslate"><span class="pre">CantRestrictChatOwner</span></code> and <code class="code docutils literal notranslate"><span class="pre">UserIsAnAdministratorOfTheChat</span></code> (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/474">#474</a>, <a class="reference external" href="https://github.com/MassonNN/masogram/issues/512">#512</a>)</p></li>
+<li><p>Added <code class="code docutils literal notranslate"><span class="pre">answer_chat_action</span></code> to the <code class="code docutils literal notranslate"><span class="pre">Message</span></code> object (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/501">#501</a>)</p></li>
+<li><p>Added dice to <code class="code docutils literal notranslate"><span class="pre">message.send_copy</span></code> method (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/511">#511</a>)</p></li>
+<li><p>Removed deprecation warning from <code class="code docutils literal notranslate"><span class="pre">Message.send_copy</span></code></p></li>
+<li><p>Added an example of integration between externally created aiohttp Application and masogram (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/433">#433</a>)</p></li>
+<li><p>Added <code class="code docutils literal notranslate"><span class="pre">split_separator</span></code> argument to <code class="code docutils literal notranslate"><span class="pre">safe_split_text</span></code> (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/515">#515</a>)</p></li>
+<li><p>Fixed some typos in docs and examples (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/489">#489</a>, <a class="reference external" href="https://github.com/MassonNN/masogram/issues/490">#490</a>, <a class="reference external" href="https://github.com/MassonNN/masogram/issues/498">#498</a>, <a class="reference external" href="https://github.com/MassonNN/masogram/issues/504">#504</a>, <a class="reference external" href="https://github.com/MassonNN/masogram/issues/514">#514</a>)</p></li>
+</ul>
+</section>
+<section id="id223">
+<h2>2.11.2 (2021-11-10)<a class="headerlink" href="#id223" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Fixed default parse mode</p></li>
+<li><p>Added missing “supports_streaming” argument to answer_video method <a class="reference external" href="https://github.com/MassonNN/masogram/issues/462">#462</a></p></li>
+</ul>
+</section>
+<section id="id225">
+<h2>2.11.1 (2021-11-10)<a class="headerlink" href="#id225" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Fixed files URL template</p></li>
+<li><p>Fix MessageEntity serialization for API calls <a class="reference external" href="https://github.com/MassonNN/masogram/issues/457">#457</a></p></li>
+<li><p>When entities are set, default parse_mode become disabled (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/461">#461</a>)</p></li>
+<li><p>Added parameter supports_streaming to reply_video, remove redundant docstrings (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/459">#459</a>)</p></li>
+<li><p>Added missing parameter to promoteChatMember alias (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/458">#458</a>)</p></li>
+</ul>
+</section>
+<section id="id230">
+<h2>2.11 (2021-11-08)<a class="headerlink" href="#id230" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Added full support of Telegram Bot API 5.0 (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/454">#454</a>)</p></li>
+<li><dl class="simple">
+<dt>Added possibility to more easy specify custom API Server (example)</dt><dd><ul>
+<li><p>WARNING: API method <code class="code docutils literal notranslate"><span class="pre">close</span></code> was named in Bot class as close_bot in due to Bot instance already has method with the same name. It will be changed in <code class="code docutils literal notranslate"><span class="pre">masogram</span> <span class="pre">3.0</span></code></p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>Added alias to Message object <code class="code docutils literal notranslate"><span class="pre">Message.copy_to</span></code> with deprecation of <code class="code docutils literal notranslate"><span class="pre">Message.send_copy</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">ChatType.SUPER_GROUP</span></code> renamed to <code class="code docutils literal notranslate"><span class="pre">ChatType.SUPERGROUP</span></code> (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/438">#438</a>)</p></li>
+</ul>
+</section>
+<section id="id233">
+<h2>2.10.1 (2021-09-14)<a class="headerlink" href="#id233" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Fixed critical bug with getting asyncio event loop in executor. (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/424">#424</a>) <code class="code docutils literal notranslate"><span class="pre">AttributeError:</span> <span class="pre">'NoneType'</span> <span class="pre">object</span> <span class="pre">has</span> <span class="pre">no</span> <span class="pre">attribute</span> <span class="pre">'run_until_complete'</span></code></p></li>
+</ul>
+</section>
+<section id="id235">
+<h2>2.10 (2021-09-13)<a class="headerlink" href="#id235" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Breaking change: Stop using _MainThread event loop in bot/dispatcher instances (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/397">#397</a>)</p></li>
+<li><p>Breaking change: Replaced aiomongo with motor (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/368">#368</a>, <a class="reference external" href="https://github.com/MassonNN/masogram/issues/380">#380</a>)</p></li>
+<li><p>Fixed: TelegramObject’s aren’t destroyed after update handling <a class="reference external" href="https://github.com/MassonNN/masogram/issues/307">#307</a> (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/371">#371</a>)</p></li>
+<li><p>Add setting current context of Telegram types (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/369">#369</a>)</p></li>
+<li><p>Fixed markdown escaping issues (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/363">#363</a>)</p></li>
+<li><p>Fixed HTML characters escaping (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/409">#409</a>)</p></li>
+<li><p>Fixed italic and underline decorations when parse entities to Markdown</p></li>
+<li><p>Fixed <a class="reference external" href="https://github.com/MassonNN/masogram/issues/413">#413</a>: parse entities positioning (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/414">#414</a>)</p></li>
+<li><p>Added missing thumb parameter (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/362">#362</a>)</p></li>
+<li><p>Added public methods to register filters and middlewares (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/370">#370</a>)</p></li>
+<li><p>Added ChatType builtin filter (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/356">#356</a>)</p></li>
+<li><p>Fixed IDFilter checking message from channel (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/376">#376</a>)</p></li>
+<li><p>Added missed answer_poll and reply_poll (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/384">#384</a>)</p></li>
+<li><p>Added possibility to ignore message caption in commands filter (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/383">#383</a>)</p></li>
+<li><p>Fixed addStickerToSet method</p></li>
+<li><p>Added preparing thumb in send_document method (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/391">#391</a>)</p></li>
+<li><p>Added exception MessageToPinNotFound (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/404">#404</a>)</p></li>
+<li><p>Fixed handlers parameter-spec solving (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/408">#408</a>)</p></li>
+<li><p>Fixed CallbackQuery.answer() returns nothing (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/420">#420</a>)</p></li>
+<li><p>CHOSEN_INLINE_RESULT is a correct API-term (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/415">#415</a>)</p></li>
+<li><p>Fixed missing attributes for Animation class (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/422">#422</a>)</p></li>
+<li><p>Added missed emoji argument to reply_dice (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/395">#395</a>)</p></li>
+<li><p>Added is_chat_creator method to ChatMemberStatus (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/394">#394</a>)</p></li>
+<li><p>Added missed ChatPermissions to __all__ (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/393">#393</a>)</p></li>
+<li><p>Added is_forward method to Message (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/390">#390</a>)</p></li>
+<li><p>Fixed usage of deprecated is_private function (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/421">#421</a>)</p></li>
+</ul>
+<p>and many others documentation and examples changes:</p>
+<ul class="simple">
+<li><p>Updated docstring of RedisStorage2 (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/423">#423</a>)</p></li>
+<li><p>Updated I18n example (added docs and fixed typos) (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/419">#419</a>)</p></li>
+<li><p>A little documentation revision (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/381">#381</a>)</p></li>
+<li><p>Added comments about correct errors_handlers usage (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/398">#398</a>)</p></li>
+<li><p>Fixed typo rexex -&gt; regex (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/386">#386</a>)</p></li>
+<li><p>Fixed docs Quick start page code blocks (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/417">#417</a>)</p></li>
+<li><p>fixed type hints of callback_data (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/400">#400</a>)</p></li>
+<li><p>Prettify readme, update downloads stats badge (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/406">#406</a>)</p></li>
+</ul>
+</section>
+<section id="id271">
+<h2>2.9.2 (2021-06-13)<a class="headerlink" href="#id271" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Fixed <code class="code docutils literal notranslate"><span class="pre">Message.get_full_command()</span></code> <a class="reference external" href="https://github.com/MassonNN/masogram/issues/352">#352</a></p></li>
+<li><p>Fixed markdown util <a class="reference external" href="https://github.com/MassonNN/masogram/issues/353">#353</a></p></li>
+</ul>
+</section>
+<section id="id274">
+<h2>2.9 (2021-06-08)<a class="headerlink" href="#id274" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Added full support of Telegram Bot API 4.9</p></li>
+<li><p>Fixed user context at poll_answer update (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/322">#322</a>)</p></li>
+<li><p>Fix Chat.set_description (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/325">#325</a>)</p></li>
+<li><p>Add lazy session generator (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/326">#326</a>)</p></li>
+<li><p>Fix text decorations (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/315">#315</a>, <a class="reference external" href="https://github.com/MassonNN/masogram/issues/316">#316</a>, <a class="reference external" href="https://github.com/MassonNN/masogram/issues/328">#328</a>)</p></li>
+<li><p>Fix missing <code class="code docutils literal notranslate"><span class="pre">InlineQueryResultPhoto</span></code> <code class="code docutils literal notranslate"><span class="pre">parse_mode</span></code> field (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/331">#331</a>)</p></li>
+<li><p>Fix fields from parent object in <code class="code docutils literal notranslate"><span class="pre">KeyboardButton</span></code> (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/344">#344</a> fixes <a class="reference external" href="https://github.com/MassonNN/masogram/issues/343">#343</a>)</p></li>
+<li><p>Add possibility to get bot id without calling <code class="code docutils literal notranslate"><span class="pre">get_me</span></code> (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/296">#296</a>)</p></li>
+</ul>
+</section>
+<section id="id285">
+<h2>2.8 (2021-04-26)<a class="headerlink" href="#id285" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Added full support of Bot API 4.8</p></li>
+<li><p>Added <code class="code docutils literal notranslate"><span class="pre">Message.answer_dice</span></code> and <code class="code docutils literal notranslate"><span class="pre">Message.reply_dice</span></code> methods (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/306">#306</a>)</p></li>
+</ul>
+</section>
+<section id="id287">
+<h2>2.7 (2021-04-07)<a class="headerlink" href="#id287" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Added full support of Bot API 4.7 (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/294">#294</a> <a class="reference external" href="https://github.com/MassonNN/masogram/issues/289">#289</a>)</p></li>
+<li><p>Added default parse mode for send_animation method (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/293">#293</a> <a class="reference external" href="https://github.com/MassonNN/masogram/issues/292">#292</a>)</p></li>
+<li><p>Added new API exception when poll requested in public chats (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/270">#270</a>)</p></li>
+<li><p>Make correct User and Chat get_mention methods (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/277">#277</a>)</p></li>
+<li><p>Small changes and other minor improvements</p></li>
+</ul>
+</section>
+<section id="id294">
+<h2>2.6.1 (2021-01-25)<a class="headerlink" href="#id294" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Fixed reply <code class="code docutils literal notranslate"><span class="pre">KeyboardButton</span></code> initializer with <code class="code docutils literal notranslate"><span class="pre">request_poll</span></code> argument (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/266">#266</a>)</p></li>
+<li><p>Added helper for poll types (<code class="code docutils literal notranslate"><span class="pre">masogram.types.PollType</span></code>)</p></li>
+<li><p>Changed behavior of Telegram_object <code class="code docutils literal notranslate"><span class="pre">.as_*</span></code> and <code class="code docutils literal notranslate"><span class="pre">.to_*</span></code> methods. It will no more mutate the object. (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/247">#247</a>)</p></li>
+</ul>
+</section>
+<section id="id297">
+<h2>2.6 (2021-01-23)<a class="headerlink" href="#id297" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Full support of Telegram Bot API v4.6 (Polls 2.0) <a class="reference external" href="https://github.com/MassonNN/masogram/issues/265">#265</a></p></li>
+<li><p>Aded new filter - IsContactSender (commit)</p></li>
+<li><p>Fixed proxy extra dependencies version <a class="reference external" href="https://github.com/MassonNN/masogram/issues/262">#262</a></p></li>
+</ul>
+</section>
+<section id="id300">
+<h2>2.5.3 (2021-01-05)<a class="headerlink" href="#id300" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/MassonNN/masogram/issues/255">#255</a> Updated CallbackData factory validity check. More correct for non-latin symbols</p></li>
+<li><p><a class="reference external" href="https://github.com/MassonNN/masogram/issues/256">#256</a> Fixed <code class="code docutils literal notranslate"><span class="pre">renamed_argument</span></code> decorator error</p></li>
+<li><p><a class="reference external" href="https://github.com/MassonNN/masogram/issues/257">#257</a> One more fix of CommandStart filter</p></li>
+</ul>
+</section>
+<section id="id304">
+<h2>2.5.2 (2021-01-01)<a class="headerlink" href="#id304" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Get back <code class="code docutils literal notranslate"><span class="pre">quote_html</span></code> and <code class="code docutils literal notranslate"><span class="pre">escape_md</span></code> functions</p></li>
+</ul>
+</section>
+<section id="id305">
+<h2>2.5.1 (2021-01-01)<a class="headerlink" href="#id305" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Hot-fix of <code class="code docutils literal notranslate"><span class="pre">CommandStart</span></code> filter</p></li>
+</ul>
+</section>
+<section id="id306">
+<h2>2.5 (2021-01-01)<a class="headerlink" href="#id306" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Added full support of Telegram Bot API 4.5 (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/250">#250</a>, <a class="reference external" href="https://github.com/MassonNN/masogram/issues/251">#251</a>)</p></li>
+<li><p><a class="reference external" href="https://github.com/MassonNN/masogram/issues/239">#239</a> Fixed <code class="code docutils literal notranslate"><span class="pre">check_token</span></code> method</p></li>
+<li><p><a class="reference external" href="https://github.com/MassonNN/masogram/issues/238">#238</a>, <a class="reference external" href="https://github.com/MassonNN/masogram/issues/241">#241</a>: Added deep-linking utils</p></li>
+<li><p><a class="reference external" href="https://github.com/MassonNN/masogram/issues/248">#248</a> Fixed support of aiohttp-socks</p></li>
+<li><p>Updated setup.py. No more use of internal pip API</p></li>
+<li><p>Updated links to documentations (<a class="reference external" href="https://docs.masogram.dev">https://docs.masogram.dev</a>)</p></li>
+<li><p>Other small changes and minor improvements (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/223">#223</a> and others…)</p></li>
+</ul>
+</section>
+<section id="id314">
+<h2>2.4 (2021-10-29)<a class="headerlink" href="#id314" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Added Message.send_copy method (forward message without forwarding)</p></li>
+<li><p>Safe close of aiohttp client session (no more exception when application is shutdown)</p></li>
+<li><p>No more “adWanced” words in project <a class="reference external" href="https://github.com/MassonNN/masogram/issues/209">#209</a></p></li>
+<li><p>Arguments user and chat is renamed to user_id and chat_id in Dispatcher.throttle method <a class="reference external" href="https://github.com/MassonNN/masogram/issues/196">#196</a></p></li>
+<li><p>Fixed set_chat_permissions <a class="reference external" href="https://github.com/MassonNN/masogram/issues/198">#198</a></p></li>
+<li><p>Fixed Dispatcher polling task does not process cancellation <a class="reference external" href="https://github.com/MassonNN/masogram/issues/199">#199</a>, <a class="reference external" href="https://github.com/MassonNN/masogram/issues/201">#201</a></p></li>
+<li><p>Fixed compatibility with latest asyncio version <a class="reference external" href="https://github.com/MassonNN/masogram/issues/200">#200</a></p></li>
+<li><p>Disabled caching by default for lazy_gettext method of I18nMiddleware <a class="reference external" href="https://github.com/MassonNN/masogram/issues/203">#203</a></p></li>
+<li><p>Fixed HTML user mention parser <a class="reference external" href="https://github.com/MassonNN/masogram/issues/205">#205</a></p></li>
+<li><p>Added IsReplyFilter <a class="reference external" href="https://github.com/MassonNN/masogram/issues/210">#210</a></p></li>
+<li><p>Fixed send_poll method arguments <a class="reference external" href="https://github.com/MassonNN/masogram/issues/211">#211</a></p></li>
+<li><p>Added OrderedHelper <a class="reference external" href="https://github.com/MassonNN/masogram/issues/215">#215</a></p></li>
+<li><p>Fix incorrect completion order. <a class="reference external" href="https://github.com/MassonNN/masogram/issues/217">#217</a></p></li>
+</ul>
+</section>
+<section id="id327">
+<h2>2.3 (2021-08-16)<a class="headerlink" href="#id327" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Full support of Telegram Bot API 4.4</p></li>
+<li><p>Fixed <a class="reference external" href="https://github.com/MassonNN/masogram/issues/143">#143</a></p></li>
+<li><p>Added new filters from issue <a class="reference external" href="https://github.com/MassonNN/masogram/issues/151">#151</a>: <a class="reference external" href="https://github.com/MassonNN/masogram/issues/172">#172</a>, <a class="reference external" href="https://github.com/MassonNN/masogram/issues/176">#176</a>, <a class="reference external" href="https://github.com/MassonNN/masogram/issues/182">#182</a></p></li>
+<li><p>Added expire argument to RedisStorage2 and other storage fixes <a class="reference external" href="https://github.com/MassonNN/masogram/issues/145">#145</a></p></li>
+<li><p>Fixed JSON and Pickle storages <a class="reference external" href="https://github.com/MassonNN/masogram/issues/138">#138</a></p></li>
+<li><p>Implemented MongoStorage <a class="reference external" href="https://github.com/MassonNN/masogram/issues/153">#153</a> based on aiomongo (soon motor will be also added)</p></li>
+<li><p>Improved tests</p></li>
+<li><p>Updated examples</p></li>
+<li><p>Warning: Updated auth widget util. <a class="reference external" href="https://github.com/MassonNN/masogram/issues/190">#190</a></p></li>
+<li><p>Implemented throttle decorator <a class="reference external" href="https://github.com/MassonNN/masogram/issues/181">#181</a></p></li>
+</ul>
+</section>
+<section id="id338">
+<h2>2.2 (2021-06-09)<a class="headerlink" href="#id338" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Provides latest Telegram Bot API (4.3)</p></li>
+<li><p>Updated docs for filters</p></li>
+<li><p>Added opportunity to use different bot tokens from single bot instance (via context manager, <a class="reference external" href="https://github.com/MassonNN/masogram/issues/100">#100</a>)</p></li>
+<li><p>IMPORTANT: Fixed Typo: <code class="code docutils literal notranslate"><span class="pre">data</span></code> -&gt; <code class="code docutils literal notranslate"><span class="pre">bucket</span></code> in <code class="code docutils literal notranslate"><span class="pre">update_bucket</span></code> for RedisStorage2 (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/132">#132</a>)</p></li>
+</ul>
+</section>
+<section id="id341">
+<h2>2.1 (2021-04-18)<a class="headerlink" href="#id341" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Implemented all new features from Telegram Bot API 4.2</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">is_member</span></code> and <code class="code docutils literal notranslate"><span class="pre">is_admin</span></code> methods of <code class="code docutils literal notranslate"><span class="pre">ChatMember</span></code> and <code class="code docutils literal notranslate"><span class="pre">ChatMemberStatus</span></code> was renamed to <code class="code docutils literal notranslate"><span class="pre">is_chat_member</span></code> and <code class="code docutils literal notranslate"><span class="pre">is_chat_admin</span></code></p></li>
+<li><p>Remover func filter</p></li>
+<li><p>Added some useful Message edit functions (<code class="code docutils literal notranslate"><span class="pre">Message.edit_caption</span></code>, <code class="code docutils literal notranslate"><span class="pre">Message.edit_media</span></code>, <code class="code docutils literal notranslate"><span class="pre">Message.edit_reply_markup</span></code>) (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/121">#121</a>, <a class="reference external" href="https://github.com/MassonNN/masogram/issues/103">#103</a>, <a class="reference external" href="https://github.com/MassonNN/masogram/issues/104">#104</a>, <a class="reference external" href="https://github.com/MassonNN/masogram/issues/112">#112</a>)</p></li>
+<li><p>Added requests timeout for all methods (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/110">#110</a>)</p></li>
+<li><p>Added <code class="code docutils literal notranslate"><span class="pre">answer*</span></code> methods to <code class="code docutils literal notranslate"><span class="pre">Message</span></code> object (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/112">#112</a>)</p></li>
+<li><p>Maked some improvements of <code class="code docutils literal notranslate"><span class="pre">CallbackData</span></code> factory</p></li>
+<li><p>Added deep-linking parameter filter to <code class="code docutils literal notranslate"><span class="pre">CommandStart</span></code> filter</p></li>
+<li><p>Implemented opportunity to use DNS over socks (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/97">#97</a> -&gt; <a class="reference external" href="https://github.com/MassonNN/masogram/issues/98">#98</a>)</p></li>
+<li><p>Implemented logging filter for extending LogRecord attributes (Will be usefull with external logs collector utils like GrayLog, Kibana and etc.)</p></li>
+<li><p>Updated <code class="code docutils literal notranslate"><span class="pre">requirements.txt</span></code> and <code class="code docutils literal notranslate"><span class="pre">dev_requirements.txt</span></code> files</p></li>
+<li><p>Other small changes and minor improvements</p></li>
+</ul>
+</section>
+<section id="id350">
+<h2>2.0.1 (2021-12-31)<a class="headerlink" href="#id350" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Implemented CallbackData factory (<a class="reference external" href="https://github.com/MassonNN/masogram/blob/master/examples/callback_data_factory.py">example</a>)</p></li>
+<li><p>Implemented methods for answering to inline query from context and reply with animation to the messages. <a class="reference external" href="https://github.com/MassonNN/masogram/issues/85">#85</a></p></li>
+<li><p>Fixed installation from tar.gz <a class="reference external" href="https://github.com/MassonNN/masogram/issues/84">#84</a></p></li>
+<li><p>More exceptions (<code class="code docutils literal notranslate"><span class="pre">ChatIdIsEmpty</span></code> and <code class="code docutils literal notranslate"><span class="pre">NotEnoughRightsToRestrict</span></code>)</p></li>
+</ul>
+</section>
+<section id="id353">
+<h2>2.0 (2021-10-28)<a class="headerlink" href="#id353" title="Permalink to this heading">#</a></h2>
+<p>This update will break backward compability with Python 3.6 and works only with Python 3.7+:
+- contextvars (PEP-567);
+- New syntax for annotations (PEP-563).</p>
+<p>Changes:
+- Used contextvars instead of <code class="code docutils literal notranslate"><span class="pre">masogram.utils.context</span></code>;
+- Implemented filters factory;
+- Implemented new filters mechanism;
+- Allowed to customize command prefix in CommandsFilter;
+- Implemented mechanism of passing results from filters (as dicts) as kwargs in handlers (like fixtures in pytest);
+- Implemented states group feature;
+- Implemented FSM storage’s proxy;
+- Changed files uploading mechanism;
+- Implemented pipe for uploading files from URL;
+- Implemented I18n Middleware;
+- Errors handlers now should accept only two arguments (current update and exception);
+- Used <code class="code docutils literal notranslate"><span class="pre">aiohttp_socks</span></code> instead of <code class="code docutils literal notranslate"><span class="pre">aiosocksy</span></code> for Socks4/5 proxy;
+- types.ContentType was divided to <code class="code docutils literal notranslate"><span class="pre">types.ContentType</span></code> and <code class="code docutils literal notranslate"><span class="pre">types.ContentTypes</span></code>;
+- Allowed to use rapidjson instead of ujson/json;
+- <code class="code docutils literal notranslate"><span class="pre">.current()</span></code> method in bot and dispatcher objects was renamed to <code class="code docutils literal notranslate"><span class="pre">get_current()</span></code>;</p>
+<p>Full changelog
+- You can read more details about this release in migration FAQ: <a class="reference external" href="https://masogram.readthedocs.io/en/latest/migration_1_to_2.html">https://masogram.readthedocs.io/en/latest/migration_1_to_2.html</a></p>
+</section>
+<section id="id354">
+<h2>1.4 (2021-08-03)<a class="headerlink" href="#id354" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Bot API 4.0 (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/57">#57</a>)</p></li>
+</ul>
+</section>
+<section id="id356">
+<h2>1.3.3 (2021-07-16)<a class="headerlink" href="#id356" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Fixed markup-entities parsing;</p></li>
+<li><p>Added more API exceptions;</p></li>
+<li><p>Now InlineQueryResultLocation has live_period;</p></li>
+<li><p>Added more message content types;</p></li>
+<li><p>Other small changes and minor improvements.</p></li>
+</ul>
+</section>
+<section id="id357">
+<h2>1.3.2 (2021-05-27)<a class="headerlink" href="#id357" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Fixed crashing of polling process. (i think)</p></li>
+<li><p>Added parse_mode field into input query results according to Bot API Docs.</p></li>
+<li><p>Added new methods for Chat object. (<a class="reference external" href="https://github.com/MassonNN/masogram/issues/42">#42</a>, <a class="reference external" href="https://github.com/MassonNN/masogram/issues/43">#43</a>)</p></li>
+<li><p><strong>Warning</strong>: disabled connections limit for bot aiohttp session.</p></li>
+<li><p><strong>Warning</strong>: Destroyed “temp sessions” mechanism.</p></li>
+<li><p>Added new error types.</p></li>
+<li><p>Refactored detection of error type.</p></li>
+<li><p>Small fixes of executor util.</p></li>
+<li><p>Fixed RethinkDBStorage</p></li>
+</ul>
+</section>
+<section id="id360">
+<h2>1.3.1 (2018-05-27)<a class="headerlink" href="#id360" title="Permalink to this heading">#</a></h2>
+</section>
+<section id="id361">
+<h2>1.3 (2021-04-22)<a class="headerlink" href="#id361" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Allow to use Socks5 proxy (need manually install <code class="code docutils literal notranslate"><span class="pre">aiosocksy</span></code>).</p></li>
+<li><p>Refactored <code class="code docutils literal notranslate"><span class="pre">masogram.utils.executor</span></code> module.</p></li>
+<li><p><strong>[Warning]</strong> Updated requirements list.</p></li>
+</ul>
+</section>
+<section id="id362">
+<h2>1.2.3 (2018-04-14)<a class="headerlink" href="#id362" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Fixed API errors detection</p></li>
+<li><p>Fixed compability of <code class="code docutils literal notranslate"><span class="pre">setup.py</span></code> with pip 10.0.0</p></li>
+</ul>
+</section>
+<section id="id363">
+<h2>1.2.2 (2018-04-08)<a class="headerlink" href="#id363" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Added more error types.</p></li>
+<li><p>Implemented method <code class="code docutils literal notranslate"><span class="pre">InputFile.from_url(url:</span> <span class="pre">str)</span></code> for downloading files.</p></li>
+<li><p>Implemented big part of API method tests.</p></li>
+<li><p>Other small changes and mminor improvements.</p></li>
+</ul>
+</section>
+<section id="id364">
+<h2>1.2.1 (2018-03-25)<a class="headerlink" href="#id364" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Fixed handling Venue’s [<a class="reference external" href="https://github.com/MassonNN/masogram/issues/27">#27</a>, <a class="reference external" href="https://github.com/MassonNN/masogram/issues/26">#26</a>]</p></li>
+<li><p>Added parse_mode to all medias (Bot API 3.6 support) [<a class="reference external" href="https://github.com/MassonNN/masogram/issues/23">#23</a>]</p></li>
+<li><p>Now regexp filter can be used with callback query data [<a class="reference external" href="https://github.com/MassonNN/masogram/issues/19">#19</a>]</p></li>
+<li><p>Improvements in <code class="code docutils literal notranslate"><span class="pre">InlineKeyboardMarkup</span></code> &amp; <code class="code docutils literal notranslate"><span class="pre">ReplyKeyboardMarkup</span></code> objects [<a class="reference external" href="https://github.com/MassonNN/masogram/issues/21">#21</a>]</p></li>
+<li><p>Other bug &amp; typo fixes and minor improvements.</p></li>
+</ul>
+</section>
+<section id="id370">
+<h2>1.2 (2018-02-23)<a class="headerlink" href="#id370" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Full provide Telegram Bot API 3.6</p></li>
+<li><p>Fixed critical error: <code class="code docutils literal notranslate"><span class="pre">Fatal</span> <span class="pre">Python</span> <span class="pre">error:</span> <span class="pre">PyImport_GetModuleDict:</span> <span class="pre">no</span> <span class="pre">module</span> <span class="pre">dictionary!</span></code></p></li>
+<li><p>Implemented connection pool in RethinkDB driver</p></li>
+<li><p>Typo fixes of documentstion</p></li>
+<li><p>Other bug fixes and minor improvements.</p></li>
+</ul>
+</section>
+<section id="id371">
+<h2>1.1 (2018-01-27)<a class="headerlink" href="#id371" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Added more methods for data types (like <code class="code docutils literal notranslate"><span class="pre">message.reply_sticker(...)</span></code> or <code class="code docutils literal notranslate"><span class="pre">file.download(...)</span></code></p></li>
+<li><p>Typo fixes of documentstion</p></li>
+<li><p>Allow to set default parse mode for messages (<code class="code docutils literal notranslate"><span class="pre">Bot(</span> <span class="pre">...</span> <span class="pre">,</span> <span class="pre">parse_mode='HTML')</span></code>)</p></li>
+<li><p>Allowed to cancel event from the <code class="code docutils literal notranslate"><span class="pre">Middleware.on_pre_process_&lt;event</span> <span class="pre">type&gt;</span></code></p></li>
+<li><p>Fixed sending files with correct names.</p></li>
+<li><p>Fixed MediaGroup</p></li>
+<li><p>Added RethinkDB storage for FSM (<code class="code docutils literal notranslate"><span class="pre">masogram.contrib.fsm_storage.rethinkdb</span></code>)</p></li>
+</ul>
+</section>
+<section id="id372">
+<h2>1.0.4 (2018-01-10)<a class="headerlink" href="#id372" title="Permalink to this heading">#</a></h2>
+</section>
+<section id="id373">
+<h2>1.0.3 (2018-01-07)<a class="headerlink" href="#id373" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Added middlewares mechanism.</p></li>
+<li><p>Added example for middlewares and throttling manager.</p></li>
+<li><p>Added logging middleware (<code class="code docutils literal notranslate"><span class="pre">masogram.contrib.middlewares.logging.LoggingMiddleware</span></code>)</p></li>
+<li><p>Fixed handling errors in async tasks (marked as ‘async_task’)</p></li>
+<li><p>Small fixes and other minor improvements.</p></li>
+</ul>
+</section>
+<section id="id374">
+<h2>1.0.2 (2017-11-29)<a class="headerlink" href="#id374" title="Permalink to this heading">#</a></h2>
+</section>
+<section id="id375">
+<h2>1.0.1 (2017-11-21)<a class="headerlink" href="#id375" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Implemented <code class="code docutils literal notranslate"><span class="pre">types.InputFile</span></code> for more easy sending local files</p></li>
+<li><p><strong>Danger!</strong> Fixed typo in word pooling. Now whatever all methods with that word marked as deprecated and original methods is renamed to polling. Check it in you’r code before updating!</p></li>
+<li><p>Fixed helper for chat actions (<code class="code docutils literal notranslate"><span class="pre">types.ChatActions</span></code>)</p></li>
+<li><p>Added <a class="reference external" href="https://github.com/MassonNN/masogram/blob/master/examples/media_group.py">example</a> for media group.</p></li>
+</ul>
+</section>
+<section id="id377">
+<h2>1.0 (2017-11-19)<a class="headerlink" href="#id377" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Remaked data types serialozation/deserialization mechanism (Speed up).</p></li>
+<li><p>Fully rewrited all Telegram data types.</p></li>
+<li><p>Bot object was fully rewritted (regenerated).</p></li>
+<li><p>Full provide Telegram Bot API 3.4+ (with sendMediaGroup)</p></li>
+<li><p>Warning: Now <code class="code docutils literal notranslate"><span class="pre">BaseStorage.close()</span></code> is awaitable! (FSM)</p></li>
+<li><p>Fixed compability with uvloop.</p></li>
+<li><p>More employments for <code class="code docutils literal notranslate"><span class="pre">masogram.utils.context</span></code>.</p></li>
+<li><p>Allowed to disable <code class="code docutils literal notranslate"><span class="pre">ujson</span></code>.</p></li>
+<li><p>Other bug fixes and minor improvements.</p></li>
+<li><p>Migrated from Bitbucket to Github.</p></li>
+</ul>
+</section>
+<section id="id378">
+<h2>0.4.1 (2017-08-03)<a class="headerlink" href="#id378" title="Permalink to this heading">#</a></h2>
+</section>
+<section id="id379">
+<h2>0.4 (2017-08-05)<a class="headerlink" href="#id379" title="Permalink to this heading">#</a></h2>
+</section>
+<section id="id380">
+<h2>0.3.4 (2017-08-04)<a class="headerlink" href="#id380" title="Permalink to this heading">#</a></h2>
+</section>
+<section id="id381">
+<h2>0.3.3 (2017-07-05)<a class="headerlink" href="#id381" title="Permalink to this heading">#</a></h2>
+</section>
+<section id="id382">
+<h2>0.3.2 (2017-07-04)<a class="headerlink" href="#id382" title="Permalink to this heading">#</a></h2>
+</section>
+<section id="id383">
+<h2>0.3.1 (2017-07-04)<a class="headerlink" href="#id383" title="Permalink to this heading">#</a></h2>
+</section>
+<section id="b1-2017-06-00">
+<h2>0.2b1 (2017-06-00)<a class="headerlink" href="#b1-2017-06-00" title="Permalink to this heading">#</a></h2>
+</section>
+<section id="id384">
+<h2>0.1 (2017-06-03)<a class="headerlink" href="#id384" title="Permalink to this heading">#</a></h2>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="contributing.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Contributing</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="utils/callback_answer.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Callback answer</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2023, masogram Team
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            <div class="icons">
+              
+            </div>
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Changelog</a><ul>
+<li><a class="reference internal" href="#release-unreleased-draft-2023-06-14">1.0 [UNRELEASED DRAFT] (2023-06-14)</a><ul>
+<li><a class="reference internal" href="#features">Features</a></li>
+<li><a class="reference internal" href="#bugfixes">Bugfixes</a></li>
+<li><a class="reference internal" href="#improved-documentation">Improved Documentation</a></li>
+<li><a class="reference internal" href="#deprecations-and-removals">Deprecations and Removals</a></li>
+<li><a class="reference internal" href="#misc">Misc</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#b7-2023-02-18">3.0.0b7 (2023-02-18)</a><ul>
+<li><a class="reference internal" href="#id17">Features</a></li>
+<li><a class="reference internal" href="#id21">Bugfixes</a></li>
+<li><a class="reference internal" href="#id24">Misc</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#b6-2022-11-18">3.0.0b6 (2022-11-18)</a><ul>
+<li><a class="reference internal" href="#id32">Features</a></li>
+<li><a class="reference internal" href="#id37">Bugfixes</a></li>
+<li><a class="reference internal" href="#id40">Improved Documentation</a></li>
+<li><a class="reference internal" href="#id44">Misc</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#b5-2022-10-02">3.0.0b5 (2022-10-02)</a><ul>
+<li><a class="reference internal" href="#id47">Features</a></li>
+<li><a class="reference internal" href="#id52">Bugfixes</a></li>
+<li><a class="reference internal" href="#id57">Improved Documentation</a></li>
+<li><a class="reference internal" href="#id59">Deprecations and Removals</a></li>
+<li><a class="reference internal" href="#id61">Misc</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#b4-2022-08-14">3.0.0b4 (2022-08-14)</a><ul>
+<li><a class="reference internal" href="#id63">Features</a></li>
+<li><a class="reference internal" href="#id68">Bugfixes</a></li>
+<li><a class="reference internal" href="#id73">Misc</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#b3-2022-04-19">3.0.0b3 (2022-04-19)</a><ul>
+<li><a class="reference internal" href="#id82">Features</a></li>
+<li><a class="reference internal" href="#id85">Bugfixes</a></li>
+<li><a class="reference internal" href="#id90">Misc</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#b2-2022-02-19">3.0.0b2 (2022-02-19)</a><ul>
+<li><a class="reference internal" href="#id95">Features</a></li>
+<li><a class="reference internal" href="#id99">Bugfixes</a></li>
+<li><a class="reference internal" href="#id102">Misc</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#b1-2021-12-12">3.0.0b1 (2021-12-12)</a><ul>
+<li><a class="reference internal" href="#id106">Features</a></li>
+<li><a class="reference internal" href="#id108">Bugfixes</a></li>
+<li><a class="reference internal" href="#id110">Misc</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#a18-2021-11-10">3.0.0a18 (2021-11-10)</a><ul>
+<li><a class="reference internal" href="#id115">Features</a></li>
+<li><a class="reference internal" href="#id120">Bugfixes</a></li>
+<li><a class="reference internal" href="#id124">Misc</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#a17-2021-09-24">3.0.0a17 (2021-09-24)</a><ul>
+<li><a class="reference internal" href="#id129">Misc</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#a16-2021-09-22">3.0.0a16 (2021-09-22)</a><ul>
+<li><a class="reference internal" href="#id132">Features</a></li>
+<li><a class="reference internal" href="#id135">Misc</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#a15-2021-09-10">3.0.0a15 (2021-09-10)</a><ul>
+<li><a class="reference internal" href="#id140">Features</a></li>
+<li><a class="reference internal" href="#id142">Bugfixes</a></li>
+<li><a class="reference internal" href="#id144">Misc</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#a14-2021-08-17">3.0.0a14 (2021-08-17)</a><ul>
+<li><a class="reference internal" href="#id149">Features</a></li>
+<li><a class="reference internal" href="#id152">Bugfixes</a></li>
+<li><a class="reference internal" href="#id154">Improved Documentation</a></li>
+<li><a class="reference internal" href="#id156">Misc</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id160">2.14.3 (2021-07-21)</a></li>
+<li><a class="reference internal" href="#id163">2.14.2 (2021-07-26)</a></li>
+<li><a class="reference internal" href="#id167">2.14 (2021-07-27)</a></li>
+<li><a class="reference internal" href="#id178">2.13 (2021-04-28)</a></li>
+<li><a class="reference internal" href="#id190">2.12.1 (2021-03-22)</a></li>
+<li><a class="reference internal" href="#id199">2.12 (2021-03-14)</a></li>
+<li><a class="reference internal" href="#id223">2.11.2 (2021-11-10)</a></li>
+<li><a class="reference internal" href="#id225">2.11.1 (2021-11-10)</a></li>
+<li><a class="reference internal" href="#id230">2.11 (2021-11-08)</a></li>
+<li><a class="reference internal" href="#id233">2.10.1 (2021-09-14)</a></li>
+<li><a class="reference internal" href="#id235">2.10 (2021-09-13)</a></li>
+<li><a class="reference internal" href="#id271">2.9.2 (2021-06-13)</a></li>
+<li><a class="reference internal" href="#id274">2.9 (2021-06-08)</a></li>
+<li><a class="reference internal" href="#id285">2.8 (2021-04-26)</a></li>
+<li><a class="reference internal" href="#id287">2.7 (2021-04-07)</a></li>
+<li><a class="reference internal" href="#id294">2.6.1 (2021-01-25)</a></li>
+<li><a class="reference internal" href="#id297">2.6 (2021-01-23)</a></li>
+<li><a class="reference internal" href="#id300">2.5.3 (2021-01-05)</a></li>
+<li><a class="reference internal" href="#id304">2.5.2 (2021-01-01)</a></li>
+<li><a class="reference internal" href="#id305">2.5.1 (2021-01-01)</a></li>
+<li><a class="reference internal" href="#id306">2.5 (2021-01-01)</a></li>
+<li><a class="reference internal" href="#id314">2.4 (2021-10-29)</a></li>
+<li><a class="reference internal" href="#id327">2.3 (2021-08-16)</a></li>
+<li><a class="reference internal" href="#id338">2.2 (2021-06-09)</a></li>
+<li><a class="reference internal" href="#id341">2.1 (2021-04-18)</a></li>
+<li><a class="reference internal" href="#id350">2.0.1 (2021-12-31)</a></li>
+<li><a class="reference internal" href="#id353">2.0 (2021-10-28)</a></li>
+<li><a class="reference internal" href="#id354">1.4 (2021-08-03)</a></li>
+<li><a class="reference internal" href="#id356">1.3.3 (2021-07-16)</a></li>
+<li><a class="reference internal" href="#id357">1.3.2 (2021-05-27)</a></li>
+<li><a class="reference internal" href="#id360">1.3.1 (2018-05-27)</a></li>
+<li><a class="reference internal" href="#id361">1.3 (2021-04-22)</a></li>
+<li><a class="reference internal" href="#id362">1.2.3 (2018-04-14)</a></li>
+<li><a class="reference internal" href="#id363">1.2.2 (2018-04-08)</a></li>
+<li><a class="reference internal" href="#id364">1.2.1 (2018-03-25)</a></li>
+<li><a class="reference internal" href="#id370">1.2 (2018-02-23)</a></li>
+<li><a class="reference internal" href="#id371">1.1 (2018-01-27)</a></li>
+<li><a class="reference internal" href="#id372">1.0.4 (2018-01-10)</a></li>
+<li><a class="reference internal" href="#id373">1.0.3 (2018-01-07)</a></li>
+<li><a class="reference internal" href="#id374">1.0.2 (2017-11-29)</a></li>
+<li><a class="reference internal" href="#id375">1.0.1 (2017-11-21)</a></li>
+<li><a class="reference internal" href="#id377">1.0 (2017-11-19)</a></li>
+<li><a class="reference internal" href="#id378">0.4.1 (2017-08-03)</a></li>
+<li><a class="reference internal" href="#id379">0.4 (2017-08-05)</a></li>
+<li><a class="reference internal" href="#id380">0.3.4 (2017-08-04)</a></li>
+<li><a class="reference internal" href="#id381">0.3.3 (2017-07-05)</a></li>
+<li><a class="reference internal" href="#id382">0.3.2 (2017-07-04)</a></li>
+<li><a class="reference internal" href="#id383">0.3.1 (2017-07-04)</a></li>
+<li><a class="reference internal" href="#b1-2017-06-00">0.2b1 (2017-06-00)</a></li>
+<li><a class="reference internal" href="#id384">0.1 (2017-06-03)</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/scripts/furo.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    </body>
+</html>

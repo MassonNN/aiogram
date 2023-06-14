@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: masogram \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-14 14:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../api/methods/send_video_note.rst:3
+msgid "sendVideoNote"
+msgstr ""
+
+#: ../../api/methods/send_video_note.rst:5
+msgid "Returns: :obj:`Message`"
+msgstr ""
+
+#: ../../../masogram/methods/send_video_note.py:docstring of masogram.methods.send_video_note.SendVideoNote:1
+msgid "As of `v.4.0 <https://telegram.org/blog/video-messages-and-telescope>`_, Telegram clients support rounded square MPEG4 videos of up to 1 minute long. Use this method to send video messages. On success, the sent :class:`masogram.types.message.Message` is returned."
+msgstr ""
+
+#: ../../../masogram/methods/send_video_note.py:docstring of masogram.methods.send_video_note.SendVideoNote:3
+msgid "Source: https://core.telegram.org/bots/api#sendvideonote"
+msgstr ""
+
+#: ../../docstring of masogram.methods.send_video_note.SendVideoNote.chat_id:1
+msgid "Unique identifier for the target chat or username of the target channel (in the format :code:`@channelusername`)"
+msgstr ""
+
+#: ../../docstring of masogram.methods.send_video_note.SendVideoNote.video_note:1
+msgid "Video note to send. Pass a file_id as String to send a video note that exists on the Telegram servers (recommended) or upload a new video using multipart/form-data. :ref:`More information on Sending Files » <sending-files>`. Sending video notes by a URL is currently unsupported"
+msgstr ""
+
+#: ../../docstring of masogram.methods.send_video_note.SendVideoNote.message_thread_id:1
+msgid "Unique identifier for the target message thread (topic) of the forum; for forum supergroups only"
+msgstr ""
+
+#: ../../docstring of masogram.methods.send_video_note.SendVideoNote.duration:1
+msgid "Duration of sent video in seconds"
+msgstr ""
+
+#: ../../docstring of masogram.methods.send_video_note.SendVideoNote.length:1
+msgid "Video width and height, i.e. diameter of the video message"
+msgstr ""
+
+#: ../../docstring of masogram.methods.send_video_note.SendVideoNote.thumbnail:1
+msgid "Thumbnail of the file sent; can be ignored if thumbnail generation for the file is supported server-side. The thumbnail should be in JPEG format and less than 200 kB in size. A thumbnail's width and height should not exceed 320. Ignored if the file is not uploaded using multipart/form-data. Thumbnails can't be reused and can be only uploaded as a new file, so you can pass 'attach://<file_attach_name>' if the thumbnail was uploaded using multipart/form-data under <file_attach_name>. :ref:`More information on Sending Files » <sending-files>`"
+msgstr ""
+
+#: ../../docstring of masogram.methods.send_video_note.SendVideoNote.disable_notification:1
+msgid "Sends the message `silently <https://telegram.org/blog/channels-2-0#silent-messages>`_. Users will receive a notification with no sound."
+msgstr ""
+
+#: ../../docstring of masogram.methods.send_video_note.SendVideoNote.protect_content:1
+msgid "Protects the contents of the sent message from forwarding and saving"
+msgstr ""
+
+#: ../../docstring of masogram.methods.send_video_note.SendVideoNote.reply_to_message_id:1
+msgid "If the message is a reply, ID of the original message"
+msgstr ""
+
+#: ../../docstring of masogram.methods.send_video_note.SendVideoNote.allow_sending_without_reply:1
+msgid "Pass :code:`True` if the message should be sent even if the specified replied-to message is not found"
+msgstr ""
+
+#: ../../docstring of masogram.methods.send_video_note.SendVideoNote.reply_markup:1
+msgid "Additional interface options. A JSON-serialized object for an `inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_, `custom reply keyboard <https://core.telegram.org/bots/features#keyboards>`_, instructions to remove reply keyboard or to force a reply from the user."
+msgstr ""
+
+#: ../../api/methods/send_video_note.rst:14
+msgid "Usage"
+msgstr ""
+
+#: ../../api/methods/send_video_note.rst:17
+msgid "As bot method"
+msgstr ""
+
+#: ../../api/methods/send_video_note.rst:25
+msgid "Method as object"
+msgstr ""
+
+#: ../../api/methods/send_video_note.rst:27
+msgid "Imports:"
+msgstr ""
+
+#: ../../api/methods/send_video_note.rst:29
+msgid ":code:`from masogram.methods.send_video_note import SendVideoNote`"
+msgstr ""
+
+#: ../../api/methods/send_video_note.rst:30
+msgid "alias: :code:`from masogram.methods import SendVideoNote`"
+msgstr ""
+
+#: ../../api/methods/send_video_note.rst:33
+msgid "With specific bot"
+msgstr ""
+
+#: ../../api/methods/send_video_note.rst:40
+msgid "As reply into Webhook in handler"
+msgstr ""
+
+#: ../../api/methods/send_video_note.rst:48
+msgid "As shortcut from received object"
+msgstr ""
+
+#: ../../api/methods/send_video_note.rst:50
+msgid ":meth:`masogram.types.message.Message.answer_video_note`"
+msgstr ""
+
+#: ../../api/methods/send_video_note.rst:51
+msgid ":meth:`masogram.types.message.Message.reply_video_note`"
+msgstr ""

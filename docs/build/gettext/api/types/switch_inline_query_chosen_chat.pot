@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: masogram \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-14 14:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../api/types/switch_inline_query_chosen_chat.rst:3
+msgid "SwitchInlineQueryChosenChat"
+msgstr ""
+
+#: ../../../masogram/types/switch_inline_query_chosen_chat.py:docstring of masogram.types.switch_inline_query_chosen_chat.SwitchInlineQueryChosenChat:1
+msgid "This object represents an inline button that switches the current user to inline mode in a chosen chat, with an optional default inline query."
+msgstr ""
+
+#: ../../../masogram/types/switch_inline_query_chosen_chat.py:docstring of masogram.types.switch_inline_query_chosen_chat.SwitchInlineQueryChosenChat:3
+msgid "Source: https://core.telegram.org/bots/api#switchinlinequerychosenchat"
+msgstr ""
+
+#: ../../docstring of masogram.types.switch_inline_query_chosen_chat.SwitchInlineQueryChosenChat.query:1
+msgid "*Optional*. The default inline query to be inserted in the input field. If left empty, only the bot's username will be inserted"
+msgstr ""
+
+#: ../../docstring of masogram.types.switch_inline_query_chosen_chat.SwitchInlineQueryChosenChat.allow_user_chats:1
+msgid "*Optional*. True, if private chats with users can be chosen"
+msgstr ""
+
+#: ../../docstring of masogram.types.switch_inline_query_chosen_chat.SwitchInlineQueryChosenChat.allow_bot_chats:1
+msgid "*Optional*. True, if private chats with bots can be chosen"
+msgstr ""
+
+#: ../../docstring of masogram.types.switch_inline_query_chosen_chat.SwitchInlineQueryChosenChat.allow_group_chats:1
+msgid "*Optional*. True, if group and supergroup chats can be chosen"
+msgstr ""
+
+#: ../../docstring of masogram.types.switch_inline_query_chosen_chat.SwitchInlineQueryChosenChat.allow_channel_chats:1
+msgid "*Optional*. True, if channel chats can be chosen"
+msgstr ""

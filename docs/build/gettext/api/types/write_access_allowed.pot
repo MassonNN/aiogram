@@ -1,0 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: masogram \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-14 14:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../api/types/write_access_allowed.rst:3
+msgid "WriteAccessAllowed"
+msgstr ""
+
+#: ../../../masogram/types/write_access_allowed.py:docstring of masogram.types.write_access_allowed.WriteAccessAllowed:1
+msgid "This object represents a service message about a user allowing a bot to write messages after adding the bot to the attachment menu or launching a Web App from a link."
+msgstr ""
+
+#: ../../../masogram/types/write_access_allowed.py:docstring of masogram.types.write_access_allowed.WriteAccessAllowed:3
+msgid "Source: https://core.telegram.org/bots/api#writeaccessallowed"
+msgstr ""
+
+#: ../../docstring of masogram.types.write_access_allowed.WriteAccessAllowed.web_app_name:1
+msgid "*Optional*. Name of the Web App which was launched from a link"
+msgstr ""

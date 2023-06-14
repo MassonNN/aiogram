@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: masogram \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-14 14:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../api/types/video_note.rst:3
+msgid "VideoNote"
+msgstr ""
+
+#: ../../../masogram/types/video_note.py:docstring of masogram.types.video_note.VideoNote:1
+msgid "This object represents a `video message <https://telegram.org/blog/video-messages-and-telescope>`_ (available in Telegram apps as of `v.4.0 <https://telegram.org/blog/video-messages-and-telescope>`_)."
+msgstr ""
+
+#: ../../../masogram/types/video_note.py:docstring of masogram.types.video_note.VideoNote:3
+msgid "Source: https://core.telegram.org/bots/api#videonote"
+msgstr ""
+
+#: ../../docstring of masogram.types.video_note.VideoNote.file_id:1
+msgid "Identifier for this file, which can be used to download or reuse the file"
+msgstr ""
+
+#: ../../docstring of masogram.types.video_note.VideoNote.file_unique_id:1
+msgid "Unique identifier for this file, which is supposed to be the same over time and for different bots. Can't be used to download or reuse the file."
+msgstr ""
+
+#: ../../docstring of masogram.types.video_note.VideoNote.length:1
+msgid "Video width and height (diameter of the video message) as defined by sender"
+msgstr ""
+
+#: ../../docstring of masogram.types.video_note.VideoNote.duration:1
+msgid "Duration of the video in seconds as defined by sender"
+msgstr ""
+
+#: ../../docstring of masogram.types.video_note.VideoNote.thumbnail:1
+msgid "*Optional*. Video thumbnail"
+msgstr ""
+
+#: ../../docstring of masogram.types.video_note.VideoNote.file_size:1
+msgid "*Optional*. File size in bytes"
+msgstr ""

@@ -1,0 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: masogram \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-14 14:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../api/types/keyboard_button_poll_type.rst:3
+msgid "KeyboardButtonPollType"
+msgstr ""
+
+#: ../../../masogram/types/keyboard_button_poll_type.py:docstring of masogram.types.keyboard_button_poll_type.KeyboardButtonPollType:1
+msgid "This object represents type of a poll, which is allowed to be created and sent when the corresponding button is pressed."
+msgstr ""
+
+#: ../../../masogram/types/keyboard_button_poll_type.py:docstring of masogram.types.keyboard_button_poll_type.KeyboardButtonPollType:3
+msgid "Source: https://core.telegram.org/bots/api#keyboardbuttonpolltype"
+msgstr ""
+
+#: ../../docstring of masogram.types.keyboard_button_poll_type.KeyboardButtonPollType.type:1
+msgid "*Optional*. If *quiz* is passed, the user will be allowed to create only polls in the quiz mode. If *regular* is passed, only regular polls will be allowed. Otherwise, the user will be allowed to create a poll of any type."
+msgstr ""

@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: masogram \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-14 14:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../api/types/sticker.rst:3
+msgid "Sticker"
+msgstr ""
+
+#: ../../../masogram/types/sticker.py:docstring of masogram.types.sticker.Sticker:1
+msgid "This object represents a sticker."
+msgstr ""
+
+#: ../../../masogram/types/sticker.py:docstring of masogram.types.sticker.Sticker:3
+msgid "Source: https://core.telegram.org/bots/api#sticker"
+msgstr ""
+
+#: ../../docstring of masogram.types.sticker.Sticker.file_id:1
+msgid "Identifier for this file, which can be used to download or reuse the file"
+msgstr ""
+
+#: ../../docstring of masogram.types.sticker.Sticker.file_unique_id:1
+msgid "Unique identifier for this file, which is supposed to be the same over time and for different bots. Can't be used to download or reuse the file."
+msgstr ""
+
+#: ../../docstring of masogram.types.sticker.Sticker.type:1
+msgid "Type of the sticker, currently one of 'regular', 'mask', 'custom_emoji'. The type of the sticker is independent from its format, which is determined by the fields *is_animated* and *is_video*."
+msgstr ""
+
+#: ../../docstring of masogram.types.sticker.Sticker.width:1
+msgid "Sticker width"
+msgstr ""
+
+#: ../../docstring of masogram.types.sticker.Sticker.height:1
+msgid "Sticker height"
+msgstr ""
+
+#: ../../docstring of masogram.types.sticker.Sticker.is_animated:1
+msgid ":code:`True`, if the sticker is `animated <https://telegram.org/blog/animated-stickers>`_"
+msgstr ""
+
+#: ../../docstring of masogram.types.sticker.Sticker.is_video:1
+msgid ":code:`True`, if the sticker is a `video sticker <https://telegram.org/blog/video-stickers-better-reactions>`_"
+msgstr ""
+
+#: ../../docstring of masogram.types.sticker.Sticker.thumbnail:1
+msgid "*Optional*. Sticker thumbnail in the .WEBP or .JPG format"
+msgstr ""
+
+#: ../../docstring of masogram.types.sticker.Sticker.emoji:1
+msgid "*Optional*. Emoji associated with the sticker"
+msgstr ""
+
+#: ../../docstring of masogram.types.sticker.Sticker.set_name:1
+msgid "*Optional*. Name of the sticker set to which the sticker belongs"
+msgstr ""
+
+#: ../../docstring of masogram.types.sticker.Sticker.premium_animation:1
+msgid "*Optional*. For premium regular stickers, premium animation for the sticker"
+msgstr ""
+
+#: ../../docstring of masogram.types.sticker.Sticker.mask_position:1
+msgid "*Optional*. For mask stickers, the position where the mask should be placed"
+msgstr ""
+
+#: ../../docstring of masogram.types.sticker.Sticker.custom_emoji_id:1
+msgid "*Optional*. For custom emoji stickers, unique identifier of the custom emoji"
+msgstr ""
+
+#: ../../docstring of masogram.types.sticker.Sticker.needs_repainting:1
+msgid "*Optional*. :code:`True`, if the sticker must be repainted to a text color in messages, the color of the Telegram Premium badge in emoji status, white color on chat photos, or another appropriate color in other places"
+msgstr ""
+
+#: ../../docstring of masogram.types.sticker.Sticker.file_size:1
+msgid "*Optional*. File size in bytes"
+msgstr ""
+
+#: ../../../masogram/types/sticker.py:docstring of masogram.types.sticker.Sticker.set_position_in_set:1
+msgid "Shortcut for method :class:`masogram.methods.set_sticker_position_in_set.SetStickerPositionInSet` will automatically fill method attributes:"
+msgstr ""
+
+#: ../../../masogram/types/sticker.py:docstring of masogram.types.sticker.Sticker.delete_from_set:4
+#: ../../../masogram/types/sticker.py:docstring of masogram.types.sticker.Sticker.set_position_in_set:4
+msgid ":code:`sticker`"
+msgstr ""
+
+#: ../../../masogram/types/sticker.py:docstring of masogram.types.sticker.Sticker.set_position_in_set:6
+msgid "Use this method to move a sticker in a set created by the bot to a specific position. Returns :code:`True` on success."
+msgstr ""
+
+#: ../../../masogram/types/sticker.py:docstring of masogram.types.sticker.Sticker.set_position_in_set:8
+msgid "Source: https://core.telegram.org/bots/api#setstickerpositioninset"
+msgstr ""
+
+#: ../../../masogram/types/sticker.py:docstring of masogram.types.sticker.Sticker.set_position_in_set:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../masogram/types/sticker.py:docstring of masogram.types.sticker.Sticker.set_position_in_set:10
+msgid "New sticker position in the set, zero-based"
+msgstr ""
+
+#: ../../../masogram/types/sticker.py:docstring of masogram.types.sticker.Sticker.delete_from_set:0
+#: ../../../masogram/types/sticker.py:docstring of masogram.types.sticker.Sticker.set_position_in_set:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../masogram/types/sticker.py:docstring of masogram.types.sticker.Sticker.set_position_in_set:11
+msgid "instance of method :class:`masogram.methods.set_sticker_position_in_set.SetStickerPositionInSet`"
+msgstr ""
+
+#: ../../../masogram/types/sticker.py:docstring of masogram.types.sticker.Sticker.delete_from_set:1
+msgid "Shortcut for method :class:`masogram.methods.delete_sticker_from_set.DeleteStickerFromSet` will automatically fill method attributes:"
+msgstr ""
+
+#: ../../../masogram/types/sticker.py:docstring of masogram.types.sticker.Sticker.delete_from_set:6
+msgid "Use this method to delete a sticker from a set created by the bot. Returns :code:`True` on success."
+msgstr ""
+
+#: ../../../masogram/types/sticker.py:docstring of masogram.types.sticker.Sticker.delete_from_set:8
+msgid "Source: https://core.telegram.org/bots/api#deletestickerfromset"
+msgstr ""
+
+#: ../../../masogram/types/sticker.py:docstring of masogram.types.sticker.Sticker.delete_from_set:10
+msgid "instance of method :class:`masogram.methods.delete_sticker_from_set.DeleteStickerFromSet`"
+msgstr ""

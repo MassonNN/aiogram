@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: masogram \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-14 14:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../api/types/input_contact_message_content.rst:3
+msgid "InputContactMessageContent"
+msgstr ""
+
+#: ../../../masogram/types/input_contact_message_content.py:docstring of masogram.types.input_contact_message_content.InputContactMessageContent:1
+msgid "Represents the `content <https://core.telegram.org/bots/api#inputmessagecontent>`_ of a contact message to be sent as the result of an inline query."
+msgstr ""
+
+#: ../../../masogram/types/input_contact_message_content.py:docstring of masogram.types.input_contact_message_content.InputContactMessageContent:3
+msgid "Source: https://core.telegram.org/bots/api#inputcontactmessagecontent"
+msgstr ""
+
+#: ../../docstring of masogram.types.input_contact_message_content.InputContactMessageContent.phone_number:1
+msgid "Contact's phone number"
+msgstr ""
+
+#: ../../docstring of masogram.types.input_contact_message_content.InputContactMessageContent.first_name:1
+msgid "Contact's first name"
+msgstr ""
+
+#: ../../docstring of masogram.types.input_contact_message_content.InputContactMessageContent.last_name:1
+msgid "*Optional*. Contact's last name"
+msgstr ""
+
+#: ../../docstring of masogram.types.input_contact_message_content.InputContactMessageContent.vcard:1
+msgid "*Optional*. Additional data about the contact in the form of a `vCard <https://en.wikipedia.org/wiki/VCard>`_, 0-2048 bytes"
+msgstr ""

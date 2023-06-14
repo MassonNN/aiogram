@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: masogram \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-14 14:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../api/methods/set_sticker_set_thumb.rst:3
+msgid "setStickerSetThumb"
+msgstr ""
+
+#: ../../api/methods/set_sticker_set_thumb.rst:5
+msgid "Returns: :obj:`bool`"
+msgstr ""
+
+#: ../../api/methods/set_sticker_set_thumb.rst:14
+msgid "Usage"
+msgstr ""
+
+#: ../../api/methods/set_sticker_set_thumb.rst:17
+msgid "As bot method"
+msgstr ""
+
+#: ../../api/methods/set_sticker_set_thumb.rst:25
+msgid "Method as object"
+msgstr ""
+
+#: ../../api/methods/set_sticker_set_thumb.rst:27
+msgid "Imports:"
+msgstr ""
+
+#: ../../api/methods/set_sticker_set_thumb.rst:29
+msgid ":code:`from masogram.methods.set_sticker_set_thumb import SetStickerSetThumb`"
+msgstr ""
+
+#: ../../api/methods/set_sticker_set_thumb.rst:30
+msgid "alias: :code:`from masogram.methods import SetStickerSetThumb`"
+msgstr ""
+
+#: ../../api/methods/set_sticker_set_thumb.rst:33
+msgid "With specific bot"
+msgstr ""
+
+#: ../../api/methods/set_sticker_set_thumb.rst:40
+msgid "As reply into Webhook in handler"
+msgstr ""

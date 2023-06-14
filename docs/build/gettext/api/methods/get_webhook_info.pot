@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: masogram \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-14 14:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../api/methods/get_webhook_info.rst:3
+msgid "getWebhookInfo"
+msgstr ""
+
+#: ../../api/methods/get_webhook_info.rst:5
+msgid "Returns: :obj:`WebhookInfo`"
+msgstr ""
+
+#: ../../../masogram/methods/get_webhook_info.py:docstring of masogram.methods.get_webhook_info.GetWebhookInfo:1
+msgid "Use this method to get current webhook status. Requires no parameters. On success, returns a :class:`masogram.types.webhook_info.WebhookInfo` object. If the bot is using :class:`masogram.methods.get_updates.GetUpdates`, will return an object with the *url* field empty."
+msgstr ""
+
+#: ../../../masogram/methods/get_webhook_info.py:docstring of masogram.methods.get_webhook_info.GetWebhookInfo:3
+msgid "Source: https://core.telegram.org/bots/api#getwebhookinfo"
+msgstr ""
+
+#: ../../api/methods/get_webhook_info.rst:14
+msgid "Usage"
+msgstr ""
+
+#: ../../api/methods/get_webhook_info.rst:17
+msgid "As bot method"
+msgstr ""
+
+#: ../../api/methods/get_webhook_info.rst:25
+msgid "Method as object"
+msgstr ""
+
+#: ../../api/methods/get_webhook_info.rst:27
+msgid "Imports:"
+msgstr ""
+
+#: ../../api/methods/get_webhook_info.rst:29
+msgid ":code:`from masogram.methods.get_webhook_info import GetWebhookInfo`"
+msgstr ""
+
+#: ../../api/methods/get_webhook_info.rst:30
+msgid "alias: :code:`from masogram.methods import GetWebhookInfo`"
+msgstr ""
+
+#: ../../api/methods/get_webhook_info.rst:33
+msgid "With specific bot"
+msgstr ""

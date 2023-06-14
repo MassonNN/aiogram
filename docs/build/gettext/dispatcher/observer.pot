@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: masogram \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-14 14:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../dispatcher/observer.rst:3
+msgid "Observer"
+msgstr ""
+
+#: ../../dispatcher/observer.rst:5
+msgid "Observer is used for filtering and handling different events. That is part of internal API with some public methods and is recommended to don't use methods is not listed here."
+msgstr ""
+
+#: ../../dispatcher/observer.rst:7
+msgid "In `masogram` framework is available two variants of observer:"
+msgstr ""
+
+#: ../../dispatcher/observer.rst:9
+msgid "`EventObserver <#eventobserver>`__"
+msgstr ""
+
+#: ../../dispatcher/observer.rst:10
+msgid "`TelegramEventObserver <#telegrameventobserver>`__"
+msgstr ""
+
+#: ../../dispatcher/observer.rst:14
+msgid "EventObserver"
+msgstr ""
+
+#: ../../../masogram/dispatcher/event/event.py:docstring of masogram.dispatcher.event.event.EventObserver:1
+msgid "Simple events observer"
+msgstr ""
+
+#: ../../../masogram/dispatcher/event/event.py:docstring of masogram.dispatcher.event.event.EventObserver:3
+msgid "Is used for managing events is not related with Telegram (For example startup/shutdown processes)"
+msgstr ""
+
+#: ../../../masogram/dispatcher/event/event.py:docstring of masogram.dispatcher.event.event.EventObserver:6
+msgid "Handlers can be registered via decorator or method"
+msgstr ""
+
+#: ../../../masogram/dispatcher/event/event.py:docstring of masogram.dispatcher.event.event.EventObserver.register:1
+msgid "Register callback with filters"
+msgstr ""
+
+#: ../../../masogram/dispatcher/event/event.py:docstring of masogram.dispatcher.event.event.EventObserver.trigger:1
+msgid "Propagate event to handlers. Handler will be called when all its filters is pass."
+msgstr ""
+
+#: ../../../masogram/dispatcher/event/event.py:docstring of masogram.dispatcher.event.event.EventObserver.__call__:1
+#: ../../../masogram/dispatcher/event/telegram.py:docstring of masogram.dispatcher.event.telegram.TelegramEventObserver.__call__:1
+msgid "Decorator for registering event handlers"
+msgstr ""
+
+#: ../../dispatcher/observer.rst:22
+msgid "TelegramEventObserver"
+msgstr ""
+
+#: ../../../masogram/dispatcher/event/telegram.py:docstring of masogram.dispatcher.event.telegram.TelegramEventObserver:1
+msgid "Event observer for Telegram events"
+msgstr ""
+
+#: ../../../masogram/dispatcher/event/telegram.py:docstring of masogram.dispatcher.event.telegram.TelegramEventObserver:3
+msgid "Here you can register handler with filter. This observer will stop event propagation when first handler is pass."
+msgstr ""
+
+#: ../../../masogram/dispatcher/event/telegram.py:docstring of masogram.dispatcher.event.telegram.TelegramEventObserver.register:1
+msgid "Register event handler"
+msgstr ""
+
+#: ../../../masogram/dispatcher/event/telegram.py:docstring of masogram.dispatcher.event.telegram.TelegramEventObserver.trigger:1
+msgid "Propagate event to handlers and stops propagation on first match. Handler will be called when all its filters is pass."
+msgstr ""
