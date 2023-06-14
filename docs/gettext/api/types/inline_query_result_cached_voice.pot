@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: masogram \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-14 14:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../api/types/inline_query_result_cached_voice.rst:3
+msgid "InlineQueryResultCachedVoice"
+msgstr ""
+
+#: ../../../masogram/types/inline_query_result_cached_voice.py:docstring of masogram.types.inline_query_result_cached_voice.InlineQueryResultCachedVoice:1
+msgid "Represents a link to a voice message stored on the Telegram servers. By default, this voice message will be sent by the user. Alternatively, you can use *input_message_content* to send a message with the specified content instead of the voice message. **Note:** This will only work in Telegram versions released after 9 April, 2016. Older clients will ignore them."
+msgstr ""
+
+#: ../../../masogram/types/inline_query_result_cached_voice.py:docstring of masogram.types.inline_query_result_cached_voice.InlineQueryResultCachedVoice:4
+msgid "Source: https://core.telegram.org/bots/api#inlinequeryresultcachedvoice"
+msgstr ""
+
+#: ../../docstring of masogram.types.inline_query_result_cached_voice.InlineQueryResultCachedVoice.type:1
+msgid "Type of the result, must be *voice*"
+msgstr ""
+
+#: ../../docstring of masogram.types.inline_query_result_cached_voice.InlineQueryResultCachedVoice.id:1
+msgid "Unique identifier for this result, 1-64 bytes"
+msgstr ""
+
+#: ../../docstring of masogram.types.inline_query_result_cached_voice.InlineQueryResultCachedVoice.voice_file_id:1
+msgid "A valid file identifier for the voice message"
+msgstr ""
+
+#: ../../docstring of masogram.types.inline_query_result_cached_voice.InlineQueryResultCachedVoice.title:1
+msgid "Voice message title"
+msgstr ""
+
+#: ../../docstring of masogram.types.inline_query_result_cached_voice.InlineQueryResultCachedVoice.caption:1
+msgid "*Optional*. Caption, 0-1024 characters after entities parsing"
+msgstr ""
+
+#: ../../docstring of masogram.types.inline_query_result_cached_voice.InlineQueryResultCachedVoice.parse_mode:1
+msgid "*Optional*. Mode for parsing entities in the voice message caption. See `formatting options <https://core.telegram.org/bots/api#formatting-options>`_ for more details."
+msgstr ""
+
+#: ../../docstring of masogram.types.inline_query_result_cached_voice.InlineQueryResultCachedVoice.caption_entities:1
+msgid "*Optional*. List of special entities that appear in the caption, which can be specified instead of *parse_mode*"
+msgstr ""
+
+#: ../../docstring of masogram.types.inline_query_result_cached_voice.InlineQueryResultCachedVoice.reply_markup:1
+msgid "*Optional*. `Inline keyboard <https://core.telegram.org/bots/features#inline-keyboards>`_ attached to the message"
+msgstr ""
+
+#: ../../docstring of masogram.types.inline_query_result_cached_voice.InlineQueryResultCachedVoice.input_message_content:1
+msgid "*Optional*. Content of the message to be sent instead of the voice message"
+msgstr ""
