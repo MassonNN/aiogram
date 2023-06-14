@@ -1,0 +1,192 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, masogram Team
+# This file is distributed under the same license as the masogram package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: masogram\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-14 14:13+0300\n"
+"PO-Revision-Date: 2023-06-14 15:06+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Generated-By: Babel 2.12.1\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../api/bot.rst:3
+msgid "Bot"
+msgstr "Bot"
+
+#: ../../api/bot.rst:5
+msgid ""
+"Bot instance can be created from :code:`masogram.Bot` (:code:`from masogram "
+"import Bot`) and you can't use methods without instance of bot with "
+"configured token."
+msgstr ""
+"Инстанция бота должна быть создана от класса :code:`masogram.Bot` (:code:"
+"`from masogram import Bot`), вы не можете использовать методы API без "
+"инстанции бота с настроенным токеном."
+
+#: ../../api/bot.rst:8
+msgid ""
+"This class has aliases for all methods and named in :code:`lower_camel_case`."
+msgstr ""
+"Этот класс имеет названия методов Telegram Bot API в :code:"
+"`lower_camel_case`."
+
+#: ../../api/bot.rst:10
+msgid ""
+"For example :code:`sendMessage` named :code:`send_message` and has the same "
+"specification with all class-based methods."
+msgstr ""
+"Например, метод :code:`sendMessage` называется :code:`send_message` и может "
+"быть использован также как и остальные методы класса."
+
+#: ../../api/bot.rst:14
+msgid ""
+"A full list of methods can be found in the appropriate section of the "
+"documentation"
+msgstr ""
+"Полный список методов может быть найден в соответствующей секции документации"
+
+#: masogram.client.bot.Bot:1 of
+msgid ""
+"Bases: :py:class:`~masogram.utils.mixins.ContextInstanceMixin`\\ [:py:class:"
+"`Bot`]"
+msgstr ""
+"Основан на :py:class:`~masogram.utils.mixins.ContextInstanceMixin`\\ [:py:"
+"class:`Bot`]"
+
+#: masogram.client.bot.Bot.__init__:1 of
+msgid "Bot class"
+msgstr "Бот"
+
+#: masogram.client.bot.Bot.__init__ masogram.client.bot.Bot.context
+#: masogram.client.bot.Bot.download masogram.client.bot.Bot.download_file of
+msgid "Parameters"
+msgstr "Параметры"
+
+#: masogram.client.bot.Bot.__init__:3 of
+msgid "Telegram Bot token `Obtained from @BotFather <https://t.me/BotFather>`_"
+msgstr ""
+"Токен телеграмм бота `Полученный от @BotFather <https://t.me/BotFather>`_"
+
+#: masogram.client.bot.Bot.__init__:4 of
+msgid ""
+"HTTP Client session (For example AiohttpSession). If not specified it will "
+"be automatically created."
+msgstr ""
+"Сессия HTTP клиента (например, AiohttpSession). Если не указано, то она "
+"будет создана автоматически."
+
+#: masogram.client.bot.Bot.__init__:6 of
+msgid ""
+"Default parse mode. If specified it will be propagated into the API methods "
+"at runtime."
+msgstr ""
+"Стандартный метод парсинга строк. Если указать, то он будет передаваться во "
+"все методы API при их вызове."
+
+#: masogram.client.bot.Bot.__init__:8 of
+msgid ""
+"Default disable_web_page_preview mode. If specified it will be propagated "
+"into the API methods at runtime."
+msgstr ""
+"Стандартное значение параметра disable_web_page_preview. Если указано, то "
+"оно будет передаваться во все методы API при их вызове."
+
+#: masogram.client.bot.Bot.__init__:10 of
+msgid ""
+"Default protect_content mode. If specified it will be propagated into the "
+"API methods at runtime."
+msgstr ""
+"Стандартное значение параметра protect_content. Если указано, то оно будет "
+"передаваться во все методы API при их вызове."
+
+#: masogram.client.bot.Bot.__init__ of
+msgid "Raises"
+msgstr "Выбрасывает исключения"
+
+#: masogram.client.bot.Bot.__init__:12 of
+msgid "When token has invalid format this exception will be raised"
+msgstr "Когда токен имеет неправильный формат, это исключение будет вызвано"
+
+#: masogram.client.bot.Bot.id:1 of
+msgid "Get bot ID from token"
+msgstr "Получить ID бота из токена"
+
+#: masogram.client.bot.Bot.context masogram.client.bot.Bot.id
+#: masogram.client.bot.Bot.me of
+msgid "Returns"
+msgstr "Возвращает"
+
+#: masogram.client.bot.Bot.context:1 of
+msgid "Generate bot context"
+msgstr "Создает контекст бота"
+
+#: masogram.client.bot.Bot.me:1 of
+msgid "Cached alias for getMe method"
+msgstr "Кешированный вариант метода getMe"
+
+#: masogram.client.bot.Bot.download_file:1 of
+msgid "Download file by file_path to destination."
+msgstr "Скачать файл по его пути file_path."
+
+#: masogram.client.bot.Bot.download:3 masogram.client.bot.Bot.download_file:3
+#: of
+msgid ""
+"If you want to automatically create destination (:class:`io.BytesIO`) use "
+"default value of destination and handle result of this method."
+msgstr ""
+"Если вы хотите автоматически создать место скачивания (:class:`io.BytesIO`) "
+"используйте стандартное значение и принимайте результат данного метода."
+
+#: masogram.client.bot.Bot.download_file:6 of
+msgid ""
+"File path on Telegram server (You can get it from :obj:`masogram.types.File`)"
+msgstr ""
+"Путь до файла на Telegram сервере (можно узнать в :obj:`masogram.types."
+"File`)."
+
+#: masogram.client.bot.Bot.download:7 masogram.client.bot.Bot.download_file:7
+#: of
+msgid ""
+"Filename, file path or instance of :class:`io.IOBase`. For e.g. :class:`io."
+"BytesIO`, defaults to None"
+msgstr ""
+"Имя файла, путь или инстанция :class:`io.IOBase`. Например, :class:`io."
+"BytesIO`. По умолчанию - None"
+
+#: masogram.client.bot.Bot.download:8 masogram.client.bot.Bot.download_file:8
+#: of
+msgid "Total timeout in seconds, defaults to 30"
+msgstr "Общий таймаут в секундах, по умолчанию 30"
+
+#: masogram.client.bot.Bot.download:9 masogram.client.bot.Bot.download_file:9
+#: of
+msgid "File chunks size, defaults to 64 kb"
+msgstr "Размер куска файла, по умолчанию 64kb"
+
+#: masogram.client.bot.Bot.download:10 masogram.client.bot.Bot.download_file:10
+#: of
+msgid ""
+"Go to start of file when downloading is finished. Used only for destination "
+"with :class:`typing.BinaryIO` type, defaults to True"
+msgstr ""
+"Вернуться в начало, когда скачивание файла закончено. Используется только "
+"для :class:`typing.BinaryIO`, по умолчанию - True"
+
+#: masogram.client.bot.Bot.download:1 of
+msgid "Download file by file_id or Downloadable object to destination."
+msgstr "Скачать файл по его file_id или Downloadable объекту."
+
+#: masogram.client.bot.Bot.download:6 of
+msgid "file_id or Downloadable object"
+msgstr "file_id или Downloadable"

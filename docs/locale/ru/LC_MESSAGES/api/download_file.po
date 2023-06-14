@@ -1,0 +1,146 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: Masogram\n"
+"Language: ru\n"
+
+#: ../../api/download_file.rst:3
+msgid "How to download file?"
+msgstr "Как скачать файл?"
+
+#: ../../api/download_file.rst:6
+msgid "Download file manually"
+msgstr "Скачать файл вручную"
+
+#: ../../api/download_file.rst:8
+msgid "First, you must get the `file_id` of the file you want to download. Information about files sent to the bot is contained in `Message <types/message.html>`__."
+msgstr "Во-первых, вы должны получить `file_id` файла, который хотите скачать. Информация о файлах, отправленных боту, содержится в `Message <types/message.html>`__."
+
+#: ../../api/download_file.rst:11
+msgid "For example, download the document that came to the bot."
+msgstr "Например, скачать документ, который пришел боту."
+
+#: ../../api/download_file.rst:17
+msgid "Then use the `getFile <methods/get_file.html>`__ method to get `file_path`."
+msgstr "Затем используйте метод `getFile <methods/get_file.html>`__, чтобы получить `file_path`."
+
+#: ../../api/download_file.rst:24
+msgid "After that, use the `download_file <#download-file>`__ method from the bot object."
+msgstr "После этого используйте метод `download_file <#download-file>`__ из объекта бота."
+
+#: ../../api/download_file.rst:27
+msgid "download_file(...)"
+msgstr "Загрузка файла(...)"
+
+#: ../../api/download_file.rst:29
+msgid "Download file by `file_path` to destination."
+msgstr "Загрузите файл по `file_path` в пункт назначения."
+
+#: ../../api/download_file.rst:31 ../../api/download_file.rst:81
+msgid "If you want to automatically create destination (:obj:`io.BytesIO`) use default value of destination and handle result of this method."
+msgstr "Если вы хотите автоматически создать место назначения (:obj:`io.BytesIO`), используйте значение по умолчанию для места назначения и обработайте результат этого метода."
+
+#: masogram.client.bot.Bot.download_file:1 of
+msgid "Download file by file_path to destination."
+msgstr "Скачать файл по пути_файла к месту назначения."
+
+#: masogram.client.bot.Bot.download:3 masogram.client.bot.Bot.download_file:3
+#: of
+msgid "If you want to automatically create destination (:class:`io.BytesIO`) use default value of destination and handle result of this method."
+msgstr "Если вы хотите автоматически создать место назначения (:class:`io.BytesIO`), используйте значение по умолчанию для места назначения и обработайте результат этого метода."
+
+#: masogram.client.bot.Bot.download masogram.client.bot.Bot.download_file of
+msgid "Parameters"
+msgstr "Параметры"
+
+#: masogram.client.bot.Bot.download_file:6 of
+msgid "File path on Telegram server (You can get it from :obj:`masogram.types.File`)"
+msgstr "Путь к файлу на сервере Telegram (вы можете получить его из :obj:`masogram.types.File`)"
+
+#: masogram.client.bot.Bot.download:7 masogram.client.bot.Bot.download_file:7
+#: of
+msgid "Filename, file path or instance of :class:`io.IOBase`. For e.g. :class:`io.BytesIO`, defaults to None"
+msgstr "Имя файла, путь к файлу или экземпляр :class:`io.IOBase`. Например, :class:`io.BytesIO`, по умолчанию None"
+
+#: masogram.client.bot.Bot.download:8 masogram.client.bot.Bot.download_file:8
+#: of
+msgid "Total timeout in seconds, defaults to 30"
+msgstr "Общее время ожидания в секундах, по умолчанию 30"
+
+#: masogram.client.bot.Bot.download:9 masogram.client.bot.Bot.download_file:9
+#: of
+msgid "File chunks size, defaults to 64 kb"
+msgstr "Размер кусков файла, по умолчанию 64 КБ"
+
+#: masogram.client.bot.Bot.download:10 masogram.client.bot.Bot.download_file:10
+#: of
+msgid "Go to start of file when downloading is finished. Used only for destination with :class:`typing.BinaryIO` type, defaults to True"
+msgstr "Перейти к началу файла после завершения загрузки. Используется только для назначения с типом :class:`typing.BinaryIO`, по умолчанию True"
+
+#: ../../api/download_file.rst:38
+msgid "There are two options where you can download the file: to **disk** or to **binary I/O object**."
+msgstr "Существует два варианта загрузки файла: **на диск** или в **двоичный объект ввода-вывода**."
+
+#: ../../api/download_file.rst:41
+msgid "Download file to disk"
+msgstr "Скачать файл на диск"
+
+#: ../../api/download_file.rst:43
+msgid "To download file to disk, you must specify the file name or path where to download the file. In this case, the function will return nothing."
+msgstr "Для загрузки файла на диск необходимо указать имя файла или путь, по которому следует скачать файл. В этом случае функция ничего не вернет."
+
+#: ../../api/download_file.rst:51
+msgid "Download file to binary I/O object"
+msgstr "Загрузить файл в двоичный объект ввода/вывода"
+
+#: ../../api/download_file.rst:53
+msgid "To download file to binary I/O object, you must specify an object with the :obj:`typing.BinaryIO` type or use the default (:obj:`None`) value."
+msgstr "Чтобы загрузить файл в двоичный объект ввода-вывода, вы должны указать объект с типом :obj:`typing.BinaryIO` или использовать значение по умолчанию (:obj:`None`)."
+
+#: ../../api/download_file.rst:56
+msgid "In the first case, the function will return your object:"
+msgstr "В первом случае функция вернет ваш объект:"
+
+#: ../../api/download_file.rst:64
+msgid "If you leave the default value, an :obj:`io.BytesIO` object will be created and returned."
+msgstr "Если вы оставите значение по умолчанию, будет создан и возвращен объект :obj:`io.BytesIO`."
+
+#: ../../api/download_file.rst:72
+msgid "Download file in short way"
+msgstr "Скачать файл коротким путем"
+
+#: ../../api/download_file.rst:74
+msgid "Getting `file_path` manually every time is boring, so you should use the `download <#download>`__ method."
+msgstr "Получать `file_path` вручную каждый раз скучно, поэтому вам следует использовать метод `download <#download>`__."
+
+#: ../../api/download_file.rst:77
+msgid "download(...)"
+msgstr "скачать(...)"
+
+#: ../../api/download_file.rst:79
+msgid "Download file by `file_id` or `Downloadable` object to destination."
+msgstr "Загрузите файл по `file_id` или объекту `Downloadable` в место назначения."
+
+#: masogram.client.bot.Bot.download:1 of
+msgid "Download file by file_id or Downloadable object to destination."
+msgstr "Скачать файл по file_id или загружаемому объекту в место назначения."
+
+#: masogram.client.bot.Bot.download:6 of
+msgid "file_id or Downloadable object"
+msgstr "file_id или загружаемый объект"
+
+#: ../../api/download_file.rst:88
+msgid "It differs from `download_file <#download-file>`__ **only** in that it accepts `file_id` or an `Downloadable` object (object that contains the `file_id` attribute) instead of `file_path`."
+msgstr "Он отличается от `download_file <#download-file>`__ **только** тем, что принимает `file_id` или объект `Downloadable` (объект, который содержит атрибут `file_id`) вместо `file_path`."
+
+#: ../../api/download_file.rst:91
+msgid "You can download a file to `disk <#download-file-to-disk>`__ or to a `binary I/O <#download-file-to-binary-io-object>`__ object in the same way."
+msgstr "Вы можете загрузить файл на `диск <#download-file-to-disk>`__ или в объект `binary I/O <#download-file-to-binary-io-object>`__ таким же образом."
+
+#: ../../api/download_file.rst:93
+msgid "Example:"
+msgstr "Пример:"
+

@@ -86,7 +86,7 @@ docs = [
     "furo~=2022.9.29",
     "sphinx-prompt~=1.5.0",
     "Sphinx-Substitution-Extensions~=2022.2.16",
-    "towncrier~=22.8.0",
+    "towncrier",
     "pygments~=2.4",
     "pymdown-extensions~=9.6",
     "markdown-include~=0.7.0",

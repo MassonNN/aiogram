@@ -15,4 +15,4 @@ class ExtractPhotoMiddleware(BaseMiddleware):
     ) -> Any:
         if event.message and event.message.photo:
             data['photo'] = extract_photo(event.message)
-            return await handler(event, data)
+        return await handler(event, data)

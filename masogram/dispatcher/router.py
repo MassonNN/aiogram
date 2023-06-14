@@ -54,6 +54,7 @@ class Router:
         self.chat_join_request = TelegramEventObserver(router=self, event_name="chat_join_request")
 
         self.errors = TelegramEventObserver(router=self, event_name="error")
+        self.handled_updates = TelegramEventObserver(router=self, event_name="handled_updates")
 
         self.startup = EventObserver()
         self.shutdown = EventObserver()
@@ -74,6 +75,7 @@ class Router:
             "chat_member": self.chat_member,
             "chat_join_request": self.chat_join_request,
             "error": self.errors,
+            "handled_updates": self.handled_updates
         }
 
     def __str__(self) -> str:
