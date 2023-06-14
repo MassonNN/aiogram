@@ -7,7 +7,6 @@ __pycache__/
 *.mo
 
 env/
-build/
 _build/
 dist/
 site/
